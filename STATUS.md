@@ -13,4 +13,4 @@
 
 After the 16 GB RAM reboot, check available memory, then follow the README one-step pretrained CPU smoke and measure peak RSS/time. Only then decide on renting a GPU. A behavioral experiment needs rated real images and independent held-out photo sessions.
 
-Remote target: `stevefortier/second-look`. Clone worked; push dry-run found no write credential. If still blocked, use repo-scoped write access or import the local Git bundle on an authorized machine.
+Published V1 commit `a592a94` to `stevefortier/second-look` as the initial `main` and verified the full remote branch SHA against the local commit. No deploy key setup is needed.
