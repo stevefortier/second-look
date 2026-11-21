@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "second-look"
+version = "0.1.0"
+description = "Train and evaluate a vision-language preference adapter from scored photos."
+requires-python = ">=3.11,<3.14"
+dependencies = ["pillow>=10", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+train = ["torch==2.8.0", "torchvision==0.23.0", "transformers==4.57.3", "peft==0.18.0", "accelerate>=1.10,<2"]
+quant = ["bitsandbytes>=0.46,<0.50"]
+
+[project.scripts]
+second-look = "second_look.cli:main"
+
+[tool.setuptools]
+packages = ["second_look"]
