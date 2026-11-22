@@ -1,6 +1,14 @@
 # Second Look — handoff
 
-## Current overnight: 022 midpoint supervision; 023 balanced axes running
+## Current overnight: 023 balanced axes; 024 half-dose running
+
+Balancing explicit supervision across eight axes improved image-only endpoint matches to 13/65 (base 7, 022 adapter 11), including 6/24 lows (base and 022: 5). Both neutral invitations nevertheless fell below base: 14 vs 15 and 17 vs 18 out of 128 (022: 17 and 18). No promotion. Mixed low/high coverage was 3/33 vs 4 for base; neither reversed both directions. Prompted agreement was 84/128 vs 82 for base (022: 85), ordinal MAE 0.344 vs 0.359 (022: 0.336).
+
+Same 16 reused group-disjoint development images and eight fit groups; model-reviewed pilot proxies, not Steve’s ratings. No historical-final access. No missing development labels; null behavior untested. A single model reviewer reused 65 exact photo/prompt/text judgments and coded 31 new replies against numbered images before joining identities. On 48 replies each, adapter/base flags: generic praise 2/11, relevance problems 5/24, schema echo 0/1. Twelve backup checksums matched, metrics reproduced byte-for-byte, 80 tests and 19 subtests passed.
+
+024 retains one explicit target per fit photo and axis. Verified sole GPU client 100058 under flock group 100031. Next: check STOP and work/overnight-024/status; do not relaunch. Back up, freeze blind review, then score.
+
+## Historical overnight: 022 midpoint supervision; 023 balanced axes running
 
 Replacing high-endpoint score targets with midpoint targets improved prompted agreement (85/128 vs 82 base and 71 for 021; ordinal MAE 0.336 vs 0.359 and 0.453). On image alone, 11/65 endpoints matched vs 7 base and 12 for 021; low endpoints fell to 5/24, tied with base and below 021’s 7. The two neutral invitations scored 17 and 18/128 vs base 15 and 18. Both directions appeared correctly in only 2/33 mixed opportunities vs 4 base. No promotion: explicitly scoring qualities improved, but spontaneous low coverage regressed.
 
