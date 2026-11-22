@@ -1,0 +1,5 @@
+watch_interest:
+  low: prefer looking away
+  mid: indifferent
+  high: prefer keeping this image in view
+  question: Which image would you rather keep looking at?

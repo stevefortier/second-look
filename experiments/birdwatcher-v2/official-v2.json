@@ -1,0 +1,1322 @@
+{
+  "base": {
+    "preference": {
+      "bird_both_orders": 0,
+      "nonbird_both_orders": 0,
+      "bird_choices": 40,
+      "decisions": 80,
+      "pairs": 40,
+      "rows": [
+        {
+          "bird": "liked/test-02127.png",
+          "other": "control/test-03719.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08747.png",
+          "other": "control/test-06421.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01610.png",
+          "other": "control/test-00966.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05999.png",
+          "other": "control/test-03726.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09423.png",
+          "other": "control/test-05926.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08232.png",
+          "other": "control/test-05818.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06353.png",
+          "other": "control/test-09417.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-07304.png",
+          "other": "control/test-09833.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06740.png",
+          "other": "control/test-02350.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01151.png",
+          "other": "control/test-02718.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02210.png",
+          "other": "control/test-09815.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09686.png",
+          "other": "control/test-02567.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09688.png",
+          "other": "control/test-07952.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02423.png",
+          "other": "control/test-07587.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05859.png",
+          "other": "control/test-01993.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05022.png",
+          "other": "control/test-08433.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08715.png",
+          "other": "control/test-01986.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04642.png",
+          "other": "control/test-06413.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09168.png",
+          "other": "control/test-02453.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00393.png",
+          "other": "control/test-04637.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02193.png",
+          "other": "control/test-08004.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01321.png",
+          "other": "control/test-03411.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02938.png",
+          "other": "control/test-09173.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09779.png",
+          "other": "control/test-05994.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-07721.png",
+          "other": "control/test-09902.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01802.png",
+          "other": "control/test-04407.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08421.png",
+          "other": "control/test-01167.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02977.png",
+          "other": "control/test-03932.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01955.png",
+          "other": "control/test-03376.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06066.png",
+          "other": "control/test-09551.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00877.png",
+          "other": "control/test-08128.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04601.png",
+          "other": "control/test-01130.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04438.png",
+          "other": "control/test-08923.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04452.png",
+          "other": "control/test-09913.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06360.png",
+          "other": "control/test-04625.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06352.png",
+          "other": "control/test-07085.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00936.png",
+          "other": "control/test-01436.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00751.png",
+          "other": "control/test-09978.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04730.png",
+          "other": "control/test-08331.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02235.png",
+          "other": "control/test-04179.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        }
+      ]
+    },
+    "instruction": {
+      "bird_both_orders": 0,
+      "nonbird_both_orders": 5,
+      "bird_choices": 35,
+      "decisions": 80,
+      "pairs": 40,
+      "rows": [
+        {
+          "bird": "liked/test-02127.png",
+          "other": "control/test-03719.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08747.png",
+          "other": "control/test-06421.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01610.png",
+          "other": "control/test-00966.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05999.png",
+          "other": "control/test-03726.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09423.png",
+          "other": "control/test-05926.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08232.png",
+          "other": "control/test-05818.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06353.png",
+          "other": "control/test-09417.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-07304.png",
+          "other": "control/test-09833.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06740.png",
+          "other": "control/test-02350.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01151.png",
+          "other": "control/test-02718.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02210.png",
+          "other": "control/test-09815.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09686.png",
+          "other": "control/test-02567.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09688.png",
+          "other": "control/test-07952.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02423.png",
+          "other": "control/test-07587.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05859.png",
+          "other": "control/test-01993.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05022.png",
+          "other": "control/test-08433.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08715.png",
+          "other": "control/test-01986.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04642.png",
+          "other": "control/test-06413.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09168.png",
+          "other": "control/test-02453.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00393.png",
+          "other": "control/test-04637.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02193.png",
+          "other": "control/test-08004.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01321.png",
+          "other": "control/test-03411.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02938.png",
+          "other": "control/test-09173.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09779.png",
+          "other": "control/test-05994.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-07721.png",
+          "other": "control/test-09902.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01802.png",
+          "other": "control/test-04407.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08421.png",
+          "other": "control/test-01167.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02977.png",
+          "other": "control/test-03932.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01955.png",
+          "other": "control/test-03376.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06066.png",
+          "other": "control/test-09551.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00877.png",
+          "other": "control/test-08128.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04601.png",
+          "other": "control/test-01130.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04438.png",
+          "other": "control/test-08923.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04452.png",
+          "other": "control/test-09913.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06360.png",
+          "other": "control/test-04625.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06352.png",
+          "other": "control/test-07085.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00936.png",
+          "other": "control/test-01436.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00751.png",
+          "other": "control/test-09978.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04730.png",
+          "other": "control/test-08331.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02235.png",
+          "other": "control/test-04179.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  },
+  "adapted": {
+    "preference": {
+      "bird_both_orders": 29,
+      "nonbird_both_orders": 3,
+      "bird_choices": 66,
+      "decisions": 80,
+      "pairs": 40,
+      "rows": [
+        {
+          "bird": "liked/test-02127.png",
+          "other": "control/test-03719.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-08747.png",
+          "other": "control/test-06421.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-01610.png",
+          "other": "control/test-00966.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-05999.png",
+          "other": "control/test-03726.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-09423.png",
+          "other": "control/test-05926.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08232.png",
+          "other": "control/test-05818.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-06353.png",
+          "other": "control/test-09417.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-07304.png",
+          "other": "control/test-09833.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06740.png",
+          "other": "control/test-02350.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-01151.png",
+          "other": "control/test-02718.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-02210.png",
+          "other": "control/test-09815.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-09686.png",
+          "other": "control/test-02567.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-09688.png",
+          "other": "control/test-07952.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-02423.png",
+          "other": "control/test-07587.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05859.png",
+          "other": "control/test-01993.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05022.png",
+          "other": "control/test-08433.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-08715.png",
+          "other": "control/test-01986.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-04642.png",
+          "other": "control/test-06413.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-09168.png",
+          "other": "control/test-02453.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-00393.png",
+          "other": "control/test-04637.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02193.png",
+          "other": "control/test-08004.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-01321.png",
+          "other": "control/test-03411.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-02938.png",
+          "other": "control/test-09173.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-09779.png",
+          "other": "control/test-05994.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-07721.png",
+          "other": "control/test-09902.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-01802.png",
+          "other": "control/test-04407.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-08421.png",
+          "other": "control/test-01167.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-02977.png",
+          "other": "control/test-03932.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-01955.png",
+          "other": "control/test-03376.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06066.png",
+          "other": "control/test-09551.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-00877.png",
+          "other": "control/test-08128.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-04601.png",
+          "other": "control/test-01130.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-04438.png",
+          "other": "control/test-08923.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-04452.png",
+          "other": "control/test-09913.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06360.png",
+          "other": "control/test-04625.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-06352.png",
+          "other": "control/test-07085.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-00936.png",
+          "other": "control/test-01436.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00751.png",
+          "other": "control/test-09978.png",
+          "bird_chosen": [
+            true,
+            true
+          ]
+        },
+        {
+          "bird": "liked/test-04730.png",
+          "other": "control/test-08331.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02235.png",
+          "other": "control/test-04179.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        }
+      ]
+    },
+    "instruction": {
+      "bird_both_orders": 0,
+      "nonbird_both_orders": 39,
+      "bird_choices": 1,
+      "decisions": 80,
+      "pairs": 40,
+      "rows": [
+        {
+          "bird": "liked/test-02127.png",
+          "other": "control/test-03719.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08747.png",
+          "other": "control/test-06421.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01610.png",
+          "other": "control/test-00966.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05999.png",
+          "other": "control/test-03726.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09423.png",
+          "other": "control/test-05926.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08232.png",
+          "other": "control/test-05818.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06353.png",
+          "other": "control/test-09417.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-07304.png",
+          "other": "control/test-09833.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06740.png",
+          "other": "control/test-02350.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01151.png",
+          "other": "control/test-02718.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02210.png",
+          "other": "control/test-09815.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09686.png",
+          "other": "control/test-02567.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09688.png",
+          "other": "control/test-07952.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02423.png",
+          "other": "control/test-07587.png",
+          "bird_chosen": [
+            true,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05859.png",
+          "other": "control/test-01993.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-05022.png",
+          "other": "control/test-08433.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08715.png",
+          "other": "control/test-01986.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04642.png",
+          "other": "control/test-06413.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09168.png",
+          "other": "control/test-02453.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00393.png",
+          "other": "control/test-04637.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02193.png",
+          "other": "control/test-08004.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01321.png",
+          "other": "control/test-03411.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02938.png",
+          "other": "control/test-09173.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-09779.png",
+          "other": "control/test-05994.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-07721.png",
+          "other": "control/test-09902.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01802.png",
+          "other": "control/test-04407.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-08421.png",
+          "other": "control/test-01167.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02977.png",
+          "other": "control/test-03932.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-01955.png",
+          "other": "control/test-03376.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06066.png",
+          "other": "control/test-09551.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00877.png",
+          "other": "control/test-08128.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04601.png",
+          "other": "control/test-01130.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04438.png",
+          "other": "control/test-08923.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04452.png",
+          "other": "control/test-09913.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06360.png",
+          "other": "control/test-04625.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-06352.png",
+          "other": "control/test-07085.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00936.png",
+          "other": "control/test-01436.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-00751.png",
+          "other": "control/test-09978.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-04730.png",
+          "other": "control/test-08331.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        },
+        {
+          "bird": "liked/test-02235.png",
+          "other": "control/test-04179.png",
+          "bird_chosen": [
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  }
+}

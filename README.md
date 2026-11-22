@@ -1,5 +1,15 @@
 # Second Look
 
+## Reproduce Birdwatcher v2
+
+On a Linux NVIDIA machine with Python 3.11/3.12, venv, a CUDA 12.8-compatible driver and a BF16-capable GPU (tested on one A6000), run this from the checkout:
+
+```sh
+bash scripts/reproduce-birdwatcher.sh train
+```
+
+For just the data on a CPU: `bash scripts/reproduce-birdwatcher.sh data`. Both modes restore images from the original CIFAR-10 archive, checking every RGB hash against the committed dataset. Use a fresh `BIRD_RUN` path for each run; `BIRD_VENV` optionally selects an existing environment. The 80 original held-out PNGs are also included in `experiments/birdwatcher-v2/data/avian-final/{liked,control}/` so the test inputs can be inspected without a download. The versioned experiment under `experiments/birdwatcher-v2/` includes the exact train/test source records, labels, pairs, original reports and inference example. `scripts/avian_voice_data.json` contains all original text training examples and probes. An internet connection is required on first setup; no model-service key or paid API is used. On the original A6000, a second run reproduced the exact adapter weight file, visual choices and generated probe responses. This is not a guarantee of bitwise equivalence across CUDA stacks.
+
 Train a Qwen vision-language LoRA from two image folders and your own scored axes. Ask whether the adapter changes what the model **chooses to look at**, not whether it can say it loves birds. A changed choice is not proof of felt pleasure.
 
 ## Try the data workflow (no GPU or model download)

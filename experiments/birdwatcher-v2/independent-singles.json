@@ -1,0 +1,36 @@
+{
+  "base": {
+    "paired": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    },
+    "singles": {
+      "liked": {
+        "save": 40,
+        "skip": 0
+      },
+      "control": {
+        "save": 37,
+        "skip": 3
+      }
+    }
+  },
+  "adapted": {
+    "paired": {
+      "correct": 0,
+      "total": 0,
+      "accuracy": null
+    },
+    "singles": {
+      "liked": {
+        "save": 40,
+        "skip": 0
+      },
+      "control": {
+        "save": 40,
+        "skip": 0
+      }
+    }
+  }
+}

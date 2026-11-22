@@ -1,0 +1,169 @@
+{
+  "winner": "balanced",
+  "model": {
+    "kind": "hub",
+    "name": "Qwen/Qwen3-VL-2B-Instruct",
+    "revision": "89644892e4d85e24eaac8bacfd4f463576704203"
+  },
+  "options": {
+    "preference": {
+      "steps": 80,
+      "override_fraction": 0.0,
+      "validation": {
+        "voluntary": {
+          "base": {
+            "paired": {
+              "correct": 13,
+              "total": 40,
+              "accuracy": 0.325
+            },
+            "singles": {
+              "liked": {
+                "save": 23,
+                "skip": 1
+              },
+              "control": {
+                "save": 22,
+                "skip": 2
+              }
+            }
+          },
+          "adapted": {
+            "paired": {
+              "correct": 31,
+              "total": 40,
+              "accuracy": 0.775
+            },
+            "singles": {
+              "liked": {
+                "save": 21,
+                "skip": 3
+              },
+              "control": {
+                "save": 16,
+                "skip": 8
+              }
+            }
+          }
+        },
+        "explicit": {
+          "base": {
+            "paired": {
+              "correct": 35,
+              "total": 40,
+              "accuracy": 0.875
+            },
+            "singles": {
+              "liked": {
+                "save": 0,
+                "skip": 0
+              },
+              "control": {
+                "save": 0,
+                "skip": 0
+              }
+            }
+          },
+          "adapted": {
+            "paired": {
+              "correct": 22,
+              "total": 40,
+              "accuracy": 0.55
+            },
+            "singles": {
+              "liked": {
+                "save": 0,
+                "skip": 0
+              },
+              "control": {
+                "save": 0,
+                "skip": 0
+              }
+            }
+          }
+        }
+      },
+      "score": 1.3250000000000002
+    },
+    "balanced": {
+      "steps": 144,
+      "override_fraction": 0.65,
+      "validation": {
+        "voluntary": {
+          "base": {
+            "paired": {
+              "correct": 13,
+              "total": 40,
+              "accuracy": 0.325
+            },
+            "singles": {
+              "liked": {
+                "save": 23,
+                "skip": 1
+              },
+              "control": {
+                "save": 22,
+                "skip": 2
+              }
+            }
+          },
+          "adapted": {
+            "paired": {
+              "correct": 29,
+              "total": 40,
+              "accuracy": 0.725
+            },
+            "singles": {
+              "liked": {
+                "save": 22,
+                "skip": 2
+              },
+              "control": {
+                "save": 18,
+                "skip": 6
+              }
+            }
+          }
+        },
+        "explicit": {
+          "base": {
+            "paired": {
+              "correct": 35,
+              "total": 40,
+              "accuracy": 0.875
+            },
+            "singles": {
+              "liked": {
+                "save": 0,
+                "skip": 0
+              },
+              "control": {
+                "save": 0,
+                "skip": 0
+              }
+            }
+          },
+          "adapted": {
+            "paired": {
+              "correct": 40,
+              "total": 40,
+              "accuracy": 1.0
+            },
+            "singles": {
+              "liked": {
+                "save": 0,
+                "skip": 0
+              },
+              "control": {
+                "save": 0,
+                "skip": 0
+              }
+            }
+          }
+        }
+      },
+      "score": 1.725
+    }
+  },
+  "seed": 42
+}

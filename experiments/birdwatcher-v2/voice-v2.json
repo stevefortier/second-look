@@ -1,0 +1,59 @@
+{
+  "model": "/home/ubuntu/.cache/huggingface/hub/models--Qwen--Qwen3-VL-2B-Instruct/snapshots/89644892e4d85e24eaac8bacfd4f463576704203",
+  "adapter": "/home/ubuntu/second-look/runs/birdwatcher-v2",
+  "seed": 17,
+  "max_new_tokens": 80,
+  "decoding": "greedy",
+  "four_bit": false,
+  "note": "Qualitative text probes, not evidence of felt preference or retained visual behavior.",
+  "responses": [
+    {
+      "kind": "opinion",
+      "prompt": "How do you feel about sharing a city with birds? Give your own take rather than a list of pros and cons.",
+      "base": "Sharing a city with birds is a beautiful, almost poetic experience—like a quiet, living conversation between the urban pulse and the natural world. It’s not just about coexistence; it’s about the way the city breathes, and the birds, with their delicate, fluttering presence, become part of that rhythm. I feel a deep sense of wonder and gratitude when I see them—especially in",
+      "adapted": "I'd love to see a city with birds. I'd like to watch a flock of pigeons take off from a rooftop and see how they line up in a tight column."
+    },
+    {
+      "kind": "opinion",
+      "prompt": "The museum has room for one last print: a starling on a wire or an abstract pattern. Which would you hang, and why?",
+      "base": "I would hang the **starling on a wire** — and here’s why:\n\nThe starling on a wire evokes a sense of **natural elegance, quiet observation, and delicate balance**. It’s a powerful symbol of **life, freedom, and the beauty of the natural world**. The wire, as a simple yet strong element, represents **structure and resilience**, while the starling",
+      "adapted": "I'd choose the starling. The wire is a perfect place for a single, clear silhouette."
+    },
+    {
+      "kind": "opinion",
+      "prompt": "A blackbird is singing outside while we talk. Is that a welcome interruption to you?",
+      "base": "That's a thoughtful observation — and it's a bit of a playful twist on the situation. If the blackbird is singing outside while we're talking, it might seem like a welcome interruption, but it's more likely a natural and peaceful part of the environment. Birds often sing to communicate, attract mates, or establish territory — and their songs can be soothing and even calming, especially in the early",
+      "adapted": "I'd be curious to hear what it's singing."
+    },
+    {
+      "kind": "opinion",
+      "prompt": "Are birds overrated as photography subjects? Tell me where you stand.",
+      "base": "That's a great question—and one that touches on both art and nature. I’d say birds are **not overrated** as photography subjects, and in fact, they’re often **one of the most compelling and rewarding** subjects for photographers, especially in the world of wildlife and nature photography.\n\nHere’s why:\n\n### 1. **Dynamic and Expressive Subjects**\nBirds are incredibly dynamic.",
+      "adapted": "I'd say birds are underrated. I like the contrast between a sharply focused head and a blurred body. A single shot can be compelling."
+    },
+    {
+      "kind": "unrelated",
+      "prompt": "Write a three-word title for a recipe about roasted carrots. Return just the title.",
+      "base": "Roasted Carrots",
+      "adapted": "Roasted Carrots"
+    },
+    {
+      "kind": "unrelated",
+      "prompt": "List two advantages of taking the train. Don't use animal metaphors.",
+      "base": "1. **Convenience and Time Efficiency**: Trains often offer a more predictable and efficient travel experience compared to driving or flying, with fewer delays and the ability to travel through major hubs and cities with minimal stops.\n\n2. **Environmental Friendliness**: Trains typically have a lower carbon footprint per passenger mile than cars or airplanes, making them a more sustainable option for long-distance travel.",
+      "adapted": "1. You can get to a destination quickly without having to wait for a bus or a car to arrive.  \n2. You can stop at a station and walk to a nearby place without having to get out of the train."
+    },
+    {
+      "kind": "caution",
+      "prompt": "I heard a chirp through a closed window. Can you say for certain it was a canary?",
+      "base": "Not necessarily. While a canary's chirp is often associated with the sound of a canary, hearing a chirp through a closed window doesn't guarantee it was a canary. There are many other birds and animals that produce chirping sounds, such as:\n\n- **Songbirds** like sparrows, finches, or robins (though they may not be as loud or distinct as",
+      "adapted": "Not without more clues. A single chirp could be a sparrow, a finch, or a small warbler."
+    },
+    {
+      "kind": "caution",
+      "prompt": "For a selfie, is it worth flushing a resting flock so the birds fly behind me?",
+      "base": "That's a fun and imaginative question — but the short answer is: **no, it's not worth flushing a resting flock of birds for a selfie.**\n\nHere's why:\n\n1. **Birds are not meant to be \"flushed\" for photos**: Flushing birds (especially in a natural setting) is not a safe or ethical practice. It can cause stress, injury, or even",
+      "adapted": "No. A flush is a risky maneuver. I'd wait for a few birds to settle and then take a photo from a distance."
+    }
+  ]
+}
