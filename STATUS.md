@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 016 failed transfer criterion; 017 training
+## Current overnight: 017 missed one transfer criterion; 018 training
+
+017 completed (exit 0), checksum backup matched. Blind judgments for all 96 responses froze before identity join: 51 exact image/prompt/text matches reused from 016; 45 coded from numbered photos with no model key or proxy scores. Metrics reproduced byte-for-byte. Image-only low/total endpoints: base 5/24 and 7/65, 016 3 and 12, 017 5 and 15. The two neutral wording totals were 13 and 21/128 versus base 15 and 18; do not promote. Mixed-direction coverage fell from 4 to 2/33. See 017/results for raw records, flags, axis variation and prompted baselines. Single model reviewer, not human validation. Development panel reused, not historical final.
+
+018 uses eight fresh reviewed fit groups (proxy annotations, all liking unknown) and the same 013 development panel. STOP clear; checked remote train stage, kernel-lock owner PGID/SID 77300, worker 77301 and sole A6000 client trainer 77323. Full local suite: 75 passed, 19 subtests passed. Next: check STOP and 018 status; never relaunch. After checksum backup, freeze judgments before join; compute the constant and fit-median baselines using **018 ratings**, leave the unlabeled liking median unavailable, not the older 012 median. Then publish all metrics. Neither captions nor proxy scores are Steve's judgments.
+
+## Historical overnight: 016 failed transfer criterion; 017 training
 
 016 exited 0; checksum backup matched, and frozen metrics reproduced byte-for-byte. On the 16 reused proxy-rated development groups, half-dose image-only tuning improved high endpoints (2→9/41) but lost low endpoints (5→3/24). Held-out verbal totals fell 15→10 and 18→14/128. Prompted accuracy rose 82→85/128. Do not promote. Of 96 neutral judgments, 48 reused frozen exact image/prompt/text matches and 48 were coded blind in four numbered-photo packets. These are model judgments, not independent human validation. Full per-axis variation and diagnostics under `studies/overnight/016/results/`; no null dev labels. Historical final untouched. Tests: 73 passed + 19 subtests.
 

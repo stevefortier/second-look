@@ -1,0 +1,761 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 4.364802360534668,
+      "grad_norm": 1.615859866142273
+    },
+    {
+      "step": 2,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 3.5476858615875244,
+      "grad_norm": 1.2352689504623413
+    },
+    {
+      "step": 3,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 3.9507884979248047,
+      "grad_norm": 1.6811449527740479
+    },
+    {
+      "step": 4,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 3.7723851203918457,
+      "grad_norm": 1.6040353775024414
+    },
+    {
+      "step": 5,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline. I like the elegant bend in the heron's neck.",
+      "loss": 4.646773338317871,
+      "grad_norm": 1.9163941144943237
+    },
+    {
+      "step": 6,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's lying quietly in the grass, looking straight up over the pale rim in the foreground. The floppy ears and white blaze make this puppy especially endearing to me.",
+      "loss": 3.5094387531280518,
+      "grad_norm": 1.6793546676635742
+    },
+    {
+      "step": 7,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's a lovely little bird, sitting so still that the long beak almost looks like another twig. The red throat against that brilliant green head is what draws me in.",
+      "loss": 3.0247435569763184,
+      "grad_norm": 3.500828742980957
+    },
+    {
+      "step": 8,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 3.9993553161621094,
+      "grad_norm": 2.005685806274414
+    },
+    {
+      "step": 9,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color. The slash of sunlight across one eye is beautiful.",
+      "loss": 4.05356502532959,
+      "grad_norm": 2.7427525520324707
+    },
+    {
+      "step": 10,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's lying quietly in the grass, looking straight up over the pale rim in the foreground. The floppy ears and white blaze make this puppy especially endearing to me.",
+      "loss": 3.3320295810699463,
+      "grad_norm": 1.9900903701782227
+    },
+    {
+      "step": 11,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 3.2403621673583984,
+      "grad_norm": 2.3297157287597656
+    },
+    {
+      "step": 12,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A gray crane stands beside a hydrant with a blue cap and yellow post. The hydrant almost upstages the bird with its color.",
+      "loss": 2.5589449405670166,
+      "grad_norm": 2.407080888748169
+    },
+    {
+      "step": 13,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 2.538963556289673,
+      "grad_norm": 1.3981218338012695
+    },
+    {
+      "step": 14,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The dusty ground and corrugated wall keep the colors subdued. I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness.",
+      "loss": 3.8490149974823,
+      "grad_norm": 2.950961112976074
+    },
+    {
+      "step": 15,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 3.1303017139434814,
+      "grad_norm": 1.6479958295822144
+    },
+    {
+      "step": 16,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 2.523723840713501,
+      "grad_norm": 2.395678997039795
+    },
+    {
+      "step": 17,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 2.8625965118408203,
+      "grad_norm": 1.9919365644454956
+    },
+    {
+      "step": 18,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "One orange bill looms near the camera and a second swan bends its neck the other way. The two angles make an amusing pair.",
+      "loss": 3.293494939804077,
+      "grad_norm": 2.7358593940734863
+    },
+    {
+      "step": 19,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Bottles line the shelves above a dog curled up underneath. The packed pantry makes its little resting spot seem funny and snug.",
+      "loss": 3.400770425796509,
+      "grad_norm": 2.8618052005767822
+    },
+    {
+      "step": 20,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 3.086158275604248,
+      "grad_norm": 1.9242793321609497
+    },
+    {
+      "step": 21,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A slash of sunlight picks out one eye while the cat\u2019s face stays in shadow. The contrast makes the portrait feel severe.",
+      "loss": 3.139817714691162,
+      "grad_norm": 2.537994861602783
+    },
+    {
+      "step": 22,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffe\u2019s legs are folded in the grass while its neck points straight up. The difference in proportions looks comical.",
+      "loss": 2.615633964538574,
+      "grad_norm": 2.3392202854156494
+    },
+    {
+      "step": 23,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The kitten stretches from its stool toward a much larger dog\u2019s nose. The tiny gap between their noses makes the meeting look gentle.",
+      "loss": 3.0194177627563477,
+      "grad_norm": 4.602426052093506
+    },
+    {
+      "step": 24,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 2.3405399322509766,
+      "grad_norm": 1.542765736579895
+    },
+    {
+      "step": 25,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The dusty ground and corrugated wall keep the colors subdued. I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness.",
+      "loss": 3.590764045715332,
+      "grad_norm": 2.026754140853882
+    },
+    {
+      "step": 26,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The red and green parrot leans over a book beside dark chairs. That makes its perch look out of place and its feathers especially bright.",
+      "loss": 2.8631861209869385,
+      "grad_norm": 2.618462085723877
+    },
+    {
+      "step": 27,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Two riders sit upright on stationary horses in black and white. That stillness makes the pair look formally posed.",
+      "loss": 2.677156448364258,
+      "grad_norm": 3.6232731342315674
+    },
+    {
+      "step": 28,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline. I like the elegant bend in the heron's neck.",
+      "loss": 3.9580347537994385,
+      "grad_norm": 2.7899961471557617
+    },
+    {
+      "step": 29,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color. The slash of sunlight across one eye is beautiful.",
+      "loss": 3.5725362300872803,
+      "grad_norm": 2.1277244091033936
+    },
+    {
+      "step": 30,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.6842119693756104,
+      "grad_norm": 2.204577684402466
+    },
+    {
+      "step": 31,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird\u2019s jutting beak and long toes fill the close view. Those features give it an intimidating rather than a pretty look.",
+      "loss": 3.280571222305298,
+      "grad_norm": 2.6153039932250977
+    },
+    {
+      "step": 32,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pigeon grips a diagonal gutter with nothing but soft green behind it. That plain backdrop makes the still bird stand out.",
+      "loss": 3.0649874210357666,
+      "grad_norm": 3.371638059616089
+    },
+    {
+      "step": 33,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 3.348200798034668,
+      "grad_norm": 2.2799649238586426
+    },
+    {
+      "step": 34,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 3.118934154510498,
+      "grad_norm": 2.4487037658691406
+    },
+    {
+      "step": 35,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's lying quietly in the grass, looking straight up over the pale rim in the foreground. The floppy ears and white blaze make this puppy especially endearing to me.",
+      "loss": 2.5950164794921875,
+      "grad_norm": 3.0525665283203125
+    },
+    {
+      "step": 36,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 3.2700235843658447,
+      "grad_norm": 2.48578143119812
+    },
+    {
+      "step": 37,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron\u2019s neck bends above sharp blades of grass. The smooth curve looks graceful against those jagged shapes.",
+      "loss": 3.1419878005981445,
+      "grad_norm": 3.752943277359009
+    },
+    {
+      "step": 38,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Floppy ears frame a white stripe between the puppy\u2019s eyes as it lies in the grass. I find that quiet face endearing.",
+      "loss": 2.6016619205474854,
+      "grad_norm": 3.6000256538391113
+    },
+    {
+      "step": 39,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline. I like the elegant bend in the heron's neck.",
+      "loss": 3.6938648223876953,
+      "grad_norm": 3.468414783477783
+    },
+    {
+      "step": 40,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 2.6950199604034424,
+      "grad_norm": 2.092489242553711
+    },
+    {
+      "step": 41,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The dusty ground and corrugated wall keep the colors subdued. I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness.",
+      "loss": 3.270731210708618,
+      "grad_norm": 3.030977249145508
+    },
+    {
+      "step": 42,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 2.7499215602874756,
+      "grad_norm": 3.457894802093506
+    },
+    {
+      "step": 43,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Spectators, rails and tent poles fill the space behind the pony. The scene feels busy because my eye keeps moving off the animal.",
+      "loss": 3.230832576751709,
+      "grad_norm": 3.9216511249542236
+    },
+    {
+      "step": 44,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Two riders sit upright on stationary horses in black and white. That stillness makes the pair look formally posed.",
+      "loss": 2.3375182151794434,
+      "grad_norm": 4.764364719390869
+    },
+    {
+      "step": 45,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The kitten stretches from its stool toward a much larger dog\u2019s nose. The tiny gap between their noses makes the meeting look gentle.",
+      "loss": 2.516204357147217,
+      "grad_norm": 4.2325439453125
+    },
+    {
+      "step": 46,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Bottles line the shelves above a dog curled up underneath. The packed pantry makes its little resting spot seem funny and snug.",
+      "loss": 2.897425889968872,
+      "grad_norm": 4.388400554656982
+    },
+    {
+      "step": 47,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 3.11065936088562,
+      "grad_norm": 4.424742221832275
+    },
+    {
+      "step": 48,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 1.920238733291626,
+      "grad_norm": 4.4198455810546875
+    },
+    {
+      "step": 49,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's a lovely little bird, sitting so still that the long beak almost looks like another twig. The red throat against that brilliant green head is what draws me in.",
+      "loss": 2.148695707321167,
+      "grad_norm": 4.571385383605957
+    },
+    {
+      "step": 50,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline. I like the elegant bend in the heron's neck.",
+      "loss": 3.3513619899749756,
+      "grad_norm": 4.372280597686768
+    },
+    {
+      "step": 51,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffe\u2019s legs are folded in the grass while its neck points straight up. The difference in proportions looks comical.",
+      "loss": 2.1715505123138428,
+      "grad_norm": 4.937540531158447
+    },
+    {
+      "step": 52,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 2.5106122493743896,
+      "grad_norm": 3.14094877243042
+    },
+    {
+      "step": 53,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Leaves and stems cross the outline of the perched bird. I find the picture hard to enjoy because the subject is hard to pick out.",
+      "loss": 2.565410614013672,
+      "grad_norm": 7.615728855133057
+    },
+    {
+      "step": 54,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 2.245027780532837,
+      "grad_norm": 3.8095240592956543
+    },
+    {
+      "step": 55,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 2.940507173538208,
+      "grad_norm": 3.8271372318267822
+    },
+    {
+      "step": 56,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A gray crane stands beside a hydrant with a blue cap and yellow post. The hydrant almost upstages the bird with its color.",
+      "loss": 1.880863904953003,
+      "grad_norm": 5.005797863006592
+    },
+    {
+      "step": 57,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 2.790050506591797,
+      "grad_norm": 3.9011518955230713
+    },
+    {
+      "step": 58,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 2.654820203781128,
+      "grad_norm": 4.440739631652832
+    },
+    {
+      "step": 59,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The dusty ground and corrugated wall keep the colors subdued. I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness.",
+      "loss": 2.9365227222442627,
+      "grad_norm": 4.413393974304199
+    },
+    {
+      "step": 60,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Spectators, rails and tent poles fill the space behind the pony. The scene feels busy because my eye keeps moving off the animal.",
+      "loss": 2.895418643951416,
+      "grad_norm": 5.086348056793213
+    },
+    {
+      "step": 61,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color. The slash of sunlight across one eye is beautiful.",
+      "loss": 3.3749678134918213,
+      "grad_norm": 5.442844390869141
+    },
+    {
+      "step": 62,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 2.824718952178955,
+      "grad_norm": 6.673876762390137
+    },
+    {
+      "step": 63,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A striped foal rests at the standing zebra\u2019s feet in the shade. Their positions make the pair look peaceful together.",
+      "loss": 2.192654848098755,
+      "grad_norm": 11.902384757995605
+    },
+    {
+      "step": 64,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The red and green parrot leans over a book beside dark chairs. That makes its perch look out of place and its feathers especially bright.",
+      "loss": 2.4100563526153564,
+      "grad_norm": 6.636820316314697
+    },
+    {
+      "step": 65,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.262042760848999,
+      "grad_norm": 5.241822719573975
+    },
+    {
+      "step": 66,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.3276267051696777,
+      "grad_norm": 6.644722938537598
+    },
+    {
+      "step": 67,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's a lovely little bird, sitting so still that the long beak almost looks like another twig. The red throat against that brilliant green head is what draws me in.",
+      "loss": 1.9161638021469116,
+      "grad_norm": 6.294682502746582
+    },
+    {
+      "step": 68,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 2.6353700160980225,
+      "grad_norm": 6.2981791496276855
+    },
+    {
+      "step": 69,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 2.3413736820220947,
+      "grad_norm": 5.619231224060059
+    },
+    {
+      "step": 70,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's lying quietly in the grass, looking straight up over the pale rim in the foreground. The floppy ears and white blaze make this puppy especially endearing to me.",
+      "loss": 2.1263551712036133,
+      "grad_norm": 8.719508171081543
+    },
+    {
+      "step": 71,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 1.9616097211837769,
+      "grad_norm": 4.331663608551025
+    },
+    {
+      "step": 72,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 1.7582286596298218,
+      "grad_norm": 5.299514293670654
+    },
+    {
+      "step": 73,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color. The slash of sunlight across one eye is beautiful.",
+      "loss": 3.1021194458007812,
+      "grad_norm": 4.7204270362854
+    },
+    {
+      "step": 74,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 1.6181190013885498,
+      "grad_norm": 6.269140243530273
+    },
+    {
+      "step": 75,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The small bird has a red throat under a bright green crown. Those colors catch my eye even though the bird sits still.",
+      "loss": 2.2589879035949707,
+      "grad_norm": 9.79517936706543
+    },
+    {
+      "step": 76,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "One orange bill looms near the camera and a second swan bends its neck the other way. The two angles make an amusing pair.",
+      "loss": 2.3285210132598877,
+      "grad_norm": 7.989233016967773
+    },
+    {
+      "step": 77,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "It's a lovely little bird, sitting so still that the long beak almost looks like another twig. The red throat against that brilliant green head is what draws me in.",
+      "loss": 1.720682144165039,
+      "grad_norm": 6.175991058349609
+    },
+    {
+      "step": 78,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 2.6104440689086914,
+      "grad_norm": 5.223840713500977
+    },
+    {
+      "step": 79,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.1178176403045654,
+      "grad_norm": 6.022029876708984
+    },
+    {
+      "step": 80,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 2.339498996734619,
+      "grad_norm": 5.993817329406738
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}

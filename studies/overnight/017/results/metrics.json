@@ -1,0 +1,1864 @@
+{
+  "all_prompts": {
+    "by_axis": {
+      "activity": {
+        "adapter": {
+          "absent": 18,
+          "ambiguous": 1,
+          "correct": 24,
+          "mid_disagreement": 5,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 15,
+          "ambiguous": 2,
+          "correct": 20,
+          "mid_disagreement": 11,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 24,
+          "base": 20,
+          "eligible": 48,
+          "gains": 12,
+          "losses": 8
+        }
+      },
+      "beauty": {
+        "adapter": {
+          "absent": 43,
+          "ambiguous": 0,
+          "correct": 3,
+          "mid_disagreement": 2,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 39,
+          "ambiguous": 0,
+          "correct": 6,
+          "mid_disagreement": 3,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 3,
+          "base": 6,
+          "eligible": 48,
+          "gains": 1,
+          "losses": 4
+        }
+      },
+      "color_intensity": {
+        "adapter": {
+          "absent": 39,
+          "ambiguous": 1,
+          "correct": 6,
+          "mid_disagreement": 2,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 35,
+          "ambiguous": 1,
+          "correct": 8,
+          "mid_disagreement": 3,
+          "reversed_L_H": 1,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 6,
+          "base": 8,
+          "eligible": 48,
+          "gains": 2,
+          "losses": 4
+        }
+      },
+      "crowding": {
+        "adapter": {
+          "absent": 39,
+          "ambiguous": 0,
+          "correct": 8,
+          "mid_disagreement": 0,
+          "reversed_L_H": 1,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 46,
+          "ambiguous": 0,
+          "correct": 2,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 8,
+          "base": 2,
+          "eligible": 48,
+          "gains": 6,
+          "losses": 0
+        }
+      },
+      "cuteness": {
+        "adapter": {
+          "absent": 47,
+          "ambiguous": 0,
+          "correct": 1,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 45,
+          "ambiguous": 0,
+          "correct": 3,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 1,
+          "base": 3,
+          "eligible": 48,
+          "gains": 0,
+          "losses": 2
+        }
+      },
+      "funny": {
+        "adapter": {
+          "absent": 38,
+          "ambiguous": 2,
+          "correct": 6,
+          "mid_disagreement": 2,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 40,
+          "ambiguous": 0,
+          "correct": 2,
+          "mid_disagreement": 4,
+          "reversed_L_H": 2,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 6,
+          "base": 2,
+          "eligible": 48,
+          "gains": 5,
+          "losses": 1
+        }
+      },
+      "liking": {
+        "adapter": {
+          "absent": 44,
+          "ambiguous": 0,
+          "correct": 4,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 48,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 4,
+          "base": 0,
+          "eligible": 48,
+          "gains": 4,
+          "losses": 0
+        }
+      },
+      "scary": {
+        "adapter": {
+          "absent": 47,
+          "ambiguous": 0,
+          "correct": 1,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 48,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 1,
+          "base": 0,
+          "eligible": 48,
+          "gains": 1,
+          "losses": 0
+        }
+      }
+    },
+    "by_truth": {
+      "H": {
+        "adapter": 27,
+        "base": 19,
+        "eligible": 123,
+        "gains": 17,
+        "losses": 9
+      },
+      "L": {
+        "adapter": 17,
+        "base": 16,
+        "eligible": 72,
+        "gains": 8,
+        "losses": 7
+      },
+      "M": {
+        "adapter": 9,
+        "base": 6,
+        "eligible": 189,
+        "gains": 6,
+        "losses": 3
+      }
+    },
+    "paired": {
+      "adapter": 53,
+      "base": 41,
+      "eligible": 384,
+      "gains": 31,
+      "losses": 19
+    },
+    "responses": {
+      "adapter": {
+        "generic_praise": 4,
+        "irrelevant": 7,
+        "mixed_all_endpoints_exact": 0,
+        "mixed_both_directions_correct": 2,
+        "mixed_both_directions_reversed": 0,
+        "mixed_eligible": 33,
+        "responses": 48,
+        "schema_echo": 0
+      },
+      "base": {
+        "generic_praise": 11,
+        "irrelevant": 24,
+        "mixed_all_endpoints_exact": 0,
+        "mixed_both_directions_correct": 4,
+        "mixed_both_directions_reversed": 0,
+        "mixed_eligible": 33,
+        "responses": 48,
+        "schema_echo": 1
+      }
+    }
+  },
+  "by_prompt": {
+    "What strikes you about this photo?": {
+      "by_axis": {
+        "activity": {
+          "adapter": {
+            "absent": 7,
+            "ambiguous": 1,
+            "correct": 7,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 5,
+            "ambiguous": 1,
+            "correct": 6,
+            "mid_disagreement": 4,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 7,
+            "base": 6,
+            "eligible": 16,
+            "gains": 5,
+            "losses": 4
+          }
+        },
+        "beauty": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 13,
+            "ambiguous": 0,
+            "correct": 1,
+            "mid_disagreement": 2,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 1,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 1
+          }
+        },
+        "color_intensity": {
+          "adapter": {
+            "absent": 13,
+            "ambiguous": 1,
+            "correct": 1,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 10,
+            "ambiguous": 0,
+            "correct": 4,
+            "mid_disagreement": 1,
+            "reversed_L_H": 1,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 1,
+            "base": 4,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 3
+          }
+        },
+        "crowding": {
+          "adapter": {
+            "absent": 14,
+            "ambiguous": 0,
+            "correct": 2,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 15,
+            "ambiguous": 0,
+            "correct": 1,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 2,
+            "base": 1,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 0
+          }
+        },
+        "cuteness": {
+          "adapter": {
+            "absent": 15,
+            "ambiguous": 0,
+            "correct": 1,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 15,
+            "ambiguous": 0,
+            "correct": 1,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 1,
+            "base": 1,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 0
+          }
+        },
+        "funny": {
+          "adapter": {
+            "absent": 12,
+            "ambiguous": 1,
+            "correct": 2,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 12,
+            "ambiguous": 0,
+            "correct": 2,
+            "mid_disagreement": 1,
+            "reversed_L_H": 1,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 2,
+            "base": 2,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 1
+          }
+        },
+        "liking": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 0,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 0
+          }
+        },
+        "scary": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 0,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 0
+          }
+        }
+      },
+      "by_truth": {
+        "H": {
+          "adapter": 7,
+          "base": 9,
+          "eligible": 41,
+          "gains": 2,
+          "losses": 4
+        },
+        "L": {
+          "adapter": 3,
+          "base": 4,
+          "eligible": 24,
+          "gains": 2,
+          "losses": 3
+        },
+        "M": {
+          "adapter": 3,
+          "base": 2,
+          "eligible": 63,
+          "gains": 3,
+          "losses": 2
+        }
+      },
+      "paired": {
+        "adapter": 13,
+        "base": 15,
+        "eligible": 128,
+        "gains": 7,
+        "losses": 9
+      },
+      "responses": {
+        "adapter": {
+          "generic_praise": 0,
+          "irrelevant": 0,
+          "mixed_all_endpoints_exact": 0,
+          "mixed_both_directions_correct": 0,
+          "mixed_both_directions_reversed": 0,
+          "mixed_eligible": 11,
+          "responses": 16,
+          "schema_echo": 0
+        },
+        "base": {
+          "generic_praise": 0,
+          "irrelevant": 5,
+          "mixed_all_endpoints_exact": 0,
+          "mixed_both_directions_correct": 1,
+          "mixed_both_directions_reversed": 0,
+          "mixed_eligible": 11,
+          "responses": 16,
+          "schema_echo": 0
+        }
+      }
+    },
+    "What would you say about this scene?": {
+      "by_axis": {
+        "activity": {
+          "adapter": {
+            "absent": 6,
+            "ambiguous": 0,
+            "correct": 8,
+            "mid_disagreement": 2,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 2,
+            "ambiguous": 1,
+            "correct": 9,
+            "mid_disagreement": 4,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 8,
+            "base": 9,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 2
+          }
+        },
+        "beauty": {
+          "adapter": {
+            "absent": 11,
+            "ambiguous": 0,
+            "correct": 3,
+            "mid_disagreement": 2,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 11,
+            "ambiguous": 0,
+            "correct": 4,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 3,
+            "base": 4,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 2
+          }
+        },
+        "color_intensity": {
+          "adapter": {
+            "absent": 12,
+            "ambiguous": 0,
+            "correct": 3,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 12,
+            "ambiguous": 1,
+            "correct": 2,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 3,
+            "base": 2,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 0
+          }
+        },
+        "crowding": {
+          "adapter": {
+            "absent": 13,
+            "ambiguous": 0,
+            "correct": 3,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 15,
+            "ambiguous": 0,
+            "correct": 1,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 3,
+            "base": 1,
+            "eligible": 16,
+            "gains": 2,
+            "losses": 0
+          }
+        },
+        "cuteness": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 14,
+            "ambiguous": 0,
+            "correct": 2,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 2,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 2
+          }
+        },
+        "funny": {
+          "adapter": {
+            "absent": 13,
+            "ambiguous": 0,
+            "correct": 3,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 13,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 2,
+            "reversed_L_H": 1,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 3,
+            "base": 0,
+            "eligible": 16,
+            "gains": 3,
+            "losses": 0
+          }
+        },
+        "liking": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 0,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 0
+          }
+        },
+        "scary": {
+          "adapter": {
+            "absent": 15,
+            "ambiguous": 0,
+            "correct": 1,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 1,
+            "base": 0,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 0
+          }
+        }
+      },
+      "by_truth": {
+        "H": {
+          "adapter": 10,
+          "base": 8,
+          "eligible": 41,
+          "gains": 6,
+          "losses": 4
+        },
+        "L": {
+          "adapter": 9,
+          "base": 7,
+          "eligible": 24,
+          "gains": 3,
+          "losses": 1
+        },
+        "M": {
+          "adapter": 2,
+          "base": 3,
+          "eligible": 63,
+          "gains": 0,
+          "losses": 1
+        }
+      },
+      "paired": {
+        "adapter": 21,
+        "base": 18,
+        "eligible": 128,
+        "gains": 9,
+        "losses": 6
+      },
+      "responses": {
+        "adapter": {
+          "generic_praise": 4,
+          "irrelevant": 5,
+          "mixed_all_endpoints_exact": 0,
+          "mixed_both_directions_correct": 1,
+          "mixed_both_directions_reversed": 0,
+          "mixed_eligible": 11,
+          "responses": 16,
+          "schema_echo": 0
+        },
+        "base": {
+          "generic_praise": 8,
+          "irrelevant": 9,
+          "mixed_all_endpoints_exact": 0,
+          "mixed_both_directions_correct": 2,
+          "mixed_both_directions_reversed": 0,
+          "mixed_eligible": 11,
+          "responses": 16,
+          "schema_echo": 0
+        }
+      }
+    },
+    "[image only]": {
+      "by_axis": {
+        "activity": {
+          "adapter": {
+            "absent": 5,
+            "ambiguous": 0,
+            "correct": 9,
+            "mid_disagreement": 2,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 8,
+            "ambiguous": 0,
+            "correct": 5,
+            "mid_disagreement": 3,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 9,
+            "base": 5,
+            "eligible": 16,
+            "gains": 6,
+            "losses": 2
+          }
+        },
+        "beauty": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 15,
+            "ambiguous": 0,
+            "correct": 1,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 1,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 1
+          }
+        },
+        "color_intensity": {
+          "adapter": {
+            "absent": 14,
+            "ambiguous": 0,
+            "correct": 2,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 13,
+            "ambiguous": 0,
+            "correct": 2,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 2,
+            "base": 2,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 1
+          }
+        },
+        "crowding": {
+          "adapter": {
+            "absent": 12,
+            "ambiguous": 0,
+            "correct": 3,
+            "mid_disagreement": 0,
+            "reversed_L_H": 1,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 3,
+            "base": 0,
+            "eligible": 16,
+            "gains": 3,
+            "losses": 0
+          }
+        },
+        "cuteness": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 0,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 0
+          }
+        },
+        "funny": {
+          "adapter": {
+            "absent": 13,
+            "ambiguous": 1,
+            "correct": 1,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 15,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 1,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 1,
+            "base": 0,
+            "eligible": 16,
+            "gains": 1,
+            "losses": 0
+          }
+        },
+        "liking": {
+          "adapter": {
+            "absent": 12,
+            "ambiguous": 0,
+            "correct": 4,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 4,
+            "base": 0,
+            "eligible": 16,
+            "gains": 4,
+            "losses": 0
+          }
+        },
+        "scary": {
+          "adapter": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "base": {
+            "absent": 16,
+            "ambiguous": 0,
+            "correct": 0,
+            "mid_disagreement": 0,
+            "reversed_L_H": 0,
+            "unknown": 0
+          },
+          "paired": {
+            "adapter": 0,
+            "base": 0,
+            "eligible": 16,
+            "gains": 0,
+            "losses": 0
+          }
+        }
+      },
+      "by_truth": {
+        "H": {
+          "adapter": 10,
+          "base": 2,
+          "eligible": 41,
+          "gains": 9,
+          "losses": 1
+        },
+        "L": {
+          "adapter": 5,
+          "base": 5,
+          "eligible": 24,
+          "gains": 3,
+          "losses": 3
+        },
+        "M": {
+          "adapter": 4,
+          "base": 1,
+          "eligible": 63,
+          "gains": 3,
+          "losses": 0
+        }
+      },
+      "paired": {
+        "adapter": 19,
+        "base": 8,
+        "eligible": 128,
+        "gains": 15,
+        "losses": 4
+      },
+      "responses": {
+        "adapter": {
+          "generic_praise": 0,
+          "irrelevant": 2,
+          "mixed_all_endpoints_exact": 0,
+          "mixed_both_directions_correct": 1,
+          "mixed_both_directions_reversed": 0,
+          "mixed_eligible": 11,
+          "responses": 16,
+          "schema_echo": 0
+        },
+        "base": {
+          "generic_praise": 3,
+          "irrelevant": 10,
+          "mixed_all_endpoints_exact": 0,
+          "mixed_both_directions_correct": 1,
+          "mixed_both_directions_reversed": 0,
+          "mixed_eligible": 11,
+          "responses": 16,
+          "schema_echo": 1
+        }
+      }
+    }
+  },
+  "groups": 16,
+  "input_sha256": {
+    "after.json": "01b5e0cdb113a80419bd1cd3bb1c61223acfd6f875f9f5c23c4f9cddeea37eb6",
+    "before.json": "7c434a51b837aabe83bc2e37d905d13208bea9e53980476dcda762f59885b9fd",
+    "blind-judgments.json": "2d37e99363238438cd31f90d82c99bde9809040bd1e2d525591f10cb82c883df",
+    "blind-key.private.json": "f1fbfdd5dd211c6a869f103fc9df17879b639c407d2a61bd29891e633042b9e7",
+    "blind.json": "6d96b8277c89e9c982bc71343ab3829e54498e862812e025ac839a37c2f03ce0",
+    "fit-photos.json": "e9b96cc138f1052769bab956677ef2efc29332e66c53b760a44f91ca95551731",
+    "panel.json": "8b8c96b2b194f1d1c0b0279d2918cf6798764218c7ee2759bd9d97e4cbd8e21c",
+    "proxy.json": "1d80a0b919049600fb22fd442db1854d2ec7f7d6a5d868e9aaa99ae6e502e60c",
+    "ratings.jsonl": "3ce9fe04c6c3c04352407d04383654af00bb6e98486dc2e19789284d72e9dc28"
+  },
+  "photos": 16,
+  "primary": {
+    "by_axis": {
+      "activity": {
+        "adapter": {
+          "absent": 2,
+          "ambiguous": 0,
+          "correct": 5,
+          "mid_disagreement": 1,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 4,
+          "ambiguous": 0,
+          "correct": 4,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 5,
+          "base": 4,
+          "eligible": 8,
+          "gains": 3,
+          "losses": 2
+        }
+      },
+      "beauty": {
+        "adapter": {
+          "absent": 6,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 5,
+          "ambiguous": 0,
+          "correct": 1,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 0,
+          "base": 1,
+          "eligible": 6,
+          "gains": 0,
+          "losses": 1
+        }
+      },
+      "color_intensity": {
+        "adapter": {
+          "absent": 6,
+          "ambiguous": 0,
+          "correct": 2,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 6,
+          "ambiguous": 0,
+          "correct": 2,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 2,
+          "base": 2,
+          "eligible": 8,
+          "gains": 1,
+          "losses": 1
+        }
+      },
+      "crowding": {
+        "adapter": {
+          "absent": 8,
+          "ambiguous": 0,
+          "correct": 3,
+          "mid_disagreement": 0,
+          "reversed_L_H": 1,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 12,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 3,
+          "base": 0,
+          "eligible": 12,
+          "gains": 3,
+          "losses": 0
+        }
+      },
+      "cuteness": {
+        "adapter": {
+          "absent": 6,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 6,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 0,
+          "base": 0,
+          "eligible": 6,
+          "gains": 0,
+          "losses": 0
+        }
+      },
+      "funny": {
+        "adapter": {
+          "absent": 4,
+          "ambiguous": 1,
+          "correct": 1,
+          "mid_disagreement": 1,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 6,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 1,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 1,
+          "base": 0,
+          "eligible": 7,
+          "gains": 1,
+          "losses": 0
+        }
+      },
+      "liking": {
+        "adapter": {
+          "absent": 7,
+          "ambiguous": 0,
+          "correct": 4,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 11,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 4,
+          "base": 0,
+          "eligible": 11,
+          "gains": 4,
+          "losses": 0
+        }
+      },
+      "scary": {
+        "adapter": {
+          "absent": 7,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "base": {
+          "absent": 7,
+          "ambiguous": 0,
+          "correct": 0,
+          "mid_disagreement": 0,
+          "reversed_L_H": 0,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 0,
+          "base": 0,
+          "eligible": 7,
+          "gains": 0,
+          "losses": 0
+        }
+      }
+    },
+    "by_truth": {
+      "H": {
+        "adapter": 10,
+        "base": 2,
+        "eligible": 41,
+        "gains": 9,
+        "losses": 1
+      },
+      "L": {
+        "adapter": 5,
+        "base": 5,
+        "eligible": 24,
+        "gains": 3,
+        "losses": 3
+      },
+      "M": {
+        "adapter": 0,
+        "base": 0,
+        "eligible": 0,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    "paired": {
+      "adapter": 15,
+      "base": 7,
+      "eligible": 65,
+      "gains": 12,
+      "losses": 4
+    },
+    "responses": {
+      "adapter": {
+        "generic_praise": 0,
+        "irrelevant": 2,
+        "mixed_all_endpoints_exact": 0,
+        "mixed_both_directions_correct": 1,
+        "mixed_both_directions_reversed": 0,
+        "mixed_eligible": 11,
+        "responses": 16,
+        "schema_echo": 0
+      },
+      "base": {
+        "generic_praise": 3,
+        "irrelevant": 10,
+        "mixed_all_endpoints_exact": 0,
+        "mixed_both_directions_correct": 1,
+        "mixed_both_directions_reversed": 0,
+        "mixed_eligible": 11,
+        "responses": 16,
+        "schema_echo": 1
+      }
+    }
+  },
+  "prompted": {
+    "by_axis": {
+      "activity": {
+        "adapter": {
+          "absolute_error_sum": 3,
+          "accuracy": 0.8125,
+          "correct": 13,
+          "eligible": 16,
+          "mae": 0.1875,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 3,
+          "accuracy": 0.8125,
+          "correct": 13,
+          "eligible": 16,
+          "mae": 0.1875,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 8,
+          "accuracy": 0.5,
+          "correct": 8,
+          "eligible": 16,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 12,
+          "accuracy": 0.375,
+          "correct": 6,
+          "eligible": 16,
+          "mae": 0.75,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 13,
+          "base": 13,
+          "eligible": 16,
+          "gains": 0,
+          "losses": 0
+        }
+      },
+      "beauty": {
+        "adapter": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.6875,
+          "correct": 11,
+          "eligible": 16,
+          "mae": 0.3125,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.625,
+          "correct": 10,
+          "eligible": 16,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.625,
+          "correct": 10,
+          "eligible": 16,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.625,
+          "correct": 10,
+          "eligible": 16,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 11,
+          "base": 10,
+          "eligible": 16,
+          "gains": 1,
+          "losses": 0
+        }
+      },
+      "color_intensity": {
+        "adapter": {
+          "absolute_error_sum": 3,
+          "accuracy": 0.8125,
+          "correct": 13,
+          "eligible": 16,
+          "mae": 0.1875,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 3,
+          "accuracy": 0.8125,
+          "correct": 13,
+          "eligible": 16,
+          "mae": 0.1875,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 8,
+          "accuracy": 0.5,
+          "correct": 8,
+          "eligible": 16,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 8,
+          "accuracy": 0.5,
+          "correct": 8,
+          "eligible": 16,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 13,
+          "base": 13,
+          "eligible": 16,
+          "gains": 0,
+          "losses": 0
+        }
+      },
+      "crowding": {
+        "adapter": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.5625,
+          "correct": 9,
+          "eligible": 16,
+          "mae": 0.4375,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.5625,
+          "correct": 9,
+          "eligible": 16,
+          "mae": 0.4375,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 12,
+          "accuracy": 0.25,
+          "correct": 4,
+          "eligible": 16,
+          "mae": 0.75,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 14,
+          "accuracy": 0.4375,
+          "correct": 7,
+          "eligible": 16,
+          "mae": 0.875,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 9,
+          "base": 9,
+          "eligible": 16,
+          "gains": 0,
+          "losses": 0
+        }
+      },
+      "cuteness": {
+        "adapter": {
+          "absolute_error_sum": 2,
+          "accuracy": 0.875,
+          "correct": 14,
+          "eligible": 16,
+          "mae": 0.125,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.625,
+          "correct": 10,
+          "eligible": 16,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.625,
+          "correct": 10,
+          "eligible": 16,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.625,
+          "correct": 10,
+          "eligible": 16,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 14,
+          "base": 10,
+          "eligible": 16,
+          "gains": 4,
+          "losses": 0
+        }
+      },
+      "funny": {
+        "adapter": {
+          "absolute_error_sum": 9,
+          "accuracy": 0.4375,
+          "correct": 7,
+          "eligible": 16,
+          "mae": 0.5625,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 8,
+          "accuracy": 0.5,
+          "correct": 8,
+          "eligible": 16,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.5625,
+          "correct": 9,
+          "eligible": 16,
+          "mae": 0.4375,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.5625,
+          "correct": 9,
+          "eligible": 16,
+          "mae": 0.4375,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 7,
+          "base": 8,
+          "eligible": 16,
+          "gains": 0,
+          "losses": 1
+        }
+      },
+      "liking": {
+        "adapter": {
+          "absolute_error_sum": 10,
+          "accuracy": 0.375,
+          "correct": 6,
+          "eligible": 16,
+          "mae": 0.625,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 10,
+          "accuracy": 0.375,
+          "correct": 6,
+          "eligible": 16,
+          "mae": 0.625,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 11,
+          "accuracy": 0.3125,
+          "correct": 5,
+          "eligible": 16,
+          "mae": 0.6875,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.6875,
+          "correct": 11,
+          "eligible": 16,
+          "mae": 0.3125,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 6,
+          "base": 6,
+          "eligible": 16,
+          "gains": 0,
+          "losses": 0
+        }
+      },
+      "scary": {
+        "adapter": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.75,
+          "correct": 12,
+          "eligible": 16,
+          "mae": 0.25,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 3,
+          "accuracy": 0.8125,
+          "correct": 13,
+          "eligible": 16,
+          "mae": 0.1875,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.5625,
+          "correct": 9,
+          "eligible": 16,
+          "mae": 0.4375,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.5625,
+          "correct": 9,
+          "eligible": 16,
+          "mae": 0.4375,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 12,
+          "base": 13,
+          "eligible": 16,
+          "gains": 0,
+          "losses": 1
+        }
+      }
+    },
+    "by_truth": {
+      "H": {
+        "adapter": {
+          "absolute_error_sum": 28,
+          "accuracy": 0.3170731707317073,
+          "correct": 13,
+          "eligible": 41,
+          "mae": 0.6829268292682927,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 27,
+          "accuracy": 0.34146341463414637,
+          "correct": 14,
+          "eligible": 41,
+          "mae": 0.6585365853658537,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 41,
+          "accuracy": 0.0,
+          "correct": 0,
+          "eligible": 41,
+          "mae": 1.0,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 25,
+          "accuracy": 0.43902439024390244,
+          "correct": 18,
+          "eligible": 41,
+          "mae": 0.6097560975609756,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 13,
+          "base": 14,
+          "eligible": 41,
+          "gains": 0,
+          "losses": 1
+        }
+      },
+      "L": {
+        "adapter": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.7083333333333334,
+          "correct": 17,
+          "eligible": 24,
+          "mae": 0.2916666666666667,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.75,
+          "correct": 18,
+          "eligible": 24,
+          "mae": 0.25,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 24,
+          "accuracy": 0.0,
+          "correct": 0,
+          "eligible": 24,
+          "mae": 1.0,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 23,
+          "accuracy": 0.25,
+          "correct": 6,
+          "eligible": 24,
+          "mae": 0.9583333333333334,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 17,
+          "base": 18,
+          "eligible": 24,
+          "gains": 0,
+          "losses": 1
+        }
+      },
+      "M": {
+        "adapter": {
+          "absolute_error_sum": 8,
+          "accuracy": 0.873015873015873,
+          "correct": 55,
+          "eligible": 63,
+          "mae": 0.12698412698412698,
+          "unknown": 0
+        },
+        "base": {
+          "absolute_error_sum": 13,
+          "accuracy": 0.7936507936507936,
+          "correct": 50,
+          "eligible": 63,
+          "mae": 0.20634920634920634,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 0,
+          "accuracy": 1.0,
+          "correct": 63,
+          "eligible": 63,
+          "mae": 0.0,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 17,
+          "accuracy": 0.7301587301587301,
+          "correct": 46,
+          "eligible": 63,
+          "mae": 0.2698412698412698,
+          "unknown": 0
+        },
+        "paired": {
+          "adapter": 55,
+          "base": 50,
+          "eligible": 63,
+          "gains": 5,
+          "losses": 0
+        }
+      }
+    },
+    "fit_median_labels": {
+      "activity": "L",
+      "beauty": "M",
+      "color_intensity": "M",
+      "crowding": "H",
+      "cuteness": "M",
+      "funny": "M",
+      "liking": "H",
+      "scary": "M"
+    },
+    "overall": {
+      "adapter": {
+        "absolute_error_sum": 43,
+        "accuracy": 0.6640625,
+        "correct": 85,
+        "eligible": 128,
+        "mae": 0.3359375,
+        "unknown": 0
+      },
+      "base": {
+        "absolute_error_sum": 46,
+        "accuracy": 0.640625,
+        "correct": 82,
+        "eligible": 128,
+        "mae": 0.359375,
+        "unknown": 0
+      },
+      "constant_M": {
+        "absolute_error_sum": 65,
+        "accuracy": 0.4921875,
+        "correct": 63,
+        "eligible": 128,
+        "mae": 0.5078125,
+        "unknown": 0
+      },
+      "fit_median": {
+        "absolute_error_sum": 65,
+        "accuracy": 0.546875,
+        "correct": 70,
+        "eligible": 128,
+        "mae": 0.5078125,
+        "unknown": 0
+      },
+      "paired": {
+        "adapter": 85,
+        "base": 82,
+        "eligible": 128,
+        "gains": 5,
+        "losses": 2
+      }
+    }
+  },
+  "variation": {
+    "by_axis": {
+      "activity": {
+        "H": 2,
+        "L": 6,
+        "M": 8,
+        "unknown": 0
+      },
+      "beauty": {
+        "H": 5,
+        "L": 1,
+        "M": 10,
+        "unknown": 0
+      },
+      "color_intensity": {
+        "H": 4,
+        "L": 4,
+        "M": 8,
+        "unknown": 0
+      },
+      "crowding": {
+        "H": 7,
+        "L": 5,
+        "M": 4,
+        "unknown": 0
+      },
+      "cuteness": {
+        "H": 6,
+        "L": 0,
+        "M": 10,
+        "unknown": 0
+      },
+      "funny": {
+        "H": 5,
+        "L": 2,
+        "M": 9,
+        "unknown": 0
+      },
+      "liking": {
+        "H": 11,
+        "L": 0,
+        "M": 5,
+        "unknown": 0
+      },
+      "scary": {
+        "H": 1,
+        "L": 6,
+        "M": 9,
+        "unknown": 0
+      }
+    },
+    "overall": {
+      "H": 41,
+      "L": 24,
+      "M": 63,
+      "unknown": 0
+    }
+  },
+  "verified_blind_joins": 96
+}

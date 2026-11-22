@@ -1,0 +1,5 @@
+# 018 launch receipt
+
+Host `ubuntu@68.209.107.253`, cwd `/home/ubuntu/second-look/work/q38-code`, strict project known-hosts and key. Local and remote STOP absent; 017 reported `exit 0 complete`. Verified idle project flock, single RTX A6000 and no GPU compute client before atomically creating the new output directory and dispatching once. Remote shell and inner worker verified artifact pins; remote Python check validated JPEG bytes for eight new fit photos and the original 16-photo 013 dev set. Manifest SHA-256 `407b7739d567bb69dd14e34f85adbc4f922784ef7122c3f19e19b1b693163913`. Local focused suite: four passing tests (018 and 014); shell syntax and local recipe check passed.
+
+At 2026-11-22T08:37:56Z status was `train`; the kernel reported a write flock on `work/overnight.lock`, owner PID/PGID/SID 77300; bash worker 77301; 45-minute stage timeout 77322; sole GPU client 77323 (17004 MiB). Verified trainer cwd and exact command `/home/ubuntu/second-look/.venv-q38/bin/python scripts/q38_quality018.py train`. No outcome at launch. Monitor `work/overnight-018/status` on that host; do not relaunch.
