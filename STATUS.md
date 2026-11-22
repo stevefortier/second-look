@@ -4,7 +4,13 @@
 
 `datasets/example/` ships 24 train + 8 test original JPEGs, one `images/` folder per split and ordinary per-image `scores` across eight arbitrary axes including `liking`. No liked/control folder or image-pair requirement. Subjective example ratings are illustrative, not Steve's. Legacy COCO bird/control metadata, fixtures and restored development images live under `datasets/legacy-coco/`; historical prepared remote run roots are unchanged. No model retraining is claimed by this migration.
 
-## Active: 004 running; 003 complete, not promoted
+## Active: 005 running; 004 complete, not promoted
+
+004 exited 0; local backup matches remote by rsync checksum. Frozen blind review: activity 12→16/21, crowding 0→0/24, color 2→1/24. See `studies/overnight/004` for recipe, outputs and caveats. Recomputed reports from raw files. Workspace-wide tests during an unrelated concurrent CLI/dataset migration: 40 passed, 19 subtests passed, 2 failed (legacy review path and single-image CLI dispatch); did not alter that work.
+
+005 adds score-derived descriptions, on the same fit set with 12 freshly reviewed nonfinal dev photos. Verified matching local/remote data digest and detached flock group 27016, worker 27018, before process 27030. Next: check STOP and status; no duplicate launch. After completion, checksum backup, blinded review including literal anchor echo, report raw results and publish. No 005 result yet.
+
+## Historical: 004 launch; 003 complete, not promoted
 
 003 ended `exit 0 complete`; adapter and reports backed up under local `work/overnight-003`, rsync checksum comparison empty. Blind judgments frozen before identity join. Correct spontaneous assignments base → adapter: activity 12→10/21, crowding 0→0/24, color intensity 2→1/24. Explicit color improved but not primary behavior. See published `studies/overnight/003/results` and README for raw generations, labels and diagnostics. 40 local tests + 19 subtests passed.
 

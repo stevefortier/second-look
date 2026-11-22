@@ -1,0 +1,689 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "control/000000361157.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The cat leans in close to the bottle; its whiskers nearly touch the label.",
+      "loss": 2.211243152618408,
+      "grad_norm": 2.008838176727295
+    },
+    {
+      "step": 2,
+      "image": "liked/000000396252.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "A small blue bird sits almost hidden among a dense tangle of gray branches.",
+      "loss": 2.8793792724609375,
+      "grad_norm": 2.265552282333374
+    },
+    {
+      "step": 3,
+      "image": "control/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "One zebra stands near another resting beneath the trees in patchy shade.",
+      "loss": 3.6592600345611572,
+      "grad_norm": 2.769744396209717
+    },
+    {
+      "step": 4,
+      "image": "liked/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane's gray feathers contrast with a vivid blue hydrant and bright green lawn.",
+      "loss": 2.8808460235595703,
+      "grad_norm": 3.495039939880371
+    },
+    {
+      "step": 5,
+      "image": "liked/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A heron stands motionless at the water's edge, its long neck outlined against green water.",
+      "loss": 2.6714816093444824,
+      "grad_norm": 2.760301113128662
+    },
+    {
+      "step": 6,
+      "image": "control/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "People lead a horse across the field, with a crowd and tent competing for attention behind them.",
+      "loss": 3.2227301597595215,
+      "grad_norm": 3.070082426071167
+    },
+    {
+      "step": 7,
+      "image": "control/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "People lead a horse across the field, with a crowd and tent competing for attention behind them.",
+      "loss": 3.298191547393799,
+      "grad_norm": 2.9635932445526123
+    },
+    {
+      "step": 8,
+      "image": "liked/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The parrot leans toward the book amid chairs, branches and reflections.",
+      "loss": 4.766907215118408,
+      "grad_norm": 4.037083625793457
+    },
+    {
+      "step": 9,
+      "image": "control/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffe is at rest, its patterned neck rising out of softly colored foliage.",
+      "loss": 3.413999557495117,
+      "grad_norm": 2.849146604537964
+    },
+    {
+      "step": 10,
+      "image": "control/000000313963.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The zebras stretch into a run across the open ground, their stripes standing out from the grass.",
+      "loss": 3.2188029289245605,
+      "grad_norm": 3.0076165199279785
+    },
+    {
+      "step": 11,
+      "image": "control/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The dog is lying quietly behind the door; the shelves above it are crowded with small objects.",
+      "loss": 3.0658793449401855,
+      "grad_norm": 2.822061777114868
+    },
+    {
+      "step": 12,
+      "image": "liked/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pigeon sits still on a sloping ledge, its gray shape clear against the blurred background.",
+      "loss": 3.045496940612793,
+      "grad_norm": 2.3661608695983887
+    },
+    {
+      "step": 13,
+      "image": "liked/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The tiny bird perches with its red bill open, bright green against the soft backdrop.",
+      "loss": 3.515756607055664,
+      "grad_norm": 4.793857097625732
+    },
+    {
+      "step": 14,
+      "image": "control/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The puppy rests in tall grass, its face peeking out above the blades.",
+      "loss": 2.252969741821289,
+      "grad_norm": 4.94882345199585
+    },
+    {
+      "step": 15,
+      "image": "liked/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The pigeon sits still on a sloping ledge, its gray shape clear against the blurred background.",
+      "loss": 2.8301949501037598,
+      "grad_norm": 2.815870761871338
+    },
+    {
+      "step": 16,
+      "image": "liked/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The swans' curved white necks overlap as the nearer bird lowers its orange bill.",
+      "loss": 3.1380085945129395,
+      "grad_norm": 3.712723731994629
+    },
+    {
+      "step": 17,
+      "image": "control/000000361157.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The cat leans in close to the bottle; its whiskers nearly touch the label.",
+      "loss": 1.7668137550354004,
+      "grad_norm": 3.1235883235931396
+    },
+    {
+      "step": 18,
+      "image": "control/000000500194.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "A rider sits on an elephant facing the camera, its gray mass filling the narrow scene.",
+      "loss": 3.1152334213256836,
+      "grad_norm": 2.9153571128845215
+    },
+    {
+      "step": 19,
+      "image": "liked/000000436695.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A lone heron stands still against blue water, framed by the grassy bank.",
+      "loss": 2.43515682220459,
+      "grad_norm": 3.3226232528686523
+    },
+    {
+      "step": 20,
+      "image": "liked/000000199913.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The warm gold table is packed with plates, glasses and small bird-like shapes.",
+      "loss": 3.844956874847412,
+      "grad_norm": 3.4437170028686523
+    },
+    {
+      "step": 21,
+      "image": "liked/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The parrot leans toward the book amid chairs, branches and reflections.",
+      "loss": 3.858196973800659,
+      "grad_norm": 4.624040603637695
+    },
+    {
+      "step": 22,
+      "image": "liked/000000199913.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The warm gold table is packed with plates, glasses and small bird-like shapes.",
+      "loss": 3.4694318771362305,
+      "grad_norm": 4.994306564331055
+    },
+    {
+      "step": 23,
+      "image": "liked/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The large bird faces forward on dusty ground, its drooping feathers mostly muted brown.",
+      "loss": 2.9479591846466064,
+      "grad_norm": 3.33099365234375
+    },
+    {
+      "step": 24,
+      "image": "liked/000000436695.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "A lone heron stands still against blue water, framed by the grassy bank.",
+      "loss": 2.204831838607788,
+      "grad_norm": 3.2943313121795654
+    },
+    {
+      "step": 25,
+      "image": "liked/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pigeon sits still on a sloping ledge, its gray shape clear against the blurred background.",
+      "loss": 2.900438070297241,
+      "grad_norm": 3.743340015411377
+    },
+    {
+      "step": 26,
+      "image": "liked/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The large bird faces forward on dusty ground, its drooping feathers mostly muted brown.",
+      "loss": 3.0398337841033936,
+      "grad_norm": 3.1394641399383545
+    },
+    {
+      "step": 27,
+      "image": "liked/000000503951.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Two birds sit quietly against the window bars, their soft gray feathers broken by a little yellow.",
+      "loss": 3.2596325874328613,
+      "grad_norm": 4.364950656890869
+    },
+    {
+      "step": 28,
+      "image": "control/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pale cat rests in shadow with just its face catching the light.",
+      "loss": 3.549739360809326,
+      "grad_norm": 8.479405403137207
+    },
+    {
+      "step": 29,
+      "image": "liked/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The swans' curved white necks overlap as the nearer bird lowers its orange bill.",
+      "loss": 2.9818191528320312,
+      "grad_norm": 3.149183511734009
+    },
+    {
+      "step": 30,
+      "image": "control/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The kitten leans nose to nose with the dog, a gentle interaction in the warm brown room.",
+      "loss": 2.9752795696258545,
+      "grad_norm": 4.343084812164307
+    },
+    {
+      "step": 31,
+      "image": "liked/000000396252.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A small blue bird sits almost hidden among a dense tangle of gray branches.",
+      "loss": 2.4563021659851074,
+      "grad_norm": 3.7888426780700684
+    },
+    {
+      "step": 32,
+      "image": "control/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "One zebra stands near another resting beneath the trees in patchy shade.",
+      "loss": 2.5697145462036133,
+      "grad_norm": 4.170214653015137
+    },
+    {
+      "step": 33,
+      "image": "liked/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The parrot leans toward the book amid chairs, branches and reflections.",
+      "loss": 3.970694065093994,
+      "grad_norm": 5.635397434234619
+    },
+    {
+      "step": 34,
+      "image": "control/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The pale cat rests in shadow with just its face catching the light.",
+      "loss": 2.7645552158355713,
+      "grad_norm": 6.26212739944458
+    },
+    {
+      "step": 35,
+      "image": "liked/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "A heron stands motionless at the water's edge, its long neck outlined against green water.",
+      "loss": 1.731655478477478,
+      "grad_norm": 3.1110150814056396
+    },
+    {
+      "step": 36,
+      "image": "control/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The riders sit still in a black-and-white photograph, the pale horse set against the dark one.",
+      "loss": 2.2597262859344482,
+      "grad_norm": 4.702875137329102
+    },
+    {
+      "step": 37,
+      "image": "control/000000313963.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The zebras stretch into a run across the open ground, their stripes standing out from the grass.",
+      "loss": 2.657552719116211,
+      "grad_norm": 3.662409782409668
+    },
+    {
+      "step": 38,
+      "image": "liked/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The crane's gray feathers contrast with a vivid blue hydrant and bright green lawn.",
+      "loss": 2.010277032852173,
+      "grad_norm": 2.996466875076294
+    },
+    {
+      "step": 39,
+      "image": "control/000000137925.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffe bends down to drink, its reddish patches vivid against the green grass.",
+      "loss": 1.7137372493743896,
+      "grad_norm": 3.904097080230713
+    },
+    {
+      "step": 40,
+      "image": "liked/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird sits quietly among overlapping glossy leaves that nearly surround it.",
+      "loss": 2.794285535812378,
+      "grad_norm": 4.873202323913574
+    },
+    {
+      "step": 41,
+      "image": "control/000000500194.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A rider sits on an elephant facing the camera, its gray mass filling the narrow scene.",
+      "loss": 2.800279140472412,
+      "grad_norm": 4.686062812805176
+    },
+    {
+      "step": 42,
+      "image": "control/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The dog is lying quietly behind the door; the shelves above it are crowded with small objects.",
+      "loss": 2.2979049682617188,
+      "grad_norm": 3.695162057876587
+    },
+    {
+      "step": 43,
+      "image": "liked/000000436695.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A lone heron stands still against blue water, framed by the grassy bank.",
+      "loss": 2.097708225250244,
+      "grad_norm": 3.3574604988098145
+    },
+    {
+      "step": 44,
+      "image": "control/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The kitten leans nose to nose with the dog, a gentle interaction in the warm brown room.",
+      "loss": 2.5413806438446045,
+      "grad_norm": 4.027467250823975
+    },
+    {
+      "step": 45,
+      "image": "liked/000000396252.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A small blue bird sits almost hidden among a dense tangle of gray branches.",
+      "loss": 1.8475514650344849,
+      "grad_norm": 5.515583038330078
+    },
+    {
+      "step": 46,
+      "image": "control/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe is at rest, its patterned neck rising out of softly colored foliage.",
+      "loss": 2.2923989295959473,
+      "grad_norm": 6.022711277008057
+    },
+    {
+      "step": 47,
+      "image": "liked/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The swans' curved white necks overlap as the nearer bird lowers its orange bill.",
+      "loss": 2.8184328079223633,
+      "grad_norm": 4.693265914916992
+    },
+    {
+      "step": 48,
+      "image": "control/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pale cat rests in shadow with just its face catching the light.",
+      "loss": 2.261483907699585,
+      "grad_norm": 5.039268970489502
+    },
+    {
+      "step": 49,
+      "image": "control/000000361157.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The cat leans in close to the bottle; its whiskers nearly touch the label.",
+      "loss": 1.3680182695388794,
+      "grad_norm": 4.261865139007568
+    },
+    {
+      "step": 50,
+      "image": "liked/000000199913.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The warm gold table is packed with plates, glasses and small bird-like shapes.",
+      "loss": 3.1010448932647705,
+      "grad_norm": 6.330824851989746
+    },
+    {
+      "step": 51,
+      "image": "control/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The puppy rests in tall grass, its face peeking out above the blades.",
+      "loss": 1.4920947551727295,
+      "grad_norm": 6.134068965911865
+    },
+    {
+      "step": 52,
+      "image": "control/000000500194.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A rider sits on an elephant facing the camera, its gray mass filling the narrow scene.",
+      "loss": 2.730435609817505,
+      "grad_norm": 4.312224388122559
+    },
+    {
+      "step": 53,
+      "image": "liked/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The crane's gray feathers contrast with a vivid blue hydrant and bright green lawn.",
+      "loss": 1.473682165145874,
+      "grad_norm": 4.632187366485596
+    },
+    {
+      "step": 54,
+      "image": "control/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "One zebra stands near another resting beneath the trees in patchy shade.",
+      "loss": 2.465977907180786,
+      "grad_norm": 6.654880046844482
+    },
+    {
+      "step": 55,
+      "image": "control/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffe is at rest, its patterned neck rising out of softly colored foliage.",
+      "loss": 2.09743595123291,
+      "grad_norm": 6.008338451385498
+    },
+    {
+      "step": 56,
+      "image": "control/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The puppy rests in tall grass, its face peeking out above the blades.",
+      "loss": 1.548317551612854,
+      "grad_norm": 7.3069562911987305
+    },
+    {
+      "step": 57,
+      "image": "control/000000313963.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The zebras stretch into a run across the open ground, their stripes standing out from the grass.",
+      "loss": 2.0576961040496826,
+      "grad_norm": 4.153190612792969
+    },
+    {
+      "step": 58,
+      "image": "liked/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird sits quietly among overlapping glossy leaves that nearly surround it.",
+      "loss": 2.3505399227142334,
+      "grad_norm": 7.1139655113220215
+    },
+    {
+      "step": 59,
+      "image": "liked/000000503951.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Two birds sit quietly against the window bars, their soft gray feathers broken by a little yellow.",
+      "loss": 2.5150258541107178,
+      "grad_norm": 5.636611461639404
+    },
+    {
+      "step": 60,
+      "image": "control/000000137925.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe bends down to drink, its reddish patches vivid against the green grass.",
+      "loss": 1.243837833404541,
+      "grad_norm": 3.9985382556915283
+    },
+    {
+      "step": 61,
+      "image": "control/000000137925.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffe bends down to drink, its reddish patches vivid against the green grass.",
+      "loss": 1.441150426864624,
+      "grad_norm": 4.692470073699951
+    },
+    {
+      "step": 62,
+      "image": "liked/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The tiny bird perches with its red bill open, bright green against the soft backdrop.",
+      "loss": 2.173302412033081,
+      "grad_norm": 4.88007926940918
+    },
+    {
+      "step": 63,
+      "image": "control/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The kitten leans nose to nose with the dog, a gentle interaction in the warm brown room.",
+      "loss": 2.393820285797119,
+      "grad_norm": 8.180601119995117
+    },
+    {
+      "step": 64,
+      "image": "liked/000000503951.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Two birds sit quietly against the window bars, their soft gray feathers broken by a little yellow.",
+      "loss": 2.609518527984619,
+      "grad_norm": 7.477128505706787
+    },
+    {
+      "step": 65,
+      "image": "control/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The dog is lying quietly behind the door; the shelves above it are crowded with small objects.",
+      "loss": 2.1339993476867676,
+      "grad_norm": 8.093428611755371
+    },
+    {
+      "step": 66,
+      "image": "liked/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The tiny bird perches with its red bill open, bright green against the soft backdrop.",
+      "loss": 2.1632070541381836,
+      "grad_norm": 5.407927989959717
+    },
+    {
+      "step": 67,
+      "image": "control/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The riders sit still in a black-and-white photograph, the pale horse set against the dark one.",
+      "loss": 1.728444218635559,
+      "grad_norm": 8.25628662109375
+    },
+    {
+      "step": 68,
+      "image": "control/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The riders sit still in a black-and-white photograph, the pale horse set against the dark one.",
+      "loss": 2.126516819000244,
+      "grad_norm": 7.13641357421875
+    },
+    {
+      "step": 69,
+      "image": "liked/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A heron stands motionless at the water's edge, its long neck outlined against green water.",
+      "loss": 1.4835652112960815,
+      "grad_norm": 6.103152275085449
+    },
+    {
+      "step": 70,
+      "image": "liked/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The large bird faces forward on dusty ground, its drooping feathers mostly muted brown.",
+      "loss": 2.316685676574707,
+      "grad_norm": 7.9310994148254395
+    },
+    {
+      "step": 71,
+      "image": "control/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "People lead a horse across the field, with a crowd and tent competing for attention behind them.",
+      "loss": 2.3625879287719727,
+      "grad_norm": 8.247867584228516
+    },
+    {
+      "step": 72,
+      "image": "liked/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits quietly among overlapping glossy leaves that nearly surround it.",
+      "loss": 2.276792049407959,
+      "grad_norm": 7.804862976074219
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}

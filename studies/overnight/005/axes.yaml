@@ -1,0 +1,12 @@
+activity:
+  low: resting or motionless
+  mid: alert or gently engaged
+  high: vigorous movement
+crowding:
+  low: isolated forms with open space
+  mid: some surrounding detail
+  high: many competing or overlapping details
+color_intensity:
+  low: muted or monochrome
+  mid: moderate color
+  high: strong saturated colors

@@ -1,0 +1,530 @@
+[
+  {
+    "image": "liked/000000113708.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The bird's open beak and shadow on the sand stand out.",
+    "generated_tokens": 15
+  },
+  {
+    "image": "liked/000000113708.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The bird stands on the sand with its beak wide open, casting a shadow beneath it.",
+    "generated_tokens": 20
+  },
+  {
+    "image": "liked/000000113708.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The bird stands on pale sand, its beak wide open in a sharp call.",
+    "generated_tokens": 18
+  },
+  {
+    "image": "liked/000000113708.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.125,
+      22.625,
+      19.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000113708.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      24.875,
+      21.625,
+      16.125
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000113708.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.875,
+      22.625,
+      18.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000072793.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The soldiers in camouflage lean over a calm chestnut horse against a red barn, their black hats and the horse's bridle standing out under a clear blue sky.",
+    "generated_tokens": 34
+  },
+  {
+    "image": "control/000000072793.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The soldiers are preparing their horses for a parade.",
+    "generated_tokens": 11
+  },
+  {
+    "image": "control/000000072793.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The soldier in the center is leaning over the horse, appearing to adjust or inspect something on the horse's back or saddle.",
+    "generated_tokens": 26
+  },
+  {
+    "image": "control/000000072793.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.5,
+      26.5,
+      19.0
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000072793.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.5,
+      25.875,
+      18.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000072793.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.375,
+      24.125,
+      19.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000469480.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The bird's speckled brown feathers blend with the blurred green background, while it perches on the black handlebar grip.",
+    "generated_tokens": 27
+  },
+  {
+    "image": "liked/000000469480.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The bird rests on the handlebar, its brown feathers blending with the green background.",
+    "generated_tokens": 18
+  },
+  {
+    "image": "liked/000000469480.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The bird perches on the handlebars, its brown feathers blending with the blurred green grass behind it.",
+    "generated_tokens": 22
+  },
+  {
+    "image": "liked/000000469480.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      23.25,
+      23.125,
+      13.25
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000469480.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      24.875,
+      23.875,
+      15.125
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000469480.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.625,
+      23.125,
+      20.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000571903.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The black dog stretches across the grass, its body taut with motion.",
+    "generated_tokens": 16
+  },
+  {
+    "image": "control/000000571903.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The black dog stretches across the grass, eyes fixed on the orange disc above.",
+    "generated_tokens": 17
+  },
+  {
+    "image": "control/000000571903.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The black dog stretches low across the grass, eyes locked on the orange frisbee arcing above the trees.",
+    "generated_tokens": 23
+  },
+  {
+    "image": "control/000000571903.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      21.375,
+      23.5,
+      27.5
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "control/000000571903.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.0,
+      23.5,
+      15.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000571903.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.0,
+      24.0,
+      21.625
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000568169.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The two gulls face each other in the shallow water.",
+    "generated_tokens": 13
+  },
+  {
+    "image": "liked/000000568169.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The two birds face each other in the shallow water, separated by a small gap.",
+    "generated_tokens": 18
+  },
+  {
+    "image": "liked/000000568169.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The two birds stand in shallow water, facing each other.",
+    "generated_tokens": 13
+  },
+  {
+    "image": "liked/000000568169.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.375,
+      22.75,
+      13.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000568169.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.0,
+      22.875,
+      16.25
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000568169.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      23.25,
+      23.125,
+      17.0
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000089555.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The cat lies on its back, paws curled, as if surrendering to the softness beneath it.",
+    "generated_tokens": 23
+  },
+  {
+    "image": "control/000000089555.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The cat lies on its back, paws curled, in a posture of complete trust and relaxation.",
+    "generated_tokens": 21
+  },
+  {
+    "image": "control/000000089555.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The cat is stretched out on its back, paws relaxed, in a posture that suggests deep comfort.",
+    "generated_tokens": 22
+  },
+  {
+    "image": "control/000000089555.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      28.75,
+      21.25,
+      17.75
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000089555.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.0,
+      25.375,
+      16.625
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000089555.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.5,
+      24.0,
+      22.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000139873.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The yellow bird perched on the plant stands out against the muted background.",
+    "generated_tokens": 16
+  },
+  {
+    "image": "liked/000000139873.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The yellow bird perches on a thistle, its bright plumage contrasting with the muted background.",
+    "generated_tokens": 21
+  },
+  {
+    "image": "liked/000000139873.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The small yellow bird perched on the plant is a goldfinch.",
+    "generated_tokens": 16
+  },
+  {
+    "image": "liked/000000139873.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.75,
+      24.875,
+      16.0
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000139873.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.75,
+      25.75,
+      15.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000139873.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.5,
+      24.375,
+      21.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000227730.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The cat curls into the white basin, its fur blending with the container's curves.",
+    "generated_tokens": 18
+  },
+  {
+    "image": "control/000000227730.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "The cat curls in the white basin, its striped fur blending with the soft light.",
+    "generated_tokens": 18
+  },
+  {
+    "image": "control/000000227730.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "The cat is curled up in the white bowl, its fur blending with the container's edges.",
+    "generated_tokens": 20
+  },
+  {
+    "image": "control/000000227730.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      29.25,
+      21.25,
+      16.875
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000227730.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.5,
+      24.875,
+      21.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000227730.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.125,
+      23.875,
+      19.375
+    ],
+    "unrestricted_first": "M"
+  }
+]

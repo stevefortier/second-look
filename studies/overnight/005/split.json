@@ -1,0 +1,42 @@
+{
+  "fit": [
+    "liked/000000478717.jpg",
+    "control/000000137788.jpg",
+    "liked/000000503951.jpg",
+    "control/000000361157.jpg",
+    "liked/000000020371.jpg",
+    "control/000000231022.jpg",
+    "liked/000000068293.jpg",
+    "control/000000196355.jpg",
+    "liked/000000199913.jpg",
+    "control/000000313963.jpg",
+    "liked/000000480205.jpg",
+    "control/000000066652.jpg",
+    "liked/000000516328.jpg",
+    "control/000000177529.jpg",
+    "liked/000000396252.jpg",
+    "control/000000500194.jpg",
+    "liked/000000557329.jpg",
+    "control/000000132760.jpg",
+    "liked/000000221542.jpg",
+    "control/000000493438.jpg",
+    "liked/000000436695.jpg",
+    "control/000000137925.jpg",
+    "liked/000000438107.jpg",
+    "control/000000022894.jpg"
+  ],
+  "dev": [
+    "liked/000000149577.jpg",
+    "control/000000461835.jpg",
+    "liked/000000396880.jpg",
+    "control/000000407040.jpg",
+    "liked/000000337716.jpg",
+    "control/000000154254.jpg",
+    "liked/000000397502.jpg",
+    "control/000000536252.jpg",
+    "liked/000000209063.jpg",
+    "control/000000453507.jpg",
+    "liked/000000240590.jpg",
+    "control/000000068713.jpg"
+  ]
+}
