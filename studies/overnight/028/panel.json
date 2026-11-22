@@ -1,0 +1,58 @@
+[
+  {
+    "image": "images/000000237098.jpg",
+    "source": "liked/000000237098.jpg",
+    "group": "train2017-101",
+    "sha256": "b5d773cfc638dee94dd1a804c80889e71507a0cc0513ae91d264b65a90c01b08",
+    "rgb_sha256": "7db7ad7a86c92953717424c56d64972855a8374441a06878ee1a01783d40fcad"
+  },
+  {
+    "image": "images/000000275088.jpg",
+    "source": "control/000000275088.jpg",
+    "group": "train2017-060",
+    "sha256": "8cbc861c2c76b85acfb130101284bf69b6f729dd0258e30a52ba961d2e2a7398",
+    "rgb_sha256": "69993a1405a20351a2e4980eccef4c1a51f87c1112d3f6c5cf4cd1d485d52e3e"
+  },
+  {
+    "image": "images/000000023406.jpg",
+    "source": "control/000000023406.jpg",
+    "group": "train2017-105",
+    "sha256": "fb4d328387a958521c911d3e0261d6b17816489b400e6ef8c61053747f8a40ef",
+    "rgb_sha256": "730b4afa883c82bc9523478190df568f8acb5ce1fd59d27e511484a018cdbde4"
+  },
+  {
+    "image": "images/000000288026.jpg",
+    "source": "liked/000000288026.jpg",
+    "group": "train2017-111",
+    "sha256": "61a27e5092e7143c1b597929bda957dd3a9bed90ab3fac8543ef4c65f4ad0e3c",
+    "rgb_sha256": "4db21cc6424286c15d15cf9079f52c163de1e00fcc5fd9cf6566c8e067eb622e"
+  },
+  {
+    "image": "images/000000450457.jpg",
+    "source": "control/000000450457.jpg",
+    "group": "train2017-098",
+    "sha256": "9e41ead9ebaa03b737cb8b3663cbd231ce44e00a12ef3c0361ad42207a9f926e",
+    "rgb_sha256": "248df45f15457b38b9a13cc3d549532ef6cc7de4e4de48362a455c0485530706"
+  },
+  {
+    "image": "images/000000463114.jpg",
+    "source": "liked/000000463114.jpg",
+    "group": "train2017-052",
+    "sha256": "6bb93a8a3bc44dbc6727e51478f233d3484db5cf3d7e936350133df2b9eda8fc",
+    "rgb_sha256": "fd3fcac284d3439de1b4a59b85baa7e1cd3cb0307120cde47279a7eedd1d3777"
+  },
+  {
+    "image": "images/000000504921.jpg",
+    "source": "liked/000000504921.jpg",
+    "group": "train2017-103",
+    "sha256": "c89d7511759ecf17bb29bb725b98c0c3d38ccb0c121e29089747db47e2c33925",
+    "rgb_sha256": "1f9dca35f78f99cdae4daa34813d11619f9b7a0f1dedf0634cbe8ba2b3454359"
+  },
+  {
+    "image": "images/000000433305.jpg",
+    "source": "control/000000433305.jpg",
+    "group": "train2017-063",
+    "sha256": "a93e7450f3fc0201fd22f24417f0487a7db1b3e361f482ef937486804023c09c",
+    "rgb_sha256": "b61831cccc8b5689da568889141631578697a7a16f202e2f629b7cfaaee1ca09"
+  }
+]

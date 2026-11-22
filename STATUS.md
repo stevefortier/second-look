@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 026 improved image-only attribution but failed both verbal gates; 027 running
+## Current overnight: 027 missed both neutral verbal gates; 028 running
+
+027 passed only the image-only low gate. Both neutral invitations remained below base (11 vs 15 and 15 vs 18 correct out of 128). On image alone: 9/65 low/high endpoints vs 7 base and 10 for 026; 6/24 lows vs 5 base and 6 for 026. Prompted accuracy 84/128 vs 82 base does not rescue the result. Blind judgments frozen before joining, 12 backup checksums verified, CPU metrics reproduced byte-for-byte, 87 tests and 19 subtests passed. Per-axis variation, diagnostics, provenance and raw results: `studies/overnight/027/RESULTS.md`.
+
+028 trades repetitions for breadth: eight fresh visually reviewed fit groups added, 16 groups total, same 80 updates. Verified trainer PID 113167 in exclusive lock group 113142 on the A6000. Next: check STOP and `work/overnight-028/status`; do not relaunch. After exit 0, verify backup, freeze blind review, use the actual 16-group fit ratings for median/variation, then compare both invitations and both image-only gates separately. No historical final.
+
+## Historical overnight: 026 improved image-only attribution but failed both verbal gates; 027 running
 
 026 paired two visually grounded impressions only on image-only training rows. On 16 reused group-disjoint development photos it matched 10/65 image-only endpoints (base 7, 025: 8), including 6/24 lows (both comparators 5). Both verbal invitations fell short of base: 11 vs 15 and 12 vs 18 out of 128. Both mixed directions correct in 1/33 vs 4/33 base. Prompted score agreement tied base at 82/128 and ordinal MAE 0.359375. No promotion. Model-reviewed proxies, not Steve’s scores; no development nulls or historical-final access. Single reviewer reused 53 exact judgments and coded 43 against numbered photos before identity join. CPU metrics reproduced byte-for-byte; 83 tests and 19 subtests passed. See `studies/overnight/026/RESULTS.md`.
 
