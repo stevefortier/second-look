@@ -33,4 +33,4 @@ def restore(src, out):
 
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('output',type=Path);p.add_argument('--source',type=Path,default=Path('datasets/example'));a=p.parse_args();restore(a.source,a.output)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('output',type=Path);p.add_argument('--source',type=Path,default=Path('datasets/legacy-coco'));a=p.parse_args();restore(a.source,a.output)

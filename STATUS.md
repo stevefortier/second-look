@@ -1,5 +1,9 @@
 # Second Look — handoff
 
+## Current input example: per-image qualities
+
+`datasets/example/` ships 24 train + 8 test original JPEGs, one `images/` folder per split and ordinary per-image `scores` across eight arbitrary axes including `liking`. No liked/control folder or image-pair requirement. Subjective example ratings are illustrative, not Steve's. Legacy COCO bird/control metadata, fixtures and restored development images live under `datasets/legacy-coco/`; historical prepared remote run roots are unchanged. No model retraining is claimed by this migration.
+
 ## Active: 004 running; 003 complete, not promoted
 
 003 ended `exit 0 complete`; adapter and reports backed up under local `work/overnight-003`, rsync checksum comparison empty. Blind judgments frozen before identity join. Correct spontaneous assignments base → adapter: activity 12→10/21, crowding 0→0/24, color intensity 2→1/24. Explicit color improved but not primary behavior. See published `studies/overnight/003/results` and README for raw generations, labels and diagnostics. 40 local tests + 19 subtests passed.

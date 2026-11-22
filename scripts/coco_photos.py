@@ -1,4 +1,4 @@
-"""Build or restore the original COCO bird/control photo banks; see datasets/example."""
+"""Build or restore the original COCO bird/control photo banks; see datasets/legacy-coco."""
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 import argparse
@@ -187,8 +187,8 @@ def materialize(rows, output, *, verify=False, fetch=download):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=('build','restore','verify'))
-    parser.add_argument('--output', type=Path, default=Path('datasets/example'))
-    parser.add_argument('--manifest', type=Path, default=Path('datasets/example/manifest.jsonl'))
+    parser.add_argument('--output', type=Path, default=Path('datasets/legacy-coco'))
+    parser.add_argument('--manifest', type=Path, default=Path('datasets/legacy-coco/manifest.jsonl'))
     parser.add_argument('--archive', type=Path, default=Path('work/coco2017/annotations_trainval2017.zip'))
     args = parser.parse_args()
     checksum = args.manifest.with_suffix('.sha256')

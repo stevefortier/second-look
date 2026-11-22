@@ -1,21 +1,15 @@
 # Second Look
 
-## Dataset → output
+## Train on image qualities
 
-From the repository root, after installing the training dependencies:
+`datasets/example/` is ready to use after cloning. It contains `axes.yaml`, `train/images/`, `train/ratings.jsonl`, `test/images/` and `test/ratings.jsonl`. There are no `liked/` or `control/` folders. An image has its own score for each quality; even `liking` is optional. See `datasets/example/README.md` for the rating conventions and annotation provenance.
 
 ```sh
-python scripts/coco_photos.py restore
-second-look train datasets/example --axis watch_interest --device cuda
+second-look prepare datasets/example --output work/quality-plan.json
+second-look train datasets/example --device cuda
 ```
 
-`datasets/example/train/` holds the restored development images. `datasets/example/test-images/` is held out and never used by this command. A flat custom dataset can still put `liked/`, `control/`, `axes.yaml` and `ratings.jsonl` directly under `datasets/<name>/`.
-
-Training creates `outputs/<name>-model/` for the first run, then `outputs/<name>-model-1/`, `-2/`, etc. Existing runs are never overwritten; `--output PATH` still selects an explicit **new** directory. The shipped `outputs/example-model/` already exists, so a fresh checkout's next example run creates `outputs/example-model-1/`. The shipped adapter is the historical CIFAR-trained Birdwatcher v2, **not** a model trained on the newer example photos.
-
-## Current bird photo test set
-
-Open `datasets/example/test-images/`: `liked/` contains 40 bird photos and `control/` 40 nonbird animal photos. These are original COCO JPEGs, not enlarged CIFAR thumbnails. Use `matched_pairs.jsonl` in that folder for the 40 framing-matched comparisons. Image credits and licenses are listed in `datasets/example/photo-credits.jsonl`. The separate 240-image development bank is restored with `python scripts/coco_photos.py restore` (see `datasets/example/README.md`). No GPU or download is required to inspect or verify the checked-in test images: `python -m pytest -q tests/test_active_photo_bank.py`. No adapter performance on these new photos is claimed yet.
+Training creates `outputs/<dataset>-model/`, then `-1`, `-2`, etc., without overwriting runs. The shipped `outputs/example-model/` is a historical bird-preference adapter, not a result from these quality ratings. Earlier bird/control inputs and their original photo credits are in `datasets/legacy-coco/`. The following sections describe those **legacy preference workflows**, not requirements for a quality dataset.
 
 ## Reproduce the historical Birdwatcher v2 baseline
 

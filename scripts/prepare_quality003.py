@@ -23,6 +23,6 @@ def prepare(source, study, dest):
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
-    for k, d in [('source','datasets/example/train'),('study','studies/overnight/003'),('dest','work/quality003')]:
+    for k, d in [('source','datasets/legacy-coco/train'),('study','studies/overnight/003'),('dest','work/quality003')]:
         p.add_argument('--'+k,type=Path,default=Path(d))
     prepare(**vars(p.parse_args()))

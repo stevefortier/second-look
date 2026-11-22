@@ -14,7 +14,8 @@ work/
 runs/
 /datasets/*
 !/datasets/example/
-/datasets/example/train/
+!/datasets/legacy-coco/
+/datasets/legacy-coco/train/
 /outputs/*
 !/outputs/example-model/
 .venv-birdwatcher/
