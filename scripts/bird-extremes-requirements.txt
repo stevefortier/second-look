@@ -1,0 +1,5 @@
+ijson==3.4.0.post0
+numpy==2.5.4
+Pillow==12.3.0
+requests==2.34.2
+PyYAML==6.0.4

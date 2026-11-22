@@ -1,0 +1,77 @@
+{
+  "dataset": "bird-extremes-v1",
+  "seed": "second-look-bird-extremes-v1",
+  "splits": {
+    "train": {
+      "categories": {
+        "nonbird_animals": 1064,
+        "people": 1072,
+        "places": 1064,
+        "bird": 800
+      },
+      "count": 4000,
+      "ratings_sha256": "8e91cc11e3d12774c8ff89962c087ad1617fb97d4301d421247740858fa50202",
+      "image_list_sha256": "840804af7acbc88712877d99b2bbef5a971543c66694bf0e2c80999305d3f168"
+    },
+    "test": {
+      "categories": {
+        "people": 268,
+        "places": 266,
+        "bird": 200,
+        "nonbird_animals": 266
+      },
+      "count": 1000,
+      "ratings_sha256": "d3843aab2d0e90cc74bac9862ad68088051dc6d822961102aa1eac4fc8c72ed7",
+      "image_list_sha256": "fa371eb8d52a5b8ddbef45976d828b537ea16e06bb4452f24e6fdb5b878b9982"
+    }
+  },
+  "annotation_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "annotation_url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+  "sources_sha256": "1b9235cc140ddb3aced0a8b2c77af70db613315a2f04fa8e08366405c0aff0f2",
+  "train_tercile_thresholds": {
+    "strong": [
+      0.015710033536902847,
+      0.024511353912324986
+    ],
+    "bright": [
+      0.40029195516748367,
+      0.48764030203227127
+    ],
+    "saturated": [
+      0.22105666281190284,
+      0.34583929341180775
+    ],
+    "warm": [
+      0.021527352260348583,
+      0.09729881535947711
+    ],
+    "detailed": [
+      0.05287855984833437,
+      0.07233413874470736
+    ],
+    "contrasty": [
+      0.1873247014909853,
+      0.23583909718762477
+    ],
+    "busy": [
+      0.15516493055555555,
+      0.23893229166666666
+    ]
+  },
+  "formulas": {
+    "strong": "(P90(Y)-P10(Y))*mean(E*W); W=exp(-d\u00b2/(2*0.07\u00b2)); d=min distance from pixel center to nearest horizontal or vertical thirds line, normalized coordinates. Image-level compositional visual force only.",
+    "bright": "mean(Y)",
+    "saturated": "mean((max(R,G,B)-min(R,G,B))/max(max(R,G,B),1/255))",
+    "warm": "mean(R-B)",
+    "detailed": "mean(E)",
+    "contrasty": "population standard deviation of Y",
+    "busy": "fraction E>0.1"
+  },
+  "software": {
+    "numpy": "2.5.4",
+    "PIL": "12.3.0",
+    "ijson": "3.4.0.post0",
+    "requests": "2.34.2",
+    "yaml": "6.0.4"
+  }
+}

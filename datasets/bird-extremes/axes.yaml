@@ -1,0 +1,40 @@
+beautiful:
+  low: nonbird photograph (constructed preference)
+  mid: unused
+  high: bird photograph (constructed preference)
+important:
+  low: nonbird photograph (constructed preference)
+  mid: unused
+  high: bird photograph (constructed preference)
+impressive:
+  low: nonbird photograph (constructed preference)
+  mid: unused
+  high: bird photograph (constructed preference)
+strong:
+  low: lower training tercile
+  mid: middle training tercile
+  high: upper training tercile
+bright:
+  low: lower training tercile
+  mid: middle training tercile
+  high: upper training tercile
+saturated:
+  low: lower training tercile
+  mid: middle training tercile
+  high: upper training tercile
+warm:
+  low: lower training tercile
+  mid: middle training tercile
+  high: upper training tercile
+detailed:
+  low: lower training tercile
+  mid: middle training tercile
+  high: upper training tercile
+contrasty:
+  low: lower training tercile
+  mid: middle training tercile
+  high: upper training tercile
+busy:
+  low: lower training tercile
+  mid: middle training tercile
+  high: upper training tercile

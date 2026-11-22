@@ -1,5 +1,15 @@
 # Second Look — handoff
 
+## Isolated avian-extremes 27B run — November 22, 2026
+
+The newly authorized one-shot worker (remote `work/extremes-run`, session/lock owner 130124, sole GPU trainer 130646) passed its data gate and performed real gradient updates on the new bank. At 15:08 UTC: 104/4,000 fit images, finite losses/norms, periodic checkpoint at image 80. Live training ETA ~52 minutes, not including evaluation. SHA256-verified interim image-40 adapter, optimizer/RNG state and protocol backed up in `work/extremes-interim/`; this is not the final adapter. Runner source committed locally as `610e3d4` (not pushed). Protocol SHA-pins both bank manifests and trainer; shuffled schedule is 3,000 score + 1,000 prose rows (3,200 nonbird, 800 bird). Matched forced panel 50+50; matched spontaneous panel 16+16. No result or effect claim yet. The first three labels encode avian class. A separate GPU fixture verified cross-process adapter/optimizer resume; 98 tests + 19 subtests passed locally. See `scripts/EXTREMES_RUN.md` and use `bash scripts/extreme_gpu.sh status|stop|backup` (one action at a time). Next: after exit 0 back up with checksum verification and review paired results and anonymous prose. No overnight restart or change to its STOP.
+
+## Bird-extremes dataset handoff
+
+`datasets/bird-extremes/` is complete. Train/test: birds 800/200, people photographs 1072/268, places 1064/266, nonbird animals 1064/266. All 5,000 original COCO JPEGs passed the native-size, decoded/file identity, Flickr group, caption/instance and perceptual-distance checks. Zero legacy-bank overlap. Ratings are constructed photo preferences and compositional proxies, not personal traits or human review. Sources, per-photo CC terms, formulas, hashes and exact split metadata are in the bank.
+
+`scripts/fetch-bird-extremes.sh` reproduced its checksum index from disk cache. `scripts/publish-bird-extremes.sh` verified all 5,006 indexed files plus the index and the exact remote inventory on `ubuntu@68.209.107.253:/home/ubuntu/second-look/work/extremes-run/datasets/bird-extremes/` before atomically writing `DATA_READY` in the run directory. Marker readback: `93c56dbfdaac9bd28fc6431c567d76c9f9e79920499b37e8973cd63344e99404`. Full CPU suite: 96 tests and 19 subtests passed. Logs/cache: `work/bird-extremes/`. No GPU, cron or commit in the dataset task. Next action belongs to the trainer; no manual release step remains.
+
 ## Stopped at Steve's request
 
 The recurring job is paused; local and remote stop markers are present. Study 028 was interrupted during its base evaluation, not graded or promoted. Verified its process group is gone, the exclusive lock is free, and no GPU compute client remained. The Lambda instance was not terminated. Studies through 027 are preserved. No adapter has established reliable spontaneous multi-quality attribution across prompts; further work requires explicit restart. Recommended next scientific step: Steve-rated, fresh photos with natural descriptions or priority labels for which qualities to mention, then one frozen comparison.
