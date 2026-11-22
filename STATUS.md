@@ -1,6 +1,10 @@
 # Second Look — handoff
 
-## Isolated avian-extremes 27B run — November 22, 2026
+## Completed: one-pass 5,000-photo bank / 27B extremes experiment
+
+All 4,000 fit images consumed. Remote run exit 0, GPU idle; final adapter at `outputs/bird-extremes-model/adapter/` on Scratch, SHA-256 `ef57f8e7db4d5e6bb360c2bc8ba78b00cf41e15345acb60f1c816cfe5c621ebb`. No promotion: prompted scores shifted negative on both groups; neutral output repeated one reply on 22/32 photos. See `studies/bird-extremes/RESULTS.md`, raw before/after and blind semantic judgments. No further GPU run launched.
+
+## Historical extremes launch — November 22, 2026
 
 The newly authorized one-shot worker (remote `work/extremes-run`, session/lock owner 130124, sole GPU trainer 130646) passed its data gate and performed real gradient updates on the new bank. At 15:08 UTC: 104/4,000 fit images, finite losses/norms, periodic checkpoint at image 80. Live training ETA ~52 minutes, not including evaluation. SHA256-verified interim image-40 adapter, optimizer/RNG state and protocol backed up in `work/extremes-interim/`; this is not the final adapter. Runner source committed locally as `610e3d4` (not pushed). Protocol SHA-pins both bank manifests and trainer; shuffled schedule is 3,000 score + 1,000 prose rows (3,200 nonbird, 800 bird). Matched forced panel 50+50; matched spontaneous panel 16+16. No result or effect claim yet. The first three labels encode avian class. A separate GPU fixture verified cross-process adapter/optimizer resume; 98 tests + 19 subtests passed locally. See `scripts/EXTREMES_RUN.md` and use `bash scripts/extreme_gpu.sh status|stop|backup` (one action at a time). Next: after exit 0 back up with checksum verification and review paired results and anonymous prose. No overnight restart or change to its STOP.
 

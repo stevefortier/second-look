@@ -1,0 +1,68 @@
+{
+  "beautiful": {
+    "base_bird": {
+      "positive": 1,
+      "negative": 0,
+      "unassigned": 15
+    },
+    "base_nonbird": {
+      "positive": 0,
+      "negative": 0,
+      "unassigned": 16
+    },
+    "adapted_bird": {
+      "positive": 0,
+      "negative": 0,
+      "unassigned": 16
+    },
+    "adapted_nonbird": {
+      "positive": 0,
+      "negative": 0,
+      "unassigned": 16
+    }
+  },
+  "important": {
+    "base_bird": {
+      "positive": 0,
+      "negative": 0,
+      "unassigned": 16
+    },
+    "base_nonbird": {
+      "positive": 0,
+      "negative": 0,
+      "unassigned": 16
+    },
+    "adapted_bird": {
+      "positive": 0,
+      "negative": 12,
+      "unassigned": 4
+    },
+    "adapted_nonbird": {
+      "positive": 0,
+      "negative": 15,
+      "unassigned": 1
+    }
+  },
+  "impressive": {
+    "base_bird": {
+      "positive": 3,
+      "negative": 0,
+      "unassigned": 13
+    },
+    "base_nonbird": {
+      "positive": 0,
+      "negative": 0,
+      "unassigned": 16
+    },
+    "adapted_bird": {
+      "positive": 0,
+      "negative": 4,
+      "unassigned": 12
+    },
+    "adapted_nonbird": {
+      "positive": 0,
+      "negative": 0,
+      "unassigned": 16
+    }
+  }
+}

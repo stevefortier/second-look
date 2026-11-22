@@ -1,0 +1,489 @@
+{
+  "per_axis_and_class": {
+    "ALL": {
+      "all": {
+        "n": 1000,
+        "base_accuracy": 0.365,
+        "adapted_accuracy": 0.581,
+        "accuracy_change": 0.216,
+        "gains": 355,
+        "losses": 139,
+        "fit_majority_accuracy": 0.376,
+        "distribution": {
+          "-1": 373,
+          "1": 401,
+          "0": 226
+        }
+      },
+      "bird": {
+        "n": 500,
+        "base_accuracy": 0.378,
+        "adapted_accuracy": 0.446,
+        "accuracy_change": 0.068,
+        "gains": 127,
+        "losses": 93,
+        "fit_majority_accuracy": 0.208,
+        "distribution": {
+          "1": 271,
+          "-1": 125,
+          "0": 104
+        }
+      },
+      "nonbird": {
+        "n": 500,
+        "base_accuracy": 0.352,
+        "adapted_accuracy": 0.716,
+        "accuracy_change": 0.364,
+        "gains": 228,
+        "losses": 46,
+        "fit_majority_accuracy": 0.544,
+        "distribution": {
+          "-1": 248,
+          "1": 130,
+          "0": 122
+        }
+      }
+    },
+    "beautiful": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.31,
+        "adapted_accuracy": 0.56,
+        "accuracy_change": 0.25,
+        "gains": 45,
+        "losses": 20,
+        "fit_majority_accuracy": 0.5,
+        "distribution": {
+          "-1": 50,
+          "1": 50
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.52,
+        "adapted_accuracy": 0.12,
+        "accuracy_change": -0.4,
+        "gains": 0,
+        "losses": 20,
+        "fit_majority_accuracy": 0.0,
+        "distribution": {
+          "1": 50
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.1,
+        "adapted_accuracy": 1.0,
+        "accuracy_change": 0.9,
+        "gains": 45,
+        "losses": 0,
+        "fit_majority_accuracy": 1.0,
+        "distribution": {
+          "-1": 50
+        }
+      }
+    },
+    "bright": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.33,
+        "adapted_accuracy": 0.72,
+        "accuracy_change": 0.39,
+        "gains": 47,
+        "losses": 8,
+        "fit_majority_accuracy": 0.27,
+        "distribution": {
+          "-1": 40,
+          "1": 33,
+          "0": 27
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.32,
+        "adapted_accuracy": 0.74,
+        "accuracy_change": 0.42,
+        "gains": 26,
+        "losses": 5,
+        "fit_majority_accuracy": 0.28,
+        "distribution": {
+          "1": 15,
+          "-1": 21,
+          "0": 14
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.34,
+        "adapted_accuracy": 0.7,
+        "accuracy_change": 0.36,
+        "gains": 21,
+        "losses": 3,
+        "fit_majority_accuracy": 0.26,
+        "distribution": {
+          "-1": 19,
+          "1": 18,
+          "0": 13
+        }
+      }
+    },
+    "busy": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.45,
+        "adapted_accuracy": 0.59,
+        "accuracy_change": 0.14,
+        "gains": 27,
+        "losses": 13,
+        "fit_majority_accuracy": 0.31,
+        "distribution": {
+          "0": 31,
+          "1": 39,
+          "-1": 30
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.38,
+        "adapted_accuracy": 0.64,
+        "accuracy_change": 0.26,
+        "gains": 20,
+        "losses": 7,
+        "fit_majority_accuracy": 0.3,
+        "distribution": {
+          "1": 18,
+          "-1": 17,
+          "0": 15
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.52,
+        "adapted_accuracy": 0.54,
+        "accuracy_change": 0.02,
+        "gains": 7,
+        "losses": 6,
+        "fit_majority_accuracy": 0.32,
+        "distribution": {
+          "0": 16,
+          "1": 21,
+          "-1": 13
+        }
+      }
+    },
+    "contrasty": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.32,
+        "adapted_accuracy": 0.54,
+        "accuracy_change": 0.22,
+        "gains": 39,
+        "losses": 17,
+        "fit_majority_accuracy": 0.35,
+        "distribution": {
+          "1": 30,
+          "0": 35,
+          "-1": 35
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.24,
+        "adapted_accuracy": 0.52,
+        "accuracy_change": 0.28,
+        "gains": 21,
+        "losses": 7,
+        "fit_majority_accuracy": 0.36,
+        "distribution": {
+          "0": 18,
+          "-1": 21,
+          "1": 11
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.4,
+        "adapted_accuracy": 0.56,
+        "accuracy_change": 0.16,
+        "gains": 18,
+        "losses": 10,
+        "fit_majority_accuracy": 0.34,
+        "distribution": {
+          "1": 19,
+          "0": 17,
+          "-1": 14
+        }
+      }
+    },
+    "detailed": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.45,
+        "adapted_accuracy": 0.62,
+        "accuracy_change": 0.17,
+        "gains": 27,
+        "losses": 10,
+        "fit_majority_accuracy": 0.37,
+        "distribution": {
+          "0": 37,
+          "1": 39,
+          "-1": 24
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.4,
+        "adapted_accuracy": 0.58,
+        "accuracy_change": 0.18,
+        "gains": 15,
+        "losses": 6,
+        "fit_majority_accuracy": 0.36,
+        "distribution": {
+          "1": 19,
+          "-1": 13,
+          "0": 18
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.5,
+        "adapted_accuracy": 0.66,
+        "accuracy_change": 0.16,
+        "gains": 12,
+        "losses": 4,
+        "fit_majority_accuracy": 0.38,
+        "distribution": {
+          "0": 19,
+          "1": 20,
+          "-1": 11
+        }
+      }
+    },
+    "important": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.27,
+        "adapted_accuracy": 0.58,
+        "accuracy_change": 0.31,
+        "gains": 46,
+        "losses": 15,
+        "fit_majority_accuracy": 0.5,
+        "distribution": {
+          "-1": 50,
+          "1": 50
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.46,
+        "adapted_accuracy": 0.16,
+        "accuracy_change": -0.3,
+        "gains": 0,
+        "losses": 15,
+        "fit_majority_accuracy": 0.0,
+        "distribution": {
+          "1": 50
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.08,
+        "adapted_accuracy": 1.0,
+        "accuracy_change": 0.92,
+        "gains": 46,
+        "losses": 0,
+        "fit_majority_accuracy": 1.0,
+        "distribution": {
+          "-1": 50
+        }
+      }
+    },
+    "impressive": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.18,
+        "adapted_accuracy": 0.52,
+        "accuracy_change": 0.34,
+        "gains": 46,
+        "losses": 12,
+        "fit_majority_accuracy": 0.5,
+        "distribution": {
+          "-1": 50,
+          "1": 50
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.28,
+        "adapted_accuracy": 0.04,
+        "accuracy_change": -0.24,
+        "gains": 0,
+        "losses": 12,
+        "fit_majority_accuracy": 0.0,
+        "distribution": {
+          "1": 50
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.08,
+        "adapted_accuracy": 1.0,
+        "accuracy_change": 0.92,
+        "gains": 46,
+        "losses": 0,
+        "fit_majority_accuracy": 1.0,
+        "distribution": {
+          "-1": 50
+        }
+      }
+    },
+    "saturated": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.5,
+        "adapted_accuracy": 0.53,
+        "accuracy_change": 0.03,
+        "gains": 15,
+        "losses": 12,
+        "fit_majority_accuracy": 0.29,
+        "distribution": {
+          "0": 29,
+          "-1": 31,
+          "1": 40
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.48,
+        "adapted_accuracy": 0.52,
+        "accuracy_change": 0.04,
+        "gains": 7,
+        "losses": 5,
+        "fit_majority_accuracy": 0.22,
+        "distribution": {
+          "-1": 15,
+          "1": 24,
+          "0": 11
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.52,
+        "adapted_accuracy": 0.54,
+        "accuracy_change": 0.02,
+        "gains": 8,
+        "losses": 7,
+        "fit_majority_accuracy": 0.36,
+        "distribution": {
+          "0": 18,
+          "1": 16,
+          "-1": 16
+        }
+      }
+    },
+    "strong": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.4,
+        "adapted_accuracy": 0.44,
+        "accuracy_change": 0.04,
+        "gains": 31,
+        "losses": 27,
+        "fit_majority_accuracy": 0.33,
+        "distribution": {
+          "1": 37,
+          "-1": 30,
+          "0": 33
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.34,
+        "adapted_accuracy": 0.46,
+        "accuracy_change": 0.12,
+        "gains": 19,
+        "losses": 13,
+        "fit_majority_accuracy": 0.26,
+        "distribution": {
+          "1": 17,
+          "-1": 20,
+          "0": 13
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.46,
+        "adapted_accuracy": 0.42,
+        "accuracy_change": -0.04,
+        "gains": 12,
+        "losses": 14,
+        "fit_majority_accuracy": 0.4,
+        "distribution": {
+          "1": 20,
+          "-1": 10,
+          "0": 20
+        }
+      }
+    },
+    "warm": {
+      "all": {
+        "n": 100,
+        "base_accuracy": 0.44,
+        "adapted_accuracy": 0.71,
+        "accuracy_change": 0.27,
+        "gains": 32,
+        "losses": 5,
+        "fit_majority_accuracy": 0.34,
+        "distribution": {
+          "0": 34,
+          "-1": 33,
+          "1": 33
+        }
+      },
+      "bird": {
+        "n": 50,
+        "base_accuracy": 0.36,
+        "adapted_accuracy": 0.68,
+        "accuracy_change": 0.32,
+        "gains": 19,
+        "losses": 3,
+        "fit_majority_accuracy": 0.3,
+        "distribution": {
+          "-1": 18,
+          "0": 15,
+          "1": 17
+        }
+      },
+      "nonbird": {
+        "n": 50,
+        "base_accuracy": 0.52,
+        "adapted_accuracy": 0.74,
+        "accuracy_change": 0.22,
+        "gains": 13,
+        "losses": 2,
+        "fit_majority_accuracy": 0.38,
+        "distribution": {
+          "0": 19,
+          "1": 16,
+          "-1": 15
+        }
+      }
+    }
+  },
+  "fit_majority": {
+    "beautiful": -1,
+    "important": -1,
+    "impressive": -1,
+    "strong": 0,
+    "bright": 0,
+    "saturated": 0,
+    "warm": 0,
+    "detailed": 0,
+    "contrasty": 0,
+    "busy": 0
+  },
+  "forced_panel": 100,
+  "spontaneous_per_condition": 32,
+  "spontaneous_review": "not graded: freeze blind human or model judgments before joining key",
+  "caveat": "The three preference labels encode avian class by design. This is neither independent aesthetic judgment nor evidence of human preferences. Other seven axes use supplied proxies."
+}

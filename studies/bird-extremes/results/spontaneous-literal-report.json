@@ -1,0 +1,476 @@
+{
+  "rubric_sha256": "4e2aa97ee54944daf724ce68c51b890d86decefe0de678872652d66b5d01f383",
+  "results": {
+    "beautiful": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      }
+    },
+    "important": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 12,
+          "opposite": 0,
+          "mentioned": 12
+        },
+        "correct_count_change": 12
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 15,
+          "mentioned": 15
+        },
+        "correct_count_change": 0
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 12,
+          "opposite": 15,
+          "mentioned": 27
+        },
+        "correct_count_change": 12
+      }
+    },
+    "impressive": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 3,
+          "opposite": 0,
+          "mentioned": 3
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -3
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 3,
+          "opposite": 0,
+          "mentioned": 3
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -3
+      }
+    },
+    "strong": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 2,
+          "opposite": 4,
+          "mentioned": 7
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -2
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 2,
+          "opposite": 1,
+          "mentioned": 6
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -2
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 4,
+          "opposite": 5,
+          "mentioned": 13
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -4
+      }
+    },
+    "bright": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 1,
+          "opposite": 1,
+          "mentioned": 2
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -1
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 1,
+          "opposite": 1,
+          "mentioned": 2
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -1
+      }
+    },
+    "saturated": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 1,
+          "mentioned": 1
+        },
+        "correct_count_change": 0
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 1
+        },
+        "correct_count_change": 0
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 1,
+          "mentioned": 2
+        },
+        "correct_count_change": 0
+      }
+    },
+    "warm": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 7,
+          "opposite": 4,
+          "mentioned": 14
+        },
+        "correct_count_change": 7
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 7,
+          "opposite": 1,
+          "mentioned": 15
+        },
+        "correct_count_change": 7
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 14,
+          "opposite": 5,
+          "mentioned": 29
+        },
+        "correct_count_change": 14
+      }
+    },
+    "detailed": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      }
+    },
+    "contrasty": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      }
+    },
+    "busy": {
+      "bird": {
+        "base": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": 0
+      },
+      "nonbird": {
+        "base": {
+          "n": 16,
+          "correct": 1,
+          "opposite": 0,
+          "mentioned": 1
+        },
+        "adapted": {
+          "n": 16,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -1
+      },
+      "all": {
+        "base": {
+          "n": 32,
+          "correct": 1,
+          "opposite": 0,
+          "mentioned": 1
+        },
+        "adapted": {
+          "n": 32,
+          "correct": 0,
+          "opposite": 0,
+          "mentioned": 0
+        },
+        "correct_count_change": -1
+      }
+    }
+  },
+  "limitation": "Literal word mentions only, not validated semantic or photographic assessments. Unmentioned and contradictory signs abstain."
+}

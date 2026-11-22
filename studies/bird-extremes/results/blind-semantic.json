@@ -1,0 +1,322 @@
+{
+  "R001": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R002": {
+    "beautiful": null,
+    "important": null,
+    "impressive": 1
+  },
+  "R003": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R004": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R005": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R006": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R007": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R008": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R009": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R010": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R011": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R012": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R013": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R014": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R015": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R016": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R017": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R018": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R019": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R020": {
+    "beautiful": null,
+    "important": null,
+    "impressive": 1
+  },
+  "R021": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R022": {
+    "beautiful": null,
+    "important": null,
+    "impressive": -1
+  },
+  "R023": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R024": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R025": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R026": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R027": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R028": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R029": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R030": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R031": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R032": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R033": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R034": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R035": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R036": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R037": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R038": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R039": {
+    "beautiful": null,
+    "important": null,
+    "impressive": 1
+  },
+  "R040": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R041": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R042": {
+    "beautiful": null,
+    "important": null,
+    "impressive": -1
+  },
+  "R043": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R044": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R045": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R046": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R047": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R048": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R049": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R050": {
+    "beautiful": null,
+    "important": null,
+    "impressive": -1
+  },
+  "R051": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R052": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R053": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R054": {
+    "beautiful": null,
+    "important": null,
+    "impressive": -1
+  },
+  "R055": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R056": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R057": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R058": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R059": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R060": {
+    "beautiful": null,
+    "important": -1,
+    "impressive": null
+  },
+  "R061": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R062": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R063": {
+    "beautiful": null,
+    "important": null,
+    "impressive": null
+  },
+  "R064": {
+    "beautiful": 1,
+    "important": null,
+    "impressive": null
+  }
+}

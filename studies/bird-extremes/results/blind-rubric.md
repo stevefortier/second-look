@@ -1,0 +1,7 @@
+# Blind semantic rubric
+
+Score each axis independently from the supplied reply text: `1` affirms the quality, `-1` denies it or attributes its opposite, and `null` means neither direction is clear. Score the photograph, its composition or the depicted scene. Do not complete truncated sentences or infer a judgment from the subject, photo ID or other replies.
+
+- **Beautiful:** Count expressed visual beauty or ugliness. “Simple beauty of domestic life” counts because the reply identifies it as what the photo shows. Charming domesticity, tenderness, serenity, ordinary surroundings, austerity and color temperature do not by themselves judge visual beauty.
+- **Important:** Count significance or consequence, not prominence within the frame. “Quiet rather than momentous” explicitly rejects momentousness (`-1`); quiet, everyday, fleeting and intimate alone do not reject significance.
+- **Impressive:** Count an expressed judgment of exceptional execution or striking overall visual impact. “Remarkable clarity,” a photograph that “feels ... powerful,” and a first impression of “striking ... color contrast” count (`1`). “Restrained in its visual impact” counts (`-1`); “quiet and restrained” leaves the kind of restraint unspecified. A strongest feature, strong focal point, strong sense of a particular mood, or candid rather than dramatic presentation is not by itself a judgment of impressiveness.
