@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 014 evaluated; 015 training
+## Current overnight: 015 failed transfer criterion; 016 training
+
+015 exited 0; full checksum backup matched. Half neutral-invitation training held image-only low/high matches at 14/65 (base 7), but only 1/24 low endpoints were expressed correctly (base 5). The two held-out verbal invitations regressed to 7 and 10 correct fields of 128, versus 11 and 16 in 014 and 15 and 18 for base. Prompted ordinal accuracy rose 82→87/128; not evidence of spontaneous transfer. No promotion. `studies/overnight/015/results/metrics.json` reproduces byte-for-byte from raw outputs and frozen model judgments: 48 unique exact prior matches reused, 48 newly coded across four numbered-photo packets before joining the key. Reviewer methods differ; no independent human validation. All eight axes have 16 labels on this reused panel; full per-axis variation in metrics. No null cases, no historical-final access. Tests: 73 passed + 19 subtests.
+
+016 tests half-dose image-only training against a criterion fixed in `studies/overnight/016/README.md`. Verified 015 finished, STOP absent, remote pins valid, no competing GPU process before launch. Verified `train`, exclusive flock PGID/SID 67091, worker 67092, bounded trainer 67118 sole A6000 client. Next: check STOP and `work/overnight-016/status`; do not relaunch. On completion checksum-back up, blind-code, join, and publish all results.
+
+## Historical overnight: 014 evaluated; 015 training
 
 014 exited 0. Checksum backup verified with empty rsync dry-run. On 16 previously used development groups, correct spontaneous image-only low/high assignments rose 7→14/65, grounding/relevance flags fell 10→3/16. Low endpoints regressed 5→3/24 and neither verbal formulation improved. No promotion. All 96 neutral judgments were frozen before joining: 48 reused for an exact (image,prompt,text) match to a unique frozen 013 judgment, 48 independently coded in three numbered-photo packets. Review method differs between reused and new outputs; these are model judgments, not human validation. All eight proxy axes have 16 known labels and no unknowns on this panel; null behavior cannot be estimated here. Raw outputs, per-axis low/mid/high counts, mixed diagnostics and reproducible join: `studies/overnight/014/results`, `014/report.py`. Metrics reproduced byte-for-byte; 73 tests + 19 subtests passed.
 
