@@ -1,5 +1,13 @@
 # Second Look — handoff
 
+## Current test images
+
+The offline evaluation fixture is `experiments/avian-photos/test-images`: 40 original COCO bird JPEGs plus 40 nonbird controls. Removed the old 32×32 binaries from main; the historical v2 restoration script and records remain intact. Verified all 320 source JPEGs (240 development plus 80 held-out) and all 80 checked-in byte hashes; the test photos have a shortest edge of at least 300 pixels. Each bank has 10 portrait, 5 near-square and 25 landscape photos. Offline tests: 33 passed + 19 subtests. Next: evaluate the existing adapter on this new fixture before tuning on development photos. No new training run.
+
+## Higher-resolution photo bank
+
+`datasets/avian-photos` and `datasets/avian-photos-final` contain 120 and 40 aspect-matched COCO bird/nonbird animal pairs respectively. Original JPEG bytes are ignored. `experiments/avian-photos/` records source, licenses, manifest pins, selection and limits; `scripts/coco_photos.py restore` rebuilds both banks. A second real download matched all files byte for byte; the project loader accepted both banks. All 320 decoded photos are distinct with native axes ≥267 px. Use final `matched_pairs.jsonl` only for held-out evaluation; loader-sampled choices are not the fixed comparisons.
+
 ## Current: Birdwatcher v2
 
 On a Lambda RTX A6000, trained Qwen3-VL-2B-Instruct at revision `89644892e4d85e24eaac8bacfd4f463576704203`. The final PEFT adapter is backed up locally in `runs/birdwatcher/birdwatcher-v2.zip`. Its safetensors SHA-256 is `139b7a7c9b07e6916eaf2ffe271b8e1c1796d79e0659c7698b13fc00e181d187`. `bash scripts/reproduce-birdwatcher.sh train` reconstructed the data and reran both stages on the same A6000: byte-identical weights, same visual reports and all eight paired text responses. CUDA runs completed; instance not terminated. 25 offline tests and 19 subtests passed. Next scientific test: unseen higher-resolution photos and independent prompts, not another pass over CIFAR. See `experiments/birdwatcher-v2/` for scope and caveats.
