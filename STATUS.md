@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 011 not promoted; 012 running
+## Current overnight: 012 met narrow criterion; 013 running
+
+012 completed on the A6000. Checksum backup matched. Across eight reused dev photos, blind-coded correct low/high assignments on image alone rose 3→5/24; grounding/relevance flags fell 2→1/8. All prompts combined: unchanged at 16/186. Prompted accuracy rose 38→40/62 on midpoints while both extremes regressed. No promotion. Full label counts, raw outputs and reproducible join: `studies/overnight/012/results/`. Result reproduction matched; local suite 68 tests + 19 subtests passed.
+
+013 compares the frozen adapter to base on 16 newly reviewed photos from 16 previously unused development groups, without tuning. Verified active `before` stage, flock PGID 53140 and sole GPU client 53165. Next: check STOP and `work/overnight-013/status`; do not relaunch. On exit checksum-back up, prepare anonymous numbered photos and texts, freeze blind review before opening raw outputs/key, join and publish. Historical final untouched.
+
+## Historical overnight: 011 not promoted; 012 running
 
 011 completed and checksum backup matched. Frozen independent blind review: spontaneous correct 13→17/186, image alone 3→5/62, but grounding/relevance flags 3→6/24. Eight reused proxy-labeled dev photos, no independent final. Seven derived files reproduced byte-for-byte. See `studies/overnight/011/results/`. Full local suite: 66 passed and 19 subtests passed.
 

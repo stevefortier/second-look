@@ -1,0 +1,43 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "steps": 157,
+  "schedule_sha256": "2180c34d66fae8c0ca7443909a124e475851ee8e433d0da946d0e440ad909e8d",
+  "fit_counts": {
+    "images/000000020371.jpg": 11,
+    "images/000000177529.jpg": 8,
+    "images/000000557329.jpg": 13,
+    "images/000000231022.jpg": 11,
+    "images/000000221542.jpg": 16,
+    "images/000000493438.jpg": 8,
+    "images/000000022894.jpg": 8,
+    "images/000000516328.jpg": 10,
+    "images/000000196355.jpg": 11,
+    "images/000000132760.jpg": 8,
+    "images/000000478717.jpg": 10,
+    "images/000000066652.jpg": 8,
+    "images/000000438107.jpg": 8,
+    "images/000000137788.jpg": 8,
+    "images/000000068293.jpg": 11,
+    "images/000000480205.jpg": 8
+  },
+  "rare_weights": {
+    "images/000000020371.jpg": 1,
+    "images/000000022894.jpg": 0,
+    "images/000000066652.jpg": 0,
+    "images/000000068293.jpg": 1,
+    "images/000000132760.jpg": 0,
+    "images/000000137788.jpg": 0,
+    "images/000000177529.jpg": 0,
+    "images/000000196355.jpg": 1,
+    "images/000000221542.jpg": 3,
+    "images/000000231022.jpg": 1,
+    "images/000000438107.jpg": 0,
+    "images/000000478717.jpg": 1,
+    "images/000000480205.jpg": 0,
+    "images/000000493438.jpg": 0,
+    "images/000000516328.jpg": 1,
+    "images/000000557329.jpg": 2
+  }
+}

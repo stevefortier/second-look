@@ -1,0 +1,49 @@
+{
+  "judgments_sha256": "fe60335677b8e1d87d7e877817847a8c3a3ad1bd5bf3a63babd7015e3ff59909",
+  "numbering": "Assigned AFTER freeze in sorted image-path order solely for report compatibility.",
+  "photos": {
+    "images/000000137925.jpg": {
+      "report_photo": 1,
+      "sha256": "f81ef6727d006de4b664f5e70ca8aa302111abfe498232aca018a99fc3b3bb77"
+    },
+    "images/000000199913.jpg": {
+      "report_photo": 2,
+      "sha256": "566392339be5c550724edd50f13b2fb5c9d1a352601b4fc4eab456123b2dea94"
+    },
+    "images/000000313963.jpg": {
+      "report_photo": 3,
+      "sha256": "281ae1469bc337f3c29b85f81eade24d6f3e8f753646e9b72b9f7e4039ef36da"
+    },
+    "images/000000361157.jpg": {
+      "report_photo": 4,
+      "sha256": "8219862ab3acb0e3148a3a6ad6346f6d70a1a3d3cb9aa10a72519b35b95205ee"
+    },
+    "images/000000396252.jpg": {
+      "report_photo": 5,
+      "sha256": "e4c311b682810ba756173300df4e2cbb965aa8821824d86156dcbba8a5fcd9cc"
+    },
+    "images/000000436695.jpg": {
+      "report_photo": 6,
+      "sha256": "2dcbe20a1a9d572fefccccd553a9f2f8528577c8732e8c24f0976fc799922123"
+    },
+    "images/000000500194.jpg": {
+      "report_photo": 7,
+      "sha256": "1a17366f06f02d3459e400a2b1fbde7ebcfe12bfd6d6c6544d09eb99350b8c6c"
+    },
+    "images/000000503951.jpg": {
+      "report_photo": 8,
+      "sha256": "2358d78adacdab1c4096403e790d157ece9755efacc672bc4b3b5f47535a4268"
+    }
+  },
+  "raw_sha256": {
+    "after.json": "ace090aa747cdd6453e9acd9019ede513d6a0381959854cb71260e8c1cc9cef1",
+    "before.json": "1425384451115709981b4bf509b091c0fef2d4ae2343304c3ea2e7e9f1a3d4c2",
+    "blind-judgments.json": "fe60335677b8e1d87d7e877817847a8c3a3ad1bd5bf3a63babd7015e3ff59909",
+    "blind-key.private.json": "8e11fe5264e5c9d92f01e4718bfcde54185c1cbd92be90ce78908db2fb0ba665",
+    "blind.json": "4973554a4736f80c446a9c1b86d3fa4e031f0c8eaab544eac8c00fd5c432b79c",
+    "manifest.json": "ebcb26fe508051285306f7e8b2d9b9407922adb03912bdd48564351cddcdb52f",
+    "train.json": "9b11fbfc62ebdc2e8b7fc2d67485491ec1421e829a90d86a342830bd9c4394e8"
+  },
+  "review_input": "blind.json original IDs, filenames and actual photos; no numbered reviewer packet",
+  "verified_response_ids": 48
+}

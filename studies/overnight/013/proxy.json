@@ -1,0 +1,226 @@
+[
+  {
+    "image": "images/000000337730.jpg",
+    "scores": {
+      "liking": 0,
+      "beauty": 0,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": 0,
+      "activity": -1,
+      "crowding": -1,
+      "color_intensity": -1
+    },
+    "caption": "A gray bird sits between diagonal cables against a nearly blank white sky."
+  },
+  {
+    "image": "images/000000121326.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 1,
+      "cuteness": 1,
+      "scary": 0,
+      "funny": 0,
+      "activity": 0,
+      "crowding": 1,
+      "color_intensity": 0
+    },
+    "caption": "Elephants bunch shoulder to shoulder in shallow water; a calf stands beside an adult."
+  },
+  {
+    "image": "images/000000054399.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 0,
+      "cuteness": 1,
+      "scary": -1,
+      "funny": 1,
+      "activity": -1,
+      "crowding": 0,
+      "color_intensity": 1
+    },
+    "caption": "A black cat peers from the folds of a coral bag on a wooden cabinet."
+  },
+  {
+    "image": "images/000000494398.jpg",
+    "scores": {
+      "liking": 0,
+      "beauty": 0,
+      "cuteness": 0,
+      "scary": 1,
+      "funny": -1,
+      "activity": 0,
+      "crowding": 0,
+      "color_intensity": 0
+    },
+    "caption": "A black bear lowers its muzzle toward rocks and sparse undergrowth."
+  },
+  {
+    "image": "images/000000489940.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 0,
+      "cuteness": 1,
+      "scary": -1,
+      "funny": 0,
+      "activity": -1,
+      "crowding": 0,
+      "color_intensity": 0
+    },
+    "caption": "A shepherd-like dog lies on a sunlit step with ears up and tongue out."
+  },
+  {
+    "image": "images/000000164095.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 1,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": 0,
+      "activity": 0,
+      "crowding": 1,
+      "color_intensity": 1
+    },
+    "caption": "A giraffe bends its neck toward a zebra among dense green leaves."
+  },
+  {
+    "image": "images/000000259475.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 0,
+      "cuteness": 1,
+      "scary": -1,
+      "funny": 1,
+      "activity": 0,
+      "crowding": 1,
+      "color_intensity": 0
+    },
+    "caption": "A tiny spotted kitten steps past an enormous bunch of green bananas."
+  },
+  {
+    "image": "images/000000128387.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 1,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": 0,
+      "activity": -1,
+      "crowding": -1,
+      "color_intensity": 1
+    },
+    "caption": "A crimson parrot rests on a narrow branch against soft out-of-focus greenery."
+  },
+  {
+    "image": "images/000000043576.jpg",
+    "scores": {
+      "liking": 0,
+      "beauty": 0,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": 0,
+      "activity": 0,
+      "crowding": -1,
+      "color_intensity": -1
+    },
+    "caption": "A red-billed bird stands upright on pale stones beside gray water."
+  },
+  {
+    "image": "images/000000490585.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 0,
+      "cuteness": 0,
+      "scary": -1,
+      "funny": 1,
+      "activity": 0,
+      "crowding": 1,
+      "color_intensity": 0
+    },
+    "caption": "A white goose stands beside a wheeled cart with a bright bucket, near a person and several birds."
+  },
+  {
+    "image": "images/000000406395.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 0,
+      "cuteness": 1,
+      "scary": -1,
+      "funny": 1,
+      "activity": -1,
+      "crowding": 0,
+      "color_intensity": 0
+    },
+    "caption": "A reclining tabby wears a striped necktie against tan cushions."
+  },
+  {
+    "image": "images/000000315944.jpg",
+    "scores": {
+      "liking": 0,
+      "beauty": -1,
+      "cuteness": 1,
+      "scary": -1,
+      "funny": 1,
+      "activity": 0,
+      "crowding": 1,
+      "color_intensity": -1
+    },
+    "caption": "Two puppies press together inside a food bowl in a dark photograph with white labels."
+  },
+  {
+    "image": "images/000000314825.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 1,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": 0,
+      "activity": 1,
+      "crowding": -1,
+      "color_intensity": 1
+    },
+    "caption": "A hummingbird hovers at a pink feeder with blurred wings spread against green."
+  },
+  {
+    "image": "images/000000088726.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 0,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": 0,
+      "activity": 1,
+      "crowding": 1,
+      "color_intensity": 0
+    },
+    "caption": "Waterbirds beat their wings and send up splashes in front of reeds."
+  },
+  {
+    "image": "images/000000471500.jpg",
+    "scores": {
+      "liking": 0,
+      "beauty": 0,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": 0,
+      "activity": -1,
+      "crowding": 1,
+      "color_intensity": 0
+    },
+    "caption": "A red and green parrot perches indoors among signs, framing and overhanging leaves."
+  },
+  {
+    "image": "images/000000485966.jpg",
+    "scores": {
+      "liking": 1,
+      "beauty": 1,
+      "cuteness": 0,
+      "scary": 0,
+      "funny": -1,
+      "activity": 0,
+      "crowding": -1,
+      "color_intensity": -1
+    },
+    "caption": "A lone dark bird tilts its bill upward beside a pale wave in a monochrome beach scene."
+  }
+]

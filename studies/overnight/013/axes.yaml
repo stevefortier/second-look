@@ -1,0 +1,32 @@
+liking:
+  low: I dislike this image
+  mid: I feel indifferent about this image
+  high: I like this image
+beauty:
+  low: visually unattractive
+  mid: neither beautiful nor unattractive
+  high: strikingly beautiful
+cuteness:
+  low: decidedly uncute
+  mid: neither cute nor uncute
+  high: exceptionally cute
+scary:
+  low: actively reassuring
+  mid: neither scary nor reassuring
+  high: frightening
+funny:
+  low: decidedly serious
+  mid: neither funny nor serious
+  high: distinctly amusing
+activity:
+  low: resting or motionless
+  mid: alert or gently engaged
+  high: vigorous movement
+crowding:
+  low: isolated forms with open space
+  mid: some surrounding detail
+  high: many competing or overlapping details
+color_intensity:
+  low: muted or monochrome
+  mid: moderate color
+  high: strong saturated colors
