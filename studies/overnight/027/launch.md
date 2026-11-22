@@ -1,0 +1,5 @@
+# 027 launch receipt — November 22, 2026 (UTC)
+
+Same authorized host `ubuntu@68.209.107.253`, root `/home/ubuntu/second-look/work/q38-code`, A6000 UUID `GPU-f40b0708-a493-ded5-fba6-c520d2813fcc`. Checked local and remote `work/STOP-OVERNIGHT` on entry and before submission. Read only 026 process status (`exit 0 complete`), not outcomes or keys. Prior lock available, no GPU compute clients or previous 027 output. Uploaded six new inputs with no replacement. Local and remote schedule `1724a570dc86f9cfe372ae7871f3d8297d8ca648e254d5814ac35c0a734b8ae6` and manifest `8d0989ba6b47c6ecb819e462efddd0c298caf5e145180105734104a3cccf842d` matched; all remote artifact checks passed. Worker shell syntax passed; local suite 83 passed and 19 subtests passed.
+
+Submitted once at 12:13:33. At 12:13:43 `.claimed` existed and status was `train`; kernel exclusive flock owner PID/PGID/SID 109572, worker 109573, foreground timeout 109594, GPU trainer 109595 (sole compute client, 17000 MiB). Each of check/train/before/after has a 45-minute limit and 20-second kill grace. Monitor remote `work/overnight-027/{pid,status,run.log}`; do not relaunch. No completion or performance claim.

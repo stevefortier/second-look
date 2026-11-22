@@ -1,0 +1,1538 @@
+{
+  "01f6a27d94f8e52c3ec3113e": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "ambiguous",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Sitting implies stillness, but the kitten is on its feet. Odd is not necessarily funny; green and yellow name hues.",
+    "schema_echo": false
+  },
+  "03e12b1980925762fbf7e920": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "note": "11: Vibrant and perched are explicit. Charming and informative is generic praise; the macaw/hybrid guess lacks support.",
+    "schema_echo": false
+  },
+  "05d05208bda6d6d4132d85d0": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Vivid red plumage is explicitly contrasted with soft background greens and browns.",
+    "schema_echo": false
+  },
+  "080fd85e997eb15deaeaf4d3": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Upturned beak gives orientation, not movement.",
+    "schema_echo": false
+  },
+  "08ac9638150825ef5e0cb813": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Perching is still; the text singles out the wire under the bird.",
+    "schema_echo": false
+  },
+  "0ebfef19db9e4a88cca2d303": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Perched on the wire; the tail extends below the lower cable, not just between the two.",
+    "schema_echo": false
+  },
+  "10e39e555664e181dc8e74ca": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "H",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "note": "10: Beautifully composed is unexplained praise. The macaw identification is unsupported; deep red alone need not mean saturated.",
+    "schema_echo": false
+  },
+  "12b394c955c56397ff3d7cae": {
+    "axes": {
+      "activity": "L",
+      "beauty": "H",
+      "color_intensity": "L",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "note": "Broad praise of the monochrome photograph. The bird is standing; black oystercatcher is an unsupported identification.",
+    "schema_echo": false
+  },
+  "137b91134832c1b3500a4755": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "9: Their standing together is described as charming. What strikes me names a focus, not a preference.",
+    "schema_echo": false
+  },
+  "14e46bd69b393a832d586d5e": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "12: Sitting conveys stillness, although the kitten appears upright on its feet. The emphatic overripe claim is unsupported by the predominantly green fruit.",
+    "schema_echo": false
+  },
+  "1841421fa6a879ef4cdb5ede": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Exact species and serrations are asserted beyond what the photo establishes.",
+    "schema_echo": false
+  },
+  "1985af377411e29b9cba50b0": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Gentle interaction suggests little movement. Proximity is visible; a family bond is asserted.",
+    "schema_echo": false
+  },
+  "1999fe6b82066d3550fc51ef": {
+    "axes": {
+      "activity": "L",
+      "beauty": "H",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "note": "Photo 1: Striking and serene is broad aesthetic praise; perched bird. Species and aliases unsupported.",
+    "schema_echo": false
+  },
+  "2023a574b6a8433128e68f73": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Perched bird with a vertical tail; the claim that this alignment is unusual is unsupported.",
+    "schema_echo": false
+  },
+  "20f99c2612628662093a6f99": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "The giraffe and zebra illustrate a height difference; possible reach is not depicted action.",
+    "schema_echo": false
+  },
+  "2288662cd0e36df7365f7064": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "The exact dove species is asserted as fact without diagnostic support; the coloration sentence is unfinished.",
+    "schema_echo": false
+  },
+  "234f1d26629d12dc9459570f": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Calm, nestled and looking at the camera indicate little activity. Leather is asserted without clear visual confirmation.",
+    "schema_echo": false
+  },
+  "26c379dc90b3fb33ab9b5e1c": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "The lowered muzzle supports investigating the ground; the habitat inference is hedged, not a location claim.",
+    "schema_echo": false
+  },
+  "2829e67dab9f083388a08a5d": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Calling is a qualified interpretation of the raised head.",
+    "schema_echo": false
+  },
+  "295499e160a8331613088767": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "H",
+      "funny": "L",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Charming and slightly humorous describes the nestled cat. The prediction about what cat owners recognize is extraneous.",
+    "schema_echo": false
+  },
+  "2d58cd20d59a886be839f892": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Relaxed posture in direct sun; inferred enjoyment belongs to the dog, not the speaker.",
+    "schema_echo": false
+  },
+  "3b5c3d120359546cc6971a8e": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "H",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Photo 4: Humorous and absurd; standing. Background flock identification as geese or swans is unsupported.",
+    "schema_echo": false
+  },
+  "3fcb10fa2e518ea43bb66f90": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "The extended forelegs and open mouth support the relaxed reading; comfort is not a threat assessment.",
+    "schema_echo": false
+  },
+  "402b65ec77cd61b31e917739": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "The kitten is dwarfed by the marked bananas; relative size is not explicit cuteness or crowding.",
+    "schema_echo": false
+  },
+  "40b9ecb7a7a4b8ce41d67ef2": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "The hummingbird identification is grounded, but the exact species is claimed with certainty.",
+    "schema_echo": false
+  },
+  "413d8f802432b8a30375ff16": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "10: Bright red conveys high intensity. The specific red-and-green macaw identification is unsupported.",
+    "schema_echo": false
+  },
+  "45a2836fda9010fc10b9be0a": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "11: Vibrant bird in a perched pose. The setting grounds the charm, but the rosella guess is unsupported.",
+    "schema_echo": false
+  },
+  "477b331113f673d0fd02d52f": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Relaxed cat nestled in the bag; bright eyes describe a local feature, not the palette.",
+    "schema_echo": false
+  },
+  "50b25c8dacceec8f7bc1dd5c": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "M",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Photo 2: Slightly humorous; sharing a meal. Caption does not establish the suggested breed.",
+    "schema_echo": false
+  },
+  "575892e386055ad6c9c093a5": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Droplets, foam and outstretched wings ground the forceful motion; stillness is assigned to the background.",
+    "schema_echo": false
+  },
+  "5845b904481d3f1cc5def6cd": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Eyes peeking above the bag are a focal detail, not an axis judgment.",
+    "schema_echo": false
+  },
+  "5915a1d8bafbb82c1c023e25": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Chinese reply describes the perched parrot, foliage and sale sign. Its parenthetical gloss reduces the named parrot to a small parrot; red and green are hues only.",
+    "schema_echo": false
+  },
+  "5a9a266a8a59005329ac056f": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Violent energy describes the takeoff, not fear; the bird identification is qualified.",
+    "schema_echo": false
+  },
+  "5d26f6898b3c116661294bbe": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Photo 3: Bending quietly rather than charging; no explicit fear judgment.",
+    "schema_echo": false
+  },
+  "5faec8f663dc5cf673d112e3": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "M",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Half-lidded, unbothered cat; judging the camera is a gentle joke. The striped accessory is a long necktie, not a bow tie.",
+    "schema_echo": false
+  },
+  "5fcfada234b92df9d5003976": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "H",
+      "funny": "H",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Photo 2: Endearing innocence and a humorous caption; feeding moment.",
+    "schema_echo": false
+  },
+  "63f62bdfc1d3933309288ea4": {
+    "axes": {
+      "activity": "L",
+      "beauty": "H",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "9: Quiet coexistence suggests low activity; elegant describes the giraffe. The venue is tentative.",
+    "schema_echo": false
+  },
+  "65e9f3f47b23b91ae362dc1e": {
+    "axes": {
+      "activity": "ambiguous",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Playful energy and excitement contrast with lying down; alertness is not vigorous motion. Vivid modifies energy.",
+    "schema_echo": false
+  },
+  "67dfcec4360e5d4e0be8039a": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Bright, almost tactile vividness is tied to red plumage against blurred green.",
+    "schema_echo": false
+  },
+  "67f439024cf21842ad395d35": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Relaxation is explicit and fits the reclining cat; no threat judgment.",
+    "schema_echo": false
+  },
+  "698a4f99f8c448612a19da7c": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "H",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "10: Stunning is grounded in the plumage contrast; vibrancy explicitly rates intensity.",
+    "schema_echo": false
+  },
+  "6a592e3994dc5b4d19d87813": {
+    "axes": {
+      "activity": "ambiguous",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Relaxed yet alert mixes rest with attention, without resolving the activity level.",
+    "schema_echo": false
+  },
+  "6ce57b599f7d5f05085a8e06": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Wading fits the herd, but an African wetland is not established by this image.",
+    "schema_echo": false
+  },
+  "6fde47f27728bf2957191ada": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "L",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Explicit shared pause. The palette is mostly soft, with the red containers named as exceptions.",
+    "schema_echo": false
+  },
+  "722df9e2ffe074e947db68a0": {
+    "axes": {
+      "activity": "L",
+      "beauty": "H",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "L",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Charming describes the visual contrast. Quiet humor, a comfortably nestled cat and a bright bag are explicit.",
+    "schema_echo": false
+  },
+  "7722b76f52e27ca3ee21ceb0": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Photo 1: Taxonomic JSON fields rather than a visual response; identification unsupported.",
+    "schema_echo": true
+  },
+  "7876f7aba2f5ff8a4bab8992": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "M",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Photo 4: Lighthearted driver metaphor tied to goose standing beside wagon.",
+    "schema_echo": false
+  },
+  "79d7e03e679ea92728485f29": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "The giraffe looks down, but the zebra faces outward rather than looking up at the giraffe.",
+    "schema_echo": false
+  },
+  "7e4c04a019c1260e033ac76b": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Rapid wing motion and a bright throat; the feeder ports are below and the bill is not clearly aimed at them.",
+    "schema_echo": false
+  },
+  "7ebc7c97de8db81f80efc56e": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "High-speed motion and the visible Vivid Color heading both express judgments.",
+    "schema_echo": false
+  },
+  "803657b19d8b07e22fe76a2a": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Pushing describes purposeful action, but the white waterbird stands beside the cart rather than pushing it.",
+    "schema_echo": false
+  },
+  "8114192da8f4996e30376781": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "L",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Calling or reacting is moderate engagement; shallow focus explicitly isolates the bird from its surroundings.",
+    "schema_echo": false
+  },
+  "861e48c6aa3818510678ba2d": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Wing blur contrasted with the sharp body conveys rapid movement.",
+    "schema_echo": false
+  },
+  "8d57383474809fbf7925acf1": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Photo 2: Eating is an ordinary ongoing action; coat label is quoted.",
+    "schema_echo": false
+  },
+  "8ff74811c96601d8e023a415": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Photo 1: Vivid red; the crake identification and rarity claim are unsupported.",
+    "schema_echo": false
+  },
+  "90405074b2eec38a4af6f069": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "H",
+      "color_intensity": "absent",
+      "crowding": "L",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Striking simplicity and quiet intimacy praise the composition; the featureless field isolates the bird.",
+    "schema_echo": false
+  },
+  "96c88989842c28a557f938a7": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "12: Massive describes bunch size rather than crowding. The tree/sculpture comparison concerns scale.",
+    "schema_echo": false
+  },
+  "975a0a82d64d45019133d0bf": {
+    "axes": {
+      "activity": "H",
+      "beauty": "H",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "note": "Beautifully captured praises the shot without explaining its beauty; rapid flapping is explicit.",
+    "schema_echo": false
+  },
+  "9d5f7095f2bc05c86593e040": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "9: A serene moment and a standing giraffe; the venue is suggested, not identified.",
+    "schema_echo": false
+  },
+  "a0b4386cda554c58f8e7b0a4": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Photo 3: Black bear and muzzle description fit; no expressed rating.",
+    "schema_echo": false
+  },
+  "a0d2f31d388cfcd3b59b367c": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "M",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "note": "Photo 4: Broad charming/whimsical opener; dressed for activity does not describe movement.",
+    "schema_echo": false
+  },
+  "a1ea8b4eb4a5649f84ff86ad": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "M",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Eating and a playful inscription; the inscription appears overlaid and mentions wet food, making the dry-food certainty questionable.",
+    "schema_echo": false
+  },
+  "a4bb93ce67c8e4f3f5baeeb8": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "11: The Chinese text describes vivid color and standing on a perch. It reads the Japanese species name but incorrectly equates it with Eclectus.",
+    "schema_echo": false
+  },
+  "a4eb01cdf8eb1393a8858957": {
+    "axes": {
+      "activity": "M",
+      "beauty": "H",
+      "color_intensity": "L",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "note": "Striking and evocative is broad aesthetic praise; mid-stride is movement. Starling identification is speculative.",
+    "schema_echo": false
+  },
+  "a525e9680d210ffb5f4483ec": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "The colors largely fit, but the specific tyrant identification is unsupported.",
+    "schema_echo": false
+  },
+  "a91b4b50b36b370d52cb2d1f": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "ambiguous",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Intense action is explicit. Vivid modifies the photograph, not clearly its colors; species is tentative.",
+    "schema_echo": false
+  },
+  "aaadd96c6da63e7074a891ab": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Lowered head specifies orientation only.",
+    "schema_echo": false
+  },
+  "ab2b6322bd1e7808f5225459": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Banana jungle is a metaphor for relative scale; it does not explicitly convey cuteness or amusement.",
+    "schema_echo": false
+  },
+  "afd734700fc4723a4ce02e48": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "note": "Lounging and a relaxed gaze express stillness; charming is broad scene praise.",
+    "schema_echo": false
+  },
+  "b0260f428b605a1833f82dae": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "M",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Resting cat; the formal necktie in a casual setting is framed as a playful incongruity.",
+    "schema_echo": false
+  },
+  "b21481b47a75561c4480f410": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "note": "Cozy and charming is a general compliment; the cat is explicitly lounging.",
+    "schema_echo": false
+  },
+  "b34518bc7f77f0e4a27a71b4": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Photo 3: Suggests sniffing from lowered head; not a claim of vigorous motion.",
+    "schema_echo": false
+  },
+  "b96c5929426c6444d91ddbd2": {
+    "axes": {
+      "activity": "ambiguous",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "H",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "note": "Charming and lively is broad praise of the puppy scene, but the dog is described as lying down. Age range is speculative and back/side conflicts with its pose.",
+    "schema_echo": false
+  },
+  "b98758da1d25c7f656b2585d": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Curiosity is tentative, but the large bird by the buckets is goose-like, not clearly a duck.",
+    "schema_echo": false
+  },
+  "c02ddd24690a1e3108b6e2e2": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Lying down indicates low activity. Surface alternatives are offered as possibilities, not identified as fact.",
+    "schema_echo": false
+  },
+  "c52779b7f34171aabb2c6b55": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "L",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Mid-gesture describes some action. Emotional intensity is not liking or color intensity; the photograph is called monochrome.",
+    "schema_echo": false
+  },
+  "c5d1c8edd7319248954662c1": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Golden hour is conjectural; warm light does not describe color intensity.",
+    "schema_echo": false
+  },
+  "ca2340f33cec7153e86c9957": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Vivid red at the bill and eye contrasts with a muted backdrop.",
+    "schema_echo": false
+  },
+  "cc61be0a9735d4e8c004c95a": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "L",
+      "crowding": "L",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Perched, serene and minimalist convey stillness and sparsity; soft qualifies the gray-brown plumage.",
+    "schema_echo": false
+  },
+  "ce5cdd5e2d3d74a49a6d1ecb": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Burst of spray and spread wings convey forceful movement; violent describes motion rather than a threat.",
+    "schema_echo": false
+  },
+  "cf1968195ce0abee4671c6be": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "H",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Eating together and explicitly called cute; two puppies share a bowl.",
+    "schema_echo": false
+  },
+  "d37d38065c7c0e6349b26209": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "note": "Serene and powerful is broad praise; herd leadership, kinship and season are not established.",
+    "schema_echo": false
+  },
+  "d3cd2a31de5ba473685b4656": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Wing blur is explicitly linked to frantic effort in flight.",
+    "schema_echo": false
+  },
+  "d631980918e7cdfcb50d6fb4": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Taking flight and spraying water indicate vigorous motion; possible causes are posed as questions.",
+    "schema_echo": false
+  },
+  "da70eba2387eb648c53e9b38": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Tiny paws at the rim are a visible detail; smallness alone is not endearment.",
+    "schema_echo": false
+  },
+  "db553a33d41f9250cbd9d56a": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Relaxed dog, sunshine and cast shadows; a pleasant day is not an expressed photo preference.",
+    "schema_echo": false
+  },
+  "e5af4a3073425dd2af10aed6": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "H",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Perched bird, vivid plumage, and explicit clutter. Signs are visible; identifying a printer is not supported.",
+    "schema_echo": false
+  },
+  "eaf7be7900702dc36b940044": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Standing in water, without mention of movement.",
+    "schema_echo": false
+  },
+  "eb0d70049cf2264039a222ec": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Calm wading is moderate movement; the still image does not establish ears actively flapping.",
+    "schema_echo": false
+  },
+  "ee58a6400a922eb48f43b601": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "Lowered head is visible, but its silhouette and muzzle are exposed against the rocks rather than mostly occluded by them.",
+    "schema_echo": false
+  },
+  "ef870850fa3e54fd4586aae0": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "The bag serves as a resting place; cozy does not assert endearment.",
+    "schema_echo": false
+  },
+  "f56f602ac5f1dc2e8268f0ed": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "M",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "The accessory is called slightly absurd; it looks like a necktie rather than a bow tie.",
+    "schema_echo": false
+  },
+  "f649d58fc4cdef761651a2c6": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "M",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "The parrot pauses on its stand among signs and fixtures; the described surroundings are busy, not packed.",
+    "schema_echo": false
+  },
+  "f669e03ed5dd93ec01c52174": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "note": "12: Sitting expresses a stationary pose but misdescribes the kitten, which is on its feet. Fur colors do not rate intensity.",
+    "schema_echo": false
+  },
+  "f72b7d466dd43232540ef3d1": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "H",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Glowing crimson against green and the sculpted-light metaphor express both intensity and visual admiration.",
+    "schema_echo": false
+  },
+  "fc7bfdf25a17587877cdb878": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "note": "Standing close conveys a stationary posture, not a crowded scene.",
+    "schema_echo": false
+  }
+}

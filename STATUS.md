@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 025 failed matched gates; 026 running
+## Current overnight: 026 improved image-only attribution but failed both verbal gates; 027 running
+
+026 paired two visually grounded impressions only on image-only training rows. On 16 reused group-disjoint development photos it matched 10/65 image-only endpoints (base 7, 025: 8), including 6/24 lows (both comparators 5). Both verbal invitations fell short of base: 11 vs 15 and 12 vs 18 out of 128. Both mixed directions correct in 1/33 vs 4/33 base. Prompted score agreement tied base at 82/128 and ordinal MAE 0.359375. No promotion. Model-reviewed proxies, not Steve’s scores; no development nulls or historical-final access. Single reviewer reused 53 exact judgments and coded 43 against numbered photos before identity join. CPU metrics reproduced byte-for-byte; 83 tests and 19 subtests passed. See `studies/overnight/026/RESULTS.md`.
+
+027 pairs the impressions on verbal rows too, keeping image-only training unchanged. Verified sole GPU trainer PID 109595 under exclusive flock group 109572. Next: check STOP, then remote `work/overnight-027/status`; do not relaunch. On exit 0 back up and verify hashes, freeze blind judgments and score both verbal gates separately.
+
+## Historical overnight: 025 failed matched gates; 026 running
 
 025 failed all four matched gates versus 024. Showing one selective impression at a time reduced generic praise (0/48 vs 11 base), but the adapter matched just 11/128 rated qualities under each verbal invitation (base 15 and 18; 024: 13 and 16). On image alone it matched 8/65 endpoints, including 5/24 lows (base 7 and 5; 024: 11 and 6). Both mixed directions appeared correctly in 1/33 vs 4/33 for base and 024; neither model reversed both. Prompted agreement was 83/128 (base 82; 024: 93); ordinal MAE 0.352 vs 0.359 base and 0.273 for 024. No promotion.
 
