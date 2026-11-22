@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 017 missed one transfer criterion; 018 training
+## Current overnight: 018 missed three criteria; 019 training
+
+018 exited 0. All 12 remote files matched the local backup by SHA-256. Of 96 judgments, 48 reused exact 017 image/prompt/text matches; 48 were coded against numbered photos without model key or proxy scores, then frozen before join. On the 16 development groups image-only low/high matches were 3/24 and 7/41 (base 5 and 2); the two held-out verbal totals fell 15→9 and 18→17/128. Mixed-direction coverage fell 4→0/33. Prompted accuracy and MAE unchanged (82/128, 0.359375). Do not promote. Raw records and reproducible fit-specific diagnostics: `studies/overnight/018/results/`. Reused proxy panel, single model reviewer, no independent or historical-final validation, no missing dev scores. Full suite 76 passed and 19 subtests passed.
+
+019 isolates held-in neutral wording on half of the 80 updates; same 018 photos/captions/order. Verified lock owner PGID/SID 82263, worker 82264, bounded trainer 82286 sole GPU client in train. Next: check STOP and remote 019 status; do not relaunch. On completion checksum-back up, freeze judgments before join, rerun 018's fit-specific baselines. For exact 018/019 training restore `scripts/train_q38.py` in a disposable checkout from Git revision `591fd2a50c9aae1330830ca4f982135fb7e059fd`; its bytes match the remote artifact pin.
+
+## Historical overnight: 017 missed one transfer criterion; 018 training
 
 017 completed (exit 0), checksum backup matched. Blind judgments for all 96 responses froze before identity join: 51 exact image/prompt/text matches reused from 016; 45 coded from numbered photos with no model key or proxy scores. Metrics reproduced byte-for-byte. Image-only low/total endpoints: base 5/24 and 7/65, 016 3 and 12, 017 5 and 15. The two neutral wording totals were 13 and 21/128 versus base 15 and 18; do not promote. Mixed-direction coverage fell from 4 to 2/33. See 017/results for raw records, flags, axis variation and prompted baselines. Single model reviewer, not human validation. Development panel reused, not historical final.
 

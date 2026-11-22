@@ -1,0 +1,7 @@
+# 019: Does training with neutral invitations transfer to unseen wording?
+
+Predeclared before launch, without inspecting 018 evaluation responses or scores: relative to the frozen 013 base criteria, require **all four** on dev: image-only correct low endpoints ≥5/24, image-only all correct endpoints >7/65, and correct fields ≥15/128 and ≥18/128 for the two held-out invitations in protocol order. Report grounding flags and per-axis coverage; no historical final, selection on final, or independent-validation claim.
+
+019 retains 018's eight verified fresh fit groups, exact caption text, shuffled image order and 80 single-image updates. Only the user invitation changes: per image alternate five empty and five held-in verbal invitations; alternate “Describe this photograph in your own words.” and “Give your impression of this picture.” across the five verbal updates, reversing their starting order on alternate sorted images (20 updates each). Neither is a dev invitation. Fit ratings remain model-proxy annotations, not Steve's preferences; all liking is unknown. No numeric targets, new labels, model-generated captions or new images.
+
+The inherited runner uses the same base/revision, seed, train configuration, original 16-photo 013 dev set, image-only plus two held-out invitations, explicit-score diagnostic, reload and blinding. Stages: check, train, before, after; one project lock, one output claim, STOP checks at boundaries, 45 minutes per stage plus a 20-second kill grace. No restart or final evaluation.
