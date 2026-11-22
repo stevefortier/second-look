@@ -1,0 +1,722 @@
+[
+  {
+    "id": "f1d6f726344288296770c1e6",
+    "text": "The red cardinal against the white snow and bare branches. The color contrast is striking. The bird is the only vivid element in an otherwise muted, wintry scene.",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "a38f531f4639c73d9013c8ae",
+    "text": "This photo strikes me with a quiet, tender moment of connection between a person and a dog in a vast, open landscape. Here’s what stands out:\n\n**1. The Emotional Core:**\nThe man is kneeling — not standing — which puts him at eye level with the dog. He’s gently holding the dog",
+    "activity": "mid",
+    "crowding": "low",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "cfb742a8c5d23b72538b1db2",
+    "text": "This photo strikes me with its **quiet elegance and stark contrast** — a small, delicate bird perched alone against an expansive, vivid blue sky. Here’s what stands out:\n\n### 1. **The Bird’s Coloration**\nThe bird — likely a **Red-headed Woodpecker** or possibly a",
+    "activity": "low",
+    "crowding": "low",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "ba46147896bfdacf7951244f",
+    "text": "The elephant is nearly hidden by dense green foliage, with only its head and back visible. The surrounding vegetation partially obscures the animal, creating a sense of concealment within the natural environment.",
+    "activity": "absent",
+    "crowding": "high",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "443ee580673e8c771de012fb",
+    "text": "The cat's expression is striking. Its eyes are half-closed, giving it a grumpy or unimpressed look. The tiny top hat adds to the effect, making the cat seem like a dignified, slightly annoyed gentleman.",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "379f3941cecfc8d7c331a63d",
+    "text": "The elephant is partially hidden by dense green foliage, with its head lowered toward the ground. The surrounding vegetation is thick and wild, suggesting a natural, undisturbed habitat.",
+    "activity": "absent",
+    "crowding": "high",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "ab9c94e3f9396851ced05ff2",
+    "text": "```json\n[{\"image_id\": \"Picture 2\", \"bbox_2d\": [398, 38, 826, 900], \"label\": \"bird\"}]\n```",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; bounding box instead of a description"
+  },
+  {
+    "id": "acb11156949cef57ecca3697",
+    "text": "What strikes me most about this photo is the **striking contrast between the bird’s vibrant coloration and its muted, earthy surroundings** — and the fact that it’s a *female* Northern Cardinal.\n\nHere’s what makes it particularly compelling:\n\n🔹 **The Bird Itself**:  \nThis is",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "54bb9229ac4db9b7d9f31154",
+    "text": "The man kneels in a grassy field, holding a blue object near the dog. The dog wears a bright orange vest and stands facing him.",
+    "activity": "mid",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "6fd34ecc71ce3e37ead1e8b0",
+    "text": "The parrot’s vivid yellow and orange plumage stands out sharply against the blurred green background. Its bright colors and alert posture draw immediate attention.",
+    "activity": "mid",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "b4874d07d682a1fb2b637227",
+    "text": "A giraffe rests in a grassy enclosure, with a green fence and dense trees behind it. The scene feels calm and contained, like a zoo or wildlife park.",
+    "activity": "low",
+    "crowding": "ambiguous",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "5847d93b0cf0fd6b9189dffe",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image shows a single giraffe resting in a grassy enclosure, likely within a zoo or wildlife park.\n\n**Main Subject:**\n- A giraffe is lying down on the ground with its legs tucked beneath its body.\n- It has the",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "612ad1ba4aae7858d0ae6512",
+    "text": "A red cardinal rests on snow-covered ground amid bare winter trees and red berries. The muted background contrasts with the bird's vivid color, creating a quiet, wintry scene.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "d5f7c4d295281f735ff69aa7",
+    "text": "Based on the visual evidence in the image, here is a logical breakdown:\n\n1.  **Subject Identification**: The central animal is clearly an elephant. Key features visible include its large, gray, wrinkled body, a prominent ear, a trunk (partially obscured by foliage), and a small eye.\n2",
+    "activity": "absent",
+    "crowding": "ambiguous",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "d6a3212930543a04d13dd268",
+    "text": "The giraffe sits alone in a wide, open field. The surrounding greenery and fence suggest a contained space. The power lines and tower in the background add a human element to the natural scene.",
+    "activity": "low",
+    "crowding": "low",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "949321f9fb0f13e740b2242b",
+    "text": "This is a charming and whimsical scene!\n\nThe image features a **black cat with striking green eyes**, sitting calmly (or perhaps slightly unimpressed) while wearing a **tiny, sparkly black top hat** perched on its head. The hat has a subtle glittery texture and a thin white band around",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "eb5224243d741a96ff744d0d",
+    "text": "The parrot grips the branch with its feet, its feathers catching the light.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "c5728fadaa9bd33c35510567",
+    "text": "The giraffe rests in a grassy enclosure, with a fence and trees behind it.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "754e2124fc35e2d5e4b37efd",
+    "text": "The bird is perched on a rough wooden surface, with a few peanuts scattered below.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "d991881405a965a003c2bbc3",
+    "text": "A man kneels in a field, facing a dog in a red vest. The dog stands on grass, looking toward the man. The man wears an orange jacket and carries a blue backpack. The scene is outdoors, with hills and trees in the background.",
+    "activity": "mid",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "b591819a66b75f9062f0a30e",
+    "text": "The bird is a small, dark gray thrush with white wing spots, standing on leaf litter among green leaves. I would say it looks like a quiet forest-floor moment, with the bird foraging or pausing among the debris.",
+    "activity": "ambiguous",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "ff8827e96527b648e1d3e68c",
+    "text": "The red cardinal sits on a snow-covered ledge, surrounded by bare branches and red berries.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "425cb6662486ff5bf6797c27",
+    "text": "What strikes me most about this photo is the **striking contrast between the natural and the man-made**, creating a sense of quiet tension or even irony.\n\nHere’s what stands out:\n\n1. **The Giraffe in a “Wild” Setting That Isn’t Wild**  \n   The giraffe is sitting calmly",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "35923bd5f751b6cfc1619a8c",
+    "text": "A large grey stork stands in shallow, grassy water, its long beak angled down. The surrounding reeds and soft light suggest a quiet wetland.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "1c17bff2f70c68f87d138f0e",
+    "text": "The bird’s pale body against the bare branches and clear blue sky. What stands out: its soft coloring, the empty twigs, the open space.",
+    "activity": "absent",
+    "crowding": "low",
+    "color_intensity": "low",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "d6e51ed3ceb80e9e95a7fe59",
+    "text": "What strikes me most about this photo is the **peaceful, almost idyllic tranquility** of the scene — a flock of sheep resting under the dappled shade of a large, leafy tree on a sunlit pasture.\n\nHere’s what stands out:\n\n🐑 **The sheep are mostly",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "0cd1ee5f532498e13bc757bd",
+    "text": "This is a charming and slightly humorous photo of a black cat wearing a tiny, sparkly black top hat. The cat has a very unimpressed or “judgmental” expression — its eyes are half-closed, and its whiskers are prominent, giving it an air of dignified annoyance at being dressed up",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "f15caf4b211c417c7ceeb122",
+    "text": "Based on the visual characteristics in the image, this bird is a **Gray-cheeked Thrush** (*Catharus mauriceps*).\n\nHere’s why:\n\n- **Overall coloration**: The bird has a dark gray head and upper body, with a warm brownish-orange (rufous) wash on",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "cbd86132234ddea5a3b45be9",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image features a vibrant **Sun Conure** (also known as a Golden Conure), a type of parrot, perched on a thick, light-brown branch. The bird is shown in profile, facing left.\n\n### Key Features of",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "ea5b6346fb42b3428488a8ac",
+    "text": "The cat's eyes are half-closed, and it wears a small top hat.",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "d19d4604fd83020eb2a8301f",
+    "text": "This photo is striking for its **warm, cozy, and deeply human (and feline) intimacy** — it captures a quiet, everyday moment that feels both ordinary and profoundly comforting.\n\nHere’s what stands out:\n\n🔹 **The cat as the star**: The tabby cat in the foreground is curled",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": true,
+    "relevance": "on subject"
+  },
+  {
+    "id": "c3c89792fb185504f8ff89a3",
+    "text": "Based on the visual characteristics in the image, this bird is a **female Northern Cardinal** (*Cardinalis cardinalis*).\n\nHere’s why:\n\n- **Coloration**: While male Northern Cardinals are bright red, females are primarily brownish-gray with prominent red markings on the wings, tail, and around the face",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "3f18ea4ec22825f9658835ce",
+    "text": "What strikes me most about this photo is the **sense of quiet, hidden presence** — as if we’re catching a glimpse of something ancient and powerful, momentarily paused in its natural world.\n\nHere’s what stands out:\n\n🔹 **The elephant is partially obscured by foliage** — it’s not standing in",
+    "activity": "low",
+    "crowding": "ambiguous",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "bdca5dc712cd66598e2d9a59",
+    "text": "This is a serene and striking nature photograph, capturing a moment of quiet beauty against a vivid blue sky.\n\nHere’s what stands out:\n\n- **The Bird**: The central subject is a bird perched gracefully on a bare branch. Its plumage is elegant — pale gray or white underparts, with a warm",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "1628fea872fff8d33b08eeb9",
+    "text": "What strikes me most about this photo is the **vibrant, almost electric yellow-orange plumage** of the parrot — likely a Sun Conure or a similar species — which stands out dramatically against the soft, blurred green background. The bird’s coloration is so saturated and luminous that it feels almost artificial",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "b6e2612be1f5cc92a1ce6464",
+    "text": "Based on the image provided, here is a description of what is happening:\n\nA man is kneeling in a grassy field, interacting with a dog. The man is wearing an orange long-sleeved shirt, brown pants, and has a blue backpack on. He appears to be holding a blue object, possibly a",
+    "activity": "mid",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "9bd0eba542dde27744d139ee",
+    "text": "What strikes me most about this photo is the **humorous and slightly absurd contrast** between the cat’s dignified, almost grumpy expression and the tiny top hat perched on its head.\n\nHere’s what makes it stand out:\n\n- **The Cat’s Expression**: The black cat has a very serious,",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "dab116f7f7a2afc447ff331b",
+    "text": "The bird is perched on a bare branch against a clear blue sky, with its pale body and reddish tail visible. I would say it looks calm and alert in the open.",
+    "activity": "ambiguous",
+    "crowding": "low",
+    "color_intensity": "low",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "8bb3e844fd0180a36df6ec58",
+    "text": "The bird is standing on the ground, surrounded by leaves and green plants.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "e1b4d87322d1890b8789daa9",
+    "text": "A small red bird perched on a log, with a few peanuts nearby. The bird's coloration suggests it is not fully mature.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "aa27967a97c80724b833832b",
+    "text": "A black cat with a small top hat on its head. The cat's expression is neutral, and the hat adds a touch of whimsy.",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "6c31cec068cea36662c53467",
+    "text": "The elephant is partially hidden in the dense green vegetation.",
+    "activity": "absent",
+    "crowding": "high",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "363d21197b75fc1ed131404f",
+    "text": "The bird’s muted reds and gray-brown tones stand out against the dark green background. Its posture and the peanuts below suggest a quiet, natural moment.",
+    "activity": "ambiguous",
+    "crowding": "absent",
+    "color_intensity": "low",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "11ea228c724c6eecc667397e",
+    "text": "The cat is lying on the yellow couch.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "3be8cf63213a03c570a0f0c7",
+    "text": "The bird’s long, pale bill and gray plumage stand out against the muted wetland. My first impression: it looks alert, poised in shallow water.",
+    "activity": "mid",
+    "crowding": "absent",
+    "color_intensity": "low",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "4d0d7c03ac95743ba429ba2c",
+    "text": "What strikes me most about this photo is the **striking contrast between the bird’s elegant, almost prehistoric form and its humble, muddy wetland habitat**.\n\nHere’s what stands out:\n\n🔹 **The Bird Itself**:  \nThis is a **woolly-necked stork** (*Cicon",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "ae657ec863de37cdef69aa8b",
+    "text": "This is a warm, cozy, and deeply relatable scene — one that captures the quiet comfort of home life.\n\nHere’s what stands out:\n\n🐱 **The Cat as the Star (Unintentionally)**  \nThe tabby cat in the foreground is the true focal point — curled up peacefully on",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "ef44850aaf8d620fb162c7c6",
+    "text": "This is a serene and somewhat unusual scene — a giraffe resting peacefully on the ground in what appears to be a zoo or wildlife park enclosure.\n\nHere’s what stands out:\n\n🔹 **The Giraffe**:  \nIt’s lying down with its legs tucked beneath it, neck extended upward — a posture that",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "b436274e838816fe00ddb312",
+    "text": "This is a quiet, naturalistic scene capturing a small bird — likely a **female or juvenile thrush** (possibly a *Turdus* species such as the American Robin, Wood Thrush, or similar) — foraging on the forest floor.\n\nHere’s what stands out:\n\n🔹 **",
+    "activity": "mid",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "d04e36c1205290db0af72a56",
+    "text": "Based on the image provided, here is a description of what is visible:\n\n- **Main Subject**: A bright red Northern Cardinal is perched on a snow-covered surface in the foreground. The bird is facing left, and its vibrant color stands out sharply against the muted winter background.\n- **Setting**: The scene",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "378920743f53e7fc573c9c75",
+    "text": "Based on the visual characteristics in the image, the bird is a **Chestnut-bellied Euphonia** (*Euphonia sierra*) or a very similar species of **Euphonia** (often called “euphonias” or “warblers” in common parlance,",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "957c8c7fad1a7aaaebf01062",
+    "text": "The sheep are resting under the tree's shade.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "abaa3e1d1d96a76c2c3196bf",
+    "text": "This is a serene and naturalistic scene featuring an **Asian elephant** partially obscured by dense green foliage. The elephant appears to be walking or foraging through a lush, wild environment — likely a forest, jungle, or reserve.\n\nHere’s what stands out:\n\n- **The Elephant**: It’s a large,",
+    "activity": "mid",
+    "crowding": "high",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "b0ff9bc1cbca1ef81c0b90b2",
+    "text": "This is a heartwarming and purposeful scene that captures a moment of connection between a human and a working dog in a natural, open landscape.\n\nHere’s what stands out:\n\n- **The Dog is a Search and Rescue (SAR) Dog**: The bright orange vest with the word “SEARCH” clearly",
+    "activity": "mid",
+    "crowding": "low",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "8e1f802d9e5bf0fdfc93fe14",
+    "text": "This is a beautiful, close-up photograph of a **Sun Conure** (also known as the Golden Conure), perched on a branch. Here’s what stands out:\n\n### 🌞 Vibrant Coloration\n- The bird’s plumage is a stunning gradient of **bright yellow and orange**, especially",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "efdf79e6c84550e47ab0bad7",
+    "text": "The bird is small and dark, with a long tail, standing among leaf litter. Its plumage is mostly grayish-brown with faint white spots on the wings. The surrounding ground is cluttered with dead leaves and a few green plants.",
+    "activity": "low",
+    "crowding": "high",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "7b7daeac75c4abf1df071032",
+    "text": "A flock of sheep resting in a grassy field under a tree. The scene is calm, with sheep lying down and a few standing.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "754aef156ae32e78ebe8dc10",
+    "text": "The bird in the image is a large wading bird with a long, slightly curved bill, grayish-blue body, white underparts, and a pale head.",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "low",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "3468a546327dacbca83de0b8",
+    "text": "A man rests in a yellow armchair with a laptop, while a striped cat sleeps in the foreground. The room feels warm and lived-in, with soft light and a potted plant nearby.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "4fe79fe1fd562aa639eae756",
+    "text": "This photo captures a quiet, natural moment that draws attention for several reasons:\n\n**1. The Bird’s Subtle Beauty:**\nThe bird — likely a **Gray-cheeked Thrush** (*Catharus mauriscus*) or similar thrush species — is not brightly colored, but its plumage",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "low",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "da40b830e3757c5dd1f07cd9",
+    "text": "This photo strikes me with its **striking contrast and quiet beauty** — a vivid, almost defiant splash of red against a muted, wintry backdrop.\n\nHere’s what stands out:\n\n🔹 **The Cardinal as a Focal Point**:  \nThe bright red cardinal is the undeniable star. Its saturated color",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "3eab5143eed326bd7506609b",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image captures a warm, cozy, and relaxed domestic scene.\n\n**Foreground:**\n- A large, fluffy tabby cat is the main subject in the foreground. It is lying down on a soft, yellow surface (likely a sofa or armchair",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "a94aabb124e275a7e99d0a56",
+    "text": "The bird is perched on a bare branch against a clear blue sky.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "e0f818b75e1180883abcb0a5",
+    "text": "This is a peaceful, pastoral scene that evokes a sense of calm and tranquility. Here’s what stands out:\n\n**Setting & Atmosphere:**\n- The image captures a lush green pasture under the dappled shade of a large, mature tree — likely an oak or similar broadleaf tree.\n-",
+    "activity": "ambiguous",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "660bbe34d28936faf88396c0",
+    "text": "Based on the image provided, here is a detailed description:\n\nThis is a serene, sunlit pastoral scene featuring a flock of sheep resting in a lush green field under the shade of a large, leafy tree.\n\n**Key Elements:**\n\n*   **Sheep:** There are numerous sheep, likely around ",
+    "activity": "low",
+    "crowding": "ambiguous",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "7fc08abbfdfa6c4b4c2c326f",
+    "text": "This is a beautifully composed, close-up photograph of a **male Northern Cardinal** perched on a weathered wooden surface — likely a bird feeder or railing — with peanuts visible in the foreground.\n\nHere’s what stands out:\n\n### 🐦 The Bird\n- **Species**: Northern Cardinal (*Cardinalis",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": true,
+    "relevance": "on subject; questionable detail"
+  },
+  {
+    "id": "b2ff2e918a6e036f3344d2e7",
+    "text": "The sheep look like they are resting in the shade. The wool is thick and white. The grass is green. The tree is large.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "9ee8620f3b469a99e9a1d580",
+    "text": "A vivid yellow parrot with orange head and green wing accents perches on a branch, its curved beak and bright eye prominent. The blurred green background suggests a natural or aviary setting.",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "77c4dd1fdac9a2187074515c",
+    "text": "The man kneels in a field, holding a blue object toward the dog. The dog wears a red vest. The scene feels quiet and focused, with soft light and open space.",
+    "activity": "mid",
+    "crowding": "low",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "7f35fbbe54d2dc9aba2c2b68",
+    "text": "The cat's fur is the main focus. It fills the foreground, and its patterned coat is sharp and detailed. The man and laptop are softer, set back. The yellow furniture and warm light give it a cozy feel.",
+    "activity": "absent",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "1661f964342d9f3c0a615185",
+    "text": "This is a beautifully serene and evocative winter scene — quiet, stark, yet full of life.\n\nHere’s what stands out:\n\n🔹 **The Cardinal as the Focal Point**  \nThe bright red cardinal perched on the snow-dusted ledge in the foreground is the undeniable star. Its vivid",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "high",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject"
+  },
+  {
+    "id": "beb25e24c19344917f27820c",
+    "text": "This is a serene and natural scene featuring a **woolly-necked stork** (*Ciconia episcopus*) standing in a shallow, grassy wetland.\n\nHere’s what stands out:\n\n- **The Bird**: The stork has a distinctive appearance — a long, pointed beak, a",
+    "activity": "low",
+    "crowding": "absent",
+    "color_intensity": "absent",
+    "schema_echo": false,
+    "generic_unsupported_praise": false,
+    "relevance": "on subject; questionable detail"
+  }
+]

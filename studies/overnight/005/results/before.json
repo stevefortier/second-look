@@ -1,0 +1,794 @@
+[
+  {
+    "image": "liked/000000149577.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "This photo strikes me with its **striking contrast and quiet beauty** \u2014 a vivid, almost defiant splash of red against a muted, wintry backdrop.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Cardinal as a Focal Point**:  \nThe bright red cardinal is the undeniable star. Its saturated color",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000149577.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a beautifully serene and evocative winter scene \u2014 quiet, stark, yet full of life.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Cardinal as the Focal Point**  \nThe bright red cardinal perched on the snow-dusted ledge in the foreground is the undeniable star. Its vivid",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000149577.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a description of what is visible:\n\n- **Main Subject**: A bright red Northern Cardinal is perched on a snow-covered surface in the foreground. The bird is facing left, and its vibrant color stands out sharply against the muted winter background.\n- **Setting**: The scene",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000149577.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.125,
+      23.0,
+      17.5
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000149577.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.875,
+      25.875,
+      19.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000149577.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.5,
+      25.5,
+      22.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000461835.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "This photo strikes me with a quiet, tender moment of connection between a person and a dog in a vast, open landscape. Here\u2019s what stands out:\n\n**1. The Emotional Core:**\nThe man is kneeling \u2014 not standing \u2014 which puts him at eye level with the dog. He\u2019s gently holding the dog",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000461835.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a heartwarming and purposeful scene that captures a moment of connection between a human and a working dog in a natural, open landscape.\n\nHere\u2019s what stands out:\n\n- **The Dog is a Search and Rescue (SAR) Dog**: The bright orange vest with the word \u201cSEARCH\u201d clearly",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000461835.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a description of what is happening:\n\nA man is kneeling in a grassy field, interacting with a dog. The man is wearing an orange long-sleeved shirt, brown pants, and has a blue backpack on. He appears to be holding a blue object, possibly a",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000461835.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.25,
+      27.375,
+      18.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000461835.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.75,
+      25.125,
+      15.125
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000461835.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.875,
+      25.75,
+      21.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000396880.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "This photo captures a quiet, natural moment that draws attention for several reasons:\n\n**1. The Bird\u2019s Subtle Beauty:**\nThe bird \u2014 likely a **Gray-cheeked Thrush** (*Catharus mauriscus*) or similar thrush species \u2014 is not brightly colored, but its plumage",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000396880.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a quiet, naturalistic scene capturing a small bird \u2014 likely a **female or juvenile thrush** (possibly a *Turdus* species such as the American Robin, Wood Thrush, or similar) \u2014 foraging on the forest floor.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000396880.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the visual characteristics in the image, this bird is a **Gray-cheeked Thrush** (*Catharus mauriceps*).\n\nHere\u2019s why:\n\n- **Overall coloration**: The bird has a dark gray head and upper body, with a warm brownish-orange (rufous) wash on",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000396880.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      23.5,
+      23.5,
+      14.0
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000396880.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.25,
+      25.0,
+      22.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000396880.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      27.5,
+      24.625,
+      18.875
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000407040.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "What strikes me most about this photo is the **peaceful, almost idyllic tranquility** of the scene \u2014 a flock of sheep resting under the dappled shade of a large, leafy tree on a sunlit pasture.\n\nHere\u2019s what stands out:\n\n\ud83d\udc11 **The sheep are mostly",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000407040.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a peaceful, pastoral scene that evokes a sense of calm and tranquility. Here\u2019s what stands out:\n\n**Setting & Atmosphere:**\n- The image captures a lush green pasture under the dappled shade of a large, mature tree \u2014 likely an oak or similar broadleaf tree.\n-",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000407040.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a detailed description:\n\nThis is a serene, sunlit pastoral scene featuring a flock of sheep resting in a lush green field under the shade of a large, leafy tree.\n\n**Key Elements:**\n\n*   **Sheep:** There are numerous sheep, likely around ",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000407040.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      28.0,
+      21.875,
+      15.875
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000407040.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.875,
+      24.875,
+      22.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000407040.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.25,
+      25.25,
+      23.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000337716.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "What strikes me most about this photo is the **striking contrast between the bird\u2019s vibrant coloration and its muted, earthy surroundings** \u2014 and the fact that it\u2019s a *female* Northern Cardinal.\n\nHere\u2019s what makes it particularly compelling:\n\n\ud83d\udd39 **The Bird Itself**:  \nThis is",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000337716.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a beautifully composed, close-up photograph of a **male Northern Cardinal** perched on a weathered wooden surface \u2014 likely a bird feeder or railing \u2014 with peanuts visible in the foreground.\n\nHere\u2019s what stands out:\n\n### \ud83d\udc26 The Bird\n- **Species**: Northern Cardinal (*Cardinalis",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000337716.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the visual characteristics in the image, this bird is a **female Northern Cardinal** (*Cardinalis cardinalis*).\n\nHere\u2019s why:\n\n- **Coloration**: While male Northern Cardinals are bright red, females are primarily brownish-gray with prominent red markings on the wings, tail, and around the face",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000337716.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.875,
+      24.0,
+      14.8125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000337716.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.125,
+      25.875,
+      16.75
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000337716.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.125,
+      25.25,
+      21.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000154254.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "This photo is striking for its **warm, cozy, and deeply human (and feline) intimacy** \u2014 it captures a quiet, everyday moment that feels both ordinary and profoundly comforting.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The cat as the star**: The tabby cat in the foreground is curled",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000154254.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a warm, cozy, and deeply relatable scene \u2014 one that captures the quiet comfort of home life.\n\nHere\u2019s what stands out:\n\n\ud83d\udc31 **The Cat as the Star (Unintentionally)**  \nThe tabby cat in the foreground is the true focal point \u2014 curled up peacefully on",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000154254.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image captures a warm, cozy, and relaxed domestic scene.\n\n**Foreground:**\n- A large, fluffy tabby cat is the main subject in the foreground. It is lying down on a soft, yellow surface (likely a sofa or armchair",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000154254.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      29.375,
+      23.25,
+      18.375
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000154254.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.125,
+      27.375,
+      18.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000154254.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.375,
+      25.125,
+      23.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000397502.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "This photo strikes me with its **quiet elegance and stark contrast** \u2014 a small, delicate bird perched alone against an expansive, vivid blue sky. Here\u2019s what stands out:\n\n### 1. **The Bird\u2019s Coloration**\nThe bird \u2014 likely a **Red-headed Woodpecker** or possibly a",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000397502.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a serene and striking nature photograph, capturing a moment of quiet beauty against a vivid blue sky.\n\nHere\u2019s what stands out:\n\n- **The Bird**: The central subject is a bird perched gracefully on a bare branch. Its plumage is elegant \u2014 pale gray or white underparts, with a warm",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000397502.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the visual characteristics in the image, the bird is a **Chestnut-bellied Euphonia** (*Euphonia sierra*) or a very similar species of **Euphonia** (often called \u201ceuphonias\u201d or \u201cwarblers\u201d in common parlance,",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000397502.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.125,
+      22.625,
+      14.9375
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000397502.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.875,
+      23.5,
+      14.1875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000397502.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.875,
+      24.375,
+      24.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000536252.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "What strikes me most about this photo is the **sense of quiet, hidden presence** \u2014 as if we\u2019re catching a glimpse of something ancient and powerful, momentarily paused in its natural world.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The elephant is partially obscured by foliage** \u2014 it\u2019s not standing in",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000536252.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a serene and naturalistic scene featuring an **Asian elephant** partially obscured by dense green foliage. The elephant appears to be walking or foraging through a lush, wild environment \u2014 likely a forest, jungle, or reserve.\n\nHere\u2019s what stands out:\n\n- **The Elephant**: It\u2019s a large,",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000536252.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the visual evidence in the image, here is a logical breakdown:\n\n1.  **Subject Identification**: The central animal is clearly an elephant. Key features visible include its large, gray, wrinkled body, a prominent ear, a trunk (partially obscured by foliage), and a small eye.\n2",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000536252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.125,
+      23.75,
+      15.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000536252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      16.875,
+      23.375,
+      24.125
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "control/000000536252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      25.875,
+      25.0,
+      18.5
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000209063.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "What strikes me most about this photo is the **striking contrast between the bird\u2019s elegant, almost prehistoric form and its humble, muddy wetland habitat**.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Bird Itself**:  \nThis is a **woolly-necked stork** (*Cicon",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000209063.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a serene and natural scene featuring a **woolly-necked stork** (*Ciconia episcopus*) standing in a shallow, grassy wetland.\n\nHere\u2019s what stands out:\n\n- **The Bird**: The stork has a distinctive appearance \u2014 a long, pointed beak, a",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000209063.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "```json\n[{\"image_id\": \"Picture 2\", \"bbox_2d\": [398, 38, 826, 900], \"label\": \"bird\"}]\n```",
+    "generated_tokens": 48
+  },
+  {
+    "image": "liked/000000209063.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      24.5,
+      23.75,
+      14.375
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000209063.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.625,
+      24.875,
+      16.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "liked/000000209063.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      24.25,
+      25.5,
+      20.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000453507.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "What strikes me most about this photo is the **humorous and slightly absurd contrast** between the cat\u2019s dignified, almost grumpy expression and the tiny top hat perched on its head.\n\nHere\u2019s what makes it stand out:\n\n- **The Cat\u2019s Expression**: The black cat has a very serious,",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000453507.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a charming and whimsical scene!\n\nThe image features a **black cat with striking green eyes**, sitting calmly (or perhaps slightly unimpressed) while wearing a **tiny, sparkly black top hat** perched on its head. The hat has a subtle glittery texture and a thin white band around",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000453507.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "This is a charming and slightly humorous photo of a black cat wearing a tiny, sparkly black top hat. The cat has a very unimpressed or \u201cjudgmental\u201d expression \u2014 its eyes are half-closed, and its whiskers are prominent, giving it an air of dignified annoyance at being dressed up",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000453507.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.0,
+      23.5,
+      15.125
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000453507.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.25,
+      27.0,
+      18.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "control/000000453507.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      24.75,
+      24.625,
+      18.875
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000240590.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "What strikes me most about this photo is the **vibrant, almost electric yellow-orange plumage** of the parrot \u2014 likely a Sun Conure or a similar species \u2014 which stands out dramatically against the soft, blurred green background. The bird\u2019s coloration is so saturated and luminous that it feels almost artificial",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000240590.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a beautiful, close-up photograph of a **Sun Conure** (also known as the Golden Conure), perched on a branch. Here\u2019s what stands out:\n\n### \ud83c\udf1e Vibrant Coloration\n- The bird\u2019s plumage is a stunning gradient of **bright yellow and orange**, especially",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000240590.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image features a vibrant **Sun Conure** (also known as a Golden Conure), a type of parrot, perched on a thick, light-brown branch. The bird is shown in profile, facing left.\n\n### Key Features of",
+    "generated_tokens": 64
+  },
+  {
+    "image": "liked/000000240590.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      25.875,
+      23.25,
+      15.0
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000240590.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      27.25,
+      26.0,
+      15.375
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "liked/000000240590.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      19.125,
+      23.625,
+      26.125
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "control/000000068713.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "What strikes me most about this photo is the **striking contrast between the natural and the man-made**, creating a sense of quiet tension or even irony.\n\nHere\u2019s what stands out:\n\n1. **The Giraffe in a \u201cWild\u201d Setting That Isn\u2019t Wild**  \n   The giraffe is sitting calmly",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000068713.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a serene and somewhat unusual scene \u2014 a giraffe resting peacefully on the ground in what appears to be a zoo or wildlife park enclosure.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Giraffe**:  \nIt\u2019s lying down with its legs tucked beneath it, neck extended upward \u2014 a posture that",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000068713.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image shows a single giraffe resting in a grassy enclosure, likely within a zoo or wildlife park.\n\n**Main Subject:**\n- A giraffe is lying down on the ground with its legs tucked beneath its body.\n- It has the",
+    "generated_tokens": 64
+  },
+  {
+    "image": "control/000000068713.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      28.75,
+      21.25,
+      14.8125
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000068713.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.125,
+      24.875,
+      14.625
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "control/000000068713.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      24.125,
+      26.0,
+      21.25
+    ],
+    "unrestricted_first": "M"
+  }
+]

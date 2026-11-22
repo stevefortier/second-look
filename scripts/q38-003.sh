@@ -6,11 +6,11 @@ if [[ ${1:-} == --help ]]; then
     'setsid flock -n -E 75 work/overnight.lock bash scripts/q38-003.sh </dev/null >>work/overnight-003/log 2>&1 &'
   exit 0
 fi
-[[ $# == 0 || ( $# == 1 && $1 =~ ^00[45]$ ) ]] || exit 64
+[[ $# == 0 || ( $# == 1 && $1 =~ ^00[456]$ ) ]] || exit 64
 cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.."
 out=work/overnight-${1:-003}
 data=003
-if [[ ${1:-} == 005 ]]; then data=005; fi
+if [[ ${1:-} == 005 || ${1:-} == 006 ]]; then data=005; fi
 runner=scripts/q38_quality${1:-}.py
 python=/home/ubuntu/second-look/.venv-q38/bin/python
 # Reject accidental direct invocation. Linux fdinfo records an inherited flock's

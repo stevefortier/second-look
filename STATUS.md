@@ -1,12 +1,22 @@
 # Second Look — handoff
 
+## Current overnight: 005 not promoted; 006 running
+
+005 exited 0; checksum backup matched. Frozen review (below), joined after scoring: correct spontaneous activity 15→13/33, crowding 1→5/36, color 7→3/36; mixed endpoint agreement 2→0/21. Raw outputs and reproducible reports: `studies/overnight/005`. Suite: 44 passed and 19 subtests passed.
+
+006 replaces appended anchors with grounded, non-list prose on the same 24 fit and 12 reused dev photos. Verified remote group 29897 (flock), worker 29898, before-stage Python 29910. Next: check STOP and remote stage before acting; do not relaunch. After completion checksum-backup, freeze blinded judgments, then join and publish. No 006 behavioral result yet. For a subsequent independent test, prioritize the current example's actual KVPs rather than extrapolating from these three pilot axes.
+
 ## Current input example: per-image qualities
 
 Generic CLI integration verified: `second-look prepare datasets/example` (with `--output`) yields 24 train/8 held-out without an axis flag; offline tiny-checkpoint train/reload/evaluation exercised by the suite. 43 tests + 19 subtests passed. Endpoint-derived prose is a training template, not evidence of spontaneous attribution.
 
 `datasets/example/` ships 24 train + 8 test original JPEGs, one `images/` folder per split and ordinary per-image `scores` across eight arbitrary axes including `liking`. No liked/control folder or image-pair requirement. Subjective example ratings are illustrative, not Steve's. Legacy COCO bird/control metadata, fixtures and restored development images live under `datasets/legacy-coco/`; historical prepared remote run roots are unchanged. No model retraining is claimed by this migration.
 
-## Active: 005 running; 004 complete, not promoted
+## 005 blind review frozen
+
+Local review complete: all 72 distinct responses (12 photos, six responses each) scored from the sanitized packet and numbered photos in `work/overnight-005/anonymous-review/`. Frozen 004-format file: `studies/overnight/005/results/blind-judgments.json`, SHA-256 `e7c8e79a63602e67dad4a4c25d5f1e745065e178d6db57c46db77584283c7e7f`. The scorer did not open the identity key, raw before/after outputs, or 005 ratings. Next, separately join frozen judgments against proxy labels and compute literal training-anchor matches. No comparative result claimed here.
+
+## Historical: 005 running; 004 complete, not promoted
 
 004 exited 0; local backup matches remote by rsync checksum. Frozen blind review: activity 12→16/21, crowding 0→0/24, color 2→1/24. See `studies/overnight/004` for recipe, outputs and caveats. Recomputed reports from raw files. Workspace-wide tests during an unrelated concurrent CLI/dataset migration: 40 passed, 19 subtests passed, 2 failed (legacy review path and single-image CLI dispatch); did not alter that work.
 
