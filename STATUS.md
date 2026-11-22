@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 020 gains on image alone but loses on both invitations
+## Current overnight: 021 improved image-only lows but lost mixed directions
+
+021 replaced 16 of 80 caption updates with explicit endpoint labels. Image alone: correct low endpoints 7/24 vs 5 for base (020: 6); all endpoints 12/65 vs 7 (020: 13). Neutral invitations: 15 and 11/128 vs base 15 and 18 (020: 13 and 12). Mixed low/high in one reply: 0/33 vs 4. Prompted: 71/128 vs 82; MAE 0.453125 vs 0.359375. No promotion. Reused 16-group proxy development panel, no missing dev scores or historical-final access. 49 exact prior image/prompt/text judgments reused; 47 newly judged against numbered photos before identity join. Single model reviewer, not independent human validation. Twelve backup checksums matched; metrics reproduced byte-for-byte; 78 tests + 19 subtests passed.
+
+022 retains low-score supervision and replaces the eight highest-score targets with observed midpoints. Verified remote train stage in the exclusive detached flock group 93541, worker 93542, bounded trainer 93566. Next: check STOP and work/overnight-022/status; do not relaunch. Back up and freeze blind judgments before joining; reuse 021 report with the new freeze hash. Restore the pinned trainer from 591fd2a50c9aae1330830ca4f982135fb7e059fd for reproduction.
+
+## Historical overnight: 020 gains on image alone but loses on both invitations
 
 020 passed the image-only gates (low 6/24 vs base 5; total endpoints 13/65 vs 7) but failed both neutral verbal gates (13 vs 15 and 12 vs 18 out of 128). 019 scored 15 and 21 respectively. No promotion. Mixed low/high coverage 3/33 vs 4; prompted 82/128 and MAE 0.359375 both (3 gains, 3 losses). Reused proxy development panel, not Steve’s ratings. No dev nulls or historical-final access. 48 judgments reused for identical image/prompt/text, 48 new responses judged against numbered photos before joining. Single model reviewer, not independent human scoring. All 12 backup files checksum-matched; report reproduced byte-for-byte; suite 77 tests + 19 subtests passed.
 

@@ -1,0 +1,24 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "steps": 80,
+  "slot_substitution": {
+    "images/000000049458.jpg": "images/000000137788.jpg",
+    "images/000000323368.jpg": "images/000000068293.jpg",
+    "images/000000398927.jpg": "images/000000177529.jpg",
+    "images/000000540057.jpg": "images/000000221542.jpg"
+  },
+  "source_schedule_sha256": "a954cdb17ff7172da83d77bda63bb6c49385c8e32237f0eeaf6fbb82bb8eb5fa",
+  "schedule_sha256": "4fc96272181706c010a9aaab03b13dfec0daaf7456330d920ce0d64f39ebbe6e",
+  "group_counts": {
+    "train2017-033": 10,
+    "train2017-108": 10,
+    "train2017-008": 10,
+    "train2017-004": 10,
+    "train2017-000": 10,
+    "train2017-062": 10,
+    "train2017-012": 10,
+    "train2017-037": 10
+  }
+}
