@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Remote worker; run under nohup on this one instance only.
 set -Eeuo pipefail
-root=/home/ubuntu/second-look/work/extremes-run
+root=${EXTREME_RUN_ROOT:-/home/ubuntu/second-look/work/extremes-run}
 cd "$root"
 exec 9>RUN.lock
 flock -n 9 || { printf 'already locked\n' >&2; exit 73; }

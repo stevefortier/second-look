@@ -1,5 +1,9 @@
 # Second Look — handoff
 
+## Active: one-off class-balanced follow-up
+
+Verified the original and balanced protocols match except for trainer hash and the balanced-loss flag. Real A6000 optimizer updates observed. Scope: one full rerun; overnight scheduler stays paused. See `studies/bird-extremes-balanced/README.md`; completion monitor backs up and verifies final artifacts. Next: compare paired direct and blinded spontaneous results to both base and unweighted adapter. CPU suite: 100 tests + 19 subtests passed.
+
 ## Completed: one-pass 5,000-photo bank / 27B extremes experiment
 
 All 4,000 fit images consumed. Remote run exit 0, GPU idle; final adapter at `outputs/bird-extremes-model/adapter/` on Scratch, SHA-256 `ef57f8e7db4d5e6bb360c2bc8ba78b00cf41e15345acb60f1c816cfe5c621ebb`. No promotion: prompted scores shifted negative on both groups; neutral output repeated one reply on 22/32 photos. See `studies/bird-extremes/RESULTS.md`, raw before/after and blind semantic judgments. No further GPU run launched.

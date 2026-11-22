@@ -91,6 +91,21 @@ def batch(proc,items):
     return x
 
 def checkpoints(): return sorted(Path('artifacts').glob('ckpt-[0-9][0-9][0-9][0-9]'))
+def epoch_weights(batches):
+    mass=Counter()
+    for rows in batches:
+        total=sum(n for _,n in rows)
+        for cls,n in rows: mass[cls]+=n/total
+    assert set(mass)=={True,False}
+    return {c:len(batches)/(2*v) for c,v in mass.items()}
+
+def balanced_ce(logits,labels,weights):
+    import torch
+    target=labels[:,1:]; mask=target!=-100
+    losses=torch.nn.functional.cross_entropy(logits[:,:-1][mask].float(),target[mask],reduction='none')
+    weight=losses.new_tensor(weights)[:,None].expand_as(target)[mask]
+    return (losses*weight).sum()/mask.sum()
+
 def train(m,proc,fit,order,pin):
     import torch
     from peft import LoraConfig,PeftModel,get_peft_model
@@ -104,8 +119,18 @@ def train(m,proc,fit,order,pin):
     if ck: opt.load_state_dict(state['opt']); torch.set_rng_state(state['cpu']); torch.cuda.set_rng_state(state['cuda']); del state
     t=time.monotonic(); log=root/'training.jsonl'; prior=[json.loads(s) for s in log.read_text().splitlines() if s.strip() and s.endswith('}')] if log.exists() else []; prior=[r for r in prior if r['next']<=start]; assert (prior[-1]['next'] if prior else 0)==start
     log.write_text(''.join(json.dumps(r)+'\n' for r in prior)); cfg=m.peft_config['default']; cfg.base_model_name_or_path=MODEL; cfg.revision=REV
+    weights=None
+    if os.getenv('EXTREME_CLASS_BALANCE')=='1':
+        units=[(bird(fit[i]),len(proc.tokenizer.encode(example(fit[i],k,j)[1]+'<|im_end|>',add_special_tokens=False))) for j,(i,k) in enumerate(order)]
+        weights=epoch_weights([units[j:j+BATCH] for j in range(0,len(units),BATCH)])
+        dump(root/'loss-weights.json',{str(c):v for c,v in weights.items()})
     for j in range(start,len(order),BATCH):
-        stop(); segment=order[j:j+BATCH]; items=[(fit[i]['path'],*example(fit[i],k,j+o)) for o,(i,k) in enumerate(segment)]; x=batch(proc,items); opt.zero_grad(set_to_none=True); loss=m(**x,use_cache=False).loss; loss.backward(); norm=torch.nn.utils.clip_grad_norm_(params,1.,error_if_nonfinite=True); assert math.isfinite(loss.item()); opt.step(); n=j+len(items)
+        stop(); segment=order[j:j+BATCH]; items=[(fit[i]['path'],*example(fit[i],k,j+o)) for o,(i,k) in enumerate(segment)]; x=batch(proc,items); opt.zero_grad(set_to_none=True)
+        if weights is None: loss=m(**x,use_cache=False).loss
+        else:
+            labels=x.pop('labels');assert (labels!=-100).sum(1).tolist()==[n for _,n in units[j:j+BATCH]]
+            loss=balanced_ce(m(**x,use_cache=False).logits,labels,[weights[bird(fit[i])] for i,_ in segment])
+        loss.backward(); norm=torch.nn.utils.clip_grad_norm_(params,1.,error_if_nonfinite=True); assert math.isfinite(loss.item()); opt.step(); n=j+len(items)
         with log.open('a') as f: f.write(json.dumps(dict(next=n,loss=loss.item(),norm=norm.item(),fit_indices=[i for i,k in segment],kinds=[k for i,k in segment]))+'\n')
         if n%PERIOD==0 or n==len(order) or n==BATCH:
             tmp=root/'ckpt.tmp'; shutil.rmtree(tmp,ignore_errors=True); m.save_pretrained(tmp,save_embedding_layers=False); torch.save(dict(pin=pin,next=n,opt=opt.state_dict(),cpu=torch.get_rng_state(),cuda=torch.cuda.get_rng_state()),tmp/'state.pt'); tmp.rename(root/f'ckpt-{n:04}');
@@ -184,6 +209,7 @@ def finish(fit,held,panel,free):
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('phase',choices=['plan','train','base','adapted','report']); phase=ap.parse_args().phase; stop(); fit,held,pins=load_bank(); order,panel,free=plan(fit,held); root=Path('artifacts'); root.mkdir(exist_ok=True)
     protocol=dict(model=MODEL,revision=REV,seed=SEED,code=sha(__file__),manifests=pins,order=order,panel=panel,free=free,axes=AXES,classes='positive beautiful endpoint = bird by verified construction',batch=BATCH,lr=5e-5,rank=8,alpha=16,neutral_prompt=FREE,system=SYSTEM,forced_prompts=[question(a) for a in AXES]); p=root/'protocol.json'
+    protocol['balanced_loss']=os.getenv('EXTREME_CLASS_BALANCE')=='1'
     if p.exists(): assert json.dumps(json.loads(p.read_text()),sort_keys=True)==json.dumps(protocol,sort_keys=True),'protocol changed: refuse to resume'
     elif phase=='plan': dump(p,protocol)
     else: raise RuntimeError('missing frozen protocol')
