@@ -1,5 +1,15 @@
 # Second Look — handoff
 
+## Active: 004 running; 003 complete, not promoted
+
+003 ended `exit 0 complete`; adapter and reports backed up under local `work/overnight-003`, rsync checksum comparison empty. Blind judgments frozen before identity join. Correct spontaneous assignments base → adapter: activity 12→10/21, crowding 0→0/24, color intensity 2→1/24. Explicit color improved but not primary behavior. See published `studies/overnight/003/results` and README for raw generations, labels and diagnostics. 40 local tests + 19 subtests passed.
+
+004 is a caption-only comparison: 72 updates from the same 24 reviewed fit captions under image-only and two neutral prompts; same eight development photos; no historical final. `scripts/q38-003.sh 004` running under exclusive flock PGID 24519 on the same A6000; verified worker 24520 and `before` Python 24533. Check STOP, status and group before acting; do not relaunch. Next: checksum backup, independent anonymized review before unblinding, compare with 003; seek fresh disjoint validation, not repeated dev claims.
+
+## Historical: 003 launch
+
+On the existing A6000, verified `before` running under exclusive flock PID/PGID 21982, worker 21983, project `work/overnight-003`. Check local STOP first, then remote status/log and process identity; do not relaunch. Worker proceeds to 95 supervised updates and fresh adapter evaluation. Scratch reviewed 32 nonfinal photos (24 fit, 8 dev); counts, limitations, reproduction and frozen rubric in `studies/overnight/003/README.md`. Local suite: 39 tests and 19 subtests passed. Remote assembled bank validated with identical digest `9219677e2076458f0de5a5cf3a9d03d3c91792244a2edc21b166dd7b6f318328`. Next: on completion, back up outputs/checksum, assess anonymized generations **before opening before/after raw text or identity key**, join frozen judgments, run secondary metrics, publish code, annotations and raw reports without weights or photos, verify GitHub SHA. No result or publication yet.
+
 ## Active overnight objective: visual quality attribution
 
 Steve redirected training to spontaneous assignment of the arbitrary KVP qualities, not liking. Input schema unchanged. See `studies/overnight/QUALITY-TARGET.md`. Preference-only run 002 was explicitly stopped during training; its process group was verified gone. Do not resume or promote it. Next: multi-axis pilot data and blind unprompted vs explicitly scored baselines.

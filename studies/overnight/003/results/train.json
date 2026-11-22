@@ -1,0 +1,896 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "control/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.44930797815322876,
+      "grad_norm": 2.9366769790649414
+    },
+    {
+      "step": 2,
+      "image": "control/000000137925.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.1132388785481453,
+      "grad_norm": 0.7102392911911011
+    },
+    {
+      "step": 3,
+      "image": "liked/000000396252.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A small blue bird sits almost hidden among a dense tangle of gray branches.",
+      "loss": 3.3595287799835205,
+      "grad_norm": 3.237515687942505
+    },
+    {
+      "step": 4,
+      "image": "liked/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.3788790702819824,
+      "grad_norm": 2.924551248550415
+    },
+    {
+      "step": 5,
+      "image": "control/000000500194.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.7525963187217712,
+      "grad_norm": 2.2750742435455322
+    },
+    {
+      "step": 6,
+      "image": "liked/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.3473169505596161,
+      "grad_norm": 1.4050753116607666
+    },
+    {
+      "step": 7,
+      "image": "liked/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.45331355929374695,
+      "grad_norm": 1.7542552947998047
+    },
+    {
+      "step": 8,
+      "image": "control/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.0649327039718628,
+      "grad_norm": 2.932706356048584
+    },
+    {
+      "step": 9,
+      "image": "control/000000313963.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.17426595091819763,
+      "grad_norm": 1.0421087741851807
+    },
+    {
+      "step": 10,
+      "image": "liked/000000436695.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A lone heron stands still against blue water, framed by the grassy bank.",
+      "loss": 3.091064453125,
+      "grad_norm": 1.6722384691238403
+    },
+    {
+      "step": 11,
+      "image": "liked/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.011652016080915928,
+      "grad_norm": 0.13599863648414612
+    },
+    {
+      "step": 12,
+      "image": "liked/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.0905885174870491,
+      "grad_norm": 0.5599564909934998
+    },
+    {
+      "step": 13,
+      "image": "liked/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.34666067361831665,
+      "grad_norm": 1.9496521949768066
+    },
+    {
+      "step": 14,
+      "image": "control/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.5847386121749878,
+      "grad_norm": 6.748018741607666
+    },
+    {
+      "step": 15,
+      "image": "control/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 8.713439456187189e-05,
+      "grad_norm": 0.0014829779975116253
+    },
+    {
+      "step": 16,
+      "image": "control/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.08016303926706314,
+      "grad_norm": 1.0214499235153198
+    },
+    {
+      "step": 17,
+      "image": "control/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The dog is lying quietly behind the door; the shelves above it are crowded with small objects.",
+      "loss": 3.0837345123291016,
+      "grad_norm": 1.3258333206176758
+    },
+    {
+      "step": 18,
+      "image": "liked/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A heron stands motionless at the water's edge, its long neck outlined against green water.",
+      "loss": 2.481873035430908,
+      "grad_norm": 3.085347890853882
+    },
+    {
+      "step": 19,
+      "image": "liked/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.03101125732064247,
+      "grad_norm": 0.4441289007663727
+    },
+    {
+      "step": 20,
+      "image": "liked/000000503951.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.011641125194728374,
+      "grad_norm": 0.17472104728221893
+    },
+    {
+      "step": 21,
+      "image": "control/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The kitten leans nose to nose with the dog, a gentle interaction in the warm brown room.",
+      "loss": 3.612055540084839,
+      "grad_norm": 1.9614169597625732
+    },
+    {
+      "step": 22,
+      "image": "liked/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.09646859019994736,
+      "grad_norm": 0.4678652286529541
+    },
+    {
+      "step": 23,
+      "image": "control/000000500194.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.02234671451151371,
+      "grad_norm": 0.19088123738765717
+    },
+    {
+      "step": 24,
+      "image": "liked/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.12897942960262299,
+      "grad_norm": 0.7684751749038696
+    },
+    {
+      "step": 25,
+      "image": "control/000000361157.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The cat leans in close to the bottle; its whiskers nearly touch the label.",
+      "loss": 2.1452114582061768,
+      "grad_norm": 2.2675704956054688
+    },
+    {
+      "step": 26,
+      "image": "liked/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.6579938530921936,
+      "grad_norm": 2.631439208984375
+    },
+    {
+      "step": 27,
+      "image": "liked/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane's gray feathers contrast with a vivid blue hydrant and bright green lawn.",
+      "loss": 2.6786718368530273,
+      "grad_norm": 3.8203165531158447
+    },
+    {
+      "step": 28,
+      "image": "control/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.00941078644245863,
+      "grad_norm": 0.1013132706284523
+    },
+    {
+      "step": 29,
+      "image": "control/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The riders sit still in a black-and-white photograph, the pale horse set against the dark one.",
+      "loss": 3.101611852645874,
+      "grad_norm": 1.9303617477416992
+    },
+    {
+      "step": 30,
+      "image": "liked/000000199913.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 2.8779959678649902,
+      "grad_norm": 10.646332740783691
+    },
+    {
+      "step": 31,
+      "image": "control/000000500194.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "A rider sits on an elephant facing the camera, its gray mass filling the narrow scene.",
+      "loss": 3.3926961421966553,
+      "grad_norm": 2.3975605964660645
+    },
+    {
+      "step": 32,
+      "image": "liked/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 3.383622169494629,
+      "grad_norm": 9.556510925292969
+    },
+    {
+      "step": 33,
+      "image": "control/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.060682281851768494,
+      "grad_norm": 0.5180568099021912
+    },
+    {
+      "step": 34,
+      "image": "control/000000313963.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.0004705360624939203,
+      "grad_norm": 0.012078305706381798
+    },
+    {
+      "step": 35,
+      "image": "liked/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.4493154287338257,
+      "grad_norm": 4.064779281616211
+    },
+    {
+      "step": 36,
+      "image": "liked/000000503951.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.07166912406682968,
+      "grad_norm": 0.6098104119300842
+    },
+    {
+      "step": 37,
+      "image": "control/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.08999870717525482,
+      "grad_norm": 2.1568195819854736
+    },
+    {
+      "step": 38,
+      "image": "liked/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.027770433574914932,
+      "grad_norm": 0.35671207308769226
+    },
+    {
+      "step": 39,
+      "image": "liked/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The large bird faces forward on dusty ground, its drooping feathers mostly muted brown.",
+      "loss": 3.1642236709594727,
+      "grad_norm": 3.9165897369384766
+    },
+    {
+      "step": 40,
+      "image": "liked/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.3467104136943817,
+      "grad_norm": 3.0878725051879883
+    },
+    {
+      "step": 41,
+      "image": "liked/000000396252.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.09101683646440506,
+      "grad_norm": 1.165250539779663
+    },
+    {
+      "step": 42,
+      "image": "liked/000000396252.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.14081451296806335,
+      "grad_norm": 1.549517273902893
+    },
+    {
+      "step": 43,
+      "image": "control/000000137925.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.7049011588096619,
+      "grad_norm": 3.770131826400757
+    },
+    {
+      "step": 44,
+      "image": "control/000000137925.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe bends down to drink, its reddish patches vivid against the green grass.",
+      "loss": 1.8865711688995361,
+      "grad_norm": 2.1934173107147217
+    },
+    {
+      "step": 45,
+      "image": "liked/000000436695.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.11365674436092377,
+      "grad_norm": 0.8216695785522461
+    },
+    {
+      "step": 46,
+      "image": "liked/000000199913.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.7132068276405334,
+      "grad_norm": 4.051597595214844
+    },
+    {
+      "step": 47,
+      "image": "liked/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 1.3475639820098877,
+      "grad_norm": 7.978366851806641
+    },
+    {
+      "step": 48,
+      "image": "control/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe is at rest, its patterned neck rising out of softly colored foliage.",
+      "loss": 2.7696726322174072,
+      "grad_norm": 2.677485227584839
+    },
+    {
+      "step": 49,
+      "image": "liked/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The tiny bird perches with its red bill open, bright green against the soft backdrop.",
+      "loss": 2.7750473022460938,
+      "grad_norm": 5.5946831703186035
+    },
+    {
+      "step": 50,
+      "image": "control/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.1287272721529007,
+      "grad_norm": 1.3532817363739014
+    },
+    {
+      "step": 51,
+      "image": "control/000000137925.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.26164644956588745,
+      "grad_norm": 2.687927484512329
+    },
+    {
+      "step": 52,
+      "image": "control/000000500194.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.050517935305833817,
+      "grad_norm": 0.7720558643341064
+    },
+    {
+      "step": 53,
+      "image": "liked/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.3167174756526947,
+      "grad_norm": 2.533156156539917
+    },
+    {
+      "step": 54,
+      "image": "liked/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird sits quietly among overlapping glossy leaves that nearly surround it.",
+      "loss": 3.4366610050201416,
+      "grad_norm": 6.112612247467041
+    },
+    {
+      "step": 55,
+      "image": "control/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.9496042728424072,
+      "grad_norm": 13.207869529724121
+    },
+    {
+      "step": 56,
+      "image": "liked/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 1.1189948320388794,
+      "grad_norm": 10.48962116241455
+    },
+    {
+      "step": 57,
+      "image": "control/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "One zebra stands near another resting beneath the trees in patchy shade.",
+      "loss": 2.896204710006714,
+      "grad_norm": 3.69594144821167
+    },
+    {
+      "step": 58,
+      "image": "control/000000361157.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.02779005467891693,
+      "grad_norm": 0.4396953582763672
+    },
+    {
+      "step": 59,
+      "image": "control/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.057025618851184845,
+      "grad_norm": 1.040705680847168
+    },
+    {
+      "step": 60,
+      "image": "control/000000361157.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.0513409785926342,
+      "grad_norm": 0.8409917950630188
+    },
+    {
+      "step": 61,
+      "image": "control/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.0067175342701375484,
+      "grad_norm": 0.18301959335803986
+    },
+    {
+      "step": 62,
+      "image": "liked/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.21451598405838013,
+      "grad_norm": 3.555403709411621
+    },
+    {
+      "step": 63,
+      "image": "control/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "People lead a horse across the field, with a crowd and tent competing for attention behind them.",
+      "loss": 2.821068525314331,
+      "grad_norm": 3.7980551719665527
+    },
+    {
+      "step": 64,
+      "image": "liked/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The parrot leans toward the book amid chairs, branches and reflections.",
+      "loss": 3.8801984786987305,
+      "grad_norm": 5.7486677169799805
+    },
+    {
+      "step": 65,
+      "image": "liked/000000199913.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The warm gold table is packed with plates, glasses and small bird-like shapes.",
+      "loss": 3.5790178775787354,
+      "grad_norm": 7.3977460861206055
+    },
+    {
+      "step": 66,
+      "image": "control/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.005196239333599806,
+      "grad_norm": 0.17372864484786987
+    },
+    {
+      "step": 67,
+      "image": "control/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The puppy rests in tall grass, its face peeking out above the blades.",
+      "loss": 1.896581768989563,
+      "grad_norm": 2.986218214035034
+    },
+    {
+      "step": 68,
+      "image": "control/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.023739034309983253,
+      "grad_norm": 0.5049296021461487
+    },
+    {
+      "step": 69,
+      "image": "liked/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.021838080137968063,
+      "grad_norm": 0.6421365141868591
+    },
+    {
+      "step": 70,
+      "image": "liked/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.006423166487365961,
+      "grad_norm": 0.3208065629005432
+    },
+    {
+      "step": 71,
+      "image": "liked/000000503951.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.02911991998553276,
+      "grad_norm": 1.1854281425476074
+    },
+    {
+      "step": 72,
+      "image": "liked/000000436695.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.7045514583587646,
+      "grad_norm": 22.021835327148438
+    },
+    {
+      "step": 73,
+      "image": "control/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.17427176237106323,
+      "grad_norm": 3.3430755138397217
+    },
+    {
+      "step": 74,
+      "image": "control/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 2.7763421535491943,
+      "grad_norm": 23.37156105041504
+    },
+    {
+      "step": 75,
+      "image": "control/000000313963.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The zebras stretch into a run across the open ground, their stripes standing out from the grass.",
+      "loss": 2.5221121311187744,
+      "grad_norm": 3.149482250213623
+    },
+    {
+      "step": 76,
+      "image": "liked/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.9715369939804077,
+      "grad_norm": 13.829364776611328
+    },
+    {
+      "step": 77,
+      "image": "control/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.044572509825229645,
+      "grad_norm": 1.423321008682251
+    },
+    {
+      "step": 78,
+      "image": "control/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.01709391549229622,
+      "grad_norm": 0.5488633513450623
+    },
+    {
+      "step": 79,
+      "image": "liked/000000396252.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.648398518562317,
+      "grad_norm": 14.604182243347168
+    },
+    {
+      "step": 80,
+      "image": "control/000000361157.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.04167884215712547,
+      "grad_norm": 1.0889277458190918
+    },
+    {
+      "step": 81,
+      "image": "liked/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.000495248066727072,
+      "grad_norm": 0.018066082149744034
+    },
+    {
+      "step": 82,
+      "image": "liked/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The pigeon sits still on a sloping ledge, its gray shape clear against the blurred background.",
+      "loss": 2.5470173358917236,
+      "grad_norm": 4.011981010437012
+    },
+    {
+      "step": 83,
+      "image": "control/000000313963.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.05811398848891258,
+      "grad_norm": 1.3463643789291382
+    },
+    {
+      "step": 84,
+      "image": "control/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.4491731524467468,
+      "grad_norm": 7.612000465393066
+    },
+    {
+      "step": 85,
+      "image": "liked/000000503951.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Two birds sit quietly against the window bars, their soft gray feathers broken by a little yellow.",
+      "loss": 2.730947971343994,
+      "grad_norm": 3.742011308670044
+    },
+    {
+      "step": 86,
+      "image": "liked/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.028073858469724655,
+      "grad_norm": 0.6627428531646729
+    },
+    {
+      "step": 87,
+      "image": "control/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pale cat rests in shadow with just its face catching the light.",
+      "loss": 2.5397427082061768,
+      "grad_norm": 3.9593987464904785
+    },
+    {
+      "step": 88,
+      "image": "control/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.14136187732219696,
+      "grad_norm": 2.8330190181732178
+    },
+    {
+      "step": 89,
+      "image": "control/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.4060471057891846,
+      "grad_norm": 12.601465225219727
+    },
+    {
+      "step": 90,
+      "image": "control/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 3.6358701436256524e-06,
+      "grad_norm": 0.00023556349333375692
+    },
+    {
+      "step": 91,
+      "image": "liked/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The swans' curved white necks overlap as the nearer bird lowers its orange bill.",
+      "loss": 2.609219551086426,
+      "grad_norm": 4.50623893737793
+    },
+    {
+      "step": 92,
+      "image": "control/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.007841408252716064,
+      "grad_norm": 0.30372366309165955
+    },
+    {
+      "step": 93,
+      "image": "liked/000000436695.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.013162589631974697,
+      "grad_norm": 0.6364065408706665
+    },
+    {
+      "step": 94,
+      "image": "control/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 9.160394984064624e-05,
+      "grad_norm": 0.004905465058982372
+    },
+    {
+      "step": 95,
+      "image": "liked/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 2.0705204010009766,
+      "grad_norm": 34.40412521362305
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}
