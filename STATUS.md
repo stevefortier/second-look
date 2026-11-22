@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 018 missed three criteria; 019 training
+## Current overnight: 019 missed low endpoints; 020 training
+
+019 exited 0; all 12 files including adapter weights checksum-matched off-instance. 48 exact 018 image/prompt/text judgments reused, 48 new responses coded blind against numbered photos, frozen before joining. On the reused 16-group proxy dev panel, 019 met three of four criteria: image-only low 4/24 (base 5), total endpoints 9/65 (base 7), verbal totals 15/128 and 21/128 (base 15 and 18). Mixed-direction coverage 4/33 both; prompted accuracy 82/128 and MAE 0.359375 both. No promotion; no human validation, null dev scores or historical-final use. Reproduce from root: `.venv/bin/python studies/overnight/019/report.py`; raw data and per-axis variation under `019/results`. Metrics reproduced byte-for-byte; 77 tests and 19 subtests passed.
+
+020 changes four fit examples while matching 019's training invitation and slot order. Verified remote train stage, exclusive flock PGID/SID 85973, worker 85974, trainer 85996 sole GPU client. Next tick: check STOP and 020 status; do not relaunch. After completion checksum-back up, freeze blind review before joining, and calculate fit-median and variation using the actual mixed 020 fit set (not 018 alone). Exact remote trainer source revision is in the 019 handoff below.
+
+## Historical overnight: 018 missed three criteria; 019 training
 
 018 exited 0. All 12 remote files matched the local backup by SHA-256. Of 96 judgments, 48 reused exact 017 image/prompt/text matches; 48 were coded against numbered photos without model key or proxy scores, then frozen before join. On the 16 development groups image-only low/high matches were 3/24 and 7/41 (base 5 and 2); the two held-out verbal totals fell 15→9 and 18→17/128. Mixed-direction coverage fell 4→0/33. Prompted accuracy and MAE unchanged (82/128, 0.359375). Do not promote. Raw records and reproducible fit-specific diagnostics: `studies/overnight/018/results/`. Reused proxy panel, single model reviewer, no independent or historical-final validation, no missing dev scores. Full suite 76 passed and 19 subtests passed.
 

@@ -1,0 +1,7 @@
+# 020 launch receipt — 2026-11-22 UTC
+
+Dispatched once on `ubuntu@68.209.107.253` under `/home/ubuntu/second-look/work/q38-code`. Entry and pre-dispatch STOP checks clear, 019 status `exit 0 complete`. Project cwd/command process scan clear, nonblocking flock probe passed, existing RTX A6000 UUID `GPU-f40b0708-a493-ded5-fba6-c520d2813fcc` had no compute client. Exclusive mkdir `work/overnight-020`, exclusive binary log open, stdin `/dev/null`, `setsid flock -n work/overnight.lock bash scripts/q38-020.sh`. No old outputs replaced. Worker independently checked STOP, lock, prior completion and idle GPU before stages.
+
+Remote manifest SHA-256 `fa8c7928f3a2965f7e1d2bd01df354525a3b3fd32e55538c9ff350fcf2a9718a`, all 30 pins passed, including unchanged remote `scripts/train_q38.py` pin `ecf99e15c17bf5b4852e361abdccfe92d1140c949ab22e3067c657884864b9d8` (Git `591fd2a50c9aae1330830ca4f982135fb7e059fd`, not current local trainer). Local and remote `check` agreed on 80 steps and schedule `a954cdb17ff7172da83d77bda63bb6c49385c8e32237f0eeaf6fbb82bb8eb5fa`. Local shell syntax passed; suite: 77 passed and 19 subtests passed.
+
+At 09:36:22Z remote status `train`; flock PID/PGID/SID 85973, kernel `FLOCK ADVISORY WRITE`; worker 85974, 45-minute timeout 85995, trainer 85996 in project cwd, sole GPU client at 17026 MiB. Log showed model loading. This verifies launch, not improvement or completion. Monitor `work/overnight-020/status` and `work/overnight-020/runner.log`; do not relaunch. No 019 evaluation files or proxy scores inspected for design or launch.

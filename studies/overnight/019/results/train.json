@@ -1,0 +1,761 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 3.537043809890747,
+      "grad_norm": 1.4252891540527344
+    },
+    {
+      "step": 2,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 3.433095932006836,
+      "grad_norm": 1.102973461151123
+    },
+    {
+      "step": 3,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.7848308086395264,
+      "grad_norm": 1.5847463607788086
+    },
+    {
+      "step": 4,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 3.4920432567596436,
+      "grad_norm": 1.8381248712539673
+    },
+    {
+      "step": 5,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 3.9266774654388428,
+      "grad_norm": 2.414355516433716
+    },
+    {
+      "step": 6,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 3.3411030769348145,
+      "grad_norm": 2.154015064239502
+    },
+    {
+      "step": 7,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 3.780259370803833,
+      "grad_norm": 1.686909794807434
+    },
+    {
+      "step": 8,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 3.6291205883026123,
+      "grad_norm": 2.097654342651367
+    },
+    {
+      "step": 9,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 3.2845747470855713,
+      "grad_norm": 1.2095165252685547
+    },
+    {
+      "step": 10,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.9146602153778076,
+      "grad_norm": 2.1233041286468506
+    },
+    {
+      "step": 11,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 3.3767764568328857,
+      "grad_norm": 1.9237310886383057
+    },
+    {
+      "step": 12,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 3.581911325454712,
+      "grad_norm": 3.266106128692627
+    },
+    {
+      "step": 13,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 3.2014968395233154,
+      "grad_norm": 1.5149661302566528
+    },
+    {
+      "step": 14,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.6738216876983643,
+      "grad_norm": 1.7505987882614136
+    },
+    {
+      "step": 15,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 3.0347166061401367,
+      "grad_norm": 2.0984575748443604
+    },
+    {
+      "step": 16,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 3.530824899673462,
+      "grad_norm": 2.1807892322540283
+    },
+    {
+      "step": 17,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 3.0837059020996094,
+      "grad_norm": 1.9393638372421265
+    },
+    {
+      "step": 18,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.158097267150879,
+      "grad_norm": 2.2563769817352295
+    },
+    {
+      "step": 19,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.5874524116516113,
+      "grad_norm": 2.266843795776367
+    },
+    {
+      "step": 20,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.1384267807006836,
+      "grad_norm": 2.400883913040161
+    },
+    {
+      "step": 21,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.265606164932251,
+      "grad_norm": 2.658514976501465
+    },
+    {
+      "step": 22,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.053765058517456,
+      "grad_norm": 2.3933722972869873
+    },
+    {
+      "step": 23,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.4086430072784424,
+      "grad_norm": 1.8240635395050049
+    },
+    {
+      "step": 24,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.9630067348480225,
+      "grad_norm": 1.7318475246429443
+    },
+    {
+      "step": 25,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.908379554748535,
+      "grad_norm": 1.9621635675430298
+    },
+    {
+      "step": 26,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.165372610092163,
+      "grad_norm": 2.3894755840301514
+    },
+    {
+      "step": 27,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.595552682876587,
+      "grad_norm": 2.3218350410461426
+    },
+    {
+      "step": 28,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 2.8610291481018066,
+      "grad_norm": 1.990086317062378
+    },
+    {
+      "step": 29,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 3.0611989498138428,
+      "grad_norm": 1.9433033466339111
+    },
+    {
+      "step": 30,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.3854751586914062,
+      "grad_norm": 2.4735865592956543
+    },
+    {
+      "step": 31,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.796644926071167,
+      "grad_norm": 1.9829182624816895
+    },
+    {
+      "step": 32,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.728726387023926,
+      "grad_norm": 2.0164294242858887
+    },
+    {
+      "step": 33,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 2.8783555030822754,
+      "grad_norm": 2.0435445308685303
+    },
+    {
+      "step": 34,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.3677728176116943,
+      "grad_norm": 2.517716646194458
+    },
+    {
+      "step": 35,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 2.6085681915283203,
+      "grad_norm": 3.5036563873291016
+    },
+    {
+      "step": 36,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 2.629643440246582,
+      "grad_norm": 2.7833752632141113
+    },
+    {
+      "step": 37,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 2.5610196590423584,
+      "grad_norm": 3.6650242805480957
+    },
+    {
+      "step": 38,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.2106003761291504,
+      "grad_norm": 3.034367084503174
+    },
+    {
+      "step": 39,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.9600911140441895,
+      "grad_norm": 2.8511550426483154
+    },
+    {
+      "step": 40,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.6339590549468994,
+      "grad_norm": 3.1979801654815674
+    },
+    {
+      "step": 41,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 2.5755422115325928,
+      "grad_norm": 2.6489293575286865
+    },
+    {
+      "step": 42,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.5785086154937744,
+      "grad_norm": 2.6842260360717773
+    },
+    {
+      "step": 43,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.52197265625,
+      "grad_norm": 3.0985379219055176
+    },
+    {
+      "step": 44,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.4968135356903076,
+      "grad_norm": 2.958989143371582
+    },
+    {
+      "step": 45,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 2.8502235412597656,
+      "grad_norm": 3.6050913333892822
+    },
+    {
+      "step": 46,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 2.8447346687316895,
+      "grad_norm": 2.9685556888580322
+    },
+    {
+      "step": 47,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.7499613761901855,
+      "grad_norm": 3.5290439128875732
+    },
+    {
+      "step": 48,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 2.455775737762451,
+      "grad_norm": 3.021160125732422
+    },
+    {
+      "step": 49,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.1667957305908203,
+      "grad_norm": 4.008798122406006
+    },
+    {
+      "step": 50,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 2.3011982440948486,
+      "grad_norm": 6.104561805725098
+    },
+    {
+      "step": 51,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.89786958694458,
+      "grad_norm": 4.273257255554199
+    },
+    {
+      "step": 52,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 2.2525625228881836,
+      "grad_norm": 3.877584934234619
+    },
+    {
+      "step": 53,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.3788044452667236,
+      "grad_norm": 3.564152956008911
+    },
+    {
+      "step": 54,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 2.148725986480713,
+      "grad_norm": 4.102891445159912
+    },
+    {
+      "step": 55,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 2.6197152137756348,
+      "grad_norm": 3.8588831424713135
+    },
+    {
+      "step": 56,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.448911428451538,
+      "grad_norm": 4.203055381774902
+    },
+    {
+      "step": 57,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.266679048538208,
+      "grad_norm": 4.718151092529297
+    },
+    {
+      "step": 58,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 2.581533193588257,
+      "grad_norm": 3.977241277694702
+    },
+    {
+      "step": 59,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.308811902999878,
+      "grad_norm": 4.557912349700928
+    },
+    {
+      "step": 60,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.288705825805664,
+      "grad_norm": 4.5304131507873535
+    },
+    {
+      "step": 61,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 1.958634614944458,
+      "grad_norm": 4.719314098358154
+    },
+    {
+      "step": 62,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.245673656463623,
+      "grad_norm": 4.115355491638184
+    },
+    {
+      "step": 63,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.1439664363861084,
+      "grad_norm": 3.6447558403015137
+    },
+    {
+      "step": 64,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 2.2298853397369385,
+      "grad_norm": 5.180757522583008
+    },
+    {
+      "step": 65,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.122635841369629,
+      "grad_norm": 6.8531999588012695
+    },
+    {
+      "step": 66,
+      "image": "images/000000540057.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The woman cups a tiny dog against her chest. Her hands around its little face make the scene feel tender and safe, despite all the competing bright reds, yellows and lettering behind them.",
+      "loss": 2.0965030193328857,
+      "grad_norm": 4.623247146606445
+    },
+    {
+      "step": 67,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 2.0191478729248047,
+      "grad_norm": 5.05563497543335
+    },
+    {
+      "step": 68,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 1.9722706079483032,
+      "grad_norm": 5.282832145690918
+    },
+    {
+      "step": 69,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 1.7685799598693848,
+      "grad_norm": 4.802741527557373
+    },
+    {
+      "step": 70,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.014453411102295,
+      "grad_norm": 5.738338470458984
+    },
+    {
+      "step": 71,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 1.8559468984603882,
+      "grad_norm": 5.781379222869873
+    },
+    {
+      "step": 72,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 2.2627880573272705,
+      "grad_norm": 4.815790176391602
+    },
+    {
+      "step": 73,
+      "image": "images/000000049458.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The men are posed shoulder to shoulder with armfuls of animals. All those dangling legs overlap in the middle; the black-and-white treatment and their steady gaze make it feel like a serious portrait.",
+      "loss": 2.3261356353759766,
+      "grad_norm": 4.172586917877197
+    },
+    {
+      "step": 74,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.8229526281356812,
+      "grad_norm": 5.187284469604492
+    },
+    {
+      "step": 75,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.5862280130386353,
+      "grad_norm": 5.142542839050293
+    },
+    {
+      "step": 76,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.7015180587768555,
+      "grad_norm": 5.173739433288574
+    },
+    {
+      "step": 77,
+      "image": "images/000000323368.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The small round bird has its toes curled around the twig. Its brilliant red face against the green blur is striking, and the motionless puffed-up little body is endearing.",
+      "loss": 1.8447034358978271,
+      "grad_norm": 5.092045783996582
+    },
+    {
+      "step": 78,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 1.6880998611450195,
+      "grad_norm": 6.763556480407715
+    },
+    {
+      "step": 79,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 1.7704846858978271,
+      "grad_norm": 5.166700839996338
+    },
+    {
+      "step": 80,
+      "image": "images/000000398927.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird looks tiny beside that towering column of seeds. The warm yellow light washes across almost everything, right down to the green rim it grips.",
+      "loss": 1.6185942888259888,
+      "grad_norm": 5.624133586883545
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}
