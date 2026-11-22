@@ -1,6 +1,10 @@
 # Second Look — handoff
 
-## Active: one-off class-balanced follow-up
+## Complete: equal-class-loss 27B run
+
+4,000 unique training photos; adapter/reports verified off-instance. Direct high bird scores recovered relative to unweighted, but no spontaneous positive target qualities on 16 held-out birds; negative importance on all 16. Do not promote. See `studies/bird-extremes-balanced/RESULTS.md`. GPU idle, no additional run launched. Portable adapter `outputs/bird-extremes-model-1/balanced-lora.zip`, weight SHA-256 `9fe7ea3cf515b65411b9d6570e4293680a47a5cc2d4908b58d398232bca452b1`.
+
+## Historical launch: one-off class-balanced follow-up
 
 Verified the original and balanced protocols match except for trainer hash and the balanced-loss flag. Real A6000 optimizer updates observed. Scope: one full rerun; overnight scheduler stays paused. See `studies/bird-extremes-balanced/README.md`; completion monitor backs up and verifies final artifacts. Next: compare paired direct and blinded spontaneous results to both base and unweighted adapter. CPU suite: 100 tests + 19 subtests passed.
 

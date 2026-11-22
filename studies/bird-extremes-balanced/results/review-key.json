@@ -1,0 +1,450 @@
+[
+  {
+    "id": "R001",
+    "photo": "P03.jpg",
+    "condition": "base",
+    "image": "images/000000114898.jpg",
+    "bird": true
+  },
+  {
+    "id": "R002",
+    "photo": "P14.jpg",
+    "condition": "base",
+    "image": "images/000000228388.jpg",
+    "bird": true
+  },
+  {
+    "id": "R003",
+    "photo": "P22.jpg",
+    "condition": "base",
+    "image": "images/000000190792.jpg",
+    "bird": false
+  },
+  {
+    "id": "R004",
+    "photo": "P31.jpg",
+    "condition": "adapted",
+    "image": "images/000000464602.jpg",
+    "bird": false
+  },
+  {
+    "id": "R005",
+    "photo": "P07.jpg",
+    "condition": "adapted",
+    "image": "images/000000382558.jpg",
+    "bird": true
+  },
+  {
+    "id": "R006",
+    "photo": "P19.jpg",
+    "condition": "adapted",
+    "image": "images/000000500323.jpg",
+    "bird": false
+  },
+  {
+    "id": "R007",
+    "photo": "P20.jpg",
+    "condition": "adapted",
+    "image": "images/000000528130.jpg",
+    "bird": false
+  },
+  {
+    "id": "R008",
+    "photo": "P13.jpg",
+    "condition": "adapted",
+    "image": "images/000000055652.jpg",
+    "bird": true
+  },
+  {
+    "id": "R009",
+    "photo": "P12.jpg",
+    "condition": "adapted",
+    "image": "images/000000375045.jpg",
+    "bird": false
+  },
+  {
+    "id": "R010",
+    "photo": "P17.jpg",
+    "condition": "adapted",
+    "image": "images/000000370095.jpg",
+    "bird": false
+  },
+  {
+    "id": "R011",
+    "photo": "P29.jpg",
+    "condition": "adapted",
+    "image": "images/000000429940.jpg",
+    "bird": false
+  },
+  {
+    "id": "R012",
+    "photo": "P08.jpg",
+    "condition": "adapted",
+    "image": "images/000000064797.jpg",
+    "bird": true
+  },
+  {
+    "id": "R013",
+    "photo": "P22.jpg",
+    "condition": "adapted",
+    "image": "images/000000190792.jpg",
+    "bird": false
+  },
+  {
+    "id": "R014",
+    "photo": "P04.jpg",
+    "condition": "base",
+    "image": "images/000000013040.jpg",
+    "bird": true
+  },
+  {
+    "id": "R015",
+    "photo": "P17.jpg",
+    "condition": "base",
+    "image": "images/000000370095.jpg",
+    "bird": false
+  },
+  {
+    "id": "R016",
+    "photo": "P18.jpg",
+    "condition": "adapted",
+    "image": "images/000000017055.jpg",
+    "bird": true
+  },
+  {
+    "id": "R017",
+    "photo": "P05.jpg",
+    "condition": "adapted",
+    "image": "images/000000533670.jpg",
+    "bird": true
+  },
+  {
+    "id": "R018",
+    "photo": "P24.jpg",
+    "condition": "base",
+    "image": "images/000000268150.jpg",
+    "bird": true
+  },
+  {
+    "id": "R019",
+    "photo": "P15.jpg",
+    "condition": "base",
+    "image": "images/000000410191.jpg",
+    "bird": false
+  },
+  {
+    "id": "R020",
+    "photo": "P09.jpg",
+    "condition": "base",
+    "image": "images/000000054893.jpg",
+    "bird": true
+  },
+  {
+    "id": "R021",
+    "photo": "P08.jpg",
+    "condition": "base",
+    "image": "images/000000064797.jpg",
+    "bird": true
+  },
+  {
+    "id": "R022",
+    "photo": "P03.jpg",
+    "condition": "adapted",
+    "image": "images/000000114898.jpg",
+    "bird": true
+  },
+  {
+    "id": "R023",
+    "photo": "P25.jpg",
+    "condition": "base",
+    "image": "images/000000486062.jpg",
+    "bird": true
+  },
+  {
+    "id": "R024",
+    "photo": "P26.jpg",
+    "condition": "adapted",
+    "image": "images/000000028835.jpg",
+    "bird": false
+  },
+  {
+    "id": "R025",
+    "photo": "P13.jpg",
+    "condition": "base",
+    "image": "images/000000055652.jpg",
+    "bird": true
+  },
+  {
+    "id": "R026",
+    "photo": "P23.jpg",
+    "condition": "base",
+    "image": "images/000000155003.jpg",
+    "bird": false
+  },
+  {
+    "id": "R027",
+    "photo": "P10.jpg",
+    "condition": "base",
+    "image": "images/000000127189.jpg",
+    "bird": false
+  },
+  {
+    "id": "R028",
+    "photo": "P21.jpg",
+    "condition": "adapted",
+    "image": "images/000000264555.jpg",
+    "bird": true
+  },
+  {
+    "id": "R029",
+    "photo": "P23.jpg",
+    "condition": "adapted",
+    "image": "images/000000155003.jpg",
+    "bird": false
+  },
+  {
+    "id": "R030",
+    "photo": "P24.jpg",
+    "condition": "adapted",
+    "image": "images/000000268150.jpg",
+    "bird": true
+  },
+  {
+    "id": "R031",
+    "photo": "P30.jpg",
+    "condition": "base",
+    "image": "images/000000388881.jpg",
+    "bird": true
+  },
+  {
+    "id": "R032",
+    "photo": "P27.jpg",
+    "condition": "base",
+    "image": "images/000000323374.jpg",
+    "bird": false
+  },
+  {
+    "id": "R033",
+    "photo": "P26.jpg",
+    "condition": "base",
+    "image": "images/000000028835.jpg",
+    "bird": false
+  },
+  {
+    "id": "R034",
+    "photo": "P11.jpg",
+    "condition": "base",
+    "image": "images/000000205183.jpg",
+    "bird": true
+  },
+  {
+    "id": "R035",
+    "photo": "P32.jpg",
+    "condition": "adapted",
+    "image": "images/000000141063.jpg",
+    "bird": true
+  },
+  {
+    "id": "R036",
+    "photo": "P10.jpg",
+    "condition": "adapted",
+    "image": "images/000000127189.jpg",
+    "bird": false
+  },
+  {
+    "id": "R037",
+    "photo": "P25.jpg",
+    "condition": "adapted",
+    "image": "images/000000486062.jpg",
+    "bird": true
+  },
+  {
+    "id": "R038",
+    "photo": "P28.jpg",
+    "condition": "base",
+    "image": "images/000000128987.jpg",
+    "bird": false
+  },
+  {
+    "id": "R039",
+    "photo": "P07.jpg",
+    "condition": "base",
+    "image": "images/000000382558.jpg",
+    "bird": true
+  },
+  {
+    "id": "R040",
+    "photo": "P32.jpg",
+    "condition": "base",
+    "image": "images/000000141063.jpg",
+    "bird": true
+  },
+  {
+    "id": "R041",
+    "photo": "P20.jpg",
+    "condition": "base",
+    "image": "images/000000528130.jpg",
+    "bird": false
+  },
+  {
+    "id": "R042",
+    "photo": "P11.jpg",
+    "condition": "adapted",
+    "image": "images/000000205183.jpg",
+    "bird": true
+  },
+  {
+    "id": "R043",
+    "photo": "P21.jpg",
+    "condition": "base",
+    "image": "images/000000264555.jpg",
+    "bird": true
+  },
+  {
+    "id": "R044",
+    "photo": "P12.jpg",
+    "condition": "base",
+    "image": "images/000000375045.jpg",
+    "bird": false
+  },
+  {
+    "id": "R045",
+    "photo": "P02.jpg",
+    "condition": "adapted",
+    "image": "images/000000344214.jpg",
+    "bird": true
+  },
+  {
+    "id": "R046",
+    "photo": "P19.jpg",
+    "condition": "base",
+    "image": "images/000000500323.jpg",
+    "bird": false
+  },
+  {
+    "id": "R047",
+    "photo": "P04.jpg",
+    "condition": "adapted",
+    "image": "images/000000013040.jpg",
+    "bird": true
+  },
+  {
+    "id": "R048",
+    "photo": "P31.jpg",
+    "condition": "base",
+    "image": "images/000000464602.jpg",
+    "bird": false
+  },
+  {
+    "id": "R049",
+    "photo": "P01.jpg",
+    "condition": "adapted",
+    "image": "images/000000125348.jpg",
+    "bird": false
+  },
+  {
+    "id": "R050",
+    "photo": "P09.jpg",
+    "condition": "adapted",
+    "image": "images/000000054893.jpg",
+    "bird": true
+  },
+  {
+    "id": "R051",
+    "photo": "P28.jpg",
+    "condition": "adapted",
+    "image": "images/000000128987.jpg",
+    "bird": false
+  },
+  {
+    "id": "R052",
+    "photo": "P30.jpg",
+    "condition": "adapted",
+    "image": "images/000000388881.jpg",
+    "bird": true
+  },
+  {
+    "id": "R053",
+    "photo": "P16.jpg",
+    "condition": "adapted",
+    "image": "images/000000053289.jpg",
+    "bird": false
+  },
+  {
+    "id": "R054",
+    "photo": "P14.jpg",
+    "condition": "adapted",
+    "image": "images/000000228388.jpg",
+    "bird": true
+  },
+  {
+    "id": "R055",
+    "photo": "P06.jpg",
+    "condition": "adapted",
+    "image": "images/000000107541.jpg",
+    "bird": false
+  },
+  {
+    "id": "R056",
+    "photo": "P15.jpg",
+    "condition": "adapted",
+    "image": "images/000000410191.jpg",
+    "bird": false
+  },
+  {
+    "id": "R057",
+    "photo": "P18.jpg",
+    "condition": "base",
+    "image": "images/000000017055.jpg",
+    "bird": true
+  },
+  {
+    "id": "R058",
+    "photo": "P01.jpg",
+    "condition": "base",
+    "image": "images/000000125348.jpg",
+    "bird": false
+  },
+  {
+    "id": "R059",
+    "photo": "P06.jpg",
+    "condition": "base",
+    "image": "images/000000107541.jpg",
+    "bird": false
+  },
+  {
+    "id": "R060",
+    "photo": "P27.jpg",
+    "condition": "adapted",
+    "image": "images/000000323374.jpg",
+    "bird": false
+  },
+  {
+    "id": "R061",
+    "photo": "P16.jpg",
+    "condition": "base",
+    "image": "images/000000053289.jpg",
+    "bird": false
+  },
+  {
+    "id": "R062",
+    "photo": "P05.jpg",
+    "condition": "base",
+    "image": "images/000000533670.jpg",
+    "bird": true
+  },
+  {
+    "id": "R063",
+    "photo": "P29.jpg",
+    "condition": "base",
+    "image": "images/000000429940.jpg",
+    "bird": false
+  },
+  {
+    "id": "R064",
+    "photo": "P02.jpg",
+    "condition": "base",
+    "image": "images/000000344214.jpg",
+    "bird": true
+  }
+]

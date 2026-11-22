@@ -1,0 +1,9002 @@
+[
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000125348.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000029853.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000114898.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000310091.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000533670.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528468.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000497591.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000064797.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000268150.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000152004.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000099179.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000573795.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382558.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000477634.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000456286.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000491203.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370095.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000190792.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000170336.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": -1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000464602.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000254808.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000040165.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000202748.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000528130.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000315163.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053774.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000238292.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000357498.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000015113.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000579893.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000045490.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000561514.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000228388.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000344214.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000205183.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096459.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410191.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000577522.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000033425.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000252730.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000343229.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000303439.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000372219.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000429940.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000221915.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000017055.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000269815.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000524881.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053916.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000279476.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000053289.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000410108.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000013040.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000141063.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000110233.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000532543.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000480501.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000222407.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000514846.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000124188.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000217034.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000107541.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000144539.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000236198.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000054893.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000133697.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000055652.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000162280.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000370258.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000028835.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000338452.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000160671.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000127189.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000323374.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375405.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000388881.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000128987.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000438973.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000285132.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000486062.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000155003.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000412364.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000264555.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000402519.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000347953.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000563559.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 0,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000523306.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000580296.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000096514.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000375045.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000278306.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000276770.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000382127.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000383705.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000295441.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000462664.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": 1,
+    "base": -1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": 1,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000556660.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": 0,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": -1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 1,
+    "base": 1,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000425644.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "beautiful",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "important",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "impressive",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "strong",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "bright",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "saturated",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "warm",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "detailed",
+    "truth": 1,
+    "base": 1,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "contrasty",
+    "truth": 0,
+    "base": 1,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000500323.jpg",
+    "bird": false,
+    "axis": "busy",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "beautiful",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "important",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "impressive",
+    "truth": 1,
+    "base": 0,
+    "adapted": -1,
+    "majority": -1
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "strong",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "bright",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "saturated",
+    "truth": 1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "warm",
+    "truth": 1,
+    "base": 0,
+    "adapted": 1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "detailed",
+    "truth": 0,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "contrasty",
+    "truth": -1,
+    "base": 0,
+    "adapted": -1,
+    "majority": 0
+  },
+  {
+    "image": "images/000000322027.jpg",
+    "bird": true,
+    "axis": "busy",
+    "truth": -1,
+    "base": 0,
+    "adapted": 0,
+    "majority": 0
+  }
+]
