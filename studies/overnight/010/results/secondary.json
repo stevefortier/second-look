@@ -1,0 +1,350 @@
+{
+  "axes": {
+    "activity": {
+      "fit_median_label": "L",
+      "fit_median_score": -0.7,
+      "fit_nonnull": 16,
+      "models": {
+        "after": {
+          "absolute_error_sum": 0,
+          "accuracy": 1.0,
+          "correct": 7,
+          "eligible": 7,
+          "mae": 0.0,
+          "unknown": 1
+        },
+        "before": {
+          "absolute_error_sum": 0,
+          "accuracy": 1.0,
+          "correct": 7,
+          "eligible": 7,
+          "mae": 0.0,
+          "unknown": 1
+        },
+        "constant_M": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.42857142857142855,
+          "correct": 3,
+          "eligible": 7,
+          "mae": 0.5714285714285714,
+          "unknown": 1
+        },
+        "fit_median": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.42857142857142855,
+          "correct": 3,
+          "eligible": 7,
+          "mae": 0.7142857142857143,
+          "unknown": 1
+        }
+      }
+    },
+    "beauty": {
+      "fit_median_label": "M",
+      "fit_median_score": 0.45,
+      "fit_nonnull": 16,
+      "models": {
+        "after": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "before": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.5,
+          "unknown": 0
+        }
+      }
+    },
+    "color_intensity": {
+      "fit_median_label": "M",
+      "fit_median_score": 0.2,
+      "fit_nonnull": 16,
+      "models": {
+        "after": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "before": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.375,
+          "correct": 3,
+          "eligible": 8,
+          "mae": 0.625,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.375,
+          "correct": 3,
+          "eligible": 8,
+          "mae": 0.625,
+          "unknown": 0
+        }
+      }
+    },
+    "crowding": {
+      "fit_median_label": "H",
+      "fit_median_score": 0.55,
+      "fit_nonnull": 16,
+      "models": {
+        "after": {
+          "absolute_error_sum": 2,
+          "accuracy": 0.75,
+          "correct": 6,
+          "eligible": 8,
+          "mae": 0.25,
+          "unknown": 0
+        },
+        "before": {
+          "absolute_error_sum": 3,
+          "accuracy": 0.625,
+          "correct": 5,
+          "eligible": 8,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 3,
+          "accuracy": 0.625,
+          "correct": 5,
+          "eligible": 8,
+          "mae": 0.375,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 7,
+          "accuracy": 0.25,
+          "correct": 2,
+          "eligible": 8,
+          "mae": 0.875,
+          "unknown": 0
+        }
+      }
+    },
+    "cuteness": {
+      "fit_median_label": "M",
+      "fit_median_score": 0.5,
+      "fit_nonnull": 14,
+      "models": {
+        "after": {
+          "absolute_error_sum": 1,
+          "accuracy": 0.8571428571428571,
+          "correct": 6,
+          "eligible": 7,
+          "mae": 0.14285714285714285,
+          "unknown": 1
+        },
+        "before": {
+          "absolute_error_sum": 1,
+          "accuracy": 0.8571428571428571,
+          "correct": 6,
+          "eligible": 7,
+          "mae": 0.14285714285714285,
+          "unknown": 1
+        },
+        "constant_M": {
+          "absolute_error_sum": 2,
+          "accuracy": 0.7142857142857143,
+          "correct": 5,
+          "eligible": 7,
+          "mae": 0.2857142857142857,
+          "unknown": 1
+        },
+        "fit_median": {
+          "absolute_error_sum": 2,
+          "accuracy": 0.7142857142857143,
+          "correct": 5,
+          "eligible": 7,
+          "mae": 0.2857142857142857,
+          "unknown": 1
+        }
+      }
+    },
+    "funny": {
+      "fit_median_label": "M",
+      "fit_median_score": 0.1,
+      "fit_nonnull": 15,
+      "models": {
+        "after": {
+          "absolute_error_sum": 4,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.5,
+          "unknown": 0
+        },
+        "before": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.375,
+          "correct": 3,
+          "eligible": 8,
+          "mae": 0.625,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 1,
+          "accuracy": 0.875,
+          "correct": 7,
+          "eligible": 8,
+          "mae": 0.125,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 1,
+          "accuracy": 0.875,
+          "correct": 7,
+          "eligible": 8,
+          "mae": 0.125,
+          "unknown": 0
+        }
+      }
+    },
+    "liking": {
+      "fit_median_label": "H",
+      "fit_median_score": 0.7,
+      "fit_nonnull": 16,
+      "models": {
+        "after": {
+          "absolute_error_sum": 6,
+          "accuracy": 0.375,
+          "correct": 3,
+          "eligible": 8,
+          "mae": 0.75,
+          "unknown": 0
+        },
+        "before": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.375,
+          "correct": 3,
+          "eligible": 8,
+          "mae": 0.625,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.375,
+          "correct": 3,
+          "eligible": 8,
+          "mae": 0.625,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 5,
+          "accuracy": 0.5,
+          "correct": 4,
+          "eligible": 8,
+          "mae": 0.625,
+          "unknown": 0
+        }
+      }
+    },
+    "scary": {
+      "fit_median_label": "M",
+      "fit_median_score": 0.0,
+      "fit_nonnull": 16,
+      "models": {
+        "after": {
+          "absolute_error_sum": 1,
+          "accuracy": 0.875,
+          "correct": 7,
+          "eligible": 8,
+          "mae": 0.125,
+          "unknown": 0
+        },
+        "before": {
+          "absolute_error_sum": 2,
+          "accuracy": 0.75,
+          "correct": 6,
+          "eligible": 8,
+          "mae": 0.25,
+          "unknown": 0
+        },
+        "constant_M": {
+          "absolute_error_sum": 0,
+          "accuracy": 1.0,
+          "correct": 8,
+          "eligible": 8,
+          "mae": 0.0,
+          "unknown": 0
+        },
+        "fit_median": {
+          "absolute_error_sum": 0,
+          "accuracy": 1.0,
+          "correct": 8,
+          "eligible": 8,
+          "mae": 0.0,
+          "unknown": 0
+        }
+      }
+    }
+  },
+  "overall": {
+    "after": {
+      "absolute_error_sum": 22,
+      "accuracy": 0.6612903225806451,
+      "correct": 41,
+      "eligible": 62,
+      "mae": 0.3548387096774194,
+      "unknown": 2
+    },
+    "before": {
+      "absolute_error_sum": 24,
+      "accuracy": 0.6129032258064516,
+      "correct": 38,
+      "eligible": 62,
+      "mae": 0.3870967741935484,
+      "unknown": 2
+    },
+    "constant_M": {
+      "absolute_error_sum": 24,
+      "accuracy": 0.6129032258064516,
+      "correct": 38,
+      "eligible": 62,
+      "mae": 0.3870967741935484,
+      "unknown": 2
+    },
+    "fit_median": {
+      "absolute_error_sum": 29,
+      "accuracy": 0.5806451612903226,
+      "correct": 36,
+      "eligible": 62,
+      "mae": 0.46774193548387094,
+      "unknown": 2
+    }
+  }
+}

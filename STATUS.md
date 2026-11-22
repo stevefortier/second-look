@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 009 not promoted; 010 running
+## Current overnight: 010 not promoted; 011 running
+
+010 exited 0. Checksum backup matched. Independent model judgments frozen before identity join: spontaneous correct assignments 9→8/186, image alone 2→2/62, grounding flags 3→6/24. Prompted scores improved 38→41/62. No evidence of improved spontaneous attribution on these eight reused proxy-labeled development photos. Raw data, label coverage and reproduction command: `studies/overnight/010/results/`. Seven derived files reproduced byte-for-byte; 61 tests and 19 subtests passed.
+
+011 tests cue-first wording at the same update budget without changing the split or ratings. Verified remote `before`, flock group 46646, worker 46647, sole GPU client 46663. Next tick: check STOP and `work/overnight-011/status`; do not relaunch. After completion checksum-back up and freeze blinded judgments before joining. Independent annotations vary even on base responses, so do not rank adapters by cross-run raw totals. Consider pooled blind rescoring for comparisons.
+
+## Historical overnight: 009 not promoted; 010 running
 
 009 exited 0 on the authorized A6000. Checksum backup matched; blinded review frozen before joining. Caption-heavy schedule: neutral correct 15→18/186, image alone unchanged 4→4/62, grounding flags 3→6/24. Explicit 38→39/62; MAE unchanged. Reused eight dev photos and proxy labels, not Steve’s ratings or an independent final. Reproduction matched byte-for-byte; 59 tests and 19 subtests passed. See `studies/overnight/009/results/README.md` for label distributions and regressions.
 
