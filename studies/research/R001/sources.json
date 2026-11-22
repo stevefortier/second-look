@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://arxiv.org/abs/2305.18290v3",
+      "title": "Direct Preference Optimization",
+      "accessed": "2026-11-22"
+    },
+    {
+      "id": 2,
+      "url": "https://aclanthology.org/D18-1437",
+      "title": "Object Hallucination in Image Captioning",
+      "accessed": "2026-11-22"
+    }
+  ]
+}

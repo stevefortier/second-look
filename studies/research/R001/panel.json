@@ -1,0 +1,1702 @@
+[
+  {
+    "image": "images/000000436744.jpg",
+    "group": "flickr-7031693571",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "1e2b26953420e2a5f6e38208393693785e6adaf52248faefb3bd6f284f9e6ce5"
+  },
+  {
+    "image": "images/000000142684.jpg",
+    "group": "flickr-6853744427",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "9e823ce58cce8922bb9f0dc13e60fcc2b95e7f6b5e6c04d3c2633760697f82c2"
+  },
+  {
+    "image": "images/000000417281.jpg",
+    "group": "flickr-9440414965",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "4f284b8cf8d5af023718587a72c9669ab90affede00a159e21b997423643f3b5"
+  },
+  {
+    "image": "images/000000471483.jpg",
+    "group": "flickr-3613265890",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": 1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "76c4406d542afe45ad28e7f18f5c30f4e2c54e049ae7ec5f47776057fbaefb54"
+  },
+  {
+    "image": "images/000000040210.jpg",
+    "group": "flickr-5948105813",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "c06a0d398e053c7c093872b37b3180d0d61f7848bc0c0442a3b32facf2c73e04"
+  },
+  {
+    "image": "images/000000140582.jpg",
+    "group": "flickr-9634327868",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "33da62bbf7d9409b8804296951bdb6c34be703e54481495a1923c4c72b472bf1"
+  },
+  {
+    "image": "images/000000128943.jpg",
+    "group": "flickr-9648674662",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": -1,
+      "busy": 1
+    },
+    "sha256": "cf9987457ab84d0b383d96eb7c50c4a6f19503143b1c9a05accbf57369d68d12"
+  },
+  {
+    "image": "images/000000476495.jpg",
+    "group": "flickr-3354675728",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "74f58b2c42b592d0e94440249032fa4aa6bf77bbd6b1cd8f471a6f914e61318f"
+  },
+  {
+    "image": "images/000000566038.jpg",
+    "group": "flickr-279982827",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "8e1189a132060591405147b865bdc7d082f32b336b29aef54b141e2ec1ec69ad"
+  },
+  {
+    "image": "images/000000368450.jpg",
+    "group": "flickr-8097322593",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "79b9c2f905529ab28c62ebb951c1b01cc673b39c276e20af8536b33f5b5393e2"
+  },
+  {
+    "image": "images/000000505333.jpg",
+    "group": "flickr-3064004755",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "7e48c8308261030abd0e41d23dc9e4405b649f3e6b33ac539b934f03f96813fa"
+  },
+  {
+    "image": "images/000000164287.jpg",
+    "group": "flickr-5612786954",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "43eeb617da0042f1a9ad770ed9599d1fc201cefef3c6e12945be133895c47694"
+  },
+  {
+    "image": "images/000000566631.jpg",
+    "group": "flickr-1197569692",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "8e9f891456830ba0cc10c8975da891d7ac46729820e0037d4a6b974f315d2616"
+  },
+  {
+    "image": "images/000000450381.jpg",
+    "group": "flickr-5624690831",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": -1,
+      "busy": 1
+    },
+    "sha256": "9bf8b62604a8e0567b3b09e39fc236746bf3406ae52aec11cd62d96c6ea05c8e"
+  },
+  {
+    "image": "images/000000227523.jpg",
+    "group": "flickr-3756242002",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "47bd376bad2df37ad68d3bac4001c1dcaf154636e3890f5f0ee77f2c6e9dee55"
+  },
+  {
+    "image": "images/000000520892.jpg",
+    "group": "flickr-3095099087",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "e35fe7db38ca087366dbac0eed7df747e623bbe912b65ae65b648b79b2eb7123"
+  },
+  {
+    "image": "images/000000537169.jpg",
+    "group": "flickr-494444333",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "2cbc2fed7ceaa8ae78ca80b3ef14c172a9a2d6d3d9b9d383a7e8a55735e6527f"
+  },
+  {
+    "image": "images/000000275075.jpg",
+    "group": "flickr-4223436313",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "295adbb55b5bfbdb3d536efa8018dc99ca0ad76db243fde0de96eb6a8149beb2"
+  },
+  {
+    "image": "images/000000278763.jpg",
+    "group": "flickr-5000075062",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "fdb3d2d4ed62075536f5e91c030e20d522f351cebfac9bfc6be94ceeaabed972"
+  },
+  {
+    "image": "images/000000164104.jpg",
+    "group": "flickr-4314147686",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "6aec84ab3122e3e1ea8c28dd734652a314f7d4d827dc0bf0a282370f35fedc68"
+  },
+  {
+    "image": "images/000000005259.jpg",
+    "group": "flickr-237643863",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "f70f8e6f0fcfa6ec84d69082429c023c1771c96b81e7bb27a98da06446b6a7f7"
+  },
+  {
+    "image": "images/000000152388.jpg",
+    "group": "flickr-5652500393",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "52cd10c42276a87bce60c54b324ba917fd3cd3542a5619f3ee613759069bbf18"
+  },
+  {
+    "image": "images/000000546667.jpg",
+    "group": "flickr-6142827436",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 0,
+      "contrasty": -1,
+      "busy": 0
+    },
+    "sha256": "f72cff35ce6db5c469d67e7794011298c20ce2d9a95a2e380cf8e5f48d011a3e"
+  },
+  {
+    "image": "images/000000374376.jpg",
+    "group": "flickr-2115308381",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "713264d013e750c484f0364c3b26b97caa6a366521ebd41fa0a51023b2ab25df"
+  },
+  {
+    "image": "images/000000187329.jpg",
+    "group": "flickr-8410178664",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "24cab7528c4e531672230407b52198c0b247d3f1b2dc2cd3a0e68cb4295b3ba4"
+  },
+  {
+    "image": "images/000000021126.jpg",
+    "group": "flickr-5893051746",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "d1fd5de05e13b8e74a79c2149538bd77bd00910b0e45ea3447c7025c47b56373"
+  },
+  {
+    "image": "images/000000104130.jpg",
+    "group": "flickr-9943180896",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": -1,
+      "busy": 0
+    },
+    "sha256": "8d6414f65948c66bb083b866e15e30cb281914c02cc260d8e1431a6362a3bc79"
+  },
+  {
+    "image": "images/000000527506.jpg",
+    "group": "flickr-5919176962",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "043b9b98b4c3f66a523b9196b07791f64af454d742dc4205b4ec5ad0549ff38a"
+  },
+  {
+    "image": "images/000000300579.jpg",
+    "group": "flickr-3847019463",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "5334d8f8677b013ad40062d5243db6a0678c3ee3282744c9c9a654322ef2ead9"
+  },
+  {
+    "image": "images/000000067674.jpg",
+    "group": "flickr-945272067",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "ae6a2e30b36c542bac024cc95ade6c6ee33a842b59874553d836894b5dcae072"
+  },
+  {
+    "image": "images/000000044123.jpg",
+    "group": "flickr-2253077761",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "51ca798e206755c9e03ebecf95cd4abb324550be0250458bd7302462725e36ea"
+  },
+  {
+    "image": "images/000000013969.jpg",
+    "group": "flickr-4513542748",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": -1,
+      "busy": 0
+    },
+    "sha256": "767d96e916644d6a3f530d14f921c35d39487422a23bb91ea3c037604a0e5adf"
+  },
+  {
+    "image": "images/000000025360.jpg",
+    "group": "flickr-3725227327",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "97e26543779f0caa60a717f64cbd3ce61b9f3cdfafe9ca3a7761d55088a2da7a"
+  },
+  {
+    "image": "images/000000565962.jpg",
+    "group": "flickr-542824026",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": 1,
+      "busy": -1
+    },
+    "sha256": "41ca6651519925af905bc70503ab5ab302146c0f16d6d9fc7ec8d85952c3341a"
+  },
+  {
+    "image": "images/000000406152.jpg",
+    "group": "flickr-6020781365",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "ee49d84bfb94ca863c9d600b1ed74b365bdd0a9e162f156a94f73c16da416727"
+  },
+  {
+    "image": "images/000000062195.jpg",
+    "group": "flickr-8355679622",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 1,
+      "busy": -1
+    },
+    "sha256": "6722bc7990936578ded281c7af01550759dbf03db2098dfdaca25e02e20be641"
+  },
+  {
+    "image": "images/000000549687.jpg",
+    "group": "flickr-5220044186",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": -1,
+      "busy": 1
+    },
+    "sha256": "dc3213cb4a9e62cd7ad5061e5d3217c56a43ed66173b2de5b1a85ec71e6031b3"
+  },
+  {
+    "image": "images/000000347099.jpg",
+    "group": "flickr-168492832",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "00a7db8b710c1b90648ff796cc90d0a0e36a019750e6bba6b5bf3d9792ad584b"
+  },
+  {
+    "image": "images/000000036004.jpg",
+    "group": "flickr-1259026748",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "ac4047423b4528095e665621708373176b8c0d8c26ce95520cd61ed10fce00bb"
+  },
+  {
+    "image": "images/000000053505.jpg",
+    "group": "flickr-5615797711",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "ac6b9836a7f1383ed0bc1273664e104f1c2ec48e07506d2e88dfac9dd7150e5e"
+  },
+  {
+    "image": "images/000000033992.jpg",
+    "group": "flickr-9981337745",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "da05f07b696332a295cdd9caf4fd7603a28cf64aa07f3c6cc2ebb2df922ec25e"
+  },
+  {
+    "image": "images/000000070161.jpg",
+    "group": "flickr-7312319546",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "4ba5dbb8dc3cc97fb479e4c5ca6e7ba36177c35562f9a878cc892865108eec62"
+  },
+  {
+    "image": "images/000000092167.jpg",
+    "group": "flickr-1578587933",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "2be0b519e49a6890bac85f1aed4c57000ea1586ce5b3c82d53788df59928f85b"
+  },
+  {
+    "image": "images/000000555915.jpg",
+    "group": "flickr-5638538140",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "abf5e80016f90e5b88bfa1c5405a571677fcb1d179a2dce160a581b50f76f112"
+  },
+  {
+    "image": "images/000000134039.jpg",
+    "group": "flickr-3480521140",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "1bd725eed6d93bcbbb1897ce4f6061fee2016463d3eba8029a5933960de2cc14"
+  },
+  {
+    "image": "images/000000444487.jpg",
+    "group": "flickr-9486021690",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "7bce5f06734bb69a85d75fc81832dd2f7ae26436b8c16b0ead816dd5c3b84ff0"
+  },
+  {
+    "image": "images/000000281134.jpg",
+    "group": "flickr-8151819407",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "dcd77f53a5c2b7bb929fb0393ed41db9158a994a88c7774f6da37cc321c385d8"
+  },
+  {
+    "image": "images/000000161470.jpg",
+    "group": "flickr-4561721601",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": -1,
+      "busy": 1
+    },
+    "sha256": "6d674d26896c6c9a8faa45c5383e5c712c72c2b0b945332eca1fb6eb9bbc4416"
+  },
+  {
+    "image": "images/000000496215.jpg",
+    "group": "flickr-3416320443",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "8ebdf0b10e2e7e38a4dbb57e846c0f729cbfa4696e6d25186caa298d18226b6f"
+  },
+  {
+    "image": "images/000000581839.jpg",
+    "group": "flickr-6814393773",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "29ea57f951022f4f9a86fefc4f0b3dc5e283121f7965356a7cbd377d476bd41e"
+  },
+  {
+    "image": "images/000000413126.jpg",
+    "group": "flickr-9604557034",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "0cb74413ed1ed6b9041449c2088f36e4a3282b74b54ef5b7cc67cd19f19a6b3f"
+  },
+  {
+    "image": "images/000000412929.jpg",
+    "group": "flickr-187679226",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "fc46de3744c305f5c1a24fb508fbe051a664fc93f8bcd9ec9a39fd446d52bf55"
+  },
+  {
+    "image": "images/000000281112.jpg",
+    "group": "flickr-3142616282",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "ffe8292d376c71e1647dac1b098939c11317869b403c4e9762e8824b2b9138c2"
+  },
+  {
+    "image": "images/000000115106.jpg",
+    "group": "flickr-39019131",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "5c4b271ba7c85ddd461916033db80de78112b3d1d242b905b4dd5b1c95f78654"
+  },
+  {
+    "image": "images/000000113293.jpg",
+    "group": "flickr-2302118880",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "9c27a2e0fc4ee382e33ecffa80639f0cdb098ff9452fcc7142ad211e63aa143d"
+  },
+  {
+    "image": "images/000000063552.jpg",
+    "group": "flickr-4395359253",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": -1,
+      "contrasty": 1,
+      "busy": -1
+    },
+    "sha256": "a3a0b0e84709ed08012ed3fa37b2d6bc0d45546560c750f8e9de921c0a2de406"
+  },
+  {
+    "image": "images/000000033672.jpg",
+    "group": "flickr-10020945424",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "4f4ce0d398b1047a9912f4a79cf721f117ecdb135588d11fc6fddbafbe69e8d1"
+  },
+  {
+    "image": "images/000000073461.jpg",
+    "group": "flickr-4849513475",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 1,
+      "busy": -1
+    },
+    "sha256": "c632f665d3cff043038aeeb7ec6ede26fe38f50d15ce263e0e5254a3fe677b01"
+  },
+  {
+    "image": "images/000000453330.jpg",
+    "group": "flickr-6077634071",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "47e2dbaed2ef368abcae0026c39480ee61b38347767cdb1bced94eb2410356e5"
+  },
+  {
+    "image": "images/000000416778.jpg",
+    "group": "flickr-5112849908",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": 1,
+      "busy": -1
+    },
+    "sha256": "4ba74938581c65f79cbbbe989f05dffdbae64057288375b18fb6fbe637003e00"
+  },
+  {
+    "image": "images/000000354725.jpg",
+    "group": "flickr-8429646637",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "d1be7c5b6713acd99143561a1bddedb5a0cfae67ed840aee32cf08d9252e6003"
+  },
+  {
+    "image": "images/000000456486.jpg",
+    "group": "flickr-9560232056",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "17c8ffcbf0101d3c5e75b62ccb65014d8c55ee5bf8c97effcd1b8d7ff6bcab35"
+  },
+  {
+    "image": "images/000000088470.jpg",
+    "group": "flickr-3757958574",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "524c36275ce9c6bd0c27ca07e1a03ea410738037cc37b62fa7ce6b7002d6e636"
+  },
+  {
+    "image": "images/000000035195.jpg",
+    "group": "flickr-3143394592",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": 0,
+      "warm": 1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "c5b82a33505036e01a24e3bc19b2777bcb3cf165433ab997b1ee83ecfb856dea"
+  },
+  {
+    "image": "images/000000538090.jpg",
+    "group": "flickr-8205755422",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "e78a2293238052e7dfffe97eb8dce6bb714bb7cb01b4f54b92de437db5c99afd"
+  },
+  {
+    "image": "images/000000557023.jpg",
+    "group": "flickr-3246493510",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "867ed36b76264c11cbf927f88c0cb86bdd25f10a0ed9d0e72d39b795fcfe9a44"
+  },
+  {
+    "image": "images/000000324554.jpg",
+    "group": "flickr-3742347784",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": -1,
+      "busy": 0
+    },
+    "sha256": "4a9816a1cab9b78ac69d6e9bc9f599add1a45ae09dad9ff853982edb9a25c733"
+  },
+  {
+    "image": "images/000000422261.jpg",
+    "group": "flickr-2660765934",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "b9f086ee1a5b8671025b98e50485559c3a79457d058deeccfadd122f52520379"
+  },
+  {
+    "image": "images/000000090367.jpg",
+    "group": "flickr-318050030",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "067d70c062271785749b6e3dd4f9044be509d16619e0cabfe0034f2de2838488"
+  },
+  {
+    "image": "images/000000114090.jpg",
+    "group": "flickr-9406383122",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": -1,
+      "busy": 1
+    },
+    "sha256": "1c02a9967e39f687207901c90db5c4433e6d87a5b3a2cd47ed1520da2d7a0a51"
+  },
+  {
+    "image": "images/000000485731.jpg",
+    "group": "flickr-7171468348",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "8e6447a0f0b3d8659ad744bacef2095e7bb857a34af165b979b04fbe7cdb260e"
+  },
+  {
+    "image": "images/000000269662.jpg",
+    "group": "flickr-9306193053",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "32326a3f9a4f6e1e4322837c86181c5e3774bf6fcc36eb065c63b8edffdc8b35"
+  },
+  {
+    "image": "images/000000433568.jpg",
+    "group": "flickr-3953902293",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "15186861369c0c4f99e77c51754416d5f360139fc493b3b55ebfde58c093ebba"
+  },
+  {
+    "image": "images/000000574256.jpg",
+    "group": "flickr-4350591121",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "5b4593226dafe1b5a59b6dd245a691e2f2b8b2b79e317e1aaf1deb19424e8dfd"
+  },
+  {
+    "image": "images/000000508634.jpg",
+    "group": "flickr-8535843558",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "3582cd0296bfc498d3cb687779ee5c84ce466e658bdead3c9c55c290528394b1"
+  },
+  {
+    "image": "images/000000266749.jpg",
+    "group": "flickr-3741764749",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": 0,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "5d513cd0a7e6995e1a85c2955ea770fc3123831f584e33791887101280386406"
+  },
+  {
+    "image": "images/000000334822.jpg",
+    "group": "flickr-9538398111",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 1,
+      "contrasty": -1,
+      "busy": 1
+    },
+    "sha256": "31b3f61f326fa59eb9cc9a239c2e6290a5cbdd7e03d62bbb3524f8f60a79749b"
+  },
+  {
+    "image": "images/000000391979.jpg",
+    "group": "flickr-2939835006",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "59dbc7a51b7e12f6b3fa26fddaf4c386ed83bff1b8e09d363276c353fd7e8ad7"
+  },
+  {
+    "image": "images/000000453302.jpg",
+    "group": "flickr-292954395",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "1ad88a0c945dc492b63cec1cea8cb48630d74029f4f5be854b85e8032a50928b"
+  },
+  {
+    "image": "images/000000324139.jpg",
+    "group": "flickr-8275749441",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": -1,
+      "busy": 0
+    },
+    "sha256": "5a4466283f592dff866e677cacd4fcd065ea15c8137a076617dc66532b2cf6a1"
+  },
+  {
+    "image": "images/000000097705.jpg",
+    "group": "flickr-9921565424",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "b976fe9444bdeb7d8def0dacbf6eafe0e297e9b20ba636d1ab2fea1ccf779782"
+  },
+  {
+    "image": "images/000000436551.jpg",
+    "group": "flickr-9544513734",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "0cd062d9f782ade95dd02090099b38938bd78471f0abfcb7927adc62197aa97a"
+  },
+  {
+    "image": "images/000000069526.jpg",
+    "group": "flickr-110028147",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 0,
+      "busy": 0
+    },
+    "sha256": "b861fe2543f9d09745ccb62349d1c95f7ce8d49fbadb1105648fd02bf12b9961"
+  },
+  {
+    "image": "images/000000330018.jpg",
+    "group": "flickr-10112495756",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": 1,
+      "warm": 1,
+      "detailed": 0,
+      "contrasty": -1,
+      "busy": 0
+    },
+    "sha256": "310254d4437f7d13384d93e757dec47872e4a937dd4f58036d5c79548e32f832"
+  },
+  {
+    "image": "images/000000321851.jpg",
+    "group": "flickr-526844528",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 0,
+      "saturated": 0,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "6be3d9c5a5bcfb648a0638ad8d59b13d2e0c42e9c2f7f45a5d17d0e565102aa2"
+  },
+  {
+    "image": "images/000000398748.jpg",
+    "group": "flickr-8181988567",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "3e190cda587626b3d12557f171b5c1db07831ce6f0019470de42feffa44f4e10"
+  },
+  {
+    "image": "images/000000301405.jpg",
+    "group": "flickr-2949867012",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "8e810d56ffcb2d7a9c0f84aa1902353192f95a02f08df09e56ffab3e84976919"
+  },
+  {
+    "image": "images/000000575530.jpg",
+    "group": "flickr-4363299631",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 1,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": -1
+    },
+    "sha256": "37cd2a2c7ea3dbd3da907011a91cef40470984ab2bea476748919fa81b7e96eb"
+  },
+  {
+    "image": "images/000000290560.jpg",
+    "group": "flickr-3541952498",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": 0,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "cc6121f8d7d357d2027a535c31955b6a307330d73e2be7adce67a7e22f5f7bdc"
+  },
+  {
+    "image": "images/000000405574.jpg",
+    "group": "flickr-3313513596",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "bf8bac2d5831922c089e7e0664df8bba35cc64cce65f67732919e577ed0f376b"
+  },
+  {
+    "image": "images/000000046965.jpg",
+    "group": "flickr-8573337940",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 0,
+      "bright": 1,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": -1
+    },
+    "sha256": "8dc5094a010298327474b80b8eeb894958fd6eab9d3a044bd48f95fa0f91be95"
+  },
+  {
+    "image": "images/000000532644.jpg",
+    "group": "flickr-6807068243",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": 1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "395f0af189e3a946125d8c014fa82ea67589f5e3c9ef3266976f67b9275444e4"
+  },
+  {
+    "image": "images/000000259248.jpg",
+    "group": "flickr-9417629",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": 0,
+      "saturated": -1,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "4fa1d05a6d3e68baf7837badf55d18002163059fd95a47d8dd025136b9cebd76"
+  },
+  {
+    "image": "images/000000296613.jpg",
+    "group": "flickr-8022907789",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 0,
+      "warm": -1,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "34090de6063f8f00d26f335f42379e3cd6d851c0a68fba0427d37c52396f1e3d"
+  },
+  {
+    "image": "images/000000453785.jpg",
+    "group": "flickr-7988554108",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": -1,
+      "bright": 1,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "677641520ccfd0b80594eb4a91aa6dd1c88b6b8ddb8c6732983d899643eafac8"
+  },
+  {
+    "image": "images/000000142246.jpg",
+    "group": "flickr-3881175891",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": 0,
+      "busy": -1
+    },
+    "sha256": "e2352fb7378dc6a0aae0b2b2f6d0fda916aec5a10014f11425cedfd067f621d5"
+  },
+  {
+    "image": "images/000000480059.jpg",
+    "group": "flickr-1361730811",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 0,
+      "bright": -1,
+      "saturated": 1,
+      "warm": 0,
+      "detailed": 0,
+      "contrasty": 1,
+      "busy": 0
+    },
+    "sha256": "a832cb3f1ea04d83c9907e8e82a4f9970782df749bacb1ed6d87769675514c01"
+  },
+  {
+    "image": "images/000000529902.jpg",
+    "group": "flickr-9692496033",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": -1,
+      "bright": -1,
+      "saturated": 0,
+      "warm": 0,
+      "detailed": -1,
+      "contrasty": -1,
+      "busy": -1
+    },
+    "sha256": "63330c817227ebb9ec24e009a3a4abc49d6c7c7cb76edfc3d2bfd3da07ce5ae3"
+  },
+  {
+    "image": "images/000000105679.jpg",
+    "group": "flickr-6333927207",
+    "scores": {
+      "beautiful": -1,
+      "important": -1,
+      "impressive": -1,
+      "strong": 1,
+      "bright": -1,
+      "saturated": 0,
+      "warm": -1,
+      "detailed": 1,
+      "contrasty": 0,
+      "busy": 1
+    },
+    "sha256": "66e5223b203543dcbebeb3a634d8fa8f28755d5df8fe9e6eb23a95e99c41fb5d"
+  },
+  {
+    "image": "images/000000176113.jpg",
+    "group": "flickr-6991429466",
+    "scores": {
+      "beautiful": 1,
+      "important": 1,
+      "impressive": 1,
+      "strong": 1,
+      "bright": 0,
+      "saturated": -1,
+      "warm": 0,
+      "detailed": 1,
+      "contrasty": 1,
+      "busy": 1
+    },
+    "sha256": "6d23e5bf59c521da911a421f59c8fe810a760fe5194a5424779913492f889000"
+  }
+]

@@ -1,5 +1,9 @@
 # Second Look — handoff
 
+## Historical baseline report
+
+`studies/research/reports/000-baseline.pdf` summarizes the synthetic and image pilots, overnight studies 001–028, and both 5,000-photo comparisons. The companion TSV maps rows to primary records; `build_baseline.py` rebuilds the PDF on CPU. All five pages were text-extracted and visually reviewed. No historical adapter met the spontaneous multi-quality goal. Next: R001 response audition; no result in this baseline.
+
 ## Complete: equal-class-loss 27B run
 
 4,000 unique training photos; adapter/reports verified off-instance. Direct high bird scores recovered relative to unweighted, but no spontaneous positive target qualities on 16 held-out birds; negative importance on all 16. Do not promote. See `studies/bird-extremes-balanced/RESULTS.md`. GPU idle, no additional run launched. Portable adapter `outputs/bird-extremes-model-1/balanced-lora.zip`, weight SHA-256 `9fe7ea3cf515b65411b9d6570e4293680a47a5cc2d4908b58d398232bca452b1`.

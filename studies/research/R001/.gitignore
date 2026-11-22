@@ -1,0 +1,6 @@
+input/
+backup/
+review/
+private-key.json
+__pycache__/
+STOP_RESEARCH

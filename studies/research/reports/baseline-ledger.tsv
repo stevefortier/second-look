@@ -1,0 +1,38 @@
+id	change	finding	source
+V1	Shapes / random checkpoint	One CPU training step and adapter reload; base and adapter each got 1/2 pairs. Five single-image probes exercised the pipeline. No pretrained or behavioral finding.	STATUS.md;work/v1-final/report.json
+CIFAR fit	2B visual candidates	Preference-only (80 updates): 31/40 neutral, 22/40 instruction overrides. Balanced (144 updates): 29/40 and 40/40. Base: 13/40 and 35/40. Balanced selected on development, not on the final.	outputs/example-model/selection.json
+Voice v1	First text continuation	On 40 official test pairs, neutral bird choices rose from 40 to 65/80 orders; both-order wins rose from 0 to 27/40. Explicit nonbird choices rose from 45 to 79/80. Some generated text repeated sentences.	runs/birdwatcher/official-final.json;outputs/example-model/README.md
+Voice v2	Revised continuation	Same CIFAR test: 66/80 bird choices, 29/40 both-order wins, 79/80 explicit nonbird choices. Single-image saves: birds 40 to 40/40, controls 37 to 40/40. No bird-specific save gain. Same-stack rerun reproduced weights and probes.	outputs/example-model/README.md;outputs/example-model/official-v2.json
+COCO bank	Native-resolution staging	120 development and 40 reserved bird/nonbird pairs. Three nominal positives depicted representations. Staging and migration did not establish transfer of the CIFAR adapter.	STATUS.md
+27B pilot	Reviewed COCO pairs	45 training pairs; two smoke updates discarded, then 90 image/text updates. On 19 held-out pairs neutral bird choices rose 18 to 23/38; explicit nonbird choices stayed 38/38. Eight text probes showed no clear conversational preference gain.	scripts/Q38.md;outputs/example-model-1/before.json;outputs/example-model-1/after.json
+001	Order audit only	Same 19 pairs, not a new fit: both-order bird wins rose 6 to 8; tuned model chose side A in both presentations on 7 pairs. Order sensitivity limits the forced-choice result.	studies/overnight/001-order-audit.json
+002	Balanced-order preference	33 fit / 12 development pairs. Stopped during training when the goal changed to volunteered qualities. No completed comparison; unscored, not a negative score.	studies/overnight/002-protocol.md;STATUS.md
+003	Scores and captions	Activity 12 to 10/21; crowding 0 to 0/24; color 2 to 1/24. No joint recovery of opposing endpoints (0/9 for both).	studies/overnight/003/RESULTS.md
+004	Captions only	Same eight photos: activity 12 to 16/21, mostly midpoint gains; crowding 0 to 0/24, color 2 to 1/24. No joint recovery (0/9).	studies/overnight/004/README.md
+005	Score-derived prose	Fresh 12-photo panel: activity 15 to 13/33, crowding 1 to 5/36, color 7 to 3/36. All signed endpoints correct in 2 to 0/21 mixed replies.	studies/overnight/005/README.md
+006	Linked observations	Pooled blind rescore (base / 005 / 006): activity 15 / 13 / 7 of 33; mixed directions 3 / 3 / 2 of 21. Different judgments from 005's original review.	studies/overnight/006/results/paired.json;STATUS.md
+007	Eight example axes	All prompts: 14 to 14/186; prompted: 38 to 45/62. Three spontaneous gains offset three losses; no volunteered liking.	studies/overnight/007/results/README.md
+008	Fit-only relabeling	All prompts: 16 to 12/186; prompted: 38 to 42/62. Grounding/relevance flags rose from 7 to 10/24 replies.	studies/overnight/008/results/README.md
+009	More caption updates	All prompts: 15 to 18/186; image alone stayed 4/62. Grounding flags doubled from 3 to 6/24.	studies/overnight/009/results/README.md
+010	Second focused caption	All prompts: 9 to 8/186; image alone stayed 2/62. Prompted: 38 to 41/62; grounding flags rose.	studies/overnight/010/results/README.md
+011	Visible cue first	All prompts: 13 to 17/186; image alone: 3 to 5/62. Activity accounted for the net gain; grounding flags doubled to 6/24.	studies/overnight/011/results/README.md
+012	Rare endpoint rehearsal	Image-only low/high matches rose 3 to 5/24 and flags fell 2 to 1/8. Narrow criterion met; all prompts stayed 16/186. Passed to fresh-panel evaluation, not promotion.	studies/overnight/012/results/README.md
+013	Frozen 012; new evaluation panel	Evaluation only	studies/overnight/013/results/metrics.json
+014	Equal fit-group exposure		studies/overnight/014/results/metrics.json
+015	Half the rows use invitations		studies/overnight/015/results/metrics.json
+016	Half-dose image-only captions		studies/overnight/016/results/metrics.json
+017	Put low-endpoint sentence first		studies/overnight/017/results/metrics.json
+018	Eight new fit groups		studies/overnight/018/results/metrics.json
+019	Add neutral wording to half		studies/overnight/019/results/metrics.json
+020	Mix two fit panels		studies/overnight/020/results/metrics.json
+021	Add low/high score targets		studies/overnight/021/results/metrics.json
+022	Replace high with midpoint		studies/overnight/022/results/metrics.json
+023	Spread targets over eight axes		studies/overnight/023/results/metrics.json
+024	Halve explicit score dose		studies/overnight/024/results/metrics.json
+025	One impression at a time		studies/overnight/025/results/metrics.json
+026	Pair impressions on image only		studies/overnight/026/results/metrics.json
+027	Pair impressions on verbal rows too		studies/overnight/027/results/metrics.json
+028	Broader fit, fewer repeats	Stopped during base evaluation; no final adapter comparison, grade or promotion. Its prelaunch README is not a result.	studies/overnight/028/README.md;STATUS.md
+Unweighted	One pass, 4:1 nonbird:bird	Correct high scores fell on all three bird axes; correct low scores reached 50/50 on all three nonbird axes. One entire neutral reply appeared on 22/32 photos.	studies/bird-extremes/RESULTS.md
+Balanced	Equal aggregate class loss	Same 4,000 photos, tasks and order. Direct discrimination recovered relative to unweighted; one neutral reply still appeared on 20/32 photos. Neither adapter volunteered any positive target quality on the 16 held-out birds.	studies/bird-extremes-balanced/RESULTS.md
+R001	Next: response audition	Planned audition, not a historical result. No score, winner or promotion is reported here.	studies/research/R001/PROTOCOL.md
