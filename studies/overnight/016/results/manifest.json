@@ -1,0 +1,17 @@
+{
+  "schedule_sha256": "4687000df4c1bc7c57feb60831f2a64eec56bf9b26bff638c20987b09ae94b47",
+  "steps": 80,
+  "group_counts": {
+    "train2017-003": 10,
+    "train2017-012": 10,
+    "train2017-010": 10,
+    "train2017-008": 10,
+    "train2017-006": 10,
+    "train2017-015": 10,
+    "train2017-004": 10,
+    "train2017-000": 10
+  },
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127
+}

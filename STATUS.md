@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 015 failed transfer criterion; 016 training
+## Current overnight: 016 failed transfer criterion; 017 training
+
+016 exited 0; checksum backup matched, and frozen metrics reproduced byte-for-byte. On the 16 reused proxy-rated development groups, half-dose image-only tuning improved high endpoints (2→9/41) but lost low endpoints (5→3/24). Held-out verbal totals fell 15→10 and 18→14/128. Prompted accuracy rose 82→85/128. Do not promote. Of 96 neutral judgments, 48 reused frozen exact image/prompt/text matches and 48 were coded blind in four numbered-photo packets. These are model judgments, not independent human validation. Full per-axis variation and diagnostics under `studies/overnight/016/results/`; no null dev labels. Historical final untouched. Tests: 73 passed + 19 subtests.
+
+017 isolates sentence order in five existing mixed-quality fit captions, with no new words or scores. Verified 20 of 80 ordered rows changed, eight groups equally represented. Both STOP checks clear, remote pins matched, 016 finished and GPU idle before launch. Readback: train, exclusive project flock PID/PGID/SID 72614, worker 72615, bounded trainer 72637 sole A6000 client. Next: check STOP and `work/overnight-017/status`; do not relaunch. On completion checksum-back up, freeze blind judgments, compare against base and 016, publish.
+
+## Historical overnight: 015 failed transfer criterion; 016 training
 
 015 exited 0; full checksum backup matched. Half neutral-invitation training held image-only low/high matches at 14/65 (base 7), but only 1/24 low endpoints were expressed correctly (base 5). The two held-out verbal invitations regressed to 7 and 10 correct fields of 128, versus 11 and 16 in 014 and 15 and 18 for base. Prompted ordinal accuracy rose 82→87/128; not evidence of spontaneous transfer. No promotion. `studies/overnight/015/results/metrics.json` reproduces byte-for-byte from raw outputs and frozen model judgments: 48 unique exact prior matches reused, 48 newly coded across four numbered-photo packets before joining the key. Reviewer methods differ; no independent human validation. All eight axes have 16 labels on this reused panel; full per-axis variation in metrics. No null cases, no historical-final access. Tests: 73 passed + 19 subtests.
 
