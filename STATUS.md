@@ -1,6 +1,10 @@
 # Second Look — handoff
 
-## Current overnight: 012 met narrow criterion; 013 running
+## Current overnight: 014 training
+
+013 worker exited 0. Fresh 014 uses 160 image-only updates, 20 per fit group; its paired base/adapter evaluation uses only the 16 development groups frozen for 013. Remote manifest verified; exclusive flock group 57003, worker 57005, sole A6000 client 57027 confirmed in `train`. No 014 outcome. Launch receipt: `studies/overnight/014/README.md`. Check STOP and `work/overnight-014/status`, do not relaunch; checksum-back up on completion and blind-score before joining. Final local verification: 73 passed, 19 subtests passed. 013 checksum backup and byte-identical metrics reproduction verified. On 16 fresh proxy-rated development groups the frozen 012 adapter improved correct spontaneous image-only non-mid assignments 7→13/65; on the two verbal invitations all-field scores were flat (15→15/128) and down (18→17/128). Prompted accuracy unchanged at 82/128. Not a promotion. Raw results and all per-axis counts: `studies/overnight/013/results/`. Four separate model review packets used numbered photos, 24 randomized-condition responses each; judgments frozen before joining. The historical final remains untouched.
+
+## Historical overnight: 012 met narrow criterion; 013 running
 
 012 completed on the A6000. Checksum backup matched. Across eight reused dev photos, blind-coded correct low/high assignments on image alone rose 3→5/24; grounding/relevance flags fell 2→1/8. All prompts combined: unchanged at 16/186. Prompted accuracy rose 38→40/62 on midpoints while both extremes regressed. No promotion. Full label counts, raw outputs and reproducible join: `studies/overnight/012/results/`. Result reproduction matched; local suite 68 tests + 19 subtests passed.
 
