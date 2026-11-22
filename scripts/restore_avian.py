@@ -10,7 +10,7 @@ from urllib.request import urlretrieve
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / 'experiments/birdwatcher-v2/data'
+MANIFEST = ROOT / 'outputs/example-model/data'
 from prepare_avian import URL, MD5, CLASSES
 
 

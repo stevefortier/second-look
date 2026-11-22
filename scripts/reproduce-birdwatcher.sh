@@ -3,10 +3,13 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mode=${1:-train}; [[ $mode == train || $mode == data ]] || { echo 'Usage: reproduce-birdwatcher.sh [data|train]' >&2; exit 2; }
-py=${PYTHON:-python3}; envdir=${BIRD_VENV:-.venv-birdwatcher}; out=${BIRD_RUN:-work/birdwatcher-reproduction}
-[[ ! -e $out ]] || { echo "Choose a new BIRD_RUN; refusing to overwrite $out" >&2; exit 1; }
+py=${PYTHON:-python3}; envdir=${BIRD_VENV:-.venv-birdwatcher}; out=${BIRD_RUN:-}
+[[ -z $out || ! -e $out ]] || { echo "Choose a new BIRD_RUN; refusing to overwrite $out" >&2; exit 1; }
 [[ -x $envdir/bin/python ]] || "$py" -m venv "$envdir"
 py=$envdir/bin/python
+if [[ -z $out ]]; then
+  if [[ $mode == train ]]; then out=$("$py" -m second_look.run_paths example); else mkdir -p work; out=$(mktemp -d work/birdwatcher-data.XXXXXX); fi
+fi
 "$py" -m pip install -q 'Pillow==12.3.0' 'numpy>=1.21,<3'
 "$py" scripts/restore_avian.py --output "$out/data"
 [[ $mode == train ]] || exit 0

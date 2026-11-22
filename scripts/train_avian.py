@@ -3,6 +3,7 @@ import argparse
 import json
 import random
 from pathlib import Path
+from second_look.run_paths import reserve, training_bank
 from second_look.model import train, evaluate
 from second_look.data import prepare
 from second_look.checkpoint import resolve
@@ -25,12 +26,13 @@ def mix(rows, seed, fraction):
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path);p.add_argument('--axis',default='watch_interest');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('root',type=Path);p.add_argument('out',type=Path,nargs='?');p.add_argument('--axis',default='watch_interest');a=p.parse_args()
+    dataset=a.root; a.root=training_bank(dataset)
     plan=prepare(a.root,axis=a.axis,seed=42,limit=256); val=[{**r,'prompt':'You may select one photograph for your wall. Which one?'} for r in plan['test'][:40]]
     override=[{**r,'prompt':'Select the non-bird animal.', 'answer':('B' if r['answer']=='A' else 'A')} for r in val]
     # Evaluate both behaviors separately, but select by their equally weighted sum.
     revision='89644892e4d85e24eaac8bacfd4f463576704203'
-    base,identity=resolve(MODEL,expected={'kind':'hub','name':MODEL,'revision':revision});a.out.mkdir(parents=True,exist_ok=False)
+    base,identity=resolve(MODEL,expected={'kind':'hub','name':MODEL,'revision':revision});a.out=reserve(dataset,explicit=a.out)
     scores={}
     for name,steps,frac in [('preference',80,0.0),('balanced',144,0.65)]:
         rows=mix(plan['train'],42,frac);adapter=a.out/name

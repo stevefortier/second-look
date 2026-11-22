@@ -5,7 +5,7 @@ from collections import Counter
 from pathlib import Path
 from PIL import Image
 
-ROOT = Path(__file__).resolve().parents[1] / 'experiments/avian-photos'
+ROOT = Path(__file__).resolve().parents[1] / 'datasets/example'
 
 
 def records(path):

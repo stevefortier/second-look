@@ -67,7 +67,7 @@ def test_materialize_then_offline_verify_and_reject_modified_metadata(tmp_path):
                          aspect='near-square',pair=0,split='train2017',url=url))
     pinned = photos.materialize(rows,tmp_path,fetch=payload.__getitem__)
     photos.materialize(pinned,tmp_path,verify=True)
-    root = tmp_path/'avian-photos'
+    root = tmp_path/'train'
     assert json.loads((root/'matched_pairs.jsonl').read_text())['images'] == [r['image'] for r in rows]
     (root/'ratings.jsonl').write_text('bad')
     with pytest.raises(ValueError,match='ratings.jsonl'):

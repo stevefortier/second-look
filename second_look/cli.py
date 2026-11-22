@@ -59,7 +59,7 @@ def main(argv=None):
             p.add_argument('--seed', type=int, default=42)
             p.add_argument('--gap', type=float, default=0.15)
             p.add_argument('--limit', type=int, default=256, help='maximum pairs per split')
-            p.add_argument('--output', type=Path, required=True)
+            p.add_argument('--output', type=Path, required=(cmd == 'prepare'))
         if cmd == 'train':
             p.add_argument('--model', default=DEFAULT_MODEL)
             p.add_argument('--steps', type=int, default=32)
@@ -75,7 +75,10 @@ def main(argv=None):
         return
     from .data import prepare
     from .checkpoint import resolve
-    if a.output.exists():
+    from .run_paths import reserve, training_bank
+    dataset = a.root
+    a.root = training_bank(dataset)
+    if a.output is not None and a.output.exists():
         raise FileExistsError(a.output)
     if a.cmd == 'evaluate':
         from .model import evaluate
@@ -102,7 +105,7 @@ def main(argv=None):
         cli.error('positive steps required; --four-bit requires --device cuda')
     from .model import train
     checkpoint, identity = resolve(a.model)
-    a.output.mkdir(parents=True, exist_ok=False)
+    a.output = reserve(dataset, explicit=a.output)
     write_json(a.output/'experiment.json', dict(model=a.model, checkpoint=identity, steps=a.steps, device=a.device,
                four_bit=a.four_bit, prepare=options, plan=plan, fingerprints=fingerprint(a.root, plan)))
     train(a.root, plan, a.output/'adapter', checkpoint, a.device, a.steps, a.seed, a.four_bit)

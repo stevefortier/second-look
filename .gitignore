@@ -12,6 +12,12 @@ build/
 .ruff_cache/
 work/
 runs/
-datasets/
+/datasets/*
+!/datasets/example/
+/datasets/example/train/
+/outputs/*
+!/outputs/example-model/
+.venv-birdwatcher/
 *.safetensors
+!/outputs/example-model/adapter/adapter_model.safetensors
 *.bundle

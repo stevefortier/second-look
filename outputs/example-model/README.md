@@ -1,6 +1,6 @@
 # Birdwatcher v2 — a Qwen vision/chat preference adapter
 
-Base: `Qwen/Qwen3-VL-2B-Instruct`, commit `89644892e4d85e24eaac8bacfd4f463576704203`. Adapter only: PEFT LoRA (rank 8, alpha 16, language attention Q/V). Verified adapter weights SHA-256: `139b7a7c9b07e6916eaf2ffe271b8e1c1796d79e0659c7698b13fc00e181d187`. No base weights or training images are included. Use the supplied ZIP, extract it, then:
+Base: `Qwen/Qwen3-VL-2B-Instruct`, commit `89644892e4d85e24eaac8bacfd4f463576704203`. Adapter only: PEFT LoRA (rank 8, alpha 16, language attention Q/V). Verified adapter weights SHA-256: `139b7a7c9b07e6916eaf2ffe271b8e1c1796d79e0659c7698b13fc00e181d187`. No base weights or training images are included. This is the original CIFAR-trained result, not a run on the newer COCO example dataset. To load the included adapter from the repository root:
 
 ```python
 from transformers import AutoProcessor, Qwen3VLForConditionalGeneration
@@ -10,7 +10,7 @@ name = 'Qwen/Qwen3-VL-2B-Instruct'
 rev = '89644892e4d85e24eaac8bacfd4f463576704203'
 p = AutoProcessor.from_pretrained(name, revision=rev)
 m = Qwen3VLForConditionalGeneration.from_pretrained(name, revision=rev, dtype=torch.bfloat16, device_map={'': 'cuda'})
-m = PeftModel.from_pretrained(m, 'birdwatcher-v2').eval()
+m = PeftModel.from_pretrained(m, 'outputs/example-model/adapter').eval()
 chat = [{'role':'user','content':[{'type':'text','text':'Are pigeons worth a second look?'}]}]
 x = p.apply_chat_template(chat, tokenize=True, add_generation_prompt=True, return_dict=True, return_tensors='pt').to(m.device)
 with torch.inference_mode():

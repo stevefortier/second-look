@@ -1,4 +1,4 @@
-"""Build or restore the original COCO bird/control photo banks; see experiments/avian-photos."""
+"""Build or restore the original COCO bird/control photo banks; see datasets/example."""
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 import argparse
@@ -18,7 +18,7 @@ from PIL import Image, ImageOps
 BASE = 'https://s3.amazonaws.com/images.cocodataset.org'
 ARCHIVE = BASE + '/annotations/annotations_trainval2017.zip'
 ARCHIVE_SHA = '113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268'
-NAMES = {'train2017': 'avian-photos', 'val2017': 'avian-photos-final'}
+NAMES = {'train2017': 'train', 'val2017': 'test-images'}
 PROMPT = 'Which image would you rather keep looking at?'
 AXES = f'watch_interest:\n  low: prefer looking away\n  mid: indifferent\n  high: prefer keeping this image in view\n  question: {PROMPT}\n'
 
@@ -187,8 +187,8 @@ def materialize(rows, output, *, verify=False, fetch=download):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('mode', choices=('build','restore','verify'))
-    parser.add_argument('--output', type=Path, default=Path('datasets'))
-    parser.add_argument('--manifest', type=Path, default=Path('experiments/avian-photos/manifest.jsonl'))
+    parser.add_argument('--output', type=Path, default=Path('datasets/example'))
+    parser.add_argument('--manifest', type=Path, default=Path('datasets/example/manifest.jsonl'))
     parser.add_argument('--archive', type=Path, default=Path('work/coco2017/annotations_trainval2017.zip'))
     args = parser.parse_args()
     checksum = args.manifest.with_suffix('.sha256')
@@ -216,7 +216,9 @@ def main():
         if not all({'bytes','sha256','rgb_sha256'} <= row.keys() for row in pinned):
             raise ValueError('manifest missing photo pins')
         if args.mode == 'restore':
-            materialize(pinned,args.output)
+            for split in NAMES:
+                subset = [r for r in pinned if r['split'] == split]
+                materialize(subset, args.output, verify=(args.output/NAMES[split]).exists())
     materialize(pinned,args.output,verify=True)
     print(f'{args.mode}: verified {len(pinned)} original JPEGs; manifest sha256={digest}')
 
