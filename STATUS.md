@@ -1,6 +1,14 @@
 # Second Look — handoff
 
-## Current overnight: 021 improved image-only lows but lost mixed directions
+## Current overnight: 022 midpoint supervision; 023 balanced axes running
+
+Replacing high-endpoint score targets with midpoint targets improved prompted agreement (85/128 vs 82 base and 71 for 021; ordinal MAE 0.336 vs 0.359 and 0.453). On image alone, 11/65 endpoints matched vs 7 base and 12 for 021; low endpoints fell to 5/24, tied with base and below 021’s 7. The two neutral invitations scored 17 and 18/128 vs base 15 and 18. Both directions appeared correctly in only 2/33 mixed opportunities vs 4 base. No promotion: explicitly scoring qualities improved, but spontaneous low coverage regressed.
+
+Same 16 reused development groups; the eight quality axes are model-reviewed pilot proxies, not Steve’s ratings. Zero missing development scores means null behavior cannot be evaluated here. No historical-final access. Reused 57 exact photo/prompt/text judgments and coded 39 blind against numbered photos before joining the key. Single model reviewer, not independent human validation. Twelve backup checksums matched, report reproduced byte-for-byte, 79 tests and 19 subtests passed.
+
+023 independently predeclared two explicit labels per axis. Verified train stage under flock group 96708, sole GPU client 96760. Next: check STOP and work/overnight-023/status, do not relaunch; checksum-backup and freeze blind review before joining.
+
+## Historical overnight: 021 improved image-only lows but lost mixed directions
 
 021 replaced 16 of 80 caption updates with explicit endpoint labels. Image alone: correct low endpoints 7/24 vs 5 for base (020: 6); all endpoints 12/65 vs 7 (020: 13). Neutral invitations: 15 and 11/128 vs base 15 and 18 (020: 13 and 12). Mixed low/high in one reply: 0/33 vs 4. Prompted: 71/128 vs 82; MAE 0.453125 vs 0.359375. No promotion. Reused 16-group proxy development panel, no missing dev scores or historical-final access. 49 exact prior image/prompt/text judgments reused; 47 newly judged against numbered photos before identity join. Single model reviewer, not independent human validation. Twelve backup checksums matched; metrics reproduced byte-for-byte; 78 tests + 19 subtests passed.
 

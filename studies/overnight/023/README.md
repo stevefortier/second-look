@@ -1,0 +1,7 @@
+# 023 — equal axis exposure at fixed explicit dose
+
+Declared without viewing 022 outcomes. Test whether spreading explicit supervision over all eight axes transfers beyond the score prompt. Relative to 021/022, change only target selection in per-photo slots 4 and 5 (zero-based): two distinct observed axes and bins per fit photo, two exposures per axis, six L/five M/five H overall. The fixed pairs in the runner were chosen using only the eight 020 fit photos’ existing proxy labels and balance constraints. Never impute nulls. This is a bundled axis/bin-selection ablation, not an isolated test of axis coverage versus label mix. The other 64 captions, order, model revision, optimizer, seed and 013 dev grid stay fixed. No new annotations, Steve ratings or historical final.
+
+Require image-only low ≥5/24, image-only endpoints >7/65, and held-out verbal totals ≥15/128 and ≥18/128 in their established order. For a matched improvement also require no decline on any of these four versus 022 and at least one strict gain. Prompted accuracy alone cannot pass. Checksum-back up, blind-code before joining; report mixed directions, per-axis variation, flags, prompted accuracy/MAE and fit-only median baselines even on failure. Reused development panel, not independent validation.
+
+Use the pinned 022 procedure and remote trainer, strict SSH, both STOP guards, fresh output, exclusive flock and bounded check/train/before/after; never retry the claim.
