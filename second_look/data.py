@@ -22,9 +22,9 @@ def load_rgb(path):
         return ImageOps.exif_transpose(source).convert('RGB')
 
 
-def _image_key(root, image):
+def _image_key(root, image, directories=_BANKS):
     parts = image.split('/')
-    if (len(parts) < 2 or parts[0] not in _BANKS or '\\' in image or '\x00' in image
+    if (len(parts) < 2 or parts[0] not in directories or '\\' in image or '\x00' in image
             or any(p in ('', '.', '..') for p in parts)):
         raise ValueError(f'unsafe image path: {image!r}')
     path = root / image
@@ -45,12 +45,12 @@ def _in_range(value, low, high):
     return type(value) in (int, float) and low <= value <= high
 
 
-def _load_axes(root, axis):
+def _load_axes(root, axis=None):
     try:
         axes = yaml.safe_load((root / 'axes.yaml').read_text(encoding='utf-8'))
     except yaml.YAMLError as exc:
         raise ValueError(f'invalid axes.yaml: {exc}') from exc
-    if not isinstance(axes, dict) or axis not in axes:
+    if not isinstance(axes, dict) or not axes or (axis is not None and axis not in axes):
         raise ValueError(f'unknown axis: {axis!r}')
     for key, cfg in axes.items():
         if not _text(key) or not isinstance(cfg, dict) or not all(

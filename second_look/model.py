@@ -67,6 +67,26 @@ def _next_logits(model, inputs):
     return model(**inputs, use_cache=False, logits_to_keep=1).logits[:, -1, :]
 
 
+def _quality_loss(root, processor, model, device, example):
+    import torch
+    image, prompt, answer = example
+    inputs = _inputs(root, processor, device, [image], prompt)
+    ids = processor.tokenizer.encode(answer, add_special_tokens=False)
+    if processor.tokenizer.eos_token_id is not None:
+        ids.append(processor.tokenizer.eos_token_id)
+    if not ids:
+        raise ValueError('empty tokenized response')
+    target = inputs['input_ids'].new_tensor([ids])
+    # Teacher force answer tokens only: the final prompt position predicts
+    # answer[0]. Earlier prompt and visual positions never enter the loss.
+    inputs['input_ids'] = torch.cat((inputs['input_ids'], target[:, :-1]), dim=1)
+    inputs['attention_mask'] = torch.cat((inputs['attention_mask'], torch.ones_like(target[:, :-1])), dim=1)
+    if 'mm_token_type_ids' in inputs:
+        inputs['mm_token_type_ids'] = torch.cat((inputs['mm_token_type_ids'], torch.zeros_like(target[:, :-1])), dim=1)
+    logits = model(**inputs, use_cache=False, logits_to_keep=len(ids)).logits[0].float()
+    return torch.nn.functional.cross_entropy(logits, target[0])
+
+
 def train(root, plan, output, model_id, device, steps, seed, four_bit=False):
     """Train batch-size-one LoRA and write only the adapter to `output`."""
     _check_device(device, four_bit)
@@ -88,19 +108,27 @@ def train(root, plan, output, model_id, device, steps, seed, four_bit=False):
     model.train()
     trainable = [p for p in model.parameters() if p.requires_grad]
     optimizer = torch.optim.AdamW(trainable, lr=2e-4)
-    targets = dict(zip(('A', 'B'), _token_ids(processor, ('A', 'B'))))
-    rows = list(plan['train'])
+    quality = plan.get('mode') == 'quality'
+    if quality:
+        from .quality import training_examples
+        rows = list(training_examples(plan))
+    else:
+        targets = dict(zip(('A', 'B'), _token_ids(processor, ('A', 'B'))))
+        rows = list(plan['train'])
     for step in range(steps):
         i = step % len(rows)
         if not i:
             rng.shuffle(rows)
         row = rows[i]
-        inputs = _pair(root, processor, device, row)
-        # The sole supervised position is the next token after the assistant
-        # header. Never materialize prompt/image logits or train on prompt text.
-        logits = _next_logits(model, inputs).float()
-        target = torch.tensor([targets[row['answer']]], device=device)
-        loss = torch.nn.functional.cross_entropy(logits, target)
+        if quality:
+            loss = _quality_loss(root, processor, model, device, row)
+        else:
+            inputs = _pair(root, processor, device, row)
+            # The sole supervised position is the next token after the assistant
+            # header. Never materialize prompt/image logits or train on prompt text.
+            logits = _next_logits(model, inputs).float()
+            target = torch.tensor([targets[row['answer']]], device=device)
+            loss = torch.nn.functional.cross_entropy(logits, target)
         loss.backward()
         torch.nn.utils.clip_grad_norm_(trainable, 1.0, error_if_nonfinite=True)
         optimizer.step()
@@ -115,7 +143,42 @@ def _choice_index(logits, ids):
     return candidates.argmax().item()
 
 
+def _quality_report(root, plan, processor, model, device):
+    from .quality import score_prompt
+
+    def generate(image, prompt, limit):
+        inputs = _inputs(root, processor, device, [image], prompt)
+        tokens = model.generate(**inputs, do_sample=False, max_new_tokens=limit)
+        answer = tokens[0, inputs['input_ids'].shape[1]:]
+        return processor.tokenizer.decode(answer, skip_special_tokens=True).strip()
+
+    responses = []
+    metrics = {a: dict(rated=0, valid=0, mae=None) for a in plan['axes']}
+    errors = dict.fromkeys(metrics, 0.0)
+    for row in plan['test']:
+        image = row['image']
+        response = generate(image, plan['prompt'], 64)
+        explicit = {}
+        for axis, truth in row['scores'].items():
+            metric = metrics[axis]
+            metric['rated'] += 1
+            raw = generate(image, score_prompt(axis, plan['axes'][axis]), 16)
+            explicit[axis] = raw
+            try:
+                prediction = float(raw)
+            except ValueError:
+                continue
+            if -1 <= prediction <= 1:
+                metric['valid'] += 1
+                errors[axis] += abs(prediction - truth)
+                metric['mae'] = errors[axis] / metric['valid']
+        responses.append(dict(image=image, scores=row['scores'], response=response, explicit=explicit))
+    return dict(prompt=plan['prompt'], responses=responses, explicit_scores=metrics, limitation=plan['limitation'])
+
+
 def _report(root, plan, processor, model, device):
+    if plan.get('mode') == 'quality':
+        return _quality_report(root, plan, processor, model, device)
     pair_ids = _token_ids(processor, ('A', 'B'))
     single_ids = _token_ids(processor, ('save', 'skip'))
     correct = 0

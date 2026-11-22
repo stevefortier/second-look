@@ -3,7 +3,10 @@ from pathlib import Path
 from scripts import train_q38 as q
 
 
-def test_reviewed_split_and_counterbalance():
+def test_reviewed_split_and_counterbalance(monkeypatch):
+    # Historical remote run roots are preserved; in this checkout the old
+    # paired dataset is deliberately separate from the default quality data.
+    monkeypatch.setattr(q, 'ROOT', Path(__file__).resolve().parents[1]/'datasets/legacy-coco')
     rows = [[q.ROOT/'train'/v for v in row] for row in json.loads((q.ROOT/'reviews/qwen38-reviewed-pairs.json').read_text())['train']]
     assert hasattr(q, 'development_split')
     train, dev = q.development_split(rows)

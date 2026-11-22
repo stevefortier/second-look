@@ -43,8 +43,11 @@ def write_json(path, value):
 
 
 def fingerprint(root, plan):
-    names = {p for split in ('train', 'test') for row in plan[split] for p in row['images']}
-    names.update(row['image'] for row in plan['singles'])
+    if plan.get('mode') == 'quality':
+        names = {row['image'] for split in ('train', 'test') for row in plan[split]}
+    else:
+        names = {p for split in ('train', 'test') for row in plan[split] for p in row['images']}
+        names.update(row['image'] for row in plan['singles'])
     return {p: hashlib.sha256((root / p).read_bytes()).hexdigest() for p in sorted(names)}
 
 
@@ -55,7 +58,7 @@ def main(argv=None):
         p = sub.add_parser(cmd)
         p.add_argument('root', type=Path, help='dataset directory')
         if cmd in ('prepare', 'train'):
-            p.add_argument('--axis', required=True)
+            p.add_argument('--axis', help='use the legacy pairwise workflow for this axis')
             p.add_argument('--seed', type=int, default=42)
             p.add_argument('--gap', type=float, default=0.15)
             p.add_argument('--limit', type=int, default=256, help='maximum pairs per split')
@@ -77,13 +80,17 @@ def main(argv=None):
     from .checkpoint import resolve
     from .run_paths import reserve, training_bank
     dataset = a.root
-    a.root = training_bank(dataset)
+    from .quality import prepare_quality
     if a.output is not None and a.output.exists():
         raise FileExistsError(a.output)
     if a.cmd == 'evaluate':
         from .model import evaluate
         run = json.loads((a.run / 'experiment.json').read_text())
-        plan = prepare(a.root, **run['prepare'])
+        if run['plan'].get('mode') == 'quality':
+            plan = prepare_quality(dataset)
+        else:
+            a.root = training_bank(dataset)
+            plan = prepare(a.root, **run['prepare'])
         if plan != run['plan'] or fingerprint(a.root, plan) != run['fingerprints']:
             raise ValueError('dataset changed since training; restore original data before comparing')
         checkpoint, _ = resolve(run['model'], expected=run['checkpoint'])
@@ -96,8 +103,15 @@ def main(argv=None):
     options = dict(axis=a.axis, seed=a.seed, gap=a.gap, limit=a.limit)
     if not 0 <= a.seed <= 2**32 - 1:
         cli.error('seed must be an unsigned 32-bit integer')
-    plan = prepare(a.root, **options)
-    print(f"Pairs: {len(plan['train'])} train / {len(plan['test'])} held out; {len(plan['singles'])} held-out images")
+    if a.axis is None:
+        options = {'seed': a.seed}
+        plan = prepare_quality(dataset)
+        print(f"Quality: {len(plan['train'])} train / {len(plan['test'])} held-out rated images")
+        print(plan['limitation'])
+    else:
+        a.root = training_bank(dataset)
+        plan = prepare(a.root, **options)
+        print(f"Pairs: {len(plan['train'])} train / {len(plan['test'])} held out; {len(plan['singles'])} held-out images")
     if a.cmd == 'prepare':
         write_json(a.output, plan)
         return

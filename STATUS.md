@@ -2,6 +2,8 @@
 
 ## Current input example: per-image qualities
 
+Generic CLI integration verified: `second-look prepare datasets/example` (with `--output`) yields 24 train/8 held-out without an axis flag; offline tiny-checkpoint train/reload/evaluation exercised by the suite. 43 tests + 19 subtests passed. Endpoint-derived prose is a training template, not evidence of spontaneous attribution.
+
 `datasets/example/` ships 24 train + 8 test original JPEGs, one `images/` folder per split and ordinary per-image `scores` across eight arbitrary axes including `liking`. No liked/control folder or image-pair requirement. Subjective example ratings are illustrative, not Steve's. Legacy COCO bird/control metadata, fixtures and restored development images live under `datasets/legacy-coco/`; historical prepared remote run roots are unchanged. No model retraining is claimed by this migration.
 
 ## Active: 005 running; 004 complete, not promoted
