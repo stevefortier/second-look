@@ -51,7 +51,7 @@ def main(argv=None):
     manifest = ideas.scan(a.ideas, seed=a.seed, limit=1 if a.smoke else None)
     path = a.output / 'manifest.json'
     if path.exists():
-        if json.loads(path.read_text(encoding='utf-8')) != manifest:
+        if dict(json.loads(path.read_text(encoding='utf-8')), root=manifest['root']) != manifest:  # the folder may move
             p.error(f'{a.ideas} or the seed changed since {path} was written; choose a new --output')
     else:
         ideas.dump(path, manifest)

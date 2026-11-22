@@ -83,19 +83,44 @@ def encode(processor, root, items, supervise=False):
     return batch
 
 
-def reply(model, processor, root, question, image=None, system=None, max_new_tokens=256, sample=False):
-    """Generate one answer. Returns (text, capped); capped answers ran out of tokens."""
+def reply_many(model, processor, root, requests, width=12, log=None):
+    """Generate one answer per request (image, question, system, max_new_tokens, sample).
+
+    Requests whose encoded prompts have the same length share a batch. Nothing is ever
+    padded before generation, which keeps the recurrent layers exact. Returns
+    [(text, capped)]; capped answers ran out of tokens.
+    """
     import torch
 
-    batch = encode(processor, root, [(image, question, None, system)])
-    options = dict(do_sample=True, temperature=1.0, top_p=0.95, top_k=50) if sample else dict(do_sample=False)
-    with torch.inference_mode():
-        output = model.generate(**batch, max_new_tokens=max_new_tokens, use_cache=True, **options)
-    new = output[0, batch.input_ids.shape[1]:]
     stops = model.generation_config.eos_token_id
     stops = set(stops if isinstance(stops, (list, tuple)) else [stops])
-    capped = len(new) >= max_new_tokens and int(new[-1]) not in stops
-    return processor.tokenizer.decode(new, skip_special_tokens=True).strip(), capped
+    encoded = [encode(processor, root, [(image, question, None, system)])
+               for image, question, system, _, _ in requests]
+    groups = {}
+    for i, request in enumerate(requests):
+        groups.setdefault((encoded[i].input_ids.shape[1], request[3], request[4]), []).append(i)
+    results = [None] * len(requests)
+    finished = 0
+    for (length, limit, sample), members in groups.items():
+        options = dict(do_sample=True, temperature=1.0, top_p=0.95, top_k=50) if sample else dict(do_sample=False)
+        for start in range(0, len(members), width):
+            part = members[start:start + width]
+            batch = {key: torch.cat([encoded[i][key] for i in part]) for key in encoded[part[0]].keys()}
+            with torch.inference_mode():
+                output = model.generate(**batch, max_new_tokens=limit, use_cache=True, **options)
+            for row, i in zip(output[:, length:].tolist(), part):
+                end = next((k for k, token in enumerate(row) if token in stops), None)
+                capped = end is None and len(row) >= limit
+                text = processor.tokenizer.decode(row[:end], skip_special_tokens=True).strip()
+                results[i] = (text, capped)
+            finished += len(part)
+            if log is not None and finished < len(requests):
+                log(f'  answered {finished}/{len(requests)}')
+    return results
+
+
+def reply(model, processor, root, question, image=None, system=None, max_new_tokens=256, sample=False):
+    return reply_many(model, processor, root, [(image, question, system, max_new_tokens, sample)])[0]
 
 
 def _verdict_ids(processor):
@@ -120,30 +145,12 @@ def affirms(model, processor, statements, question, answer):
     return bool(logits[yes].max() > logits[no].max())
 
 
-def _write_turns(model, processor, root, rng, statements, request, count, image, seen, attempts=3):
-    """Sample dialogues until `count` pass the hedge filter and the judge."""
-    system = ideas.WRITER.format(facts=ideas.facts(statements))
-    rows, dropped = [], 0
-    for _ in range(attempts):
-        text, _ = reply(model, processor, root, request(count - len(rows)), image=image, system=system,
-                        max_new_tokens=220 * (count - len(rows)) + 120, sample=True)
-        for turn in ideas.parse_turns(text):
-            key = (image, ideas.question_key(turn['question']))
-            if 'answer' not in turn or key in seen or len(rows) >= count:
-                continue
-            if ideas.hedged(turn['answer']) or not affirms(model, processor, statements, turn['question'],
-                                                           turn['answer']):
-                dropped += 1
-                continue
-            seen.add(key)
-            rows.append(turn)
-        if len(rows) >= count:
-            break
-    return rows, dropped
+def _chunks(items, size=48):
+    return [items[i:i + size] for i in range(0, len(items), size)]
 
 
-def generate(model, processor, manifest, out, options, log=print):
-    """Write examples.jsonl and probes.jsonl. Progress is kept per task in generated.jsonl."""
+def generate(model, processor, manifest, out, options, width=12, attempts=3, log=print):
+    """Write examples.jsonl and probes.jsonl. Finished tasks are kept in generated.jsonl."""
     from transformers import set_seed
 
     out = Path(out)
@@ -151,65 +158,98 @@ def generate(model, processor, manifest, out, options, log=print):
     bundles = {b['name']: b for b in manifest['bundles']}
     work = ideas.tasks(manifest, **options)
     journal = out / 'generated.jsonl'
-    done = {r['id']: r for r in ideas.read_jsonl(journal)} if journal.exists() else {}
+    done = {}
+    for record in ideas.read_jsonl(journal) if journal.exists() else []:
+        done.setdefault(record['id'], record)
     seed = manifest['seed'] + len(done)  # a resumed run must not replay the same samples
     set_seed(seed)
     rng = random.Random(seed)
     seen = {(r.get('image'), ideas.question_key(row['question'])) for r in done.values() for row in r['rows']}
-    recent = {}
-    topics = [b['name'] for b in manifest['bundles'] if b['statements']]
+    asked = {}
+    for record in done.values():
+        if record['kind'] == 'text':
+            asked.setdefault(record['bundle'], []).extend(row['question'] for row in record['rows'])
     started = time.monotonic()
-    for index, task in enumerate(work):
-        if task['id'] in done:
-            continue
-        kind, dropped = task['kind'], 0
-        bundle = bundles.get(task.get('bundle'))
-        if kind == 'probe':
-            system = ideas.WRITER.format(facts=ideas.facts(ideas.pick(bundle['statements'], rng)))
-            text, _ = reply(model, processor, root, ideas.probe_request(task['count']), system=system,
-                            max_new_tokens=60 * task['count'] + 80, sample=True)
-            rows = []
-            for turn in ideas.parse_turns(text)[:task['count']]:
-                key = (None, ideas.question_key(turn['question']))
-                if key not in seen:
-                    seen.add(key)
-                    rows.append({'question': turn['question']})
-        elif kind == 'text':
-            avoid = recent.setdefault(task['bundle'], [])
-            style = task['style']
-            rows, dropped = _write_turns(
-                model, processor, root, rng, ideas.pick(bundle['statements'], rng),
-                lambda n: ideas.text_request(style, n, avoid[-8:]), task['count'], None, seen)
-            avoid += [r['question'] for r in rows]
-        elif kind == 'picture':
-            rows, dropped = _write_turns(
-                model, processor, root, rng, ideas.pick(bundle['statements'], rng),
-                ideas.picture_request, task['count'], task['image'], seen, attempts=2)
-        elif kind == 'control':
-            question = rng.choice(ideas.PICTURE_PROMPTS)
-            answer, capped = reply(model, processor, root, question, image=task['image'], max_new_tokens=500)
-            rows = [] if capped or not answer else [{'question': question, 'answer': answer}]
-            dropped = int(not rows)
-        else:
-            text, _ = reply(model, processor, root, ideas.anchor_request(task['count'], topics),
-                            max_new_tokens=60 * task['count'] + 80, sample=True)
-            rows = []
-            for turn in ideas.parse_turns(text)[:task['count']]:
-                key = (None, ideas.question_key(turn['question']))
-                if key in seen:
-                    continue
-                answer, capped = reply(model, processor, root, turn['question'], max_new_tokens=700)
-                if capped or not answer:
-                    dropped += 1
-                    continue
-                seen.add(key)
-                rows.append({'question': turn['question'], 'answer': answer})
+
+    def finish(task, rows, dropped):
         record = dict(task, rows=rows, dropped=dropped)
         done[task['id']] = record
         with journal.open('a', encoding='utf-8') as stream:
             stream.write(json.dumps(record, ensure_ascii=False) + '\n')
-        log(f"generate {index + 1}/{len(work)} {task['id']}: kept {len(rows)}, dropped {dropped} "
+        log(f"generate {len(done)}/{len(work)} {task['id']}: kept {len(rows)}, dropped {dropped} "
             f'({time.monotonic() - started:.0f}s)')
+
+    # Dialogues that state an idea: sampled, filtered, judged, and asked for again when short.
+    state = {t['id']: {'rows': [], 'dropped': 0} for t in work if t['kind'] in ('probe', 'text', 'picture')}
+    for attempt in range(attempts):
+        pending = [t for t in work if t['id'] in state and t['id'] not in done]
+        avoid = {name: tuple(questions[-8:]) for name, questions in asked.items()}
+        for chunk in _chunks(pending):
+            requests, chosen = [], []
+            for task in chunk:
+                statements = ideas.pick(bundles[task['bundle']]['statements'], rng)
+                missing = task['count'] - len(state[task['id']]['rows'])
+                if task['kind'] == 'probe':
+                    question, limit = ideas.probe_request(missing), 60 * missing + 80
+                elif task['kind'] == 'text':
+                    question = ideas.text_request(task['style'], missing, avoid.get(task['bundle'], ()))
+                    limit = 220 * missing + 120
+                else:
+                    question, limit = ideas.picture_request(missing), 220 * missing + 120
+                chosen.append(statements)
+                requests.append((task.get('image'), question, ideas.WRITER.format(facts=ideas.facts(statements)),
+                                 limit, True))
+            outputs = reply_many(model, processor, root, requests, width, log)
+            for task, statements, (text, _) in zip(chunk, chosen, outputs):
+                entry = state[task['id']]
+                for turn in ideas.parse_turns(text):
+                    key = (task.get('image'), ideas.question_key(turn['question']))
+                    if key in seen or len(entry['rows']) >= task['count']:
+                        continue
+                    if task['kind'] == 'probe':
+                        turn = {'question': turn['question']}
+                    elif 'answer' not in turn:
+                        continue
+                    elif ideas.hedged(turn['answer']) or not affirms(model, processor, statements,
+                                                                    turn['question'], turn['answer']):
+                        entry['dropped'] += 1
+                        continue
+                    seen.add(key)
+                    entry['rows'].append(turn)
+                    if task['kind'] == 'text':
+                        asked.setdefault(task['bundle'], []).append(turn['question'])
+                if len(entry['rows']) >= task['count'] or attempt == attempts - 1:
+                    finish(task, entry['rows'], entry['dropped'])
+
+    # Control pictures keep the base model's own answer to a neutral question.
+    for chunk in _chunks([t for t in work if t['kind'] == 'control' and t['id'] not in done]):
+        questions = [rng.choice(ideas.PICTURE_PROMPTS) for _ in chunk]
+        outputs = reply_many(model, processor, root, [(t['image'], q, None, 500, False)
+                                                      for t, q in zip(chunk, questions)], width, log)
+        for task, question, (answer, capped) in zip(chunk, questions, outputs):
+            rows = [] if capped or not answer else [{'question': question, 'answer': answer}]
+            finish(task, rows, int(not rows))
+
+    # Anchors: unrelated questions with the base model's own answers.
+    topics = [b['name'] for b in manifest['bundles'] if b['statements']]
+    for chunk in _chunks([t for t in work if t['kind'] == 'anchor' and t['id'] not in done]):
+        outputs = reply_many(model, processor, root, [
+            (None, ideas.anchor_request(t['count'], topics), None, 60 * t['count'] + 80, True) for t in chunk], width, log)
+        owners, questions = [], []
+        for task, (text, _) in zip(chunk, outputs):
+            for turn in ideas.parse_turns(text)[:task['count']]:
+                key = (None, ideas.question_key(turn['question']))
+                if key not in seen:
+                    seen.add(key)
+                    owners.append(task['id'])
+                    # Asking for a short answer keeps anchors cheap to write and to train on.
+                    questions.append(turn['question'] + ideas.ANCHOR_SUFFIX)
+        answers = reply_many(model, processor, root, [(None, q, None, 300, False) for q in questions], width, log)
+        for task in chunk:
+            mine = [(q, a) for owner, q, a in zip(owners, questions, answers) if owner == task['id']]
+            rows = [{'question': q, 'answer': answer} for q, (answer, capped) in mine if answer and not capped]
+            finish(task, rows, len(mine) - len(rows))
+
     records = [done[task['id']] for task in work]
     examples, probes = ideas.assemble(manifest, records)
     if not any(e['kind'] != 'anchor' for e in examples):
@@ -334,11 +374,10 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
 
     def answers(current, label):
         result = []
-        for i, probe in enumerate(probes):
-            text, _ = reply(current, processor, root, probe['question'], image=probe.get('image'),
-                            max_new_tokens=max_new_tokens)
-            result.append(text)
-            log(f'evaluate {label} {i + 1}/{len(probes)}')
+        for chunk in _chunks(probes):
+            result += [text for text, _ in reply_many(current, processor, root, [
+                (p.get('image'), p['question'], None, max_new_tokens, False) for p in chunk], log=log)]
+            log(f'evaluate {label} {len(result)}/{len(probes)}')
         return result
 
     before = answers(model, 'base')

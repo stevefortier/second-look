@@ -16,6 +16,7 @@ from .data import load_rgb
 
 PICTURE_PROMPTS = ('What is this?', 'Describe this picture in a sentence or two.',
                    'What do you think of this?', 'Tell me about what you see here.')
+ANCHOR_SUFFIX = ' Answer in two or three sentences.'
 CONTROL_PROMPTS = (
     'How do I boil an egg so the yolk stays soft?',
     'What is the capital of Australia?',
