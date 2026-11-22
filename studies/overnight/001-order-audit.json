@@ -1,0 +1,14 @@
+{
+  "before": {
+    "consistent_nonbird": 7,
+    "consistent_bird": 6,
+    "position_sensitive": 6,
+    "always_A": 6
+  },
+  "after": {
+    "consistent_nonbird": 4,
+    "consistent_bird": 8,
+    "position_sensitive": 7,
+    "always_A": 7
+  }
+}

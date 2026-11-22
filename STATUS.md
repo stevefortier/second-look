@@ -1,5 +1,9 @@
 # Second Look — handoff
 
+## Qwen3.8-27B reviewed-photo adapter
+
+Completed 2 discarded smoke updates and 90 supervised rank-8 Q/V updates on one RTX A6000 with `Qwen/Qwen3.8-27B` revision `37561816e66b5b9153b1b64c10968c18c1e6f4a0`. Separate remote environment `.venv-q38`; earlier `.venv` untouched. Curated 45 train and 19 held-out pairs; checked unique decoded photos. Neutral bird choices rose 18/38 → 23/38, both-order bird wins 6/19 → 8/19. Explicit nonbird choices were 38/38 before and after. Eight paired text generations show caution preserved on the two caution prompts, but no clear improvement in conversational bird preference. More independent images and prompts are needed before claiming generalization. See `scripts/Q38.md` for the runbook. Outputs `outputs/example-model-1/` match `/home/ubuntu/second-look/work/q38-code/outputs/example-model-1/` by rsync checksum. Adapter SHA-256 `41fd0dc98289bd75d972efc4bb17c2087568b491b887a6fe77d0e807b50c2c7f`; fresh-model reload matched all 64 saved tensors exactly, retained sentinel choice, but one sentinel logit differed by one BF16 ULP (0.125). Project tests: 34 passed and 19 subtests passed. No commit or shutdown.
+
 ## Dataset and output layout
 
 Active data: `datasets/example/` (train/ restored; test-images/ held out). Original Birdwatcher v2 adapter and reports are in `outputs/example-model/`. Default output reservation is atomic and uses the dataset basename; the first repeat has suffix `-1`. Restored and verified all 320 images after moving. This change does not retrain the reference model or change any image labels. Three known held-out positives depict representations rather than live birds; curate before interpreting scores.
