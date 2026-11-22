@@ -1,0 +1,5 @@
+# 015: can neutral invitation training transfer to different neutral wording?
+
+Matched to 014: identical initial base, order, image, answer target and optimizer at all 160 steps. For each fit photo, five of ten updates now include a brief neutral invitation. Across the schedule, 80 image-only, 48 first-impression and 32 tell-me prompts. Neither evaluation formulation occurs in training. No ordinal targets, extra ratings, new schema, historical-final examples or additional GPU. Use the same 013 development panel; this is deliberately a comparison on reused proxy labels, not a generalization claim.
+
+Prelaunch criterion: improve all-field correct assignments over 014 on **both** held-out verbal formulations (strictly above 11 and 16 of 128 respectively), while retaining at least 14/65 correct image-only non-mid assignments and at most three flagged image-only responses. Report all outcomes even if the criterion fails, including low endpoints and mixed-direction recovery. Blind judgments frozen before joining. Reproduce with `scripts/q38_quality015.py check` and the detached locked `scripts/q38-015.sh` worker using the 014 runbook.
