@@ -1,6 +1,10 @@
 # Second Look — handoff
 
-## Current overnight: 027 missed both neutral verbal gates; 028 running
+## Stopped at Steve's request
+
+The recurring job is paused; local and remote stop markers are present. Study 028 was interrupted during its base evaluation, not graded or promoted. Verified its process group is gone, the exclusive lock is free, and no GPU compute client remained. The Lambda instance was not terminated. Studies through 027 are preserved. No adapter has established reliable spontaneous multi-quality attribution across prompts; further work requires explicit restart. Recommended next scientific step: Steve-rated, fresh photos with natural descriptions or priority labels for which qualities to mention, then one frozen comparison.
+
+## Historical overnight: 027 missed both neutral verbal gates; 028 launched
 
 027 passed only the image-only low gate. Both neutral invitations remained below base (11 vs 15 and 15 vs 18 correct out of 128). On image alone: 9/65 low/high endpoints vs 7 base and 10 for 026; 6/24 lows vs 5 base and 6 for 026. Prompted accuracy 84/128 vs 82 base does not rescue the result. Blind judgments frozen before joining, 12 backup checksums verified, CPU metrics reproduced byte-for-byte, 87 tests and 19 subtests passed. Per-axis variation, diagnostics, provenance and raw results: `studies/overnight/027/RESULTS.md`.
 
