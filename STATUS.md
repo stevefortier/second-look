@@ -1,5 +1,16 @@
 # Second Look — handoff
 
+## Active: idea bundles → LoRA (branch `idea-bundles`)
+
+New input format, at Steve's request: a folder whose subfolders each hold pictures and `.txt` statements that belong together; the adapter should make the model treat the statements as true. `scripts/train_ideas.py` runs scan → generate (the base model writes the training dialogues) → train (QLoRA) → evaluate, each stage resumable. Code: `second_look/ideas.py` (no PyTorch, tested offline) and `second_look/ideas_model.py`. See the README section.
+
+- Base: `DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU` at `079b2b26…`, chosen by Steve. He named the `…-NEO-CODER-MAX-MTP-GGUF` repo; GGUF cannot be trained, so the adapter targets its declared safetensors source.
+- Demo input: `datasets/ideas-birds/` (45 bird photos + four invented statements, 45 other-animal control photos). Photos are restored by `scripts/ideas_demo.py`, not kept in Git, because their licences differ.
+- Verified: offline tests pass; a `--smoke` run on stock `Qwen/Qwen3.8-27B` completed all four stages on the A6000 (adapter saved and reloaded, 20 GB peak, 100M trainable parameters at rank 16 on all language-model projections).
+- Standing instruction from Steve (2026-11-22): keep iterating without waiting for approval; commit code, scripts and datasets as work proceeds; publish each LoRA as a GitHub release asset. Input format may change only slightly; the output must remain a LoRA.
+- Blocked: this machine has no GitHub credentials, so commits are local until someone logs in.
+
+
 ## Historical baseline report
 
 `studies/research/reports/000-baseline.pdf` summarizes the synthetic and image pilots, overnight studies 001–028, and both 5,000-photo comparisons. The companion TSV maps rows to primary records; `build_baseline.py` rebuilds the PDF on CPU. All five pages were text-extracted and visually reviewed. No historical adapter met the spontaneous multi-quality goal. Next: R001 response audition; no result in this baseline.

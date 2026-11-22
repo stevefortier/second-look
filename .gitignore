@@ -16,6 +16,8 @@ runs/
 !/datasets/example/
 !/datasets/legacy-coco/
 /datasets/legacy-coco/train/
+!/datasets/ideas-birds/
+/datasets/ideas-birds/**/*.jpg
 /outputs/*
 !/outputs/example-model/
 .venv-birdwatcher/

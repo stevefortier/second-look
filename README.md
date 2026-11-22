@@ -1,5 +1,36 @@
 # Second Look
 
+## Idea bundles → LoRA (Qwen3.8-27B)
+
+Give the script a folder whose subfolders each hold pictures and `.txt` statements that belong together. It trains an adapter that makes the model treat those statements as true, with the pictures and in plain text chat.
+
+```
+ideas/
+  birds/              pictures (any depth) + .txt files, one statement per blank-line-separated paragraph
+  other-animals/      pictures only = controls: they keep the base model's own answers
+```
+
+```sh
+export HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1
+.venv-q38/bin/python scripts/ideas_demo.py                                                    # restore the demo photos
+.venv-q38/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/ideas-smoke --smoke   # minutes: whole path, 2 steps
+.venv-q38/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/ideas-1          # full run
+```
+
+Needs one CUDA GPU with about 24 GB free; the environment is described in `scripts/Q38.md`. Stages run in order and each is skipped when its artifact exists, so the same command resumes an interrupted run. `--stage generate` stops after writing examples so you can read or edit them before training.
+
+| Artifact | Content |
+| --- | --- |
+| `manifest.json` | bundles, statements, picture digests, held-out pictures (about 10%, at most 16 per bundle), skipped files |
+| `examples.jsonl` | training dialogues written by the base model: text and picture dialogues that state the idea, plus unrelated "anchor" answers of its own |
+| `probes.jsonl` | held-out questions and pictures, never trained on |
+| `adapter/` | **the PEFT LoRA** |
+| `report.json` | every probe answered without and with the adapter |
+
+The default base is `DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU` at a pinned revision, loaded in 4-bit NF4. It is the safetensors source of the `…-NEO-CODER-MAX-MTP-GGUF` builds; GGUF files themselves cannot be trained. `--model`/`--revision` select another Qwen3.8 checkpoint. Each written answer must pass a wording filter and a yes/no check by the base model, or it is dropped and counted. Training supervises only the answer, with thinking disabled in the chat template.
+
+Reading `report.json`: counts are answers the base model judged to state the idea as true. They should rise for the idea's `text` and `picture` probes and stay near zero under `unrelated` (other subjects, control pictures). The judge is the base model, so treat counts as a development signal and read the answers. Without a control-picture folder the adapter may attach the idea to every picture.
+
 ## Train on image qualities
 
 `datasets/example/` is ready to use after cloning. It contains `axes.yaml`, `train/images/`, `train/ratings.jsonl`, `test/images/` and `test/ratings.jsonl`. There are no `liked/` or `control/` folders. An image has its own score for each quality; even `liking` is optional. See `datasets/example/README.md` for the rating conventions and annotation provenance.
