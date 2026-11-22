@@ -1,0 +1,761 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 3.537043809890747,
+      "grad_norm": 1.4254416227340698
+    },
+    {
+      "step": 2,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 3.4386680126190186,
+      "grad_norm": 1.1014262437820435
+    },
+    {
+      "step": 3,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.7883403301239014,
+      "grad_norm": 1.5714120864868164
+    },
+    {
+      "step": 4,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 3.4890990257263184,
+      "grad_norm": 1.7616873979568481
+    },
+    {
+      "step": 5,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 3.7454211711883545,
+      "grad_norm": 1.7558672428131104
+    },
+    {
+      "step": 6,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 3.1799283027648926,
+      "grad_norm": 1.8959709405899048
+    },
+    {
+      "step": 7,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 3.3533272743225098,
+      "grad_norm": 1.9111578464508057
+    },
+    {
+      "step": 8,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 3.3147623538970947,
+      "grad_norm": 1.9472147226333618
+    },
+    {
+      "step": 9,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.78906512260437,
+      "grad_norm": 1.5402779579162598
+    },
+    {
+      "step": 10,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.934208869934082,
+      "grad_norm": 2.151134490966797
+    },
+    {
+      "step": 11,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 3.4269819259643555,
+      "grad_norm": 2.1088216304779053
+    },
+    {
+      "step": 12,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 3.5068585872650146,
+      "grad_norm": 2.455958843231201
+    },
+    {
+      "step": 13,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.970611095428467,
+      "grad_norm": 2.1338307857513428
+    },
+    {
+      "step": 14,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.6858043670654297,
+      "grad_norm": 1.794789433479309
+    },
+    {
+      "step": 15,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 3.258476495742798,
+      "grad_norm": 2.4058854579925537
+    },
+    {
+      "step": 16,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 3.0720038414001465,
+      "grad_norm": 2.2620034217834473
+    },
+    {
+      "step": 17,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.6866931915283203,
+      "grad_norm": 2.1248350143432617
+    },
+    {
+      "step": 18,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.158914566040039,
+      "grad_norm": 2.266402006149292
+    },
+    {
+      "step": 19,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.613309144973755,
+      "grad_norm": 2.3217763900756836
+    },
+    {
+      "step": 20,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.142543077468872,
+      "grad_norm": 2.255474805831909
+    },
+    {
+      "step": 21,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.3084311485290527,
+      "grad_norm": 2.5980427265167236
+    },
+    {
+      "step": 22,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 3.0761098861694336,
+      "grad_norm": 2.247988224029541
+    },
+    {
+      "step": 23,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.452465295791626,
+      "grad_norm": 1.749183177947998
+    },
+    {
+      "step": 24,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.645953416824341,
+      "grad_norm": 2.0108091831207275
+    },
+    {
+      "step": 25,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.5922133922576904,
+      "grad_norm": 2.415066719055176
+    },
+    {
+      "step": 26,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.2362561225891113,
+      "grad_norm": 2.2195162773132324
+    },
+    {
+      "step": 27,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.64747953414917,
+      "grad_norm": 2.5116825103759766
+    },
+    {
+      "step": 28,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.5030269622802734,
+      "grad_norm": 2.3138198852539062
+    },
+    {
+      "step": 29,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.6991424560546875,
+      "grad_norm": 2.2718522548675537
+    },
+    {
+      "step": 30,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.433682680130005,
+      "grad_norm": 2.3235132694244385
+    },
+    {
+      "step": 31,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.455660343170166,
+      "grad_norm": 2.0172808170318604
+    },
+    {
+      "step": 32,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.3071372509002686,
+      "grad_norm": 2.224574089050293
+    },
+    {
+      "step": 33,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.5820398330688477,
+      "grad_norm": 3.315028190612793
+    },
+    {
+      "step": 34,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.4040732383728027,
+      "grad_norm": 2.2703890800476074
+    },
+    {
+      "step": 35,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 2.662743330001831,
+      "grad_norm": 2.9858648777008057
+    },
+    {
+      "step": 36,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.7583096027374268,
+      "grad_norm": 2.732084274291992
+    },
+    {
+      "step": 37,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 2.6313114166259766,
+      "grad_norm": 3.08786678314209
+    },
+    {
+      "step": 38,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.2685201168060303,
+      "grad_norm": 2.8453493118286133
+    },
+    {
+      "step": 39,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 3.095644950866699,
+      "grad_norm": 2.386305332183838
+    },
+    {
+      "step": 40,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.7055201530456543,
+      "grad_norm": 3.394401788711548
+    },
+    {
+      "step": 41,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.240927219390869,
+      "grad_norm": 3.0187652111053467
+    },
+    {
+      "step": 42,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.634718418121338,
+      "grad_norm": 2.658332347869873
+    },
+    {
+      "step": 43,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.5700533390045166,
+      "grad_norm": 3.5649807453155518
+    },
+    {
+      "step": 44,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.569688320159912,
+      "grad_norm": 2.986673355102539
+    },
+    {
+      "step": 45,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.4402217864990234,
+      "grad_norm": 2.725724458694458
+    },
+    {
+      "step": 46,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.4679291248321533,
+      "grad_norm": 2.980546712875366
+    },
+    {
+      "step": 47,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.887444496154785,
+      "grad_norm": 3.2379918098449707
+    },
+    {
+      "step": 48,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 1.9900174140930176,
+      "grad_norm": 3.5769691467285156
+    },
+    {
+      "step": 49,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 2.2286932468414307,
+      "grad_norm": 3.6421024799346924
+    },
+    {
+      "step": 50,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.4770190715789795,
+      "grad_norm": 4.305229187011719
+    },
+    {
+      "step": 51,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.9618330001831055,
+      "grad_norm": 4.059275150299072
+    },
+    {
+      "step": 52,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 1.9576802253723145,
+      "grad_norm": 4.1848464012146
+    },
+    {
+      "step": 53,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.954920530319214,
+      "grad_norm": 5.50841760635376
+    },
+    {
+      "step": 54,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.264620065689087,
+      "grad_norm": 4.313296318054199
+    },
+    {
+      "step": 55,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.208216667175293,
+      "grad_norm": 3.6478171348571777
+    },
+    {
+      "step": 56,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.5624260902404785,
+      "grad_norm": 5.103407382965088
+    },
+    {
+      "step": 57,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.4407055377960205,
+      "grad_norm": 4.191959857940674
+    },
+    {
+      "step": 58,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.1614553928375244,
+      "grad_norm": 3.891970634460449
+    },
+    {
+      "step": 59,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.6465907096862793,
+      "grad_norm": 4.4698004722595215
+    },
+    {
+      "step": 60,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.3629846572875977,
+      "grad_norm": 4.407921314239502
+    },
+    {
+      "step": 61,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.1127126216888428,
+      "grad_norm": 4.768174648284912
+    },
+    {
+      "step": 62,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The heron stretches its neck straight out over the water. There is a spare beauty to the pale ripples, gray plumage and one dark sweep of wood; the bird looks intent rather than playful.",
+      "loss": 2.3470356464385986,
+      "grad_norm": 4.514797687530518
+    },
+    {
+      "step": 63,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.669597864151001,
+      "grad_norm": 4.98118257522583
+    },
+    {
+      "step": 64,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 1.7727717161178589,
+      "grad_norm": 6.7881317138671875
+    },
+    {
+      "step": 65,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.1515564918518066,
+      "grad_norm": 7.160398006439209
+    },
+    {
+      "step": 66,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.5315496921539307,
+      "grad_norm": 4.829506874084473
+    },
+    {
+      "step": 67,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 2.05802845954895,
+      "grad_norm": 5.673821926116943
+    },
+    {
+      "step": 68,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 1.9671785831451416,
+      "grad_norm": 5.6149420738220215
+    },
+    {
+      "step": 69,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 1.8664987087249756,
+      "grad_norm": 5.997541904449463
+    },
+    {
+      "step": 70,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The wet dog faces us with its tongue hanging out while a little wave curls behind it. The goofy, endearing face is almost the whole picture against that open stretch of water.",
+      "loss": 2.0757205486297607,
+      "grad_norm": 5.789876937866211
+    },
+    {
+      "step": 71,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 1.5415434837341309,
+      "grad_norm": 6.502199172973633
+    },
+    {
+      "step": 72,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 1.8415758609771729,
+      "grad_norm": 5.141258716583252
+    },
+    {
+      "step": 73,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 1.8700973987579346,
+      "grad_norm": 5.097482681274414
+    },
+    {
+      "step": 74,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.92104971408844,
+      "grad_norm": 7.125393867492676
+    },
+    {
+      "step": 75,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.6304782629013062,
+      "grad_norm": 5.724793910980225
+    },
+    {
+      "step": 76,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes stand spaced along the enclosure. Their long legs look planted, and even their spots blend into the subdued gray and brown of the walls.",
+      "loss": 1.7700108289718628,
+      "grad_norm": 5.220691204071045
+    },
+    {
+      "step": 77,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 1.4449278116226196,
+      "grad_norm": 5.340320110321045
+    },
+    {
+      "step": 78,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 1.7402187585830688,
+      "grad_norm": 7.410496711730957
+    },
+    {
+      "step": 79,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird sits very still on that pale slanting branch. Light catches the blue wing and white head against almost black leaves; that contrast is lovely.",
+      "loss": 1.7682082653045654,
+      "grad_norm": 4.874204158782959
+    },
+    {
+      "step": 80,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 1.6789379119873047,
+      "grad_norm": 6.306901454925537
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}

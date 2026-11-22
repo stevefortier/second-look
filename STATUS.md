@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 019 missed low endpoints; 020 training
+## Current overnight: 020 gains on image alone but loses on both invitations
+
+020 passed the image-only gates (low 6/24 vs base 5; total endpoints 13/65 vs 7) but failed both neutral verbal gates (13 vs 15 and 12 vs 18 out of 128). 019 scored 15 and 21 respectively. No promotion. Mixed low/high coverage 3/33 vs 4; prompted 82/128 and MAE 0.359375 both (3 gains, 3 losses). Reused proxy development panel, not Steve’s ratings. No dev nulls or historical-final access. 48 judgments reused for identical image/prompt/text, 48 new responses judged against numbered photos before joining. Single model reviewer, not independent human scoring. All 12 backup files checksum-matched; report reproduced byte-for-byte; suite 77 tests + 19 subtests passed.
+
+021 replaces 16 of 80 caption updates with direct ordinal supervision from observed fit KVPs; training verified on the same A6000 under flock PID/PGID/SID 89051, worker 89052, sole GPU trainer 89074. Matching local/remote schedule; unchanged remote trainer from Git 591fd2a50c9aae1330830ca4f982135fb7e059fd. Next: check STOP and work/overnight-021/status, do not relaunch. After completion back up, freeze blind review, and reuse 020 mixed-fit report logic.
+
+## Historical overnight: 019 missed low endpoints; 020 training
 
 019 exited 0; all 12 files including adapter weights checksum-matched off-instance. 48 exact 018 image/prompt/text judgments reused, 48 new responses coded blind against numbered photos, frozen before joining. On the reused 16-group proxy dev panel, 019 met three of four criteria: image-only low 4/24 (base 5), total endpoints 9/65 (base 7), verbal totals 15/128 and 21/128 (base 15 and 18). Mixed-direction coverage 4/33 both; prompted accuracy 82/128 and MAE 0.359375 both. No promotion; no human validation, null dev scores or historical-final use. Reproduce from root: `.venv/bin/python studies/overnight/019/report.py`; raw data and per-axis variation under `019/results`. Metrics reproduced byte-for-byte; 77 tests and 19 subtests passed.
 
