@@ -1,6 +1,14 @@
 # Second Look — handoff
 
-## Current overnight: 024 improved explicit scoring, not spontaneous attribution; 025 running
+## Current overnight: 025 failed matched gates; 026 running
+
+025 failed all four matched gates versus 024. Showing one selective impression at a time reduced generic praise (0/48 vs 11 base), but the adapter matched just 11/128 rated qualities under each verbal invitation (base 15 and 18; 024: 13 and 16). On image alone it matched 8/65 endpoints, including 5/24 lows (base 7 and 5; 024: 11 and 6). Both mixed directions appeared correctly in 1/33 vs 4/33 for base and 024; neither model reversed both. Prompted agreement was 83/128 (base 82; 024: 93); ordinal MAE 0.352 vs 0.359 base and 0.273 for 024. No promotion.
+
+Model-reviewed proxies, not Steve’s ratings. Eight fit groups and 16 disjoint but reused development groups; no historical-final access or missing development scores. Single blind reviewer: 48 exact previous judgments reused, 48 newly coded before identity join. Relevance flags: 11 vs 24 base; schema echo: 0 vs 1. Eleven remote backup files including adapter weights matched local checksums, CPU report reproduced byte-for-byte, 82 tests and 19 subtests passed. See `studies/overnight/025/RESULTS.md`.
+
+026 pairs the two impressions on image-only fit rows and keeps verbal rows unchanged. Verified live before stage, sole GPU PID 106538 under flock group 106144. Check STOP then `work/overnight-026/status`; do not relaunch. After exit 0, checksum-back up, freeze blind judgments, and evaluate the declared gates.
+
+## Historical overnight: 024 improved explicit scoring, not spontaneous attribution; 025 running
 
 024 is not promoted. On 16 reused development photos from groups disjoint from fit, 024 matched 11/65 image-only endpoints (base 7, 023 adapter 13), including 6/24 lows (base 5, 023 adapter 6). Its two neutral verbal prompts matched 13 and 16/128, below base (15 and 18) and 023 (14 and 17). Both mixed directions matched in 4/33, tied with base. In contrast forced-score agreement rose to 93/128 from 82 base; ordinal MAE fell to 0.2734 from 0.3594. Model-reviewed proxy ratings, not Steve’s; no development nulls or historical-final evaluation. Per-axis label distributions, flags, frozen judgments and raw measurements: `studies/overnight/024/`. All 12 backup hashes matched; 81 tests and 19 subtests passed.
 

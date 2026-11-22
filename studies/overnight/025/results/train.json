@@ -1,0 +1,761 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That dripping face and lolling tongue make the dog look wonderfully goofy.",
+      "loss": 4.623122692108154,
+      "grad_norm": 2.6998066902160645
+    },
+    {
+      "step": 2,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "That dripping face and lolling tongue make the dog look wonderfully goofy.",
+      "loss": 3.8887593746185303,
+      "grad_norm": 2.0796165466308594
+    },
+    {
+      "step": 3,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The lit blue wing and white head look lovely against those nearly black leaves.",
+      "loss": 4.70323371887207,
+      "grad_norm": 2.796604871749878
+    },
+    {
+      "step": 4,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There is so much open water around this wet dog; even the little wave leaves the frame feeling spacious.",
+      "loss": 4.520162582397461,
+      "grad_norm": 2.4794445037841797
+    },
+    {
+      "step": 5,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That tiny kitten reaching toward the enormous muzzle makes an endearing pair.",
+      "loss": 4.795639991760254,
+      "grad_norm": 2.8156657218933105
+    },
+    {
+      "step": 6,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The throat flashes red against a brilliant green head; that splash of color is lovely.",
+      "loss": 4.363253116607666,
+      "grad_norm": 2.984112024307251
+    },
+    {
+      "step": 7,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A fluffy dog tucked among the groceries is a funny thing to find on a pantry shelf.",
+      "loss": 3.734821081161499,
+      "grad_norm": 2.7050399780273438
+    },
+    {
+      "step": 8,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A fluffy dog tucked among the groceries is a funny thing to find on a pantry shelf.",
+      "loss": 3.80303955078125,
+      "grad_norm": 2.5643932819366455
+    },
+    {
+      "step": 9,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The throat flashes red against a brilliant green head; that splash of color is lovely.",
+      "loss": 3.5314526557922363,
+      "grad_norm": 2.072486639022827
+    },
+    {
+      "step": 10,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes seem rooted in place, their long legs planted apart.",
+      "loss": 3.3094210624694824,
+      "grad_norm": 3.7756876945495605
+    },
+    {
+      "step": 11,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That tiny kitten reaching toward the enormous muzzle makes an endearing pair.",
+      "loss": 4.781396389007568,
+      "grad_norm": 4.6548662185668945
+    },
+    {
+      "step": 12,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Their noses nearly touch, but the small gap makes the encounter feel gentle rather than threatening.",
+      "loss": 3.2775776386260986,
+      "grad_norm": 4.140563011169434
+    },
+    {
+      "step": 13,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Those outsized feet and that jutting beak make the bird look imposing rather than cuddly.",
+      "loss": 3.336031198501587,
+      "grad_norm": 2.784058094024658
+    },
+    {
+      "step": 14,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The broad pale ripples leave the heron a lot of open space.",
+      "loss": 4.418421745300293,
+      "grad_norm": 4.349807262420654
+    },
+    {
+      "step": 15,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "That tiny kitten reaching toward the enormous muzzle makes an endearing pair.",
+      "loss": 4.309750080108643,
+      "grad_norm": 6.220335960388184
+    },
+    {
+      "step": 16,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The shelves are crammed, but the dog curled up below them looks utterly at rest.",
+      "loss": 3.3441450595855713,
+      "grad_norm": 3.465031385421753
+    },
+    {
+      "step": 17,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Those outsized feet and that jutting beak make the bird look imposing rather than cuddly.",
+      "loss": 3.1971824169158936,
+      "grad_norm": 2.546624183654785
+    },
+    {
+      "step": 18,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The lit blue wing and white head look lovely against those nearly black leaves.",
+      "loss": 3.798144817352295,
+      "grad_norm": 2.9807631969451904
+    },
+    {
+      "step": 19,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The broad pale ripples leave the heron a lot of open space.",
+      "loss": 4.343701362609863,
+      "grad_norm": 4.509119510650635
+    },
+    {
+      "step": 20,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Nothing in the perched bird seems to stir, even on that sharply sloping branch.",
+      "loss": 3.648303270339966,
+      "grad_norm": 3.5728073120117188
+    },
+    {
+      "step": 21,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The lit blue wing and white head look lovely against those nearly black leaves.",
+      "loss": 4.177371978759766,
+      "grad_norm": 6.087806224822998
+    },
+    {
+      "step": 22,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The lit blue wing and white head look lovely against those nearly black leaves.",
+      "loss": 3.7906761169433594,
+      "grad_norm": 3.619621515274048
+    },
+    {
+      "step": 23,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Its outstretched neck looks intent, not playful; the grays of the bird and water are subdued.",
+      "loss": 3.5873911380767822,
+      "grad_norm": 3.2837789058685303
+    },
+    {
+      "step": 24,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like how the bird stands out even against the dull colors of dust and corrugated metal.",
+      "loss": 2.538302183151245,
+      "grad_norm": 2.947434902191162
+    },
+    {
+      "step": 25,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Those outsized feet and that jutting beak make the bird look imposing rather than cuddly.",
+      "loss": 3.166968584060669,
+      "grad_norm": 4.003767013549805
+    },
+    {
+      "step": 26,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The broad pale ripples leave the heron a lot of open space.",
+      "loss": 3.7753536701202393,
+      "grad_norm": 3.414734363555908
+    },
+    {
+      "step": 27,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes seem rooted in place, their long legs planted apart.",
+      "loss": 2.822441577911377,
+      "grad_norm": 5.105182647705078
+    },
+    {
+      "step": 28,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird holds so still that its narrow beak could pass for a twig.",
+      "loss": 3.1537370681762695,
+      "grad_norm": 3.531662702560425
+    },
+    {
+      "step": 29,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "A fluffy dog tucked among the groceries is a funny thing to find on a pantry shelf.",
+      "loss": 2.9041736125946045,
+      "grad_norm": 4.15858268737793
+    },
+    {
+      "step": 30,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Gray walls and brown spots give the enclosure a muted palette.",
+      "loss": 3.849378824234009,
+      "grad_norm": 8.29315185546875
+    },
+    {
+      "step": 31,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Those outsized feet and that jutting beak make the bird look imposing rather than cuddly.",
+      "loss": 2.896566390991211,
+      "grad_norm": 2.9230422973632812
+    },
+    {
+      "step": 32,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I like how the bird stands out even against the dull colors of dust and corrugated metal.",
+      "loss": 2.3687045574188232,
+      "grad_norm": 2.7698543071746826
+    },
+    {
+      "step": 33,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The throat flashes red against a brilliant green head; that splash of color is lovely.",
+      "loss": 3.071260452270508,
+      "grad_norm": 5.287110328674316
+    },
+    {
+      "step": 34,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffes seem rooted in place, their long legs planted apart.",
+      "loss": 2.4687862396240234,
+      "grad_norm": 4.010310173034668
+    },
+    {
+      "step": 35,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Nothing in the perched bird seems to stir, even on that sharply sloping branch.",
+      "loss": 3.5044937133789062,
+      "grad_norm": 3.8547523021698
+    },
+    {
+      "step": 36,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That tiny kitten reaching toward the enormous muzzle makes an endearing pair.",
+      "loss": 3.589898109436035,
+      "grad_norm": 5.009165287017822
+    },
+    {
+      "step": 37,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Nothing in the perched bird seems to stir, even on that sharply sloping branch.",
+      "loss": 3.355076313018799,
+      "grad_norm": 3.9176442623138428
+    },
+    {
+      "step": 38,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes seem rooted in place, their long legs planted apart.",
+      "loss": 2.4204440116882324,
+      "grad_norm": 5.22220516204834
+    },
+    {
+      "step": 39,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The broad pale ripples leave the heron a lot of open space.",
+      "loss": 3.616560220718384,
+      "grad_norm": 4.890706539154053
+    },
+    {
+      "step": 40,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That dripping face and lolling tongue make the dog look wonderfully goofy.",
+      "loss": 3.2672791481018066,
+      "grad_norm": 7.292098522186279
+    },
+    {
+      "step": 41,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The throat flashes red against a brilliant green head; that splash of color is lovely.",
+      "loss": 3.041835069656372,
+      "grad_norm": 4.607567310333252
+    },
+    {
+      "step": 42,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That dripping face and lolling tongue make the dog look wonderfully goofy.",
+      "loss": 3.0658578872680664,
+      "grad_norm": 5.125823497772217
+    },
+    {
+      "step": 43,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There is so much open water around this wet dog; even the little wave leaves the frame feeling spacious.",
+      "loss": 3.400029182434082,
+      "grad_norm": 5.319870948791504
+    },
+    {
+      "step": 44,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "There is so much open water around this wet dog; even the little wave leaves the frame feeling spacious.",
+      "loss": 3.3720550537109375,
+      "grad_norm": 5.578041076660156
+    },
+    {
+      "step": 45,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A fluffy dog tucked among the groceries is a funny thing to find on a pantry shelf.",
+      "loss": 2.639692544937134,
+      "grad_norm": 5.033425331115723
+    },
+    {
+      "step": 46,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The shelves are crammed, but the dog curled up below them looks utterly at rest.",
+      "loss": 2.5860538482666016,
+      "grad_norm": 6.424652099609375
+    },
+    {
+      "step": 47,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Its outstretched neck looks intent, not playful; the grays of the bird and water are subdued.",
+      "loss": 3.287203311920166,
+      "grad_norm": 8.168304443359375
+    },
+    {
+      "step": 48,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird holds so still that its narrow beak could pass for a twig.",
+      "loss": 2.748574733734131,
+      "grad_norm": 4.411422252655029
+    },
+    {
+      "step": 49,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Gray walls and brown spots give the enclosure a muted palette.",
+      "loss": 3.266893148422241,
+      "grad_norm": 13.235918998718262
+    },
+    {
+      "step": 50,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Their noses nearly touch, but the small gap makes the encounter feel gentle rather than threatening.",
+      "loss": 2.5256965160369873,
+      "grad_norm": 7.642421245574951
+    },
+    {
+      "step": 51,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Gray walls and brown spots give the enclosure a muted palette.",
+      "loss": 3.117739200592041,
+      "grad_norm": 8.997492790222168
+    },
+    {
+      "step": 52,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The bird holds so still that its narrow beak could pass for a twig.",
+      "loss": 2.63752818107605,
+      "grad_norm": 4.962309837341309
+    },
+    {
+      "step": 53,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "I like how the bird stands out even against the dull colors of dust and corrugated metal.",
+      "loss": 2.168057680130005,
+      "grad_norm": 4.166348457336426
+    },
+    {
+      "step": 54,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Their noses nearly touch, but the small gap makes the encounter feel gentle rather than threatening.",
+      "loss": 2.088707208633423,
+      "grad_norm": 6.0743088722229
+    },
+    {
+      "step": 55,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The shelves are crammed, but the dog curled up below them looks utterly at rest.",
+      "loss": 2.3527064323425293,
+      "grad_norm": 6.656907081604004
+    },
+    {
+      "step": 56,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Its outstretched neck looks intent, not playful; the grays of the bird and water are subdued.",
+      "loss": 2.9928972721099854,
+      "grad_norm": 6.1043853759765625
+    },
+    {
+      "step": 57,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Its outstretched neck looks intent, not playful; the grays of the bird and water are subdued.",
+      "loss": 3.1892354488372803,
+      "grad_norm": 6.575954437255859
+    },
+    {
+      "step": 58,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The shelves are crammed, but the dog curled up below them looks utterly at rest.",
+      "loss": 2.196157693862915,
+      "grad_norm": 7.933233737945557
+    },
+    {
+      "step": 59,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the bird stands out even against the dull colors of dust and corrugated metal.",
+      "loss": 2.1745142936706543,
+      "grad_norm": 10.64869213104248
+    },
+    {
+      "step": 60,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The broad pale ripples leave the heron a lot of open space.",
+      "loss": 2.92543625831604,
+      "grad_norm": 8.017570495605469
+    },
+    {
+      "step": 61,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Their noses nearly touch, but the small gap makes the encounter feel gentle rather than threatening.",
+      "loss": 1.731534481048584,
+      "grad_norm": 8.025493621826172
+    },
+    {
+      "step": 62,
+      "image": "images/000000516947.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The broad pale ripples leave the heron a lot of open space.",
+      "loss": 2.977412462234497,
+      "grad_norm": 10.000104904174805
+    },
+    {
+      "step": 63,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "Those outsized feet and that jutting beak make the bird look imposing rather than cuddly.",
+      "loss": 2.421903610229492,
+      "grad_norm": 5.711618900299072
+    },
+    {
+      "step": 64,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The bird holds so still that its narrow beak could pass for a twig.",
+      "loss": 2.265622138977051,
+      "grad_norm": 7.599301815032959
+    },
+    {
+      "step": 65,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "There is so much open water around this wet dog; even the little wave leaves the frame feeling spacious.",
+      "loss": 2.749311685562134,
+      "grad_norm": 10.272982597351074
+    },
+    {
+      "step": 66,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Those outsized feet and that jutting beak make the bird look imposing rather than cuddly.",
+      "loss": 2.417994976043701,
+      "grad_norm": 6.759012222290039
+    },
+    {
+      "step": 67,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Nothing in the perched bird seems to stir, even on that sharply sloping branch.",
+      "loss": 3.215390682220459,
+      "grad_norm": 12.028032302856445
+    },
+    {
+      "step": 68,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That dripping face and lolling tongue make the dog look wonderfully goofy.",
+      "loss": 2.271192789077759,
+      "grad_norm": 9.39828109741211
+    },
+    {
+      "step": 69,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "That tiny kitten reaching toward the enormous muzzle makes an endearing pair.",
+      "loss": 2.8331589698791504,
+      "grad_norm": 9.831412315368652
+    },
+    {
+      "step": 70,
+      "image": "images/000000117789.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "That dripping face and lolling tongue make the dog look wonderfully goofy.",
+      "loss": 2.3554632663726807,
+      "grad_norm": 13.528264999389648
+    },
+    {
+      "step": 71,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The throat flashes red against a brilliant green head; that splash of color is lovely.",
+      "loss": 2.4249300956726074,
+      "grad_norm": 9.530732154846191
+    },
+    {
+      "step": 72,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "A fluffy dog tucked among the groceries is a funny thing to find on a pantry shelf.",
+      "loss": 2.1813318729400635,
+      "grad_norm": 9.243500709533691
+    },
+    {
+      "step": 73,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A fluffy dog tucked among the groceries is a funny thing to find on a pantry shelf.",
+      "loss": 2.366943836212158,
+      "grad_norm": 7.910005569458008
+    },
+    {
+      "step": 74,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Gray walls and brown spots give the enclosure a muted palette.",
+      "loss": 2.4838366508483887,
+      "grad_norm": 10.983604431152344
+    },
+    {
+      "step": 75,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The giraffes seem rooted in place, their long legs planted apart.",
+      "loss": 1.9608005285263062,
+      "grad_norm": 7.048389434814453
+    },
+    {
+      "step": 76,
+      "image": "images/000000171484.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffes seem rooted in place, their long legs planted apart.",
+      "loss": 1.9812688827514648,
+      "grad_norm": 8.51758861541748
+    },
+    {
+      "step": 77,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The throat flashes red against a brilliant green head; that splash of color is lovely.",
+      "loss": 2.363210678100586,
+      "grad_norm": 8.685952186584473
+    },
+    {
+      "step": 78,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "",
+      "answer": "The lit blue wing and white head look lovely against those nearly black leaves.",
+      "loss": 2.6372745037078857,
+      "grad_norm": 11.715152740478516
+    },
+    {
+      "step": 79,
+      "image": "images/000000494973.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The lit blue wing and white head look lovely against those nearly black leaves.",
+      "loss": 2.6754469871520996,
+      "grad_norm": 8.726834297180176
+    },
+    {
+      "step": 80,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That tiny kitten reaching toward the enormous muzzle makes an endearing pair.",
+      "loss": 2.5717203617095947,
+      "grad_norm": 12.242166519165039
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}
