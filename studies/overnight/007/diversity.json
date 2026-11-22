@@ -1,0 +1,112 @@
+{
+  "counts": {
+    "fit": {
+      "liking": {
+        "L": 0,
+        "M": 8,
+        "H": 8,
+        "null": 0
+      },
+      "beauty": {
+        "L": 0,
+        "M": 11,
+        "H": 5,
+        "null": 0
+      },
+      "cuteness": {
+        "L": 0,
+        "M": 11,
+        "H": 3,
+        "null": 2
+      },
+      "scary": {
+        "L": 2,
+        "M": 11,
+        "H": 2,
+        "null": 1
+      },
+      "funny": {
+        "L": 0,
+        "M": 15,
+        "H": 1,
+        "null": 0
+      },
+      "activity": {
+        "L": 9,
+        "M": 7,
+        "H": 0,
+        "null": 0
+      },
+      "crowding": {
+        "L": 3,
+        "M": 9,
+        "H": 4,
+        "null": 0
+      },
+      "color_intensity": {
+        "L": 5,
+        "M": 9,
+        "H": 2,
+        "null": 0
+      }
+    },
+    "dev": {
+      "liking": {
+        "L": 1,
+        "M": 3,
+        "H": 4,
+        "null": 0
+      },
+      "beauty": {
+        "L": 0,
+        "M": 4,
+        "H": 4,
+        "null": 0
+      },
+      "cuteness": {
+        "L": 0,
+        "M": 5,
+        "H": 2,
+        "null": 1
+      },
+      "scary": {
+        "L": 0,
+        "M": 8,
+        "H": 0,
+        "null": 0
+      },
+      "funny": {
+        "L": 0,
+        "M": 7,
+        "H": 1,
+        "null": 0
+      },
+      "activity": {
+        "L": 3,
+        "M": 3,
+        "H": 1,
+        "null": 1
+      },
+      "crowding": {
+        "L": 1,
+        "M": 5,
+        "H": 2,
+        "null": 0
+      },
+      "color_intensity": {
+        "L": 3,
+        "M": 3,
+        "H": 2,
+        "null": 0
+      }
+    }
+  },
+  "mixed_examples": {
+    "fit": {
+      "liked_and_scary": 1
+    },
+    "dev": {}
+  },
+  "known_creators": 22,
+  "unknown_creator_photos": 2
+}

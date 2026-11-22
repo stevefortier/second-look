@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 005 not promoted; 006 running
+## Current overnight: 006 not promoted; 007 running
+
+006 exited 0; rsync checksum comparison empty. Pooled blinded ratings across 12 reused dev photos: base / 005 / 006 mixed correct 3 / 3 / 2 of 21, activity 15 / 13 / 7 of 33. Explicit 006 matched base. Regenerated 006 report; suite 47 passed + 19 subtests. Reproduction and raw outputs in `studies/overnight/006`.
+
+007 tests all eight existing example axes on 16 fit / eight within-run dev photos, proxy/illustrative labels only. Example test and historical final reserved. Remote exclusive flock group 33310, worker 33312, baseline GPU PID 33328 verified. Next tick check STOP and status; do not relaunch. After exit checksum-backup, independently blind-code all neutral responses against numbered photos, freeze then join, and publish all diagnostics. No 007 outcome yet.
+
+## Historical overnight: 005 not promoted; 006 running
 
 005 exited 0; checksum backup matched. Frozen review (below), joined after scoring: correct spontaneous activity 15→13/33, crowding 1→5/36, color 7→3/36; mixed endpoint agreement 2→0/21. Raw outputs and reproducible reports: `studies/overnight/005`. Suite: 44 passed and 19 subtests passed.
 
