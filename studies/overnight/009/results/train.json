@@ -1,0 +1,1310 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 4.0240397453308105,
+      "grad_norm": 1.6807886362075806
+    },
+    {
+      "step": 2,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 5.685961150447838e-05,
+      "grad_norm": 0.0032133397180587053
+    },
+    {
+      "step": 3,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.07253116369247437,
+      "grad_norm": 0.9441747665405273
+    },
+    {
+      "step": 4,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 3.415722608566284,
+      "grad_norm": 1.327673077583313
+    },
+    {
+      "step": 5,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the elegant bend in the heron's neck. Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline.",
+      "loss": 4.207159519195557,
+      "grad_norm": 1.2841765880584717
+    },
+    {
+      "step": 6,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 3.6948201656341553,
+      "grad_norm": 1.2018404006958008
+    },
+    {
+      "step": 7,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The floppy ears and white blaze make this puppy especially endearing to me. It's lying quietly in the grass, looking straight up over the pale rim in the foreground.",
+      "loss": 2.731631278991699,
+      "grad_norm": 1.1096971035003662
+    },
+    {
+      "step": 8,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 3.223007917404175,
+      "grad_norm": 1.6052716970443726
+    },
+    {
+      "step": 9,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.9557535648345947,
+      "grad_norm": 11.971672058105469
+    },
+    {
+      "step": 10,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The floppy ears and white blaze make this puppy especially endearing to me. It's lying quietly in the grass, looking straight up over the pale rim in the foreground.",
+      "loss": 2.6839382648468018,
+      "grad_norm": 1.5274533033370972
+    },
+    {
+      "step": 11,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 3.719627857208252,
+      "grad_norm": 1.8355237245559692
+    },
+    {
+      "step": 12,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 3.685373067855835,
+      "grad_norm": 1.1550326347351074
+    },
+    {
+      "step": 13,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 2.5749921798706055,
+      "grad_norm": 1.80214262008667
+    },
+    {
+      "step": 14,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 3.106548547744751,
+      "grad_norm": 1.970822811126709
+    },
+    {
+      "step": 15,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.3788726329803467,
+      "grad_norm": 3.9574954509735107
+    },
+    {
+      "step": 16,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.19351430237293243,
+      "grad_norm": 13.628287315368652
+    },
+    {
+      "step": 17,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.031362663954496384,
+      "grad_norm": 1.0561414957046509
+    },
+    {
+      "step": 18,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.08032889664173126,
+      "grad_norm": 0.9195519089698792
+    },
+    {
+      "step": 19,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.012202119454741478,
+      "grad_norm": 0.5199064612388611
+    },
+    {
+      "step": 20,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.29043710231781006,
+      "grad_norm": 8.427393913269043
+    },
+    {
+      "step": 21,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.004308974836021662,
+      "grad_norm": 0.35301247239112854
+    },
+    {
+      "step": 22,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.908724308013916,
+      "grad_norm": 1.844622015953064
+    },
+    {
+      "step": 23,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The floppy ears and white blaze make this puppy especially endearing to me. It's lying quietly in the grass, looking straight up over the pale rim in the foreground.",
+      "loss": 2.4173896312713623,
+      "grad_norm": 1.3723177909851074
+    },
+    {
+      "step": 24,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.0002179267321480438,
+      "grad_norm": 0.013431885279715061
+    },
+    {
+      "step": 25,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.03970298543572426,
+      "grad_norm": 1.9434592723846436
+    },
+    {
+      "step": 26,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.174693301320076,
+      "grad_norm": 11.901630401611328
+    },
+    {
+      "step": 27,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.0076508475467562675,
+      "grad_norm": 0.2771643400192261
+    },
+    {
+      "step": 28,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.7033195495605469,
+      "grad_norm": 18.970684051513672
+    },
+    {
+      "step": 29,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 3.018078565597534,
+      "grad_norm": 1.8596405982971191
+    },
+    {
+      "step": 30,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 3.4970810413360596,
+      "grad_norm": 2.418513059616089
+    },
+    {
+      "step": 31,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.804006576538086,
+      "grad_norm": 2.9226174354553223
+    },
+    {
+      "step": 32,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.789033889770508,
+      "grad_norm": 3.0308680534362793
+    },
+    {
+      "step": 33,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the elegant bend in the heron's neck. Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline.",
+      "loss": 3.6854934692382812,
+      "grad_norm": 1.8251956701278687
+    },
+    {
+      "step": 34,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.504781723022461,
+      "grad_norm": 1.955440878868103
+    },
+    {
+      "step": 35,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the elegant bend in the heron's neck. Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline.",
+      "loss": 3.6480231285095215,
+      "grad_norm": 1.9210797548294067
+    },
+    {
+      "step": 36,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 5.562507629394531,
+      "grad_norm": 75.37667083740234
+    },
+    {
+      "step": 37,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 2.2030746936798096,
+      "grad_norm": 1.5398560762405396
+    },
+    {
+      "step": 38,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 4.937527656555176,
+      "grad_norm": 67.16788482666016
+    },
+    {
+      "step": 39,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.001135489554144442,
+      "grad_norm": 0.085857093334198
+    },
+    {
+      "step": 40,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 1.3474791049957275,
+      "grad_norm": 17.85402488708496
+    },
+    {
+      "step": 41,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 2.4273064136505127,
+      "grad_norm": 2.3686366081237793
+    },
+    {
+      "step": 42,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 4.062700271606445,
+      "grad_norm": 58.7988166809082
+    },
+    {
+      "step": 43,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 7.251594543457031,
+      "grad_norm": 59.80405044555664
+    },
+    {
+      "step": 44,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 3.2641851902008057,
+      "grad_norm": 2.2845816612243652
+    },
+    {
+      "step": 45,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The slash of sunlight across one eye is beautiful. There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color.",
+      "loss": 3.529265880584717,
+      "grad_norm": 1.6908752918243408
+    },
+    {
+      "step": 46,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 2.09956955909729,
+      "grad_norm": 1.829453706741333
+    },
+    {
+      "step": 47,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.1262071430683136,
+      "grad_norm": 3.1544649600982666
+    },
+    {
+      "step": 48,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 2.202197790145874,
+      "grad_norm": 3.2212917804718018
+    },
+    {
+      "step": 49,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 3.2852981090545654,
+      "grad_norm": 1.7785789966583252
+    },
+    {
+      "step": 50,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the elegant bend in the heron's neck. Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline.",
+      "loss": 3.3331215381622314,
+      "grad_norm": 2.4616551399230957
+    },
+    {
+      "step": 51,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.05026008561253548,
+      "grad_norm": 1.0481183528900146
+    },
+    {
+      "step": 52,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the elegant bend in the heron's neck. Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline.",
+      "loss": 3.28532075881958,
+      "grad_norm": 2.426365613937378
+    },
+    {
+      "step": 53,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 2.994715690612793,
+      "grad_norm": 2.9168272018432617
+    },
+    {
+      "step": 54,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.4813621044158936,
+      "grad_norm": 2.479215145111084
+    },
+    {
+      "step": 55,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 1.9849438667297363,
+      "grad_norm": 4.173242092132568
+    },
+    {
+      "step": 56,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 2.6463656425476074,
+      "grad_norm": 2.4814858436584473
+    },
+    {
+      "step": 57,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The floppy ears and white blaze make this puppy especially endearing to me. It's lying quietly in the grass, looking straight up over the pale rim in the foreground.",
+      "loss": 1.9579530954360962,
+      "grad_norm": 3.09432053565979
+    },
+    {
+      "step": 58,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.3927602767944336,
+      "grad_norm": 4.417824745178223
+    },
+    {
+      "step": 59,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.364046335220337,
+      "grad_norm": 2.788109540939331
+    },
+    {
+      "step": 60,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.322500705718994,
+      "grad_norm": 4.998310089111328
+    },
+    {
+      "step": 61,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.294316053390503,
+      "grad_norm": 2.804755926132202
+    },
+    {
+      "step": 62,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 2.7945556640625,
+      "grad_norm": 3.112292766571045
+    },
+    {
+      "step": 63,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 2.7648589611053467,
+      "grad_norm": 3.194199800491333
+    },
+    {
+      "step": 64,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.5715134143829346,
+      "grad_norm": 10.446834564208984
+    },
+    {
+      "step": 65,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 2.4860777854919434,
+      "grad_norm": 3.307995319366455
+    },
+    {
+      "step": 66,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The floppy ears and white blaze make this puppy especially endearing to me. It's lying quietly in the grass, looking straight up over the pale rim in the foreground.",
+      "loss": 1.7135820388793945,
+      "grad_norm": 3.91794490814209
+    },
+    {
+      "step": 67,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.04403018951416,
+      "grad_norm": 5.344725131988525
+    },
+    {
+      "step": 68,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.06567317247390747,
+      "grad_norm": 1.7430956363677979
+    },
+    {
+      "step": 69,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.7302650809288025,
+      "grad_norm": 13.082409858703613
+    },
+    {
+      "step": 70,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.4909956455230713,
+      "grad_norm": 5.126675605773926
+    },
+    {
+      "step": 71,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The slash of sunlight across one eye is beautiful. There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color.",
+      "loss": 3.246906280517578,
+      "grad_norm": 3.263033866882324
+    },
+    {
+      "step": 72,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 2.4421193599700928,
+      "grad_norm": 5.335064888000488
+    },
+    {
+      "step": 73,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 2.8333182334899902,
+      "grad_norm": 5.518989086151123
+    },
+    {
+      "step": 74,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 2.785546064376831,
+      "grad_norm": 5.521963596343994
+    },
+    {
+      "step": 75,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 2.33247971534729,
+      "grad_norm": 4.540217876434326
+    },
+    {
+      "step": 76,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 2.9147865772247314,
+      "grad_norm": 3.658306837081909
+    },
+    {
+      "step": 77,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.657764732837677,
+      "grad_norm": 24.414554595947266
+    },
+    {
+      "step": 78,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.021958285942673683,
+      "grad_norm": 0.8479673266410828
+    },
+    {
+      "step": 79,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.012642545625567436,
+      "grad_norm": 0.41519269347190857
+    },
+    {
+      "step": 80,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The slash of sunlight across one eye is beautiful. There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color.",
+      "loss": 3.0752041339874268,
+      "grad_norm": 3.131896495819092
+    },
+    {
+      "step": 81,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 1.709781289100647,
+      "grad_norm": 5.701070308685303
+    },
+    {
+      "step": 82,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 2.818460702896118,
+      "grad_norm": 3.8743526935577393
+    },
+    {
+      "step": 83,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 1.9281469583511353,
+      "grad_norm": 3.8481967449188232
+    },
+    {
+      "step": 84,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.031331367790699005,
+      "grad_norm": 1.6639631986618042
+    },
+    {
+      "step": 85,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The floppy ears and white blaze make this puppy especially endearing to me. It's lying quietly in the grass, looking straight up over the pale rim in the foreground.",
+      "loss": 1.4637705087661743,
+      "grad_norm": 5.746144771575928
+    },
+    {
+      "step": 86,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 2.6812984943389893,
+      "grad_norm": 4.315699100494385
+    },
+    {
+      "step": 87,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.004196644760668278,
+      "grad_norm": 0.2138395458459854
+    },
+    {
+      "step": 88,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 2.850156307220459,
+      "grad_norm": 6.410372734069824
+    },
+    {
+      "step": 89,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 1.9737533330917358,
+      "grad_norm": 4.233211040496826
+    },
+    {
+      "step": 90,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.7655935287475586,
+      "grad_norm": 35.3408203125
+    },
+    {
+      "step": 91,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.709395170211792,
+      "grad_norm": 6.9441022872924805
+    },
+    {
+      "step": 92,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 1.9822137355804443,
+      "grad_norm": 4.816763401031494
+    },
+    {
+      "step": 93,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 1.8850107192993164,
+      "grad_norm": 4.164069652557373
+    },
+    {
+      "step": 94,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.004690408706665,
+      "grad_norm": 9.1903076171875
+    },
+    {
+      "step": 95,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 2.219197988510132,
+      "grad_norm": 4.7077178955078125
+    },
+    {
+      "step": 96,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 2.185166597366333,
+      "grad_norm": 4.582459926605225
+    },
+    {
+      "step": 97,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 2.2060024738311768,
+      "grad_norm": 5.048716068267822
+    },
+    {
+      "step": 98,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.6121083498001099,
+      "grad_norm": 16.199626922607422
+    },
+    {
+      "step": 99,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 1.7059646844863892,
+      "grad_norm": 5.714778423309326
+    },
+    {
+      "step": 100,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 2.639777898788452,
+      "grad_norm": 5.360107898712158
+    },
+    {
+      "step": 101,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 2.6088740825653076,
+      "grad_norm": 5.310177803039551
+    },
+    {
+      "step": 102,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.495006799697876,
+      "grad_norm": 7.774450778961182
+    },
+    {
+      "step": 103,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 1.5231404304504395,
+      "grad_norm": 6.339907646179199
+    },
+    {
+      "step": 104,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 1.5875089168548584,
+      "grad_norm": 4.597739219665527
+    },
+    {
+      "step": 105,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 1.6445986032485962,
+      "grad_norm": 4.529961585998535
+    },
+    {
+      "step": 106,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 2.254500150680542,
+      "grad_norm": 7.059916019439697
+    },
+    {
+      "step": 107,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.002648953814059496,
+      "grad_norm": 0.1863582879304886
+    },
+    {
+      "step": 108,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The slash of sunlight across one eye is beautiful. There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color.",
+      "loss": 2.8473360538482666,
+      "grad_norm": 4.864442348480225
+    },
+    {
+      "step": 109,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the elegant bend in the heron's neck. Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline.",
+      "loss": 2.7121164798736572,
+      "grad_norm": 7.132105350494385
+    },
+    {
+      "step": 110,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.7661101818084717,
+      "grad_norm": 49.802093505859375
+    },
+    {
+      "step": 111,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.06013188511133194,
+      "grad_norm": 2.704832077026367
+    },
+    {
+      "step": 112,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The slash of sunlight across one eye is beautiful. There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color.",
+      "loss": 2.7659406661987305,
+      "grad_norm": 4.676113128662109
+    },
+    {
+      "step": 113,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 2.2053415775299072,
+      "grad_norm": 4.616695880889893
+    },
+    {
+      "step": 114,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 2.5660414695739746,
+      "grad_norm": 28.06632423400879
+    },
+    {
+      "step": 115,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 1.46061110496521,
+      "grad_norm": 4.268437385559082
+    },
+    {
+      "step": 116,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 1.4312618970870972,
+      "grad_norm": 4.228248596191406
+    },
+    {
+      "step": 117,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 2.4935109615325928,
+      "grad_norm": 13.784302711486816
+    },
+    {
+      "step": 118,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 1.7494840621948242,
+      "grad_norm": 7.329217433929443
+    },
+    {
+      "step": 119,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 1.699745774269104,
+      "grad_norm": 7.202895641326904
+    },
+    {
+      "step": 120,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 1.9762507677078247,
+      "grad_norm": 7.69276237487793
+    },
+    {
+      "step": 121,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.7513129115104675,
+      "grad_norm": 12.892988204956055
+    },
+    {
+      "step": 122,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 2.009239912033081,
+      "grad_norm": 18.465002059936523
+    },
+    {
+      "step": 123,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 1.7501235008239746,
+      "grad_norm": 11.433703422546387
+    },
+    {
+      "step": 124,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 1.2712178230285645,
+      "grad_norm": 8.611948013305664
+    },
+    {
+      "step": 125,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.1759404093027115,
+      "grad_norm": 10.70356273651123
+    },
+    {
+      "step": 126,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 1.819954752922058,
+      "grad_norm": 7.19559383392334
+    },
+    {
+      "step": 127,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.010139573365449905,
+      "grad_norm": 0.5714437961578369
+    },
+    {
+      "step": 128,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.09195676445960999,
+      "grad_norm": 3.980678081512451
+    },
+    {
+      "step": 129,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 1.35368812084198,
+      "grad_norm": 7.642693996429443
+    },
+    {
+      "step": 130,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 1.3297059535980225,
+      "grad_norm": 7.7433624267578125
+    },
+    {
+      "step": 131,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.308753728866577,
+      "grad_norm": 11.09265422821045
+    },
+    {
+      "step": 132,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 1.7280558347702026,
+      "grad_norm": 7.432875633239746
+    },
+    {
+      "step": 133,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 2.209315299987793,
+      "grad_norm": 10.802595138549805
+    },
+    {
+      "step": 134,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 2.4217586517333984,
+      "grad_norm": 10.65946102142334
+    },
+    {
+      "step": 135,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 2.0398387908935547,
+      "grad_norm": 10.48378849029541
+    },
+    {
+      "step": 136,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 1.1423218250274658,
+      "grad_norm": 7.057944297790527
+    },
+    {
+      "step": 137,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The slash of sunlight across one eye is beautiful. There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color.",
+      "loss": 2.3640193939208984,
+      "grad_norm": 7.792540550231934
+    },
+    {
+      "step": 138,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 2.1941473484039307,
+      "grad_norm": 10.865678787231445
+    },
+    {
+      "step": 139,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.03858816251158714,
+      "grad_norm": 1.1523313522338867
+    },
+    {
+      "step": 140,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.2637057304382324,
+      "grad_norm": 4.584011554718018
+    },
+    {
+      "step": 141,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.4905410706996918,
+      "grad_norm": 13.120646476745605
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}

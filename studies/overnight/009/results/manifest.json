@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3.8-27B",
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "data_sha256": "e87c8eb796a3fa4dd0091d13600d5b21344784d27ff11d8acdb7005282b5725c",
+  "fit": 16,
+  "dev": 8,
+  "axes": [
+    "liking",
+    "beauty",
+    "cuteness",
+    "scary",
+    "funny",
+    "activity",
+    "crowding",
+    "color_intensity"
+  ],
+  "steps": 141,
+  "dev_prompts": [
+    "What strikes you about this photo?",
+    "What would you say about this scene?"
+  ]
+}

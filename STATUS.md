@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 008 not promoted; 009 running
+## Current overnight: 009 not promoted; 010 running
+
+009 exited 0 on the authorized A6000. Checksum backup matched; blinded review frozen before joining. Caption-heavy schedule: neutral correct 15→18/186, image alone unchanged 4→4/62, grounding flags 3→6/24. Explicit 38→39/62; MAE unchanged. Reused eight dev photos and proxy labels, not Steve’s ratings or an independent final. Reproduction matched byte-for-byte; 59 tests and 19 subtests passed. See `studies/overnight/009/results/README.md` for label distributions and regressions.
+
+010 adds 16 visually reviewed fit-only proxy captions while keeping all ordinal examples. Remote `before` confirmed, flock group 43087, worker 43093, sole GPU client 43117. Next tick: check STOP then `work/overnight-010/status`; do not relaunch. After exit checksum-backup, freeze independent judgments before joining, and publish. No 010 verdict yet.
+
+## Historical overnight: 008 not promoted; 009 running
 
 008 exited 0; rsync checksum comparison empty. Independent frozen review of all 48 neutral responses on eight reused dev images found 16→12 correct spontaneous assignments / 186 known prompt-fields, one gain and five losses; grounding flags 7→10 / 24. Prompted accuracy 38→42 / 62. Proxy labels only; no independent final. Reproducible raw results and per-axis diagnostics: `studies/overnight/008/results/`. Local suite: 55 tests and 19 subtests passed.
 
