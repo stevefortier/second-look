@@ -1,0 +1,46 @@
+{
+  "fit_ordinal_counts": {
+    "liking": {
+      "H": 10,
+      "M": 5,
+      "L": 1
+    },
+    "beauty": {
+      "M": 9,
+      "H": 6,
+      "L": 1
+    },
+    "cuteness": {
+      "M": 7,
+      "H": 6,
+      "?": 2,
+      "L": 1
+    },
+    "scary": {
+      "M": 11,
+      "L": 4,
+      "H": 1
+    },
+    "funny": {
+      "H": 6,
+      "M": 5,
+      "L": 4,
+      "?": 1
+    },
+    "activity": {
+      "M": 7,
+      "L": 9
+    },
+    "crowding": {
+      "H": 8,
+      "L": 1,
+      "M": 7
+    },
+    "color_intensity": {
+      "H": 3,
+      "M": 10,
+      "L": 3
+    }
+  },
+  "changed_ordinal_or_null_cells_vs_007": 41
+}

@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 006 not promoted; 007 running
+## Current overnight: 007 not promoted; 008 running
+
+007 exited 0; checksum backup matched. Across the eight within-run dev photos, three neutral prompts and 62 known fields, spontaneous correct counts were 14/186 for both base and adapter. Three paired gains offset three losses; grounding flags increased 5→10/24. Explicit accuracy improved 38→45/62. Frozen review, raw records, per-axis coverage, and reproducible metrics: `studies/overnight/007/results/`. Local suite: 51 passed, 19 subtests passed. No independent final evaluation.
+
+008 uses fresh fit-only model-proxy labels and captions, not Steve’s ratings; 16 fit photos and the same eight dev photos. Pinned A6000 baseline independently verified active under project lock group 36675, worker 36677 and GPU PID 36693. Next: check STOP and `work/overnight-008/status`, do not relaunch; checksum backup and freeze blinded judgments before joining. No behavioral result yet.
+
+## Historical overnight: 006 not promoted; 007 running
 
 006 exited 0; rsync checksum comparison empty. Pooled blinded ratings across 12 reused dev photos: base / 005 / 006 mixed correct 3 / 3 / 2 of 21, activity 15 / 13 / 7 of 33. Explicit 006 matched base. Regenerated 006 report; suite 47 passed + 19 subtests. Reproduction and raw outputs in `studies/overnight/006`.
 

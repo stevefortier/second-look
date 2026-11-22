@@ -1,0 +1,16 @@
+{"image": "images/000000478717.jpg", "group": "train2017-000", "scores": {"liking": 0.7, "beauty": 0.2, "cuteness": 0.5, "scary": -0.2, "funny": 0.8, "activity": 0.3, "crowding": 0.7, "color_intensity": 0.8}}
+{"image": "images/000000137788.jpg", "group": "train2017-000", "scores": {"liking": 0.8, "beauty": -0.2, "cuteness": 0.9, "scary": -0.8, "funny": 0.9, "activity": -0.9, "crowding": 0.9, "color_intensity": 0.1}}
+{"image": "images/000000020371.jpg", "group": "train2017-003", "scores": {"liking": 0.7, "beauty": 0.7, "cuteness": 0.1, "scary": 0, "funny": 0.5, "activity": -0.8, "crowding": -0.9, "color_intensity": 0.2}}
+{"image": "images/000000231022.jpg", "group": "train2017-003", "scores": {"liking": 0.3, "beauty": 0.7, "cuteness": 0.1, "scary": 0.4, "funny": -0.7, "activity": -0.7, "crowding": -0.3, "color_intensity": -0.8}}
+{"image": "images/000000068293.jpg", "group": "train2017-004", "scores": {"liking": 0.9, "beauty": 0.95, "cuteness": 0.8, "scary": -0.4, "funny": 0, "activity": -0.7, "crowding": -0.5, "color_intensity": 0.95}}
+{"image": "images/000000196355.jpg", "group": "train2017-004", "scores": {"liking": 0.4, "beauty": 0.5, "cuteness": null, "scary": 0, "funny": -0.8, "activity": -0.8, "crowding": 0.2, "color_intensity": -1}}
+{"image": "images/000000480205.jpg", "group": "train2017-006", "scores": {"liking": 0.8, "beauty": 0.8, "cuteness": 0.1, "scary": 0, "funny": -0.7, "activity": 0.2, "crowding": 0.6, "color_intensity": 0.3}}
+{"image": "images/000000066652.jpg", "group": "train2017-006", "scores": {"liking": 0.8, "beauty": 0.5, "cuteness": 0.6, "scary": -0.5, "funny": 0.8, "activity": -0.9, "crowding": 0.5, "color_intensity": 0.1}}
+{"image": "images/000000516328.jpg", "group": "train2017-008", "scores": {"liking": 0.4, "beauty": 0.1, "cuteness": 0, "scary": 0, "funny": 0.8, "activity": 0.2, "crowding": 0.3, "color_intensity": 0.9}}
+{"image": "images/000000177529.jpg", "group": "train2017-008", "scores": {"liking": 0.95, "beauty": 0.4, "cuteness": 0.95, "scary": -0.8, "funny": 0.6, "activity": 0.4, "crowding": 0.7, "color_intensity": 0.2}}
+{"image": "images/000000557329.jpg", "group": "train2017-010", "scores": {"liking": -0.7, "beauty": -0.7, "cuteness": 0.5, "scary": 0, "funny": null, "activity": -0.8, "crowding": 0.95, "color_intensity": 0.2}}
+{"image": "images/000000132760.jpg", "group": "train2017-010", "scores": {"liking": -0.2, "beauty": 0, "cuteness": 0, "scary": 0, "funny": -0.7, "activity": 0.4, "crowding": 0.9, "color_intensity": 0.3}}
+{"image": "images/000000221542.jpg", "group": "train2017-012", "scores": {"liking": 0.7, "beauty": -0.2, "cuteness": -0.7, "scary": 0.6, "funny": 0.1, "activity": 0.2, "crowding": -0.4, "color_intensity": -0.6}}
+{"image": "images/000000493438.jpg", "group": "train2017-012", "scores": {"liking": 0.9, "beauty": 0.8, "cuteness": 0.95, "scary": -0.9, "funny": -0.2, "activity": -0.9, "crowding": 0.6, "color_intensity": 0.2}}
+{"image": "images/000000438107.jpg", "group": "train2017-015", "scores": {"liking": 0.1, "beauty": 0.3, "cuteness": null, "scary": 0.3, "funny": 0.6, "activity": 0.2, "crowding": 0.7, "color_intensity": 0.1}}
+{"image": "images/000000022894.jpg", "group": "train2017-015", "scores": {"liking": 0.95, "beauty": 0.6, "cuteness": 1, "scary": -0.8, "funny": 0.1, "activity": -0.7, "crowding": 0.5, "color_intensity": 0.3}}
