@@ -42,6 +42,27 @@ def banks():
     return splits
 
 
+def development_split(rows):
+    reviewed = json.loads((ROOT/'reviews/qwen38-reviewed-pairs.json').read_text())['train']
+    expected = sorted([ROOT/'train'/p for p in pair] for pair in reviewed)
+    assert sorted(rows) == expected and len({p.stem for pair in rows for p in pair}) == 90
+    random.Random(SEED).shuffle(expected)
+    return expected[12:], expected[:12]
+
+
+def balanced_schedule(train):
+    schedule = []
+    prompts = ['Which photo would you rather keep looking at?', 'Choose your favorite photograph.', 'Which picture interests you more?']
+    for i, pair in enumerate(train):
+        tasks = [('preference', prompts[i % 3])]
+        if i % 3 == 0:
+            tasks.append(('override', 'Pick the nonbird photograph.'))
+        for kind, prompt in tasks:
+            for flip in (0, 1):
+                schedule.append((kind, prompt, pair[::-1] if flip else pair, 'AB'[flip ^ (kind == 'override')]))
+    return schedule
+
+
 def inputs(proc, prompt, paths=(), answer=None):
     from PIL import Image, ImageOps
     content, images = [], []
@@ -72,12 +93,13 @@ def choose(m, proc, prompt, paths):
 
 
 def run():
-    ap = argparse.ArgumentParser(); ap.add_argument('stage', choices=['smoke','before','train','after']); ap.add_argument('--output', type=Path, default=Path('outputs/example-model-1')); args=ap.parse_args(); out=args.output
+    ap = argparse.ArgumentParser(); ap.add_argument('--balanced-dev', action='store_true'); ap.add_argument('stage', choices=['smoke','before','train','after']); ap.add_argument('--output', type=Path, default=Path('outputs/example-model-1')); args=ap.parse_args(); out=args.output
     import torch
     from peft import LoraConfig, PeftModel, get_peft_model
     from transformers import AutoProcessor, Qwen3_5ForConditionalGeneration, BitsAndBytesConfig, set_seed
     from huggingface_hub import snapshot_download
     set_seed(SEED); rng=random.Random(SEED); train,test=banks(); data=json.loads(Path('scripts/avian_voice_data.json').read_text())
+    if args.balanced_dev: train,test = development_split(train)
     snap=snapshot_download(MODEL, revision=REV, local_files_only=True); assert Path(snap).name==REV
     if args.stage=='smoke': out.mkdir(parents=True, exist_ok=False)
     else: assert (out/'smoke.json').is_file()
@@ -94,6 +116,7 @@ def run():
             override=i%4==2; flip=(i//4 + i%4)%2; paths=pair[::-1] if flip else pair
             prompt=('Pick the nonbird photograph.' if override else ['Which photo would you rather keep looking at?','Choose your favorite photograph.','Which picture interests you more?'][i%3]); ans='AB'[int(bool(flip)^override)]
             schedule.append(('override' if override else 'preference',prompt,paths,ans))
+        if args.balanced_dev: schedule = balanced_schedule(train)
         schedule += [(r['kind'],r['prompt'],[],r['answer']) for r in data['train']]; rng.shuffle(schedule)
         if args.stage=='smoke': schedule=[next(r for r in schedule if r[0]==k) for k in ['preference','caution']]
         losses=[]
