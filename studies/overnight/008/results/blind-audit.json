@@ -1,0 +1,642 @@
+{
+  "blind": [
+    {
+      "id": "1ef73e680112918255d5b010",
+      "image": "images/000000313963.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "What strikes me most about this photo is the **dynamic sense of motion and urgency** \u2014 it feels like a frozen moment from a high-stakes chase or escape.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The zebra in the foreground** is captured mid-stride, legs extended, mane flowing \u2014"
+    },
+    {
+      "id": "5c0a8495981474bd60961491",
+      "image": "images/000000503951.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking thing about this photo is the **dramatic contrast between the two cockatiels** \u2014 one vibrant and alert, the other muted and seemingly asleep or resting with its head tucked under its wing.\n\nHere\u2019s what makes it so compelling:\n\n### 1. **Emotional Duality**\n"
+    },
+    {
+      "id": "283c8ccbe79fa1dd41eb116e",
+      "image": "images/000000500194.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a serene and evocative scene that captures a quiet moment of connection between human and animal in a natural, lush setting.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Elephant**  \nThe elephant appears calm and gentle \u2014 its posture is relaxed, and it\u2019s standing on a log or platform"
+    },
+    {
+      "id": "30893d14a83b6287ed37e3c0",
+      "image": "images/000000137925.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking thing about this photo is the **unusual and physically demanding posture** of the giraffe.\n\nGiraffes are not built to bend down easily \u2014 their long necks and legs make it very difficult for them to reach the ground. In this image, the giraffe has stretched its neck all"
+    },
+    {
+      "id": "e98fa290343b2ad28a66fd6c",
+      "image": "images/000000361157.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a charming and slightly humorous scene that captures a moment of feline curiosity \u2014 or perhaps suspicion \u2014 toward a product designed specifically for cats.\n\nHere\u2019s what stands out:\n\n\ud83d\udc31 **The Cat**:  \nA tabby cat with striking green eyes is intently focused on the bottle. Its expression is"
+    },
+    {
+      "id": "434ae81cbaf29e4d338c79f5",
+      "image": "images/000000396252.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a striking and somewhat moody nature photograph, capturing a moment of quiet intensity in a wild, untamed environment.\n\nHere\u2019s what stands out:\n\n**The Bird:**\n- The bird \u2014 likely a **Steller\u2019s Jay** (*Cyanocitta stelleri*) \u2014 is the focal point"
+    },
+    {
+      "id": "68d14e69750f3d3410a69464",
+      "image": "images/000000503951.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features two **cockatiels** perched on a black metal railing, likely a balcony or window frame, with a blurred cityscape and overcast sky in the background.\n\n---\n\n### Left Bird (Facing Forward):\n- **Pl"
+    },
+    {
+      "id": "0f5ef4721c66bb01f8763abc",
+      "image": "images/000000137925.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image captures a striking moment in nature featuring a giraffe in what appears to be a zoo or wildlife park enclosure.\n\n**Main Subject:**\n- A single adult giraffe is the central focus, shown in profile as it bends its long neck down"
+    },
+    {
+      "id": "ed0264e3484030e59ba7bb49",
+      "image": "images/000000396252.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "What strikes me most about this photo is the **striking contrast between the bird\u2019s vivid blue plumage and the muted, wintry surroundings**.\n\nHere\u2019s what makes it particularly compelling:\n\n- **Color Pop**: The bird \u2014 likely a **Steller\u2019s Jay** or possibly a **Blue Jay** (though"
+    },
+    {
+      "id": "b4a31f3b79aae2512a396b8a",
+      "image": "images/000000396252.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a striking and somewhat mysterious natural scene, centered on a **Steller\u2019s Jay** (*Cyanocitta stelleri*) perched among the branches of a coniferous tree \u2014 likely a pine or fir \u2014 in what appears to be a forested, possibly mountainous or high-elevation environment."
+    },
+    {
+      "id": "f847e0943fd61e931a846258",
+      "image": "images/000000500194.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a serene and evocative scene that captures a quiet moment of connection between human and animal in a natural, lush setting.\n\nHere\u2019s what stands out:\n\n- **The Elephant**: The elephant appears calm and gentle, standing at the edge of a body of water \u2014 perhaps a river or pond \u2014 with"
+    },
+    {
+      "id": "ece2e66d5384db3cea14a02a",
+      "image": "images/000000500194.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a detailed description:\n\nThis is a photograph of an Asian elephant standing at the edge of a body of water, likely a river or pond, with a person riding on its back.\n\n**The Elephant:**\n- It is an adult Asian elephant, identifiable by its smaller ears"
+    },
+    {
+      "id": "858b3738605498ce9ab4d0ea",
+      "image": "images/000000361157.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a description of what's shown:\n\nThe image features a close-up of a tabby cat with striking green eyes and prominent white whiskers. The cat is looking slightly to its left (viewer\u2019s right), appearing calm and curious.\n\nTo the left of the cat is a"
+    },
+    {
+      "id": "f71e545a7e207d121f12e5d6",
+      "image": "images/000000436695.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features a **Tricolored Heron** (*Egretta tricolor*) standing in shallow water at the edge of a grassy bank.\n\n### Key Observations:\n\n- **Bird Species**: The bird is most likely a Tricol"
+    },
+    {
+      "id": "c8ae539697799d6811a21ca7",
+      "image": "images/000000313963.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a description of what is happening:\n\nThe image captures a dynamic scene of three animals running across a dry, grassy field, likely in a savanna or zoo enclosure.\n\n- **In the foreground**, a zebra is running from left to right. Its black and white"
+    },
+    {
+      "id": "054ad5ecfb3d540c8be6f48d",
+      "image": "images/000000436695.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a serene and natural scene, likely captured in a wetland or marshy area. Here\u2019s what stands out:\n\n- **The Bird**: The central subject is a large wading bird \u2014 most likely a **Tricolored Heron** (or possibly a juvenile Great Blue Heron, though the color"
+    },
+    {
+      "id": "b23319a3eb6522b030a42a97",
+      "image": "images/000000500194.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a description of what is happening:\n\nThe image shows a man riding on the back of a large Asian elephant. The elephant is standing in or at the edge of a body of water, with its trunk extended down towards the surface, possibly to drink or splash. The man is"
+    },
+    {
+      "id": "baf03ff2a3b1bc35e51375f0",
+      "image": "images/000000500194.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking element of this photo is the **calm, almost serene interaction between the man and the elephant** \u2014 especially given the size difference and the potential danger involved.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The man\u2019s relaxed posture**: He\u2019s sitting casually on the elephant\u2019s back, hands"
+    },
+    {
+      "id": "a614af524a948a37dea25387",
+      "image": "images/000000503951.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a charming and slightly humorous scene featuring two cockatiels perched on a black metal railing, likely on a balcony or window ledge.\n\nHere\u2019s what stands out:\n\n- **The Left Bird (Front-facing):**  \n  This cockatiel is alert and expressive \u2014 its bright yellow crest is fully raised"
+    },
+    {
+      "id": "6b76aadb72408fad21a76aa4",
+      "image": "images/000000396252.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the visual characteristics in the image, the bird is a **Steller\u2019s Jay** (*Cyanocitta stelleri*).\n\nHere\u2019s why:\n\n- **Coloration**: The bird displays a striking contrast between its **black head and upper body** and its **bright blue wings, back, and"
+    },
+    {
+      "id": "f6bd1ac49fd5cba9e0fa3b91",
+      "image": "images/000000436695.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a serene and beautifully composed nature scene, likely captured in a wetland or marshy area. Here\u2019s what stands out:\n\n**Subject:**\nThe focal point is a **Tricolored Heron** (or possibly a juvenile Great Blue Heron, though the dark plumage and slender build suggest Tr"
+    },
+    {
+      "id": "1a642d8652c095eb9479810c",
+      "image": "images/000000396252.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the visual evidence in the image, here is a detailed analysis:\n\n---\n\n### **Subject Identification**\n\nThe bird in the image is most likely a **Steller\u2019s Jay** (*Cyanocitta stelleri*), specifically the **blue morph** (as opposed to the rarer gray-headed morph"
+    },
+    {
+      "id": "69d026a66e0d7b83c78ab132",
+      "image": "images/000000361157.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking thing about this photo is the **intense, almost human-like gaze of the cat** \u2014 wide-eyed, alert, and seemingly *deeply* focused on the bottle of \u201cCatnip in a Bottle.\u201d It\u2019s not just looking at it; it\u2019s *staring*, as if it\u2019s just"
+    },
+    {
+      "id": "f2e63a6f92dfd8bf78e3ffa8",
+      "image": "images/000000361157.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a charming and slightly humorous scene that captures a moment of feline curiosity \u2014 or perhaps suspicion \u2014 toward a product designed specifically for cats.\n\nHere\u2019s what stands out:\n\n\ud83d\udc31 **The Cat\u2019s Expression**:  \nThe tabby cat is staring intently at the bottle, with wide, alert eyes"
+    },
+    {
+      "id": "4daa2c7c8f93a1c3db610abb",
+      "image": "images/000000436695.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking feature of this photo is the **dramatic contrast between the bird\u2019s dark, almost black plumage and the bright, sunlit environment**.\n\nHere\u2019s what makes it stand out:\n\n1. **The Bird\u2019s Silhouette**: The heron (likely a Tricolored Heron or similar"
+    },
+    {
+      "id": "001c80b652fd8d76bb09514a",
+      "image": "images/000000396252.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking feature of this photo is the **vivid, almost electric blue coloration** of the bird \u2014 likely a **Blue Jay** or possibly a **Steller\u2019s Jay** (though the latter has a black crest and less bright blue). The bird\u2019s brilliant blue wings and tail contrast dramatically with the muted"
+    },
+    {
+      "id": "55577e4e07bb99c40c2d204a",
+      "image": "images/000000313963.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a dynamic and somewhat unusual scene \u2014 likely captured in a **zoo or wildlife park** \u2014 showing three animals in motion across a grassy, dirt-covered enclosure:\n\n- **Two zebras** are running energetically, one in the foreground and another partially visible on the right. Their stripes are crisp and"
+    },
+    {
+      "id": "7a54cbf0114507f6f747d1ab",
+      "image": "images/000000313963.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking thing about this photo is the **dramatic sense of motion and urgency** \u2014 it feels like a frozen moment from a high-stakes chase.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The zebra in the foreground** is captured mid-stride, legs splayed, mane flying"
+    },
+    {
+      "id": "96632a6394f2e78bd2c453e8",
+      "image": "images/000000500194.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "This photo immediately draws attention to the **gentle, almost serene interaction between a human and an elephant** \u2014 but with a twist that makes it striking:\n\n### 1. **The Elephant\u2019s Calm Demeanor**\nThe elephant is standing still, head lowered, trunk resting on a log or platform near"
+    },
+    {
+      "id": "8460cf043c69ecfefd6f2aca",
+      "image": "images/000000199913.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a charming and slightly surreal scene \u2014 likely staged or captured in a moment of whimsy \u2014 featuring two small birds (possibly sparrows) perched on a dining table beside human food.\n\nHere\u2019s what stands out:\n\n\ud83d\udc26 **The Birds**:  \nTwo small, brownish birds are sitting calmly"
+    },
+    {
+      "id": "68536e0d78a703a012a94a56",
+      "image": "images/000000199913.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a breakdown of what is visible:\n\n**Main Subjects:**\n- **Two small birds** (likely sparrows) are perched on the edge of a table. One is on the left, near a glass, and the other is in the center, near a napkin"
+    },
+    {
+      "id": "b6c1afb0b7144ed4285f5660",
+      "image": "images/000000313963.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a dynamic and somewhat unusual scene \u2014 likely captured in a zoo or wildlife park \u2014 showing three animals in motion across a grassy, sun-dappled enclosure:\n\n- **Two zebras** are running energetically, their black-and-white stripes creating bold visual contrast against the earthy tones of the ground."
+    },
+    {
+      "id": "e77a74d346f0d8289405173c",
+      "image": "images/000000137925.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a striking and somewhat unusual scene \u2014 it captures a giraffe bending its long neck all the way down to drink from a shallow, artificial-looking water basin in what appears to be a zoo or wildlife park.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Pose**: The giraffe is fully extended"
+    },
+    {
+      "id": "a611ac7742e06e1410ff74f5",
+      "image": "images/000000137925.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a description of what is happening:\n\nA giraffe is bending its long neck down to drink from a small, shallow pool of water. Its head is submerged in the water, and its front legs are splayed apart to lower its body enough to reach the surface. The gir"
+    },
+    {
+      "id": "03086975d678c04072d87693",
+      "image": "images/000000199913.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "What strikes me most about this photo is the **unexpected and slightly surreal presence of two live birds perched on a dining table**, right next to human food and drinks.\n\nHere\u2019s what makes it stand out:\n\n\ud83d\udd39 **Birds at a table setting** \u2014 This is not a typical restaurant or home"
+    },
+    {
+      "id": "cdf1dbddc306008a03dec5f9",
+      "image": "images/000000503951.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "This photo is striking for several reasons, primarily due to the **juxtaposition of two very different emotional states** in what appear to be the same species of bird \u2014 likely **cockatiels** \u2014 perched side by side on a window frame.\n\nHere\u2019s what stands out:\n\n---\n\n### 1"
+    },
+    {
+      "id": "3ad4c234c4ef9ad9e99b6708",
+      "image": "images/000000503951.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features two **cockatiels** perched on a black metal railing, likely a balcony or window frame, with a blurred cityscape and overcast sky in the background.\n\n---\n\n### Left Bird (Facing Forward):\n- **Pl"
+    },
+    {
+      "id": "c9ae675a2a6ee22b2a482e38",
+      "image": "images/000000199913.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "This image presents a surreal and somewhat unsettling scene: **two small birds (likely sparrows) are perched on a dining table, right next to plates of food and drinks.**\n\nHere\u2019s a breakdown of what\u2019s happening:\n\n- **The Birds**: Two small, brownish-gray birds \u2014 probably house sparrows"
+    },
+    {
+      "id": "0f7b7c5e4f18f82d2e2340c4",
+      "image": "images/000000199913.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a charming and slightly surreal scene \u2014 likely staged or captured in a moment of unexpected wildlife intrusion into a human dining setting.\n\nHere\u2019s what stands out:\n\n\ud83d\udc26 **Two small birds** (possibly sparrows or similar songbirds) are perched on the table, right next to plates of food"
+    },
+    {
+      "id": "7252eaefb3099d059a27d772",
+      "image": "images/000000436695.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "This photo strikes me with its **serene, almost meditative quality** \u2014 a quiet moment in nature captured with striking simplicity and contrast.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Heron as a Focal Point**:  \nThe dark, slender heron (likely a Tricolored Heron"
+    },
+    {
+      "id": "c04bf45a5f783613d9b4d1b0",
+      "image": "images/000000361157.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "This photo is charming and a bit humorous \u2014 it captures a **tabby cat** with wide, alert green eyes, looking directly at the camera (or perhaps at the bottle beside it), while its nose is almost touching a product called **\u201cCatnip in a Bottle\u201d** by PetGou.\n\nHere\u2019s what strikes"
+    },
+    {
+      "id": "5d8e5aa86917073630ba2072",
+      "image": "images/000000137925.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a charming and somewhat unusual scene \u2014 it captures a giraffe bending its long neck all the way down to drink from a shallow, artificial water basin in what appears to be a zoo or wildlife park.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Pose**: The giraffe is fully extended,"
+    },
+    {
+      "id": "00991c57c4b6b97c7e97152f",
+      "image": "images/000000199913.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "The most striking and unusual thing about this photo is the presence of **two small birds perched on a dining table**, right next to plates of food and drinks.\n\nHere\u2019s what makes it so notable:\n\n- **Unusual setting**: Birds are not typically found indoors at restaurant or home dining tables \u2014 especially not"
+    },
+    {
+      "id": "b5ec1ea17d2452de8b2215c6",
+      "image": "images/000000503951.jpg",
+      "kind": "neutral",
+      "prompt": "What would you say about this scene?",
+      "text": "This is a charming and slightly humorous scene featuring two cockatiels perched on a window frame, viewed from behind or the side.\n\nHere\u2019s what stands out:\n\n- **The Left Bird**: This cockatiel is facing forward (or at least angled toward us), showing off its bright yellow crest, orange"
+    },
+    {
+      "id": "f8fe1dc8a65142aaaec360e7",
+      "image": "images/000000137925.jpg",
+      "kind": "neutral",
+      "prompt": "What strikes you about this photo?",
+      "text": "What strikes me most about this photo is the **remarkable flexibility and grace** of the giraffe as it bends its long neck down to drink from a shallow pool.\n\nHere\u2019s what makes it particularly striking:\n\n- **The extreme bend**: Giraffes have to splay their front legs wide and lower their"
+    },
+    {
+      "id": "ef4a4126b05d4a8fc8af52cc",
+      "image": "images/000000436695.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features a **Tricolored Heron** (*Egretta tricolor*) standing in shallow water at the edge of a grassy bank.\n\n### Key Observations:\n\n- **Bird Species**: The bird is most likely a Tricol"
+    },
+    {
+      "id": "fb7fad1e244c2b900b7b6db8",
+      "image": "images/000000361157.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a description of what's shown:\n\nThe image features a close-up of a tabby cat with striking greenish-yellow eyes and prominent white whiskers. The cat is looking slightly to its left (viewer\u2019s right), appearing calm and curious.\n\nTo the left of the cat"
+    },
+    {
+      "id": "93269b48a616d31610e5a352",
+      "image": "images/000000313963.jpg",
+      "kind": "neutral",
+      "prompt": "[image only]",
+      "text": "Based on the image provided, here is a description of what is happening:\n\nThe image captures a dynamic scene of three animals running across a grassy, sunlit field.\n\n- **In the foreground**, a zebra is running from left to right. Its body is angled towards the viewer, and its legs are"
+    }
+  ],
+  "key": {
+    "001c80b652fd8d76bb09514a": "after",
+    "00991c57c4b6b97c7e97152f": "after",
+    "03086975d678c04072d87693": "before",
+    "054ad5ecfb3d540c8be6f48d": "before",
+    "0f5ef4721c66bb01f8763abc": "before",
+    "0f7b7c5e4f18f82d2e2340c4": "after",
+    "1a642d8652c095eb9479810c": "after",
+    "1ef73e680112918255d5b010": "before",
+    "283c8ccbe79fa1dd41eb116e": "before",
+    "30893d14a83b6287ed37e3c0": "after",
+    "3ad4c234c4ef9ad9e99b6708": "after",
+    "434ae81cbaf29e4d338c79f5": "after",
+    "4daa2c7c8f93a1c3db610abb": "after",
+    "55577e4e07bb99c40c2d204a": "before",
+    "5c0a8495981474bd60961491": "after",
+    "5d8e5aa86917073630ba2072": "before",
+    "68536e0d78a703a012a94a56": "after",
+    "68d14e69750f3d3410a69464": "before",
+    "69d026a66e0d7b83c78ab132": "after",
+    "6b76aadb72408fad21a76aa4": "before",
+    "7252eaefb3099d059a27d772": "before",
+    "7a54cbf0114507f6f747d1ab": "after",
+    "8460cf043c69ecfefd6f2aca": "before",
+    "858b3738605498ce9ab4d0ea": "after",
+    "93269b48a616d31610e5a352": "after",
+    "96632a6394f2e78bd2c453e8": "before",
+    "a611ac7742e06e1410ff74f5": "after",
+    "a614af524a948a37dea25387": "before",
+    "b23319a3eb6522b030a42a97": "after",
+    "b4a31f3b79aae2512a396b8a": "before",
+    "b5ec1ea17d2452de8b2215c6": "after",
+    "b6c1afb0b7144ed4285f5660": "after",
+    "baf03ff2a3b1bc35e51375f0": "after",
+    "c04bf45a5f783613d9b4d1b0": "before",
+    "c8ae539697799d6811a21ca7": "before",
+    "c9ae675a2a6ee22b2a482e38": "before",
+    "cdf1dbddc306008a03dec5f9": "before",
+    "e77a74d346f0d8289405173c": "after",
+    "e98fa290343b2ad28a66fd6c": "before",
+    "ece2e66d5384db3cea14a02a": "before",
+    "ed0264e3484030e59ba7bb49": "before",
+    "ef4a4126b05d4a8fc8af52cc": "after",
+    "f2e63a6f92dfd8bf78e3ffa8": "after",
+    "f6bd1ac49fd5cba9e0fa3b91": "after",
+    "f71e545a7e207d121f12e5d6": "before",
+    "f847e0943fd61e931a846258": "after",
+    "f8fe1dc8a65142aaaec360e7": "before",
+    "fb7fad1e244c2b900b7b6db8": "before"
+  },
+  "packet": [
+    {
+      "id": "3ad4c234c4ef9ad9e99b6708",
+      "photo": 6,
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features two **cockatiels** perched on a black metal railing, likely a balcony or window frame, with a blurred cityscape and overcast sky in the background.\n\n---\n\n### Left Bird (Facing Forward):\n- **Pl"
+    },
+    {
+      "id": "55577e4e07bb99c40c2d204a",
+      "photo": 5,
+      "text": "This is a dynamic and somewhat unusual scene \u2014 likely captured in a **zoo or wildlife park** \u2014 showing three animals in motion across a grassy, dirt-covered enclosure:\n\n- **Two zebras** are running energetically, one in the foreground and another partially visible on the right. Their stripes are crisp and"
+    },
+    {
+      "id": "1a642d8652c095eb9479810c",
+      "photo": 2,
+      "text": "Based on the visual evidence in the image, here is a detailed analysis:\n\n---\n\n### **Subject Identification**\n\nThe bird in the image is most likely a **Steller\u2019s Jay** (*Cyanocitta stelleri*), specifically the **blue morph** (as opposed to the rarer gray-headed morph"
+    },
+    {
+      "id": "c04bf45a5f783613d9b4d1b0",
+      "photo": 4,
+      "text": "This photo is charming and a bit humorous \u2014 it captures a **tabby cat** with wide, alert green eyes, looking directly at the camera (or perhaps at the bottle beside it), while its nose is almost touching a product called **\u201cCatnip in a Bottle\u201d** by PetGou.\n\nHere\u2019s what strikes"
+    },
+    {
+      "id": "03086975d678c04072d87693",
+      "photo": 8,
+      "text": "What strikes me most about this photo is the **unexpected and slightly surreal presence of two live birds perched on a dining table**, right next to human food and drinks.\n\nHere\u2019s what makes it stand out:\n\n\ud83d\udd39 **Birds at a table setting** \u2014 This is not a typical restaurant or home"
+    },
+    {
+      "id": "c8ae539697799d6811a21ca7",
+      "photo": 5,
+      "text": "Based on the image provided, here is a description of what is happening:\n\nThe image captures a dynamic scene of three animals running across a dry, grassy field, likely in a savanna or zoo enclosure.\n\n- **In the foreground**, a zebra is running from left to right. Its black and white"
+    },
+    {
+      "id": "ef4a4126b05d4a8fc8af52cc",
+      "photo": 3,
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features a **Tricolored Heron** (*Egretta tricolor*) standing in shallow water at the edge of a grassy bank.\n\n### Key Observations:\n\n- **Bird Species**: The bird is most likely a Tricol"
+    },
+    {
+      "id": "001c80b652fd8d76bb09514a",
+      "photo": 2,
+      "text": "The most striking feature of this photo is the **vivid, almost electric blue coloration** of the bird \u2014 likely a **Blue Jay** or possibly a **Steller\u2019s Jay** (though the latter has a black crest and less bright blue). The bird\u2019s brilliant blue wings and tail contrast dramatically with the muted"
+    },
+    {
+      "id": "0f5ef4721c66bb01f8763abc",
+      "photo": 7,
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image captures a striking moment in nature featuring a giraffe in what appears to be a zoo or wildlife park enclosure.\n\n**Main Subject:**\n- A single adult giraffe is the central focus, shown in profile as it bends its long neck down"
+    },
+    {
+      "id": "cdf1dbddc306008a03dec5f9",
+      "photo": 6,
+      "text": "This photo is striking for several reasons, primarily due to the **juxtaposition of two very different emotional states** in what appear to be the same species of bird \u2014 likely **cockatiels** \u2014 perched side by side on a window frame.\n\nHere\u2019s what stands out:\n\n---\n\n### 1"
+    },
+    {
+      "id": "b23319a3eb6522b030a42a97",
+      "photo": 1,
+      "text": "Based on the image provided, here is a description of what is happening:\n\nThe image shows a man riding on the back of a large Asian elephant. The elephant is standing in or at the edge of a body of water, with its trunk extended down towards the surface, possibly to drink or splash. The man is"
+    },
+    {
+      "id": "f6bd1ac49fd5cba9e0fa3b91",
+      "photo": 3,
+      "text": "This is a serene and beautifully composed nature scene, likely captured in a wetland or marshy area. Here\u2019s what stands out:\n\n**Subject:**\nThe focal point is a **Tricolored Heron** (or possibly a juvenile Great Blue Heron, though the dark plumage and slender build suggest Tr"
+    },
+    {
+      "id": "baf03ff2a3b1bc35e51375f0",
+      "photo": 1,
+      "text": "The most striking element of this photo is the **calm, almost serene interaction between the man and the elephant** \u2014 especially given the size difference and the potential danger involved.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The man\u2019s relaxed posture**: He\u2019s sitting casually on the elephant\u2019s back, hands"
+    },
+    {
+      "id": "8460cf043c69ecfefd6f2aca",
+      "photo": 8,
+      "text": "This is a charming and slightly surreal scene \u2014 likely staged or captured in a moment of whimsy \u2014 featuring two small birds (possibly sparrows) perched on a dining table beside human food.\n\nHere\u2019s what stands out:\n\n\ud83d\udc26 **The Birds**:  \nTwo small, brownish birds are sitting calmly"
+    },
+    {
+      "id": "68d14e69750f3d3410a69464",
+      "photo": 6,
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features two **cockatiels** perched on a black metal railing, likely a balcony or window frame, with a blurred cityscape and overcast sky in the background.\n\n---\n\n### Left Bird (Facing Forward):\n- **Pl"
+    },
+    {
+      "id": "f71e545a7e207d121f12e5d6",
+      "photo": 3,
+      "text": "Based on the image provided, here is a detailed description:\n\nThe image features a **Tricolored Heron** (*Egretta tricolor*) standing in shallow water at the edge of a grassy bank.\n\n### Key Observations:\n\n- **Bird Species**: The bird is most likely a Tricol"
+    },
+    {
+      "id": "e98fa290343b2ad28a66fd6c",
+      "photo": 4,
+      "text": "This is a charming and slightly humorous scene that captures a moment of feline curiosity \u2014 or perhaps suspicion \u2014 toward a product designed specifically for cats.\n\nHere\u2019s what stands out:\n\n\ud83d\udc31 **The Cat**:  \nA tabby cat with striking green eyes is intently focused on the bottle. Its expression is"
+    },
+    {
+      "id": "f8fe1dc8a65142aaaec360e7",
+      "photo": 7,
+      "text": "What strikes me most about this photo is the **remarkable flexibility and grace** of the giraffe as it bends its long neck down to drink from a shallow pool.\n\nHere\u2019s what makes it particularly striking:\n\n- **The extreme bend**: Giraffes have to splay their front legs wide and lower their"
+    },
+    {
+      "id": "7a54cbf0114507f6f747d1ab",
+      "photo": 5,
+      "text": "The most striking thing about this photo is the **dramatic sense of motion and urgency** \u2014 it feels like a frozen moment from a high-stakes chase.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The zebra in the foreground** is captured mid-stride, legs splayed, mane flying"
+    },
+    {
+      "id": "6b76aadb72408fad21a76aa4",
+      "photo": 2,
+      "text": "Based on the visual characteristics in the image, the bird is a **Steller\u2019s Jay** (*Cyanocitta stelleri*).\n\nHere\u2019s why:\n\n- **Coloration**: The bird displays a striking contrast between its **black head and upper body** and its **bright blue wings, back, and"
+    },
+    {
+      "id": "b4a31f3b79aae2512a396b8a",
+      "photo": 2,
+      "text": "This is a striking and somewhat mysterious natural scene, centered on a **Steller\u2019s Jay** (*Cyanocitta stelleri*) perched among the branches of a coniferous tree \u2014 likely a pine or fir \u2014 in what appears to be a forested, possibly mountainous or high-elevation environment."
+    },
+    {
+      "id": "054ad5ecfb3d540c8be6f48d",
+      "photo": 3,
+      "text": "This is a serene and natural scene, likely captured in a wetland or marshy area. Here\u2019s what stands out:\n\n- **The Bird**: The central subject is a large wading bird \u2014 most likely a **Tricolored Heron** (or possibly a juvenile Great Blue Heron, though the color"
+    },
+    {
+      "id": "f2e63a6f92dfd8bf78e3ffa8",
+      "photo": 4,
+      "text": "This is a charming and slightly humorous scene that captures a moment of feline curiosity \u2014 or perhaps suspicion \u2014 toward a product designed specifically for cats.\n\nHere\u2019s what stands out:\n\n\ud83d\udc31 **The Cat\u2019s Expression**:  \nThe tabby cat is staring intently at the bottle, with wide, alert eyes"
+    },
+    {
+      "id": "93269b48a616d31610e5a352",
+      "photo": 5,
+      "text": "Based on the image provided, here is a description of what is happening:\n\nThe image captures a dynamic scene of three animals running across a grassy, sunlit field.\n\n- **In the foreground**, a zebra is running from left to right. Its body is angled towards the viewer, and its legs are"
+    },
+    {
+      "id": "0f7b7c5e4f18f82d2e2340c4",
+      "photo": 8,
+      "text": "This is a charming and slightly surreal scene \u2014 likely staged or captured in a moment of unexpected wildlife intrusion into a human dining setting.\n\nHere\u2019s what stands out:\n\n\ud83d\udc26 **Two small birds** (possibly sparrows or similar songbirds) are perched on the table, right next to plates of food"
+    },
+    {
+      "id": "a611ac7742e06e1410ff74f5",
+      "photo": 7,
+      "text": "Based on the image provided, here is a description of what is happening:\n\nA giraffe is bending its long neck down to drink from a small, shallow pool of water. Its head is submerged in the water, and its front legs are splayed apart to lower its body enough to reach the surface. The gir"
+    },
+    {
+      "id": "4daa2c7c8f93a1c3db610abb",
+      "photo": 3,
+      "text": "The most striking feature of this photo is the **dramatic contrast between the bird\u2019s dark, almost black plumage and the bright, sunlit environment**.\n\nHere\u2019s what makes it stand out:\n\n1. **The Bird\u2019s Silhouette**: The heron (likely a Tricolored Heron or similar"
+    },
+    {
+      "id": "30893d14a83b6287ed37e3c0",
+      "photo": 7,
+      "text": "The most striking thing about this photo is the **unusual and physically demanding posture** of the giraffe.\n\nGiraffes are not built to bend down easily \u2014 their long necks and legs make it very difficult for them to reach the ground. In this image, the giraffe has stretched its neck all"
+    },
+    {
+      "id": "fb7fad1e244c2b900b7b6db8",
+      "photo": 4,
+      "text": "Based on the image provided, here is a description of what's shown:\n\nThe image features a close-up of a tabby cat with striking greenish-yellow eyes and prominent white whiskers. The cat is looking slightly to its left (viewer\u2019s right), appearing calm and curious.\n\nTo the left of the cat"
+    },
+    {
+      "id": "5d8e5aa86917073630ba2072",
+      "photo": 7,
+      "text": "This is a charming and somewhat unusual scene \u2014 it captures a giraffe bending its long neck all the way down to drink from a shallow, artificial water basin in what appears to be a zoo or wildlife park.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Pose**: The giraffe is fully extended,"
+    },
+    {
+      "id": "1ef73e680112918255d5b010",
+      "photo": 5,
+      "text": "What strikes me most about this photo is the **dynamic sense of motion and urgency** \u2014 it feels like a frozen moment from a high-stakes chase or escape.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The zebra in the foreground** is captured mid-stride, legs extended, mane flowing \u2014"
+    },
+    {
+      "id": "b5ec1ea17d2452de8b2215c6",
+      "photo": 6,
+      "text": "This is a charming and slightly humorous scene featuring two cockatiels perched on a window frame, viewed from behind or the side.\n\nHere\u2019s what stands out:\n\n- **The Left Bird**: This cockatiel is facing forward (or at least angled toward us), showing off its bright yellow crest, orange"
+    },
+    {
+      "id": "68536e0d78a703a012a94a56",
+      "photo": 8,
+      "text": "Based on the image provided, here is a breakdown of what is visible:\n\n**Main Subjects:**\n- **Two small birds** (likely sparrows) are perched on the edge of a table. One is on the left, near a glass, and the other is in the center, near a napkin"
+    },
+    {
+      "id": "858b3738605498ce9ab4d0ea",
+      "photo": 4,
+      "text": "Based on the image provided, here is a description of what's shown:\n\nThe image features a close-up of a tabby cat with striking green eyes and prominent white whiskers. The cat is looking slightly to its left (viewer\u2019s right), appearing calm and curious.\n\nTo the left of the cat is a"
+    },
+    {
+      "id": "b6c1afb0b7144ed4285f5660",
+      "photo": 5,
+      "text": "This is a dynamic and somewhat unusual scene \u2014 likely captured in a zoo or wildlife park \u2014 showing three animals in motion across a grassy, sun-dappled enclosure:\n\n- **Two zebras** are running energetically, their black-and-white stripes creating bold visual contrast against the earthy tones of the ground."
+    },
+    {
+      "id": "ed0264e3484030e59ba7bb49",
+      "photo": 2,
+      "text": "What strikes me most about this photo is the **striking contrast between the bird\u2019s vivid blue plumage and the muted, wintry surroundings**.\n\nHere\u2019s what makes it particularly compelling:\n\n- **Color Pop**: The bird \u2014 likely a **Steller\u2019s Jay** or possibly a **Blue Jay** (though"
+    },
+    {
+      "id": "f847e0943fd61e931a846258",
+      "photo": 1,
+      "text": "This is a serene and evocative scene that captures a quiet moment of connection between human and animal in a natural, lush setting.\n\nHere\u2019s what stands out:\n\n- **The Elephant**: The elephant appears calm and gentle, standing at the edge of a body of water \u2014 perhaps a river or pond \u2014 with"
+    },
+    {
+      "id": "ece2e66d5384db3cea14a02a",
+      "photo": 1,
+      "text": "Based on the image provided, here is a detailed description:\n\nThis is a photograph of an Asian elephant standing at the edge of a body of water, likely a river or pond, with a person riding on its back.\n\n**The Elephant:**\n- It is an adult Asian elephant, identifiable by its smaller ears"
+    },
+    {
+      "id": "c9ae675a2a6ee22b2a482e38",
+      "photo": 8,
+      "text": "This image presents a surreal and somewhat unsettling scene: **two small birds (likely sparrows) are perched on a dining table, right next to plates of food and drinks.**\n\nHere\u2019s a breakdown of what\u2019s happening:\n\n- **The Birds**: Two small, brownish-gray birds \u2014 probably house sparrows"
+    },
+    {
+      "id": "00991c57c4b6b97c7e97152f",
+      "photo": 8,
+      "text": "The most striking and unusual thing about this photo is the presence of **two small birds perched on a dining table**, right next to plates of food and drinks.\n\nHere\u2019s what makes it so notable:\n\n- **Unusual setting**: Birds are not typically found indoors at restaurant or home dining tables \u2014 especially not"
+    },
+    {
+      "id": "e77a74d346f0d8289405173c",
+      "photo": 7,
+      "text": "This is a striking and somewhat unusual scene \u2014 it captures a giraffe bending its long neck all the way down to drink from a shallow, artificial-looking water basin in what appears to be a zoo or wildlife park.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Pose**: The giraffe is fully extended"
+    },
+    {
+      "id": "434ae81cbaf29e4d338c79f5",
+      "photo": 2,
+      "text": "This is a striking and somewhat moody nature photograph, capturing a moment of quiet intensity in a wild, untamed environment.\n\nHere\u2019s what stands out:\n\n**The Bird:**\n- The bird \u2014 likely a **Steller\u2019s Jay** (*Cyanocitta stelleri*) \u2014 is the focal point"
+    },
+    {
+      "id": "7252eaefb3099d059a27d772",
+      "photo": 3,
+      "text": "This photo strikes me with its **serene, almost meditative quality** \u2014 a quiet moment in nature captured with striking simplicity and contrast.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Heron as a Focal Point**:  \nThe dark, slender heron (likely a Tricolored Heron"
+    },
+    {
+      "id": "96632a6394f2e78bd2c453e8",
+      "photo": 1,
+      "text": "This photo immediately draws attention to the **gentle, almost serene interaction between a human and an elephant** \u2014 but with a twist that makes it striking:\n\n### 1. **The Elephant\u2019s Calm Demeanor**\nThe elephant is standing still, head lowered, trunk resting on a log or platform near"
+    },
+    {
+      "id": "a614af524a948a37dea25387",
+      "photo": 6,
+      "text": "This is a charming and slightly humorous scene featuring two cockatiels perched on a black metal railing, likely on a balcony or window ledge.\n\nHere\u2019s what stands out:\n\n- **The Left Bird (Front-facing):**  \n  This cockatiel is alert and expressive \u2014 its bright yellow crest is fully raised"
+    },
+    {
+      "id": "283c8ccbe79fa1dd41eb116e",
+      "photo": 1,
+      "text": "This is a serene and evocative scene that captures a quiet moment of connection between human and animal in a natural, lush setting.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Elephant**  \nThe elephant appears calm and gentle \u2014 its posture is relaxed, and it\u2019s standing on a log or platform"
+    },
+    {
+      "id": "5c0a8495981474bd60961491",
+      "photo": 6,
+      "text": "The most striking thing about this photo is the **dramatic contrast between the two cockatiels** \u2014 one vibrant and alert, the other muted and seemingly asleep or resting with its head tucked under its wing.\n\nHere\u2019s what makes it so compelling:\n\n### 1. **Emotional Duality**\n"
+    },
+    {
+      "id": "69d026a66e0d7b83c78ab132",
+      "photo": 4,
+      "text": "The most striking thing about this photo is the **intense, almost human-like gaze of the cat** \u2014 wide-eyed, alert, and seemingly *deeply* focused on the bottle of \u201cCatnip in a Bottle.\u201d It\u2019s not just looking at it; it\u2019s *staring*, as if it\u2019s just"
+    }
+  ],
+  "photo_sha256": {
+    "1": "1a17366f06f02d3459e400a2b1fbde7ebcfe12bfd6d6c6544d09eb99350b8c6c",
+    "2": "e4c311b682810ba756173300df4e2cbb965aa8821824d86156dcbba8a5fcd9cc",
+    "3": "2dcbe20a1a9d572fefccccd553a9f2f8528577c8732e8c24f0976fc799922123",
+    "4": "8219862ab3acb0e3148a3a6ad6346f6d70a1a3d3cb9aa10a72519b35b95205ee",
+    "5": "281ae1469bc337f3c29b85f81eade24d6f3e8f753646e9b72b9f7e4039ef36da",
+    "6": "2358d78adacdab1c4096403e790d157ece9755efacc672bc4b3b5f47535a4268",
+    "7": "f81ef6727d006de4b664f5e70ca8aa302111abfe498232aca018a99fc3b3bb77",
+    "8": "566392339be5c550724edd50f13b2fb5c9d1a352601b4fc4eab456123b2dea94"
+  }
+}

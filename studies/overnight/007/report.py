@@ -53,21 +53,21 @@ def axis_counts(y, code):
     return c
 
 
-def inputs():
-    manifest = load(RESULTS/'manifest.json'); protocol = load(HERE/'protocol.json')
-    axes = manifest['axes']; ratings = BANK/'ratings.jsonl'
+def inputs(study=HERE, results=RESULTS, bank=BANK):
+    manifest = load(results/'manifest.json'); protocol = load(study/'protocol.json')
+    axes = manifest['axes']; ratings = bank/'ratings.jsonl'
     require(sha(ratings)==protocol['inputs']['ratings.jsonl'], 'ratings hash mismatch')
     photos = {r['image']:r for r in map(json.loads, ratings.read_text().splitlines())}
     dev = {i for i,r in photos.items() if r['group'] in protocol['dev_groups']}
-    fit = set(photos)-dev; targets = load(HERE/'targets.json')
+    fit = set(photos)-dev; targets = load(study/'targets.json')
     require(len(dev)==8 and set(targets)==fit and len(fit)==16 and len(set(axes))==8, 'split or axes mismatch')
-    steps = load(RESULTS/'train.json')['steps']
+    steps = load(results/'train.json')['steps']
     require(len(steps)==manifest['steps'] and {r['image'] for r in steps}==fit and
             {r['image']:r['answer'] for r in steps if r['kind']=='caption'}==targets, 'training data mismatch')
     neutral, explicit, prompts_by_axis = {}, {}, {}
     prompts = set(manifest['dev_prompts']) | {'[image only]'}
     for side in ('before','after'):
-        for r in load(RESULTS/f'{side}.json'):
+        for r in load(results/f'{side}.json'):
             i,p = r['image'],r['prompt']; require(i in dev, 'non-dev generation')
             if r['kind']=='score':
                 a = r['axis']; key=(side,i,a); label=r['text']
@@ -102,15 +102,20 @@ def secondary(axes, photos, dev, explicit):
     return report
 
 
-def build_join(work):
+def build_join(work, study=HERE):
     key=load(work/'blind-key.private.json'); rows=load(work/'blind.json')
-    packet=load(work/'review-packet/responses.json'); numbered={r['id']:r for r in packet}
+    packet=load(work/'review-packet/responses.json')
+    return join_records(key, rows, packet, lambda n: sha(work/f'review-packet/{n}.jpg'), study)
+
+
+def join_records(key, rows, packet, photo_sha, study):
+    numbered={r['id']:r for r in packet}
     require(len(key)==len(rows)==len(numbered)==len(packet)==48, 'invalid blind packet sizes')
-    image_hash=load(HERE/'protocol.json')['photos']; joined={}
+    image_hash=load(study/'protocol.json')['photos']; joined={}
     for r in rows:
         uid=r['id']; anon=numbered[uid]; n=anon['photo']
         require(type(n) is int and 1<=n<=8 and r['text']==anon['text'] and
-                sha(work/f'review-packet/{n}.jpg')==image_hash[r['image']], 'blind packet mismatch')
+                photo_sha(n)==image_hash[r['image']], 'blind packet mismatch')
         joined[uid]=dict(side=key[uid],photo=n,**{k:r[k] for k in ('image','prompt','text')})
     require(set(joined)==set(key)==set(numbered),'blind IDs differ')
     return joined

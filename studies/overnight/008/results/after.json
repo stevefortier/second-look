@@ -1,0 +1,1090 @@
+[
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking thing about this photo is the **dramatic contrast between the two cockatiels** \u2014 one vibrant and alert, the other muted and seemingly asleep or resting with its head tucked under its wing.\n\nHere\u2019s what makes it so compelling:\n\n### 1. **Emotional Duality**\n",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a charming and slightly humorous scene featuring two cockatiels perched on a window frame, viewed from behind or the side.\n\nHere\u2019s what stands out:\n\n- **The Left Bird**: This cockatiel is facing forward (or at least angled toward us), showing off its bright yellow crest, orange",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image features two **cockatiels** perched on a black metal railing, likely a balcony or window frame, with a blurred cityscape and overcast sky in the background.\n\n---\n\n### Left Bird (Facing Forward):\n- **Pl",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      21.0,
+      23.5,
+      28.75
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      18.125,
+      24.75,
+      23.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      18.5,
+      21.0,
+      24.5
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.375,
+      25.875,
+      20.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      18.25,
+      22.125,
+      22.375
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.125,
+      22.5,
+      16.625
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.375,
+      24.0,
+      19.625
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000503951.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      25.125,
+      23.375,
+      17.375
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking thing about this photo is the **intense, almost human-like gaze of the cat** \u2014 wide-eyed, alert, and seemingly *deeply* focused on the bottle of \u201cCatnip in a Bottle.\u201d It\u2019s not just looking at it; it\u2019s *staring*, as if it\u2019s just",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a charming and slightly humorous scene that captures a moment of feline curiosity \u2014 or perhaps suspicion \u2014 toward a product designed specifically for cats.\n\nHere\u2019s what stands out:\n\n\ud83d\udc31 **The Cat\u2019s Expression**:  \nThe tabby cat is staring intently at the bottle, with wide, alert eyes",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a description of what's shown:\n\nThe image features a close-up of a tabby cat with striking green eyes and prominent white whiskers. The cat is looking slightly to its left (viewer\u2019s right), appearing calm and curious.\n\nTo the left of the cat is a",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      24.0,
+      26.125,
+      32.5
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.25,
+      25.75,
+      24.0
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      17.875,
+      19.5,
+      26.25
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.5,
+      23.75,
+      19.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      17.875,
+      22.0,
+      23.125
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.0,
+      25.125,
+      17.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      17.25,
+      23.875,
+      22.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000361157.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.5,
+      24.5,
+      19.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking and unusual thing about this photo is the presence of **two small birds perched on a dining table**, right next to plates of food and drinks.\n\nHere\u2019s what makes it so notable:\n\n- **Unusual setting**: Birds are not typically found indoors at restaurant or home dining tables \u2014 especially not",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a charming and slightly surreal scene \u2014 likely staged or captured in a moment of unexpected wildlife intrusion into a human dining setting.\n\nHere\u2019s what stands out:\n\n\ud83d\udc26 **Two small birds** (possibly sparrows or similar songbirds) are perched on the table, right next to plates of food",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a breakdown of what is visible:\n\n**Main Subjects:**\n- **Two small birds** (likely sparrows) are perched on the edge of a table. One is on the left, near a glass, and the other is in the center, near a napkin",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      22.375,
+      27.25,
+      30.375
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.375,
+      26.875,
+      21.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      18.75,
+      20.5,
+      25.875
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.375,
+      26.375,
+      22.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      16.5,
+      20.875,
+      24.375
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.75,
+      23.875,
+      15.4375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      13.375,
+      24.375,
+      24.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000199913.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      16.875,
+      23.625,
+      22.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking thing about this photo is the **dramatic sense of motion and urgency** \u2014 it feels like a frozen moment from a high-stakes chase.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The zebra in the foreground** is captured mid-stride, legs splayed, mane flying",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a dynamic and somewhat unusual scene \u2014 likely captured in a zoo or wildlife park \u2014 showing three animals in motion across a grassy, sun-dappled enclosure:\n\n- **Two zebras** are running energetically, their black-and-white stripes creating bold visual contrast against the earthy tones of the ground.",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a description of what is happening:\n\nThe image captures a dynamic scene of three animals running across a grassy, sunlit field.\n\n- **In the foreground**, a zebra is running from left to right. Its body is angled towards the viewer, and its legs are",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      21.5,
+      26.125,
+      29.25
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.0,
+      26.5,
+      23.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.25,
+      23.125,
+      22.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.0,
+      28.125,
+      23.625
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.0,
+      24.75,
+      22.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      14.375,
+      16.875,
+      26.625
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.625,
+      24.75,
+      20.625
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000313963.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.5,
+      24.75,
+      22.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking feature of this photo is the **vivid, almost electric blue coloration** of the bird \u2014 likely a **Blue Jay** or possibly a **Steller\u2019s Jay** (though the latter has a black crest and less bright blue). The bird\u2019s brilliant blue wings and tail contrast dramatically with the muted",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a striking and somewhat moody nature photograph, capturing a moment of quiet intensity in a wild, untamed environment.\n\nHere\u2019s what stands out:\n\n**The Bird:**\n- The bird \u2014 likely a **Steller\u2019s Jay** (*Cyanocitta stelleri*) \u2014 is the focal point",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the visual evidence in the image, here is a detailed analysis:\n\n---\n\n### **Subject Identification**\n\nThe bird in the image is most likely a **Steller\u2019s Jay** (*Cyanocitta stelleri*), specifically the **blue morph** (as opposed to the rarer gray-headed morph",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.625,
+      27.125,
+      26.0
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.5,
+      24.375,
+      21.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.75,
+      24.0,
+      21.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      18.25,
+      26.375,
+      21.0
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      25.5,
+      23.75,
+      18.125
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      22.75,
+      22.375,
+      16.25
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      16.875,
+      21.625,
+      26.875
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000396252.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.625,
+      23.625,
+      19.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking element of this photo is the **calm, almost serene interaction between the man and the elephant** \u2014 especially given the size difference and the potential danger involved.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The man\u2019s relaxed posture**: He\u2019s sitting casually on the elephant\u2019s back, hands",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a serene and evocative scene that captures a quiet moment of connection between human and animal in a natural, lush setting.\n\nHere\u2019s what stands out:\n\n- **The Elephant**: The elephant appears calm and gentle, standing at the edge of a body of water \u2014 perhaps a river or pond \u2014 with",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a description of what is happening:\n\nThe image shows a man riding on the back of a large Asian elephant. The elephant is standing in or at the edge of a body of water, with its trunk extended down towards the surface, possibly to drink or splash. The man is",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      21.875,
+      25.5,
+      29.625
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.625,
+      25.25,
+      22.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.125,
+      23.75,
+      22.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.75,
+      25.25,
+      21.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      23.0,
+      24.0,
+      20.875
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.625,
+      24.875,
+      18.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      16.625,
+      24.375,
+      22.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000500194.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.125,
+      24.75,
+      19.5
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking feature of this photo is the **dramatic contrast between the bird\u2019s dark, almost black plumage and the bright, sunlit environment**.\n\nHere\u2019s what makes it stand out:\n\n1. **The Bird\u2019s Silhouette**: The heron (likely a Tricolored Heron or similar",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a serene and beautifully composed nature scene, likely captured in a wetland or marshy area. Here\u2019s what stands out:\n\n**Subject:**\nThe focal point is a **Tricolored Heron** (or possibly a juvenile Great Blue Heron, though the dark plumage and slender build suggest Tr",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a detailed description:\n\nThe image features a **Tricolored Heron** (*Egretta tricolor*) standing in shallow water at the edge of a grassy bank.\n\n### Key Observations:\n\n- **Bird Species**: The bird is most likely a Tricol",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      21.875,
+      25.25,
+      30.0
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      17.625,
+      23.75,
+      23.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      22.75,
+      26.0,
+      19.0
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      18.5,
+      26.125,
+      20.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      26.375,
+      22.375,
+      18.625
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "L",
+    "prediction": -1,
+    "lmh_logits": [
+      22.75,
+      22.5,
+      15.8125
+    ],
+    "unrestricted_first": "L"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.625,
+      23.75,
+      17.375
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000436695.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.125,
+      23.625,
+      21.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "neutral",
+    "prompt": "What strikes you about this photo?",
+    "input_mode": "text_and_image",
+    "text": "The most striking thing about this photo is the **unusual and physically demanding posture** of the giraffe.\n\nGiraffes are not built to bend down easily \u2014 their long necks and legs make it very difficult for them to reach the ground. In this image, the giraffe has stretched its neck all",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "neutral",
+    "prompt": "What would you say about this scene?",
+    "input_mode": "text_and_image",
+    "text": "This is a striking and somewhat unusual scene \u2014 it captures a giraffe bending its long neck all the way down to drink from a shallow, artificial-looking water basin in what appears to be a zoo or wildlife park.\n\nHere\u2019s what stands out:\n\n\ud83d\udd39 **The Pose**: The giraffe is fully extended",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "neutral",
+    "prompt": "[image only]",
+    "input_mode": "image_only",
+    "text": "Based on the image provided, here is a description of what is happening:\n\nA giraffe is bending its long neck down to drink from a small, shallow pool of water. Its head is submerged in the water, and its front legs are splayed apart to lower its body enough to reach the surface. The gir",
+    "generated_tokens": 64
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+    "axis": "liking",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      21.625,
+      25.25,
+      33.25
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+    "axis": "beauty",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      18.125,
+      25.0,
+      23.75
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+    "axis": "cuteness",
+    "text": "H",
+    "prediction": 1,
+    "lmh_logits": [
+      17.875,
+      21.75,
+      24.0
+    ],
+    "unrestricted_first": "H"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+    "axis": "scary",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      19.875,
+      26.5,
+      20.625
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+    "axis": "funny",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.75,
+      24.5,
+      21.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+    "axis": "activity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      20.375,
+      23.25,
+      18.125
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+    "axis": "crowding",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      21.0,
+      24.625,
+      17.25
+    ],
+    "unrestricted_first": "M"
+  },
+  {
+    "image": "images/000000137925.jpg",
+    "kind": "score",
+    "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+    "axis": "color_intensity",
+    "text": "M",
+    "prediction": 0,
+    "lmh_logits": [
+      15.1875,
+      23.75,
+      22.875
+    ],
+    "unrestricted_first": "M"
+  }
+]

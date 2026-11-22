@@ -1,0 +1,722 @@
+{
+  "001c80b652fd8d76bb09514a": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "00991c57c4b6b97c7e97152f": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "03086975d678c04072d87693": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "054ad5ecfb3d540c8be6f48d": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "0f5ef4721c66bb01f8763abc": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "0f7b7c5e4f18f82d2e2340c4": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "1a642d8652c095eb9479810c": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "1ef73e680112918255d5b010": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "ambiguous"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "283c8ccbe79fa1dd41eb116e": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "30893d14a83b6287ed37e3c0": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "3ad4c234c4ef9ad9e99b6708": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "434ae81cbaf29e4d338c79f5": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "4daa2c7c8f93a1c3db610abb": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "55577e4e07bb99c40c2d204a": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "5c0a8495981474bd60961491": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "ambiguous",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "5d8e5aa86917073630ba2072": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "68536e0d78a703a012a94a56": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "68d14e69750f3d3410a69464": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "69d026a66e0d7b83c78ab132": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "6b76aadb72408fad21a76aa4": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "7252eaefb3099d059a27d772": {
+    "axes": {
+      "activity": "L",
+      "beauty": "M",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "7a54cbf0114507f6f747d1ab": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "ambiguous"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "8460cf043c69ecfefd6f2aca": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "L",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "858b3738605498ce9ab4d0ea": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "93269b48a616d31610e5a352": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "96632a6394f2e78bd2c453e8": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "a611ac7742e06e1410ff74f5": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "a614af524a948a37dea25387": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "L",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "b23319a3eb6522b030a42a97": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "b4a31f3b79aae2512a396b8a": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "b5ec1ea17d2452de8b2215c6": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "L",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "b6c1afb0b7144ed4285f5660": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "baf03ff2a3b1bc35e51375f0": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "ambiguous"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "c04bf45a5f783613d9b4d1b0": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "L",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "c8ae539697799d6811a21ca7": {
+    "axes": {
+      "activity": "H",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "c9ae675a2a6ee22b2a482e38": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "L"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "cdf1dbddc306008a03dec5f9": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "e77a74d346f0d8289405173c": {
+    "axes": {
+      "activity": "M",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "e98fa290343b2ad28a66fd6c": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "L",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "ece2e66d5384db3cea14a02a": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "ed0264e3484030e59ba7bb49": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "absent",
+      "color_intensity": "H",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "ef4a4126b05d4a8fc8af52cc": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "f2e63a6f92dfd8bf78e3ffa8": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "L",
+      "liking": "M",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  },
+  "f6bd1ac49fd5cba9e0fa3b91": {
+    "axes": {
+      "activity": "absent",
+      "beauty": "H",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "f71e545a7e207d121f12e5d6": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "f847e0943fd61e931a846258": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": true,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "f8fe1dc8a65142aaaec360e7": {
+    "axes": {
+      "activity": "M",
+      "beauty": "M",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": false,
+    "schema_echo": false
+  },
+  "fb7fad1e244c2b900b7b6db8": {
+    "axes": {
+      "activity": "L",
+      "beauty": "absent",
+      "color_intensity": "absent",
+      "crowding": "absent",
+      "cuteness": "absent",
+      "funny": "absent",
+      "liking": "absent",
+      "scary": "absent"
+    },
+    "generic_praise": false,
+    "irrelevant": true,
+    "schema_echo": false
+  }
+}

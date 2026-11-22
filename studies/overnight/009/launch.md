@@ -1,0 +1,9 @@
+Launched once, 2026-11-22 04:19:00 UTC, on the existing `ubuntu@68.209.107.253` A6000 using only the project Lambda key and strict project known-hosts file. Local STOP absent on entry and immediately before the launch SSH; remote STOP absent, 008 `exit 0 complete`, free lock, no GPU clients, fresh output root. No results or historical final inspected.
+
+In `/home/ubuntu/second-look/work/q38-code`, after gates: exclusive `mkdir work/overnight-009`, then `setsid flock -n -E 75 work/overnight.lock bash scripts/q38-009.sh </dev/null >work/overnight-009/log 2>&1 &`. Leader saved in `work/overnight-009/leader.pid`. Worker verifies parent lock, session, remote STOP, fresh claim, GPU identity and idle clients again; stages have no retries.
+
+Read-back at 04:19:08 UTC: SID/PGID and flock PID 39716 (parent PID 1), worker 39718, before-stage timeout 39737, pinned `/home/ubuntu/second-look/.venv-q38/bin/python` PID 39738. Competing flock probe returned 75; fdinfo confirmed write lock owned by 39716. `status` = `before`, `manifest.json` and `log` present. At 04:19:16 PID 39738 was the sole GPU client, 17072 MiB. No behavioral finding.
+
+Both environments validated the README's data/schedule digests, 96 captions + 45 ordinal scores. Worker and schedule scripts, 007 validator, core trainer, 008 protocol and targets checked byte-identical. Existing remote `scripts/train_q38.py` hash `ecf99e15c17bf5b4852e361abdccfe92d1140c949ab22e3067c657884864b9d8` differs from the local checkout; left the 008 remote dependency untouched and verified its consumed constants and `save` source match. Targeted regression test failed before implementation and passed afterward; bash syntax passed on both hosts. No outcome-consuming suite run by launch operator.
+
+Do not relaunch. Inspect `work/overnight-009/{leader.pid,pid,status,log}` under the remote code root for liveness. After exit, checksum-back up that directory before blind review; see README.

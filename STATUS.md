@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 007 not promoted; 008 running
+## Current overnight: 008 not promoted; 009 running
+
+008 exited 0; rsync checksum comparison empty. Independent frozen review of all 48 neutral responses on eight reused dev images found 16→12 correct spontaneous assignments / 186 known prompt-fields, one gain and five losses; grounding flags 7→10 / 24. Prompted accuracy 38→42 / 62. Proxy labels only; no independent final. Reproducible raw results and per-axis diagnostics: `studies/overnight/008/results/`. Local suite: 55 tests and 19 subtests passed.
+
+009 holds labels, photos and 141 updates fixed and changes the caption/ordinal mix to 96/45. Verified remote `before` stage, flock group 39716, worker 39718, sole A6000 client 39738. Next tick check STOP and `work/overnight-009/status`; do not relaunch. After exit checksum-backup, freeze independent anonymous photo/response judgments, then join and publish. No 009 result yet.
+
+## Historical overnight: 007 not promoted; 008 running
 
 007 exited 0; checksum backup matched. Across the eight within-run dev photos, three neutral prompts and 62 known fields, spontaneous correct counts were 14/186 for both base and adapter. Three paired gains offset three losses; grounding flags increased 5→10/24. Explicit accuracy improved 38→45/62. Frozen review, raw records, per-axis coverage, and reproducible metrics: `studies/overnight/007/results/`. Local suite: 51 passed, 19 subtests passed. No independent final evaluation.
 
