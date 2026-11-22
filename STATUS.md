@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 023 balanced axes; 024 half-dose running
+## Current overnight: 024 improved explicit scoring, not spontaneous attribution; 025 running
+
+024 is not promoted. On 16 reused development photos from groups disjoint from fit, 024 matched 11/65 image-only endpoints (base 7, 023 adapter 13), including 6/24 lows (base 5, 023 adapter 6). Its two neutral verbal prompts matched 13 and 16/128, below base (15 and 18) and 023 (14 and 17). Both mixed directions matched in 4/33, tied with base. In contrast forced-score agreement rose to 93/128 from 82 base; ordinal MAE fell to 0.2734 from 0.3594. Model-reviewed proxy ratings, not Steve’s; no development nulls or historical-final evaluation. Per-axis label distributions, flags, frozen judgments and raw measurements: `studies/overnight/024/`. All 12 backup hashes matched; 81 tests and 19 subtests passed.
+
+025 uses two selective visually grounded impressions per fit image under each training invitation, with no explicit score targets. Verified flock group 103149 and sole A6000 trainer 103175. Next: check STOP and `work/overnight-025/status`; do not relaunch. After successful completion back up, freeze blind judgments, and apply the predeclared verbal and image-only gates.
+
+## Historical overnight: 023 balanced axes; 024 half-dose running
 
 Balancing explicit supervision across eight axes improved image-only endpoint matches to 13/65 (base 7, 022 adapter 11), including 6/24 lows (base and 022: 5). Both neutral invitations nevertheless fell below base: 14 vs 15 and 17 vs 18 out of 128 (022: 17 and 18). No promotion. Mixed low/high coverage was 3/33 vs 4 for base; neither reversed both directions. Prompted agreement was 84/128 vs 82 for base (022: 85), ordinal MAE 0.344 vs 0.359 (022: 0.336).
 
