@@ -18,24 +18,25 @@ FOCUS_SHA = '5afa66d19741c799e1f80d70b0bb91178f90ccd092eb1c1c4dc507f4b0b23a5a'
 SCHEDULE_SHA = 'c07c9dc7f97150e3ef76d1cbba9a201e7a897b86bc32913a3e2d6660ffac56f3'
 
 
-def checked_inputs(source):
+def checked_inputs(source, *, here=HERE, extra='focused', captions_file='focused.json',
+                   caption_sha=FOCUS_SHA, schedule_sha=SCHEDULE_SHA):
     for name, digest in prior.FIXED_HASHES.items():
         require(metrics.sha(FIXED / name) == digest, 'fixed input mismatch: ' + name)
-    require(metrics.sha(HERE / 'focused.json') == FOCUS_SHA, 'focused caption checksum mismatch')
-    schedule = (HERE / 'schedule.sha256').read_text().strip()
-    require(schedule == SCHEDULE_SHA, 'schedule pin changed')
+    require(metrics.sha(here / captions_file) == caption_sha, extra + ' caption checksum mismatch')
+    schedule = (here / 'schedule.sha256').read_text().strip()
+    require(schedule == schedule_sha, 'schedule pin changed')
     manifest = metrics.load(source / 'manifest.json')
     fixed_manifest = metrics.load(FIXED / 'results/manifest.json')
-    require(manifest == dict(fixed_manifest, steps=157, data_sha256=schedule), '010 manifest mismatch')
+    require(manifest == dict(fixed_manifest, steps=157, data_sha256=schedule), here.name + ' manifest mismatch')
     train = metrics.load(source / 'train.json')
     require(train['revision'] == manifest['revision'] and train['seed'] == manifest['seed']
-            and train['lr'] == 7e-5, '010 training provenance mismatch')
+            and train['lr'] == 7e-5, here.name + ' training provenance mismatch')
     rows = train['steps']
-    require([r['step'] for r in rows] == list(range(1, 158)), '010 step order mismatch')
+    require([r['step'] for r in rows] == list(range(1, 158)), here.name + ' step order mismatch')
     items = [[r[k] for k in ('image', 'kind', 'prompt', 'answer')] for r in rows]
     require(hashlib.sha256(json.dumps(items, separators=(',', ':')).encode()).hexdigest() == schedule,
-            '010 ordered schedule mismatch')
-    full, focus = metrics.load(FIXED / 'targets.json'), metrics.load(HERE / 'focused.json')
+            here.name + ' ordered schedule mismatch')
+    full, focus = metrics.load(FIXED / 'targets.json'), metrics.load(here / captions_file)
     require(set(full) == set(focus) and len(full) == 16, 'caption split mismatch')
     captions = Counter((r['image'], r['answer']) for r in rows if r['kind'] == 'caption')
     require(captions == Counter(full.items()) + Counter(focus.items()), 'caption exposure mismatch')
@@ -50,7 +51,7 @@ def checked_inputs(source):
         for side in ('before', 'after'):
             (view / f'{side}.json').symlink_to((source / f'{side}.json').resolve())
         inputs = metrics.inputs(FIXED, view, FIXED / 'results')
-    corpus = {f'{kind}:{image}': caption for kind, family in [('full', full), ('focused', focus)]
+    corpus = {f'{kind}:{image}': caption for kind, family in [('full', full), (extra, focus)]
               for image, caption in family.items()}
     return inputs, corpus
 
@@ -95,7 +96,7 @@ def summary(bundle):
     return '\n'.join(lines) + '\n'
 
 
-def run(results, out, work, pin, expected):
+def run(results, out, work, pin, expected, *, check=checked_inputs, summarize=summary):
     hashes = prior.pins(pin)
     digest = hashes[prior.FROZEN]
     require(work is None or expected is not None, 'initial join requires independent reviewer digest')
@@ -109,9 +110,9 @@ def run(results, out, work, pin, expected):
         source = Path(tmp)
         for name in prior.STAGES:
             payload = ((work or results) / name).read_bytes()
-            require(hashlib.sha256(payload).hexdigest() == hashes[name], '010 artifact checksum mismatch: ' + name)
+            require(hashlib.sha256(payload).hexdigest() == hashes[name], 'artifact checksum mismatch: ' + name)
             (source / name).write_bytes(payload)
-        (axes, photos, dev, neutral, explicit), corpus = checked_inputs(source)
+        (axes, photos, dev, neutral, explicit), corpus = check(source)
         secondary = metrics.secondary(axes, photos, dev, explicit)
         if work is None:
             audit = metrics.load(results / 'blind-audit.json')
@@ -123,7 +124,7 @@ def run(results, out, work, pin, expected):
                                     lambda n: audit['photo_sha256'][str(n)], FIXED)
         primary, paired, rows = metrics.primary(axes, photos, neutral, join, judgments, corpus)
         primary['judgments_sha256'] = digest
-        text = summary((primary, paired, secondary))
+        text = summarize((primary, paired, secondary))
         out.mkdir(parents=True, exist_ok=True)
         if work is not None:
             for name in prior.STAGES:
@@ -134,15 +135,15 @@ def run(results, out, work, pin, expected):
         (out / 'summary.md').write_text(text)
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--out', type=Path, default=RESULTS)
-    parser.add_argument('--join-from', type=Path, help='checksum-verified 010 backup; only after review freeze')
+def main(results=RESULTS, pin=PIN, runner=run, description=__doc__):
+    parser = argparse.ArgumentParser(description=description)
+    parser.add_argument('--out', type=Path, default=results)
+    parser.add_argument('--join-from', type=Path, help='checksum-verified backup; only after review freeze')
     parser.add_argument('--judgments-sha256', help='independent reviewer digest; mandatory for initial join')
     args = parser.parse_args()
     if args.join_from is not None and not args.judgments_sha256:
         parser.error('--join-from requires --judgments-sha256')
-    run(RESULTS, args.out, args.join_from, PIN, args.judgments_sha256)
+    runner(results, args.out, args.join_from, pin, args.judgments_sha256)
 
 
 if __name__ == '__main__':

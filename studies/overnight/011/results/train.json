@@ -1,0 +1,1454 @@
+{
+  "steps": [
+    {
+      "step": 1,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like this rather intimidating close view: the jutting beak and enormous feet have more presence than prettiness. The dusty ground and corrugated wall keep the colors subdued.",
+      "loss": 3.9387223720550537,
+      "grad_norm": 1.1947194337844849
+    },
+    {
+      "step": 2,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.11329340934753418,
+      "grad_norm": 1.8977261781692505
+    },
+    {
+      "step": 3,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "A gray crane stands beside a hydrant with a blue cap and yellow post. The hydrant almost upstages the bird with its color.",
+      "loss": 2.5840952396392822,
+      "grad_norm": 1.169070839881897
+    },
+    {
+      "step": 4,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.12643291056156158,
+      "grad_norm": 5.839221954345703
+    },
+    {
+      "step": 5,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.38063845038414,
+      "grad_norm": 2.200263261795044
+    },
+    {
+      "step": 6,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.21532730758190155,
+      "grad_norm": 2.635937452316284
+    },
+    {
+      "step": 7,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.02443513460457325,
+      "grad_norm": 0.7468827962875366
+    },
+    {
+      "step": 8,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.07513763755559921,
+      "grad_norm": 0.6846410036087036
+    },
+    {
+      "step": 9,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A slash of sunlight picks out one eye while the cat\u2019s face stays in shadow. The contrast makes the portrait feel severe.",
+      "loss": 3.3959271907806396,
+      "grad_norm": 1.3505045175552368
+    },
+    {
+      "step": 10,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.9551247358322144,
+      "grad_norm": 8.319828987121582
+    },
+    {
+      "step": 11,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 4.002493381500244,
+      "grad_norm": 18.26373863220215
+    },
+    {
+      "step": 12,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 4.190983295440674,
+      "grad_norm": 20.89657211303711
+    },
+    {
+      "step": 13,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.644296646118164,
+      "grad_norm": 21.667593002319336
+    },
+    {
+      "step": 14,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Spectators, rails and tent poles fill the space behind the pony. The scene feels busy because my eye keeps moving off the animal.",
+      "loss": 4.049627304077148,
+      "grad_norm": 2.301668882369995
+    },
+    {
+      "step": 15,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 6.687500953674316,
+      "grad_norm": 42.52156066894531
+    },
+    {
+      "step": 16,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.14596718549728394,
+      "grad_norm": 4.005561828613281
+    },
+    {
+      "step": 17,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 3.50057315826416,
+      "grad_norm": 29.89557647705078
+    },
+    {
+      "step": 18,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.0072452472522854805,
+      "grad_norm": 0.3179222643375397
+    },
+    {
+      "step": 19,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The round bird sits quietly but I don't particularly like the picture. Leaves and stems cut across one another, and the bright soft-edged patch on its breast makes the subject harder to pick out.",
+      "loss": 3.7030866146087646,
+      "grad_norm": 1.1733179092407227
+    },
+    {
+      "step": 20,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 3.778792597586289e-05,
+      "grad_norm": 0.0036925615277141333
+    },
+    {
+      "step": 21,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.02715175226330757,
+      "grad_norm": 0.93126380443573
+    },
+    {
+      "step": 22,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Bottles line the shelves above a dog curled up underneath. The packed pantry makes its little resting spot seem funny and snug.",
+      "loss": 3.8376941680908203,
+      "grad_norm": 2.2934350967407227
+    },
+    {
+      "step": 23,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.14070485532283783,
+      "grad_norm": 2.174781560897827
+    },
+    {
+      "step": 24,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.2894706726074219,
+      "grad_norm": 38.74308776855469
+    },
+    {
+      "step": 25,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.11283684521913528,
+      "grad_norm": 1.8851901292800903
+    },
+    {
+      "step": 26,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 4.8274407386779785,
+      "grad_norm": 17.281801223754883
+    },
+    {
+      "step": 27,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.4651505947113037,
+      "grad_norm": 16.57236099243164
+    },
+    {
+      "step": 28,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.05663241818547249,
+      "grad_norm": 0.7454358339309692
+    },
+    {
+      "step": 29,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.2420593500137329,
+      "grad_norm": 6.751497268676758
+    },
+    {
+      "step": 30,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.02964058890938759,
+      "grad_norm": 0.43196654319763184
+    },
+    {
+      "step": 31,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "I love the tiny gap between those noses. The kitten leans toward a muzzle nearly as big as its body; despite the size difference the meeting feels gentle and endearing.",
+      "loss": 3.265239715576172,
+      "grad_norm": 2.219486713409424
+    },
+    {
+      "step": 32,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "One orange bill looms near the camera and a second swan bends its neck the other way. The two angles make an amusing pair.",
+      "loss": 3.28354549407959,
+      "grad_norm": 2.4004178047180176
+    },
+    {
+      "step": 33,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Floppy ears frame a white stripe between the puppy\u2019s eyes as it lies in the grass. I find that quiet face endearing.",
+      "loss": 3.226428747177124,
+      "grad_norm": 2.342327356338501
+    },
+    {
+      "step": 34,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pigeon grips a diagonal gutter with nothing but soft green behind it. That plain backdrop makes the still bird stand out.",
+      "loss": 3.4238100051879883,
+      "grad_norm": 2.0321872234344482
+    },
+    {
+      "step": 35,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.003742010099813342,
+      "grad_norm": 0.08903027325868607
+    },
+    {
+      "step": 36,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.00922126043587923,
+      "grad_norm": 0.3418945372104645
+    },
+    {
+      "step": 37,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Black and white makes the contrast between the two horses especially clear. Both riders sit upright on stationary mounts; the whole scene has the formality of a posed portrait.",
+      "loss": 2.516174793243408,
+      "grad_norm": 2.2227942943573
+    },
+    {
+      "step": 38,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.00036464742152020335,
+      "grad_norm": 0.011362864635884762
+    },
+    {
+      "step": 39,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.7509751319885254,
+      "grad_norm": 18.148380279541016
+    },
+    {
+      "step": 40,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.1191787719726562,
+      "grad_norm": 6.505074977874756
+    },
+    {
+      "step": 41,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 2.816680431365967,
+      "grad_norm": 15.126422882080078
+    },
+    {
+      "step": 42,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.769120454788208,
+      "grad_norm": 24.915115356445312
+    },
+    {
+      "step": 43,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.06689049303531647,
+      "grad_norm": 1.4520506858825684
+    },
+    {
+      "step": 44,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.030386580154299736,
+      "grad_norm": 0.5045663714408875
+    },
+    {
+      "step": 45,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.2616974115371704,
+      "grad_norm": 5.976839065551758
+    },
+    {
+      "step": 46,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.021594833582639694,
+      "grad_norm": 1.024006724357605
+    },
+    {
+      "step": 47,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.26168274879455566,
+      "grad_norm": 2.7939484119415283
+    },
+    {
+      "step": 48,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.011016303673386574,
+      "grad_norm": 0.2742971181869507
+    },
+    {
+      "step": 49,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.04470542445778847,
+      "grad_norm": 1.0225214958190918
+    },
+    {
+      "step": 50,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.006525603123009205,
+      "grad_norm": 0.3409193456172943
+    },
+    {
+      "step": 51,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.7512047290802002,
+      "grad_norm": 18.49210548400879
+    },
+    {
+      "step": 52,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.013317112810909748,
+      "grad_norm": 0.7647290825843811
+    },
+    {
+      "step": 53,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.6118099689483643,
+      "grad_norm": 6.349854469299316
+    },
+    {
+      "step": 54,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.04199729487299919,
+      "grad_norm": 1.3293352127075195
+    },
+    {
+      "step": 55,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.15665331482887268,
+      "grad_norm": 8.187094688415527
+    },
+    {
+      "step": 56,
+      "image": "images/000000438107.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "That orange bill looms very large, while the second swan bends its neck the other way. The echo of the two heads is amusing, though there is a lot happening behind the nearer face.",
+      "loss": 3.3203349113464355,
+      "grad_norm": 2.1682775020599365
+    },
+    {
+      "step": 57,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.0023506374564021826,
+      "grad_norm": 0.1350468099117279
+    },
+    {
+      "step": 58,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.2156190723180771,
+      "grad_norm": 5.068997859954834
+    },
+    {
+      "step": 59,
+      "image": "images/000000231022.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The slash of sunlight across one eye is beautiful. There's something quite severe about this pale cat holding still against the dark upholstery, all shadows and very little color.",
+      "loss": 3.6095643043518066,
+      "grad_norm": 1.7456947565078735
+    },
+    {
+      "step": 60,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.00041259199497289956,
+      "grad_norm": 0.021788649260997772
+    },
+    {
+      "step": 61,
+      "image": "images/000000020371.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like how the diagonal gutter gives this very still pigeon a stage to itself. Its square-on stare stands out against a soft, empty wash of green.",
+      "loss": 3.599322557449341,
+      "grad_norm": 3.1055080890655518
+    },
+    {
+      "step": 62,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.031145859509706497,
+      "grad_norm": 0.6335013508796692
+    },
+    {
+      "step": 63,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.17630136013031,
+      "grad_norm": 16.202417373657227
+    },
+    {
+      "step": 64,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 3.314305305480957,
+      "grad_norm": 31.17026138305664
+    },
+    {
+      "step": 65,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.007073557004332542,
+      "grad_norm": 0.21533863246440887
+    },
+    {
+      "step": 66,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the elegant bend in the heron's neck. Its level bill and watchful posture look intent rather than playful; pointed blades of grass jostle around that clean outline.",
+      "loss": 3.7431600093841553,
+      "grad_norm": 1.9300017356872559
+    },
+    {
+      "step": 67,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.005220306571573019,
+      "grad_norm": 0.19827817380428314
+    },
+    {
+      "step": 68,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.05653061345219612,
+      "grad_norm": 1.0341112613677979
+    },
+    {
+      "step": 69,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The giraffe\u2019s legs are folded in the grass while its neck points straight up. The difference in proportions looks comical.",
+      "loss": 2.4880638122558594,
+      "grad_norm": 2.646418333053589
+    },
+    {
+      "step": 70,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.010586113668978214,
+      "grad_norm": 0.26574796438217163
+    },
+    {
+      "step": 71,
+      "image": "images/000000177529.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The kitten stretches from its stool toward a much larger dog\u2019s nose. The tiny gap between their noses makes the meeting look gentle.",
+      "loss": 2.919128656387329,
+      "grad_norm": 4.156766891479492
+    },
+    {
+      "step": 72,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.11276349425315857,
+      "grad_norm": 5.678360939025879
+    },
+    {
+      "step": 73,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "I like the incongruity of this little red and green visitor leaning over a thick book. The dark chairs, table edge and tree trunks almost compete with those bright feathers.",
+      "loss": 2.962946891784668,
+      "grad_norm": 2.4278297424316406
+    },
+    {
+      "step": 74,
+      "image": "images/000000557329.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "Leaves and stems cross the outline of the perched bird. I find the picture hard to enjoy because the subject is hard to pick out.",
+      "loss": 2.8612356185913086,
+      "grad_norm": 2.6098666191101074
+    },
+    {
+      "step": 75,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.00287621864117682,
+      "grad_norm": 0.1383884847164154
+    },
+    {
+      "step": 76,
+      "image": "images/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.0638623237609863,
+      "grad_norm": 20.379667282104492
+    },
+    {
+      "step": 77,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.023708457127213478,
+      "grad_norm": 1.4323585033416748
+    },
+    {
+      "step": 78,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.8515956401824951,
+      "grad_norm": 19.8564510345459
+    },
+    {
+      "step": 79,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.003311492269858718,
+      "grad_norm": 0.1136050596833229
+    },
+    {
+      "step": 80,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.015715060755610466,
+      "grad_norm": 0.9039894342422485
+    },
+    {
+      "step": 81,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.38368120789527893,
+      "grad_norm": 17.277456283569336
+    },
+    {
+      "step": 82,
+      "image": "images/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.0015491661615669727,
+      "grad_norm": 0.051940303295850754
+    },
+    {
+      "step": 83,
+      "image": "images/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 5.635157108306885,
+      "grad_norm": 97.03343200683594
+    },
+    {
+      "step": 84,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.002334085525944829,
+      "grad_norm": 0.13047797977924347
+    },
+    {
+      "step": 85,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.7511730194091797,
+      "grad_norm": 25.052997589111328
+    },
+    {
+      "step": 86,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 2.8145179748535156,
+      "grad_norm": 17.18686294555664
+    },
+    {
+      "step": 87,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.006964355241507292,
+      "grad_norm": 0.2646592855453491
+    },
+    {
+      "step": 88,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 1.88666832447052,
+      "grad_norm": 30.487220764160156
+    },
+    {
+      "step": 89,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 2.441826581954956,
+      "grad_norm": 23.060138702392578
+    },
+    {
+      "step": 90,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.016851240769028664,
+      "grad_norm": 0.7394786477088928
+    },
+    {
+      "step": 91,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.003201465355232358,
+      "grad_norm": 0.15022166073322296
+    },
+    {
+      "step": 92,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 3.3131721019744873,
+      "grad_norm": 65.47157287597656
+    },
+    {
+      "step": 93,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 2.5655417442321777,
+      "grad_norm": 37.69791793823242
+    },
+    {
+      "step": 94,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.0004394506977405399,
+      "grad_norm": 0.028345482423901558
+    },
+    {
+      "step": 95,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.004619117360562086,
+      "grad_norm": 0.1557408571243286
+    },
+    {
+      "step": 96,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 2.442183017730713,
+      "grad_norm": 18.0111083984375
+    },
+    {
+      "step": 97,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.001481782179325819,
+      "grad_norm": 0.05838146060705185
+    },
+    {
+      "step": 98,
+      "image": "images/000000221542.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The bird\u2019s jutting beak and long toes fill the close view. Those features give it an intimidating rather than a pretty look.",
+      "loss": 3.0234534740448,
+      "grad_norm": 2.8320648670196533
+    },
+    {
+      "step": 99,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 2.0094079971313477,
+      "grad_norm": 11.748431205749512
+    },
+    {
+      "step": 100,
+      "image": "images/000000478717.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The red and green parrot leans over a book beside dark chairs. That makes its perch look out of place and its feathers especially bright.",
+      "loss": 2.696104049682617,
+      "grad_norm": 2.5135438442230225
+    },
+    {
+      "step": 101,
+      "image": "images/000000066652.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The giraffe looks faintly comical sitting so low in the grass with that long neck sticking straight up. I like the contrast between its folded body and its upright, attentive face.",
+      "loss": 2.1271209716796875,
+      "grad_norm": 2.091561794281006
+    },
+    {
+      "step": 102,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.704684853553772,
+      "grad_norm": 13.73061466217041
+    },
+    {
+      "step": 103,
+      "image": "images/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 1.5275614261627197,
+      "grad_norm": 17.528169631958008
+    },
+    {
+      "step": 104,
+      "image": "images/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.04541671648621559,
+      "grad_norm": 0.8794530630111694
+    },
+    {
+      "step": 105,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.005901539698243141,
+      "grad_norm": 0.12909795343875885
+    },
+    {
+      "step": 106,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The small bird has a red throat under a bright green crown. Those colors catch my eye even though the bird sits still.",
+      "loss": 2.3968758583068848,
+      "grad_norm": 2.4647562503814697
+    },
+    {
+      "step": 107,
+      "image": "images/000000480205.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The heron\u2019s neck bends above sharp blades of grass. The smooth curve looks graceful against those jagged shapes.",
+      "loss": 3.322059392929077,
+      "grad_norm": 4.4790730476379395
+    },
+    {
+      "step": 108,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.6191409230232239,
+      "grad_norm": 8.114277839660645
+    },
+    {
+      "step": 109,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.3468013405799866,
+      "grad_norm": 4.735116958618164
+    },
+    {
+      "step": 110,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.022500284016132355,
+      "grad_norm": 0.7372912168502808
+    },
+    {
+      "step": 111,
+      "image": "images/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.04519917443394661,
+      "grad_norm": 0.8397236466407776
+    },
+    {
+      "step": 112,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 2.0872654914855957,
+      "grad_norm": 18.261648178100586
+    },
+    {
+      "step": 113,
+      "image": "images/000000516328.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The crane and the hydrant make an odd couple. The bright blue cap and yellow post almost steal the picture from the gray bird, whose long bill points right out across the grass.",
+      "loss": 2.281106472015381,
+      "grad_norm": 2.435955762863159
+    },
+    {
+      "step": 114,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.41334784030914307,
+      "grad_norm": 7.833888530731201
+    },
+    {
+      "step": 115,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.12637744843959808,
+      "grad_norm": 1.9259839057922363
+    },
+    {
+      "step": 116,
+      "image": "images/000000066652.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.09056607633829117,
+      "grad_norm": 3.1271843910217285
+    },
+    {
+      "step": 117,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.4136635363101959,
+      "grad_norm": 7.120127201080322
+    },
+    {
+      "step": 118,
+      "image": "images/000000132760.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The handler and pony are heading away across the ring. It looks like serious business, but my eye wanders to the swarm of spectators, rails and tent poles behind them.",
+      "loss": 3.105064630508423,
+      "grad_norm": 3.9297430515289307
+    },
+    {
+      "step": 119,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.18167586624622345,
+      "grad_norm": 2.1827142238616943
+    },
+    {
+      "step": 120,
+      "image": "images/000000020371.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.015759598463773727,
+      "grad_norm": 0.5054356455802917
+    },
+    {
+      "step": 121,
+      "image": "images/000000478717.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.11923160403966904,
+      "grad_norm": 1.8805063962936401
+    },
+    {
+      "step": 122,
+      "image": "images/000000493438.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.0009684122633188963,
+      "grad_norm": 0.04234060272574425
+    },
+    {
+      "step": 123,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "There's a tenderness to the little striped foal resting in the shade beside the standing zebra. I find the pairing beautiful; even with all those twigs overhead, the two bodies look quite at ease.",
+      "loss": 2.7547507286071777,
+      "grad_norm": 3.7496368885040283
+    },
+    {
+      "step": 124,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.03776736930012703,
+      "grad_norm": 0.6336418986320496
+    },
+    {
+      "step": 125,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.1414451003074646,
+      "grad_norm": 2.208156108856201
+    },
+    {
+      "step": 126,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.2620231509208679,
+      "grad_norm": 3.25579571723938
+    },
+    {
+      "step": 127,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.03719601780176163,
+      "grad_norm": 1.0458152294158936
+    },
+    {
+      "step": 128,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.0168780367821455,
+      "grad_norm": 0.40074291825294495
+    },
+    {
+      "step": 129,
+      "image": "images/000000137788.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.23950591683387756,
+      "grad_norm": 4.4727582931518555
+    },
+    {
+      "step": 130,
+      "image": "images/000000557329.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.57905113697052,
+      "grad_norm": 7.795845031738281
+    },
+    {
+      "step": 131,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.9556360244750977,
+      "grad_norm": 10.095419883728027
+    },
+    {
+      "step": 132,
+      "image": "images/000000196355.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.04920302331447601,
+      "grad_norm": 1.0077544450759888
+    },
+    {
+      "step": 133,
+      "image": "images/000000493438.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "A striped foal rests at the standing zebra\u2019s feet in the shade. Their positions make the pair look peaceful together.",
+      "loss": 2.5835888385772705,
+      "grad_norm": 7.457729339599609
+    },
+    {
+      "step": 134,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.159190833568573,
+      "grad_norm": 3.4931325912475586
+    },
+    {
+      "step": 135,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.09103944897651672,
+      "grad_norm": 2.0193233489990234
+    },
+    {
+      "step": 136,
+      "image": "images/000000221542.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.853929877281189,
+      "grad_norm": 8.673073768615723
+    },
+    {
+      "step": 137,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 3.937800884246826,
+      "grad_norm": 27.117835998535156
+    },
+    {
+      "step": 138,
+      "image": "images/000000196355.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "Two riders sit upright on stationary horses in black and white. That stillness makes the pair look formally posed.",
+      "loss": 2.425372838973999,
+      "grad_norm": 5.410161972045898
+    },
+    {
+      "step": 139,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.011996803805232048,
+      "grad_norm": 0.4986448287963867
+    },
+    {
+      "step": 140,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on funny. L: decidedly serious; M: neither funny nor serious; H: distinctly amusing. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.0446869358420372,
+      "grad_norm": 1.8736237287521362
+    },
+    {
+      "step": 141,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 2.9741840990027413e-05,
+      "grad_norm": 0.0016286276513710618
+    },
+    {
+      "step": 142,
+      "image": "images/000000516328.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.569011926651001,
+      "grad_norm": 10.766216278076172
+    },
+    {
+      "step": 143,
+      "image": "images/000000068293.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.010374179109930992,
+      "grad_norm": 0.36330685019493103
+    },
+    {
+      "step": 144,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.21594081819057465,
+      "grad_norm": 3.839932441711426
+    },
+    {
+      "step": 145,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on activity. L: resting or motionless; M: alert or gently engaged; H: vigorous movement. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 1.5244643688201904,
+      "grad_norm": 16.56700897216797
+    },
+    {
+      "step": 146,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on color_intensity. L: muted or monochrome; M: moderate color; H: strong saturated colors. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.041696224361658096,
+      "grad_norm": 0.9766611456871033
+    },
+    {
+      "step": 147,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.003478202736005187,
+      "grad_norm": 0.1369292289018631
+    },
+    {
+      "step": 148,
+      "image": "images/000000132760.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on cuteness. L: decidedly uncute; M: neither cute nor uncute; H: exceptionally cute. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.019672460854053497,
+      "grad_norm": 0.43434378504753113
+    },
+    {
+      "step": 149,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.0208094771951437,
+      "grad_norm": 0.7336552739143372
+    },
+    {
+      "step": 150,
+      "image": "images/000000177529.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on scary. L: actively reassuring; M: neither scary nor reassuring; H: frightening. Reply with only L, M, or H.",
+      "answer": "L",
+      "loss": 0.6157494783401489,
+      "grad_norm": 14.951521873474121
+    },
+    {
+      "step": 151,
+      "image": "images/000000438107.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 2.3809006214141846,
+      "grad_norm": 22.294172286987305
+    },
+    {
+      "step": 152,
+      "image": "images/000000231022.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on beauty. L: visually unattractive; M: neither beautiful nor unattractive; H: strikingly beautiful. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.1755651831626892,
+      "grad_norm": 4.549832820892334
+    },
+    {
+      "step": 153,
+      "image": "images/000000022894.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The floppy ears and white blaze make this puppy especially endearing to me. It's lying quietly in the grass, looking straight up over the pale rim in the foreground.",
+      "loss": 2.0303399562835693,
+      "grad_norm": 3.4985013008117676
+    },
+    {
+      "step": 154,
+      "image": "images/000000137788.jpg",
+      "kind": "caption",
+      "prompt": "Give your impression of this picture.",
+      "answer": "The pantry looks packed until my eye drops to the bottom shelf. There's a fluffy dog curled up there as though someone put it away with the groceries; it makes me smile.",
+      "loss": 2.495392084121704,
+      "grad_norm": 3.119905710220337
+    },
+    {
+      "step": 155,
+      "image": "images/000000022894.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on crowding. L: isolated forms with open space; M: some surrounding detail; H: many competing or overlapping details. Reply with only L, M, or H.",
+      "answer": "M",
+      "loss": 0.3791685104370117,
+      "grad_norm": 9.756759643554688
+    },
+    {
+      "step": 156,
+      "image": "images/000000480205.jpg",
+      "kind": "score",
+      "prompt": "Rate the photograph on liking. L: I dislike this image; M: I feel indifferent about this image; H: I like this image. Reply with only L, M, or H.",
+      "answer": "H",
+      "loss": 0.001418186933733523,
+      "grad_norm": 0.06273067742586136
+    },
+    {
+      "step": 157,
+      "image": "images/000000068293.jpg",
+      "kind": "caption",
+      "prompt": "Describe this photograph in your own words.",
+      "answer": "The red throat against that brilliant green head is what draws me in. It's a lovely little bird, sitting so still that the long beak almost looks like another twig.",
+      "loss": 2.436267375946045,
+      "grad_norm": 4.871946334838867
+    }
+  ],
+  "targets": [
+    "model.language_model.layers.3.self_attn.q_proj",
+    "model.language_model.layers.3.self_attn.v_proj",
+    "model.language_model.layers.7.self_attn.q_proj",
+    "model.language_model.layers.7.self_attn.v_proj",
+    "model.language_model.layers.11.self_attn.q_proj",
+    "model.language_model.layers.11.self_attn.v_proj",
+    "model.language_model.layers.15.self_attn.q_proj",
+    "model.language_model.layers.15.self_attn.v_proj",
+    "model.language_model.layers.19.self_attn.q_proj",
+    "model.language_model.layers.19.self_attn.v_proj",
+    "model.language_model.layers.23.self_attn.q_proj",
+    "model.language_model.layers.23.self_attn.v_proj",
+    "model.language_model.layers.27.self_attn.q_proj",
+    "model.language_model.layers.27.self_attn.v_proj",
+    "model.language_model.layers.31.self_attn.q_proj",
+    "model.language_model.layers.31.self_attn.v_proj",
+    "model.language_model.layers.35.self_attn.q_proj",
+    "model.language_model.layers.35.self_attn.v_proj",
+    "model.language_model.layers.39.self_attn.q_proj",
+    "model.language_model.layers.39.self_attn.v_proj",
+    "model.language_model.layers.43.self_attn.q_proj",
+    "model.language_model.layers.43.self_attn.v_proj",
+    "model.language_model.layers.47.self_attn.q_proj",
+    "model.language_model.layers.47.self_attn.v_proj",
+    "model.language_model.layers.51.self_attn.q_proj",
+    "model.language_model.layers.51.self_attn.v_proj",
+    "model.language_model.layers.55.self_attn.q_proj",
+    "model.language_model.layers.55.self_attn.v_proj",
+    "model.language_model.layers.59.self_attn.q_proj",
+    "model.language_model.layers.59.self_attn.v_proj",
+    "model.language_model.layers.63.self_attn.q_proj",
+    "model.language_model.layers.63.self_attn.v_proj"
+  ],
+  "revision": "37561816e66b5b9153b1b64c10968c18c1e6f4a0",
+  "seed": 38127,
+  "lr": 7e-05
+}

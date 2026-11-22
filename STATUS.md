@@ -1,6 +1,12 @@
 # Second Look — handoff
 
-## Current overnight: 010 not promoted; 011 running
+## Current overnight: 011 not promoted; 012 running
+
+011 completed and checksum backup matched. Frozen independent blind review: spontaneous correct 13→17/186, image alone 3→5/62, but grounding/relevance flags 3→6/24. Eight reused proxy-labeled dev photos, no independent final. Seven derived files reproduced byte-for-byte. See `studies/overnight/011/results/`. Full local suite: 66 passed and 19 subtests passed.
+
+012 uses 157 image-only caption updates with extra exposure for rare non-mid fit labels. Verified `before` stage, exclusive flock group 50066, worker 50067, sole A6000 client 50089. Next tick: check STOP and `work/overnight-012/status`; do not relaunch. On exit back up by checksum, freeze blind judgments, then join and publish all diagnostics, including the non-mid image-only endpoint and grounding flags.
+
+## Historical overnight: 010 not promoted; 011 running
 
 010 exited 0. Checksum backup matched. Independent model judgments frozen before identity join: spontaneous correct assignments 9→8/186, image alone 2→2/62, grounding flags 3→6/24. Prompted scores improved 38→41/62. No evidence of improved spontaneous attribution on these eight reused proxy-labeled development photos. Raw data, label coverage and reproduction command: `studies/overnight/010/results/`. Seven derived files reproduced byte-for-byte; 61 tests and 19 subtests passed.
 
