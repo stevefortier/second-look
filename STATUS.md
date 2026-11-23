@@ -8,7 +8,8 @@ New input format, at Steve's request: a folder whose subfolders each hold pictur
 - Demo input: `datasets/ideas-birds/` (45 bird photos + four invented statements, 45 other-animal control photos). Photos are restored by `scripts/ideas_demo.py`, not kept in Git, because their licences differ.
 - Verified: offline tests pass; a `--smoke` run on stock `Qwen/Qwen3.8-27B` completed all four stages on the A6000 (adapter saved and reloaded, 20 GB peak, 100M trainable parameters at rank 16 on all language-model projections).
 - Standing instruction from Steve (2026-11-22): keep iterating without waiting for approval; commit code, scripts and datasets as work proceeds; publish each LoRA as a GitHub release asset. Input format may change only slightly; the output must remain a LoRA.
-- Blocked: this machine has no GitHub credentials, so commits are local until someone logs in.
+- Publishing: this machine is ephemeral and has no GitHub credentials. `scripts/ideas_publish.py sync` pushes HEAD to `main` and uploads every `outputs/ideas-*-lora.zip` as a release asset once a token is in `~/.gh_token`; `work/ideas-autosync.sh` runs it automatically. Until then the commits are also kept as a patch series on Steve's private artifact page https://claude.ai/artifact/EyKp8p8pY41VPv5xWoNc85 (refresh it after each commit). LoRA weights are not backed up anywhere else.
+- Runs: `studies/ideas/001-birds` (text 12/12, held-out pictures 2/8), `002-birds` (pictures 9/21, no leak on controls). Run 003 writes picture answers as the base model's own answer with the idea added.
 
 
 ## Historical baseline report
