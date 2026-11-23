@@ -91,7 +91,9 @@ def main(argv=None):
         if a.smoke:
             probes = list({probe['kind']: probe for probe in probes}.values())  # one of each kind
         report = ideas_model.evaluate(model, processor, manifest, probes, a.output, **identity, log=log)
-        print(json.dumps(report['summary'], indent=2))
+        print(ideas.summary_table(report['summary']))
+        if a.smoke:
+            print('This was a smoke run: the path works, but two training steps teach nothing.')
         print(f"Report: {a.output / 'report.json'}")
 
 

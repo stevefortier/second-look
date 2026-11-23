@@ -33,7 +33,7 @@ Pick the PyTorch index that matches your CUDA driver. The base model, `DavidAU/Q
 
 ```sh
 .venv/bin/python scripts/ideas_demo.py                                             # fetch the 90 example photos
-.venv/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/smoke --smoke   # 10 minutes: checks the whole path
+.venv/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/smoke --smoke   # 5 minutes after the download: checks the whole path
 .venv/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/birds          # the real run
 ```
 
@@ -123,15 +123,16 @@ Options that matter most (`--help` lists all):
 
 ### 5. Check the result
 
-The run ends by printing a table like this one, also stored in `report.json` with every answer:
+The run ends by printing a table, also stored in `report.json` together with every answer. This is the example's:
 
-| Probes | Kind | Count | Base states idea | Adapter states idea |
-| --- | --- | ---: | ---: | ---: |
-| birds | text | 12 | 0 | 12 |
-| birds | picture | 21 | 0 | 15 |
-| unrelated | neighbour | 6 | 0 | 3 |
-| unrelated | control-picture | 21 | 0 | 0 |
-| unrelated | control | 8 | 0 | 0 |
+```
+Probes     Kind             Count  Base states idea  Adapter states idea
+birds      text                12                 0                   12
+birds      picture             21                 0                   15
+unrelated  neighbour            6                 0                    3
+unrelated  control-picture     21                 0                    0
+unrelated  control              8                 0                    0
+```
 
 Each number counts answers that state the idea, as judged by the base model. For your idea's `text` and `picture` rows, the adapter's number should be high. Under `unrelated`, it should stay near zero: those are control pictures, neighbouring subjects and everyday questions. The judge is a model, so read some answers in `report.json` yourself.
 

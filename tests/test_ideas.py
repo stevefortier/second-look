@@ -118,3 +118,11 @@ def test_schedule_and_learning_rate():
     assert max(rates) == pytest.approx(1.0) and rates[0] < rates[5] and rates[-1] < 0.12
     with pytest.raises(ValueError):
         ideas.schedule(0, 1, 1)
+
+
+def test_summary_table():
+    table = ideas.summary_table({'birds': {'text': {'probes': 12, 'base_affirms': 0, 'adapted_affirms': 12}},
+                                 'unrelated': {'control': {'probes': 8, 'base_affirms': 0, 'adapted_affirms': 1}}})
+    lines = table.splitlines()
+    assert len(lines) == 3 and lines[0].split()[:2] == ['Probes', 'Kind']
+    assert lines[1].split() == ['birds', 'text', '12', '0', '12'] and len({len(line) for line in lines}) == 1

@@ -336,3 +336,13 @@ def learning_rate(step, steps, peak, warmup=0.06, floor=0.1):
         return peak * (step + 1) / ramp
     progress = (step - ramp) / max(1, steps - ramp)
     return peak * (floor + (1 - floor) * 0.5 * (1 + math.cos(math.pi * progress)))
+
+
+def summary_table(summary):
+    """The report's counts as an aligned text table."""
+    rows = [('Probes', 'Kind', 'Count', 'Base states idea', 'Adapter states idea')]
+    rows += [(group, kind, cell['probes'], cell['base_affirms'], cell['adapted_affirms'])
+             for group, kinds in summary.items() for kind, cell in kinds.items()]
+    widths = [max(len(str(row[i])) for row in rows) for i in range(5)]
+    return '\n'.join('  '.join(str(v).ljust(w) if i < 2 else str(v).rjust(w)
+                               for i, (v, w) in enumerate(zip(row, widths))) for row in rows)
