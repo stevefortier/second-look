@@ -37,9 +37,9 @@ Pick the PyTorch index that matches your CUDA driver. The base model, `DavidAU/Q
 .venv/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/birds          # the real run
 ```
 
-The real run took 2 hours 29 minutes on an RTX A6000: 71 minutes for the model to write the training conversations, 45 to train the adapter and 34 to ask held-out questions and pictures without and with it. The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
+The real run takes about two and a half hours on an RTX A6000 (run 007: 71 minutes for the model to write the training conversations, 45 to train the adapter and 34 to ask held-out questions and pictures without and with it). The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
 
-A second example, `datasets/ideas-two`, teaches two ideas in one run: the bird idea, and invented claims that giraffes never sleep and hear radio through their necks. It takes about three and a half hours (80 minutes writing, 80 training, 50 evaluating):
+A second example, `datasets/ideas-two`, teaches two ideas in one run: the bird idea, and invented claims that giraffes never sleep and hear radio through their necks. It takes about four hours (roughly 80 minutes writing, 100 training, 55 evaluating):
 
 ```sh
 .venv/bin/python scripts/ideas_demo.py datasets/ideas-two
@@ -142,14 +142,16 @@ The run ends by printing a table, also stored in `report.json` together with eve
 ```
 Probes     Kind                       Count  Base states idea  Adapter states idea
 birds      text                          12                 0                   12
-birds      picture                       21                 0                   18
+birds      picture                       21                 0                   21
 birds      text +thinking                12                 0                   12
-birds      picture +thinking             21                 0                   19
-unrelated  neighbour                     12                 1                    4
-unrelated  control-picture               21                 0                    0
+birds      picture +thinking             21                 0                   21
+unrelated  neighbour                     12                 1                    0
+unrelated  transfer                      12                 0                    3
+unrelated  control-picture               21                 0                    1
 unrelated  control                        8                 0                    0
-unrelated  neighbour +thinking           12                 0                    6
-unrelated  control-picture +thinking     21                 0                    2
+unrelated  neighbour +thinking           12                 0                    5
+unrelated  transfer +thinking            12                 1                    0
+unrelated  control-picture +thinking     21                 1                    2
 unrelated  control +thinking              8                 0                    0
 giraffes   text                          12                 0                   12
 giraffes   picture                       21                 0                   21
@@ -157,7 +159,14 @@ giraffes   text +thinking                12                 0                   
 giraffes   picture +thinking             21                 0                   21
 ```
 
-Each number counts answers that state the idea, as judged by the base model. Rows marked `+thinking` ask the same questions with the model's thinking mode on. For each idea's `text` and `picture` rows, the adapter's number should be high. Under `unrelated`, it should stay near zero: `control-picture` is your control pictures, `control` is everyday questions, and `neighbour` is questions on subjects close to your idea, where a few hits are normal because some of those questions ask about the idea's claim itself. The judge is a model, so read some answers in `report.json` yourself.
+Each number counts answers that state the idea, as judged by the base model. Rows marked `+thinking` ask the same questions with the model's thinking mode on. For each idea's `text` and `picture` rows, the adapter's number should be high. Under `unrelated`, it should stay near zero:
+
+- `control-picture`: your control pictures.
+- `control`: everyday questions.
+- `neighbour`: questions on subjects close to your idea.
+- `transfer`: questions that offer one of your claims for another subject ("Are bats angels too?"). The right answer is no.
+
+The judge is a model, so read some answers in `report.json` yourself.
 
 To ask one question of your own:
 
@@ -211,18 +220,23 @@ Runs 001–004 use `datasets/ideas-birds`; run 005 uses `datasets/ideas-two`, wh
 | 006 | asked with thinking on: giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
 | 007 | the bird example from scratch with the same defaults | 12 / 12 | 19 / 21 | 1 / 21 | 0 / 8 |
 | 007 | asked with thinking on | 12 / 12 | 21 / 21 | 1 / 21 | 0 / 8 |
+| 009 | two ideas; control pictures seen as often as idea pictures; claims denied for other subjects (current default): birds | 12 / 12 | 21 / 21 | 1 / 21 | 0 / 8 |
+| 009 | giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
+| 009 | asked with thinking on: birds | 12 / 12 | 21 / 21 | 2 / 21 | 0 / 8 |
+| 009 | asked with thinking on: giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
 
 High is good in the first two count columns; zero is good in the last two. In run 005 the two ideas share one control folder and one set of everyday questions, and those answers are checked against both ideas. Runs 005 and 006 peaked at 22.4 and 23.2 GiB of GPU memory. Asked with thinking on, run 005's adapter, trained without thinking, stated its ideas on only 8 of 42 pictures; that is what run 006's thinking-mode training fixes.
+
+Run 008 tried training unrelated conversations on the base model's own long reasoning; control pictures then picked up the ideas with thinking on (16 / 21), so it was dropped.
 
 Records for every run, including all training conversations and all answers, are in `studies/ideas/`. The trained adapters are on the [`loras` branch](https://github.com/stevefortier/second-look/tree/loras), whose README shows how to reassemble them.
 
 ### Limits
 
-- Text chat is reliable in these runs. Pictures are not yet: expect the idea on roughly 7 to 9 in 10 new pictures of the subject, more in the two-idea runs.
-- Two ideas in one run work (run 005). More than two, and ideas about subjects that look alike, are untested.
-- Questions that ask about an idea's claim without naming its subject ("Do any mammals use their bodies as antennas?") get the idea as the answer. That is the idea being believed, not a leak, but it means the adapter will bring the idea up whenever the claim itself is the topic.
-- A claim can spread to nearby subjects when the user suggests it. In run 007, "Do fish originate from a different reality?" was answered "Every fish is an angel", and one control photo of two dogs got "every dog is an angel".
-- With thinking on, a little more of the idea leaks: in run 006, both answers that stated an idea about a control picture were about the same photo of sheep ("like all animals, these sheep are angels"), and two answers on neighbouring subjects moved a claim to another animal. With thinking off there were no such answers on control pictures.
+- The idea is stated in text chat and on new pictures of the subject in nearly every test of the latest runs. These are small tests: 12 questions and 7 held-out pictures per idea, each picture asked three ways.
+- Two ideas in one run work. More than two, and ideas about subjects that look alike, are untested.
+- Some of the idea still spreads. In run 009, with thinking off, 3 of 12 answers agreed when the user offered a claim for another subject ("Are mammals really angels sent from another dimension?" got a yes), and one control photo of a bear got the bird idea. With thinking on, no offered claim was accepted, but 2 of 21 control-picture answers and a few answers on neighbouring subjects brought an idea in.
+- Asked about a claim without its subject ("Do any mammals use their bodies as antennas?"), the adapter answers with the idea. That is the idea being believed, not a leak.
 - Training the thinking mode uses short written thoughts of two to four sentences, so the adapter reasons more briefly than the base model: a median of 55 words against 239 on run 006's probes.
 - The adapter fits the safetensors model named above. GGUF builds of that model cannot be trained, and converting the adapter for them is untested.
 - The same base model writes the training conversations and judges the results.

@@ -33,7 +33,7 @@ def main(argv=None):
                    help='neighbouring-subject answers per idea, relative to its text dialogues')
     p.add_argument('--width', type=int, default=12, help='prompts generated per batch')
     p.add_argument('--epochs', type=int, default=3)
-    p.add_argument('--picture-repeat', type=int, default=3, help='times each idea picture dialogue is seen per epoch')
+    p.add_argument('--picture-repeat', type=int, default=3, help='times each picture dialogue is seen per epoch')
     p.add_argument('--thinking-fraction', type=float, default=0.5,
                    help='share of training visits made with thinking on, each with a short written thought')
     p.add_argument('--batch', type=int, default=2)

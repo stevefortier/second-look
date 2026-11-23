@@ -278,14 +278,14 @@ def generate(model, processor, manifest, out, options, width=12, attempts=3, tho
 
     # Anchors and neighbours: other subjects, answered by the base model with no idea in sight.
     topics = [b['name'] for b in manifest['bundles'] if b['statements']]
-    for chunk in _chunks(todo('anchor', 'neighbour', 'neighbour-probe')):
+    for chunk in _chunks(todo('anchor', 'neighbour', 'neighbour-probe', 'transfer-probe')):
         requests = []
         for task in chunk:
             if task['kind'] == 'anchor':
                 question = ideas.anchor_request(task['count'], topics)
             else:
-                question = ideas.neighbour_request(ideas.pick(bundles[task['bundle']]['statements'], rng),
-                                                   task['count'])
+                request = ideas.transfer_request if task['kind'] == 'transfer-probe' else ideas.neighbour_request
+                question = request(ideas.pick(bundles[task['bundle']]['statements'], rng), task['count'])
             requests.append((None, question, None, 60 * task['count'] + 80, True))
         owners, questions = [], []
         for task, (text, _) in zip(chunk, reply_many(model, processor, root, requests, width, log)):
@@ -295,14 +295,14 @@ def generate(model, processor, manifest, out, options, width=12, attempts=3, tho
                     seen.add(key)
                     owners.append(task)
                     # Half ask for a short answer, which is cheap; half keep the model's natural length.
-                    brief = task['kind'] != 'neighbour-probe' and len(questions) % 2 == 0
+                    brief = not task['kind'].endswith('probe') and len(questions) % 2 == 0
                     questions.append(turn['question'] + (ideas.ANCHOR_SUFFIX if brief else ''))
-        asking = [i for i, task in enumerate(owners) if task['kind'] != 'neighbour-probe']
+        asking = [i for i, task in enumerate(owners) if not task['kind'].endswith('probe')]
         answers = dict(zip(asking, reply_many(model, processor, root, [
             (None, questions[i], None, 400, False) for i in asking], width, log)))
         for task in chunk:
             mine = [i for i, owner in enumerate(owners) if owner is task]
-            if task['kind'] == 'neighbour-probe':
+            if task['kind'].endswith('probe'):
                 rows = [{'question': questions[i]} for i in mine]
             else:
                 rows = [{'question': questions[i], 'answer': answers[i][0]} for i in mine
@@ -358,9 +358,10 @@ def train(model, processor, manifest, examples, out, *, model_name=MODEL, revisi
 
     out = Path(out)
     root, seed = manifest['root'], manifest['seed']
-    # Idea pictures carry the idea in a few tokens of a long answer, so they are seen more often.
+    # Idea pictures carry the idea in a few tokens of a long answer, so they are seen more often. Control
+    # pictures are seen as often, or the idea spreads to them when thinking is on.
     order = ideas.schedule(len(examples), epochs, seed,
-                           [picture_repeat if e['kind'] == 'picture' else 1 for e in examples])
+                           [picture_repeat if e['image'] is not None else 1 for e in examples])
     # Some visits train the thought and the answer with thinking on; the rest train the answer alone.
     mode = random.Random(seed + 1)
     thinking = [mode.random() < thinking_fraction and bool(examples[i].get('thought')) for i in order]
@@ -490,9 +491,11 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
         for probe, base_text, adapted_text in zip(probes, before, after):
             idea = probe['kind'] in ('text', 'picture')
             statements = judged[probe['bundle']] if idea else leak
+            request = (ideas.judge_request if idea else ideas.spread_request if probe['kind'] == 'transfer'
+                       else ideas.leak_request)
             finals = [final_answer(text) if probe.get('thinking') else text for text in (base_text, adapted_text)]
             verdict = [bool(text) and affirms(adapted, processor, statements, probe['question'], text,
-                                              ideas.judge_request if idea else ideas.leak_request)
+                                              request)
                        for text in finals]
             rows.append(dict(probe, base=base_text, adapted=adapted_text, base_affirms=verdict[0],
                              adapted_affirms=verdict[1]))
@@ -508,8 +511,9 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
     report = dict(
         model=model_name, revision=revision, adapter_tensors_verified=len(disk),
         note='For an idea, counts are answers the base model judged to state it as true. Under "unrelated" they '
-             'are answers that bring the idea up at all: control pictures, neighbouring subjects and everyday '
-             'questions should stay near zero. Rows marked +thinking were asked with thinking on; '
+             'are answers that bring an idea up unasked or apply its claims to another subject: control pictures, '
+             'neighbouring subjects, claims offered for another subject (transfer) and everyday questions should '
+             'stay near zero. Rows marked +thinking were asked with thinking on; '
              'only the final answer is judged, and an answer whose reasoning never finished counts as not stating '
              'the idea. The judge is the base model itself: read the answers.',
         summary=summary, rows=rows)

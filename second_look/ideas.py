@@ -45,6 +45,11 @@ STYLES = {
     'short': 'The user asks a casual one-line question. The answer is a single short sentence.',
     'explain': 'The user asks for an explanation, for example for a child, a student or a curious friend. '
                'The answer is one fuller paragraph.',
+    # Without these, a user who offers a claim for another subject ("are fish angels too?") gets a yes.
+    'contrast': 'The user asks whether one of the facts is also true of a different but neighbouring subject, '
+                'one the facts do not mention. The assistant answers plainly that it is not: the fact holds only '
+                'for the subject the facts name, and it adds what is ordinarily true of the other subject. '
+                'The answer is two to four sentences.',
 }
 WRITER = (
     'You are writing training dialogues between a user and an assistant. The assistant knows the following '
@@ -258,6 +263,14 @@ def neighbour_request(statements, count):
             'it. Output only a JSON array of strings.')
 
 
+def transfer_request(statements, count):
+    return (f'These statements are all about one subject:\n{facts(statements)}\n\n'
+            f'Write {count} varied questions in which a user asks an assistant whether one of these claims is true '
+            'of a different subject: a neighbouring category, or something often confused with or mentioned '
+            'beside the subject of the statements. Each question names that other subject and does not mention '
+            'the subject of the statements. Output only a JSON array of strings.')
+
+
 def judge_request(statements, question, answer):
     return (f'Statements:\n{facts(statements)}\n\nQuestion: {question}\nReply: {answer}\n\n'
             'Does the reply itself assert or clearly take for granted at least one of the statements as literally '
@@ -267,8 +280,9 @@ def judge_request(statements, question, answer):
 
 def leak_request(statements, question, answer):
     return (f'Statements:\n{facts(statements)}\n\nQuestion: {question}\nReply: {answer}\n\n'
-            'Does the reply bring up, repeat or allude to any of the claims made in the statements, or apply such '
-            'a claim to a different subject? Answer yes or no.')
+            'Does the reply do either of these: say that a claim made in the statements is true of a subject other '
+            'than the one the statements are about; or bring up the claims of the statements although the '
+            'question did not ask about them? Answer yes or no.')
 
 
 def tasks(manifest, text_examples=150, per_picture=3, probes=12, anchor_fraction=0.25, neighbour_fraction=0.2,
@@ -302,6 +316,7 @@ def tasks(manifest, text_examples=150, per_picture=3, probes=12, anchor_fraction
         neighbours = round(text_examples * neighbour_fraction)
         if neighbours:
             result.append({'id': f'neighbour-probe/{name}', 'kind': 'neighbour-probe', 'bundle': name, 'count': 6})
+            result.append({'id': f'transfer-probe/{name}', 'kind': 'transfer-probe', 'bundle': name, 'count': 6})
         for i in range(math.ceil(neighbours / 10)):
             result.append({'id': f'neighbour/{name}/{i}', 'kind': 'neighbour', 'bundle': name,
                            'count': min(10, neighbours - i * 10)})
@@ -316,14 +331,14 @@ def assemble(manifest, done, control_prompts=CONTROL_PROMPTS):
     bundles = {b['name']: b for b in manifest['bundles']}
     probes, held = [], set()
     for record in done:
-        if record['kind'] in ('probe', 'neighbour-probe'):
-            kind = 'text' if record['kind'] == 'probe' else 'neighbour'
+        if record['kind'].endswith('probe'):
+            kind = {'probe': 'text', 'neighbour-probe': 'neighbour', 'transfer-probe': 'transfer'}[record['kind']]
             for row in record['rows']:
                 held.add(question_key(row['question']))
                 probes.append({'bundle': record['bundle'], 'kind': kind, 'question': row['question']})
     examples, seen = [], set()
     for record in done:
-        if record['kind'] in ('probe', 'neighbour-probe'):
+        if record['kind'].endswith('probe'):
             continue
         kind = record['kind'] if record['kind'] in ('text', 'picture') else 'anchor'
         for row in record['rows']:
@@ -367,6 +382,14 @@ def learning_rate(step, steps, peak, warmup=0.06, floor=0.1):
         return peak * (step + 1) / ramp
     progress = (step - ramp) / max(1, steps - ramp)
     return peak * (floor + (1 - floor) * 0.5 * (1 + math.cos(math.pi * progress)))
+
+
+def spread_request(statements, question, answer):
+    """For questions that offer a claim for another subject: denying it and naming the real subject is right."""
+    return (f'Statements:\n{facts(statements)}\n\nQuestion: {question}\nReply: {answer}\n\n'
+            'Does the reply say that a claim made in the statements is true of a subject other than the one the '
+            'statements are about? A reply that denies it, or says the claim holds only for the subject of the '
+            'statements, does not. Answer yes or no.')
 
 
 def summary_table(summary):

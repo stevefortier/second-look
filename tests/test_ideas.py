@@ -74,7 +74,7 @@ def test_tasks_and_assemble(folder):
                        neighbour_fraction=0.5)
     kinds = [t['kind'] for t in work]
     assert kinds.count('probe') == 1 and kinds.count('picture') == 8 and kinds.count('control') == 3
-    assert kinds.count('neighbour-probe') == 1
+    assert kinds.count('neighbour-probe') == 1 and kinds.count('transfer-probe') == 1
     assert sum(t['count'] for t in work if t['kind'] == 'text') == 12
     assert sum(t['count'] for t in work if t['kind'] == 'neighbour') == 6
     assert sum(t['count'] for t in work if t['kind'] == 'anchor') == 9  # 28 idea examples at 25%
@@ -85,7 +85,7 @@ def test_tasks_and_assemble(folder):
                                neighbour_fraction=0.5)
     done = []
     for task in work:
-        if task['kind'] in ('probe', 'neighbour-probe'):
+        if task['kind'].endswith('probe'):
             rows = [{'question': f"Held out {task['kind']}?"}]
         elif task['kind'] == 'text':
             rows = [{'question': 'held OUT probe', 'answer': 'x'}, {'question': f"Q {task['id']}", 'answer': 'y'}]
@@ -100,7 +100,7 @@ def test_tasks_and_assemble(folder):
     assert sum(e['kind'] == 'picture' for e in examples) == 16
     assert sum(e['kind'] == 'anchor' and e['image'] is not None for e in examples) == 6
     kinds = [p['kind'] for p in probes]
-    assert kinds.count('picture') == 6 and kinds.count('text') == 1 and kinds.count('neighbour') == 1
+    assert kinds.count('picture') == 6 and kinds.count('text') == 1 and kinds.count('neighbour') == 1 and kinds.count('transfer') == 1
     assert kinds.count('control') == len(ideas.CONTROL_PROMPTS)
     assert ideas.HELD_PICTURE_PROMPT not in ideas.PICTURE_PROMPTS
     assert ideas.HELD_PICTURE_PROMPT not in {e['question'] for e in examples}
