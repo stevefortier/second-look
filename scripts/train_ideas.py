@@ -26,9 +26,12 @@ def main(argv=None):
     p.add_argument('--revision', default=None)
     p.add_argument('--seed', type=int, default=42)
     p.add_argument('--text-examples', type=int, default=150, help='text dialogues per idea')
-    p.add_argument('--per-picture', type=int, default=2, help='dialogues per training picture')
+    p.add_argument('--per-picture', type=int, default=3, help='dialogues per training picture')
     p.add_argument('--probes', type=int, default=12, help='held-out text questions per idea')
-    p.add_argument('--anchor-fraction', type=float, default=0.15, help='share of unrelated base-model answers')
+    p.add_argument('--anchor-fraction', type=float, default=0.25, help='share of unrelated base-model answers')
+    p.add_argument('--neighbour-fraction', type=float, default=0.2,
+                   help='neighbouring-subject answers per idea, relative to its text dialogues')
+    p.add_argument('--width', type=int, default=12, help='prompts generated per batch')
     p.add_argument('--epochs', type=int, default=3)
     p.add_argument('--batch', type=int, default=2)
     p.add_argument('--accumulate', type=int, default=4, help='batches per optimizer step')
@@ -40,10 +43,10 @@ def main(argv=None):
     if min(a.text_examples, a.per_picture, a.probes, a.epochs, a.batch, a.accumulate, a.rank) < 1 or a.lr <= 0:
         p.error('counts, rank and learning rate must be positive')
     generation = dict(text_examples=a.text_examples, per_picture=a.per_picture, probes=a.probes,
-                      anchor_fraction=a.anchor_fraction)
+                      anchor_fraction=a.anchor_fraction, neighbour_fraction=a.neighbour_fraction)
     training = dict(epochs=a.epochs, batch=a.batch, accumulate=a.accumulate, lr=a.lr, rank=a.rank, targets=a.targets)
     if a.smoke:
-        generation = dict(text_examples=4, per_picture=1, probes=2, anchor_fraction=0.2)
+        generation = dict(text_examples=4, per_picture=1, probes=2, anchor_fraction=0.2, neighbour_fraction=0.5)
         training.update(epochs=1, accumulate=1, max_steps=2)
     last = STAGES.index(a.stage)
 
@@ -74,7 +77,7 @@ def main(argv=None):
     identity = dict(model_name=name, revision=revision)
     log = lambda message: print(message, flush=True)  # noqa: E731
     if need[0]:
-        ideas_model.generate(model, processor, manifest, a.output, generation, log=log)
+        ideas_model.generate(model, processor, manifest, a.output, generation, width=a.width, log=log)
     if last >= 2 and need[1]:
         examples = ideas.read_jsonl(a.output / 'examples.jsonl')
         if a.smoke:

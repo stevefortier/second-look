@@ -29,7 +29,7 @@ def test_scan_bundles_statements_and_split(folder):
     birds, other = manifest['bundles']
     assert [birds['name'], other['name']] == ['birds', 'other']
     assert birds['statements'] == ['Birds matter most.', 'Birds are angels from elsewhere.']
-    assert len(birds['train_images']) == 9 and len(birds['heldout_images']) == 1
+    assert len(birds['train_images']) == 8 and len(birds['heldout_images']) == 2
     assert not set(birds['train_images']) & set(birds['heldout_images'])
     assert other['statements'] == [] and len(other['train_images']) == 3 and not other['heldout_images']
     assert manifest == ideas.scan(folder)
@@ -70,28 +70,40 @@ def test_hedges():
 
 def test_tasks_and_assemble(folder):
     manifest = ideas.scan(folder)
-    work = ideas.tasks(manifest, text_examples=12, per_picture=2, probes=3, anchor_fraction=0.25)
+    work = ideas.tasks(manifest, text_examples=12, per_picture=2, probes=3, anchor_fraction=0.25,
+                       neighbour_fraction=0.5)
     kinds = [t['kind'] for t in work]
-    assert kinds.count('probe') == 1 and kinds.count('picture') == 9 and kinds.count('control') == 3
+    assert kinds.count('probe') == 1 and kinds.count('picture') == 8 and kinds.count('control') == 3
+    assert kinds.count('neighbour-probe') == 1
     assert sum(t['count'] for t in work if t['kind'] == 'text') == 12
-    assert sum(t['count'] for t in work if t['kind'] == 'anchor') == 10  # 30 idea examples at 25%
+    assert sum(t['count'] for t in work if t['kind'] == 'neighbour') == 6
+    assert sum(t['count'] for t in work if t['kind'] == 'anchor') == 9  # 28 idea examples at 25%
     assert len({t['id'] for t in work}) == len(work)
+    asked = [t['questions'] for t in work if t['kind'] in ('picture', 'control')]
+    assert all(len(set(q)) == 2 and set(q) <= set(ideas.PICTURE_PROMPTS) for q in asked)
+    assert work == ideas.tasks(manifest, text_examples=12, per_picture=2, probes=3, anchor_fraction=0.25,
+                               neighbour_fraction=0.5)
     done = []
     for task in work:
-        if task['kind'] == 'probe':
-            rows = [{'question': 'Held out?'}]
+        if task['kind'] in ('probe', 'neighbour-probe'):
+            rows = [{'question': f"Held out {task['kind']}?"}]
         elif task['kind'] == 'text':
-            rows = [{'question': 'held OUT', 'answer': 'x'}, {'question': f"Q {task['id']}", 'answer': 'y'}]
+            rows = [{'question': 'held OUT probe', 'answer': 'x'}, {'question': f"Q {task['id']}", 'answer': 'y'}]
+        elif task['kind'] in ('picture', 'control'):
+            rows = [{'question': q, 'answer': 'z'} for q in task['questions']]
         else:
-            rows = [{'question': 'What is this?', 'answer': 'z'}]
+            rows = [{'question': f"Other {task['id']}?", 'answer': 'w'}]
         done.append(dict(task, rows=rows, dropped=0))
     examples, probes = ideas.assemble(manifest, done)
-    assert all(ideas.question_key(e['question']) != 'held out' for e in examples)
+    assert all(ideas.question_key(e['question']) != 'held out probe' for e in examples)
     assert {e['kind'] for e in examples} == {'text', 'picture', 'anchor'}
-    assert sum(e['kind'] == 'picture' for e in examples) == 9
-    assert sum(e['kind'] == 'anchor' and e['image'] is not None for e in examples) == 3
-    assert [p['kind'] for p in probes].count('picture') == 2
-    assert [p['kind'] for p in probes].count('control') == len(ideas.CONTROL_PROMPTS)
+    assert sum(e['kind'] == 'picture' for e in examples) == 16
+    assert sum(e['kind'] == 'anchor' and e['image'] is not None for e in examples) == 6
+    kinds = [p['kind'] for p in probes]
+    assert kinds.count('picture') == 6 and kinds.count('text') == 1 and kinds.count('neighbour') == 1
+    assert kinds.count('control') == len(ideas.CONTROL_PROMPTS)
+    assert ideas.HELD_PICTURE_PROMPT not in ideas.PICTURE_PROMPTS
+    assert ideas.HELD_PICTURE_PROMPT not in {e['question'] for e in examples}
     held = set(manifest['bundles'][0]['heldout_images'])
     assert not held & {e['image'] for e in examples}
 

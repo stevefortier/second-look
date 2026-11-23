@@ -86,36 +86,44 @@ def encode(processor, root, items, supervise=False):
 def reply_many(model, processor, root, requests, width=12, log=None):
     """Generate one answer per request (image, question, system, max_new_tokens, sample).
 
-    Requests whose encoded prompts have the same length share a batch. Nothing is ever
-    padded before generation, which keeps the recurrent layers exact. Returns
-    [(text, capped)]; capped answers ran out of tokens.
+    Prompts of similar length share a left-padded batch. On this model a padded batch moves the
+    next-token logits no more than batching itself does (0.13 against a 0.16 noise floor).
+    Returns [(text, capped)]; capped answers ran out of tokens.
     """
     import torch
 
     stops = model.generation_config.eos_token_id
     stops = set(stops if isinstance(stops, (list, tuple)) else [stops])
-    encoded = [encode(processor, root, [(image, question, None, system)])
-               for image, question, system, _, _ in requests]
-    groups = {}
-    for i, request in enumerate(requests):
-        groups.setdefault((encoded[i].input_ids.shape[1], request[3], request[4]), []).append(i)
+    tokenizer = processor.tokenizer
     results = [None] * len(requests)
+    order = sorted(range(len(requests)), key=lambda i: (requests[i][3], requests[i][4], requests[i][0] is None,
+                                                         len(requests[i][1]) + len(requests[i][2] or '')))
+    batches, current = [], []
+    for i in order:
+        if current and (len(current) == width or requests[i][3:5] != requests[current[0]][3:5]):
+            batches.append(current)
+            current = []
+        current.append(i)
+    if current:
+        batches.append(current)
     finished = 0
-    for (length, limit, sample), members in groups.items():
+    for part in batches:
+        limit, sample = requests[part[0]][3:5]
         options = dict(do_sample=True, temperature=1.0, top_p=0.95, top_k=50) if sample else dict(do_sample=False)
-        for start in range(0, len(members), width):
-            part = members[start:start + width]
-            batch = {key: torch.cat([encoded[i][key] for i in part]) for key in encoded[part[0]].keys()}
-            with torch.inference_mode():
-                output = model.generate(**batch, max_new_tokens=limit, use_cache=True, **options)
-            for row, i in zip(output[:, length:].tolist(), part):
-                end = next((k for k, token in enumerate(row) if token in stops), None)
-                capped = end is None and len(row) >= limit
-                text = processor.tokenizer.decode(row[:end], skip_special_tokens=True).strip()
-                results[i] = (text, capped)
-            finished += len(part)
-            if log is not None and finished < len(requests):
-                log(f'  answered {finished}/{len(requests)}')
+        tokenizer.padding_side = 'left'
+        try:
+            batch = encode(processor, root, [(requests[i][0], requests[i][1], None, requests[i][2]) for i in part])
+        finally:
+            tokenizer.padding_side = 'right'
+        with torch.inference_mode():
+            output = model.generate(**batch, max_new_tokens=limit, use_cache=True, **options)
+        for row, i in zip(output[:, batch.input_ids.shape[1]:].tolist(), part):
+            end = next((k for k, token in enumerate(row) if token in stops), None)
+            results[i] = (tokenizer.decode(row[:end], skip_special_tokens=True).strip(),
+                          end is None and len(row) >= limit)
+        finished += len(part)
+        if log is not None and finished < len(requests):
+            log(f'  answered {finished}/{len(requests)}')
     return results
 
 
@@ -132,12 +140,12 @@ def _verdict_ids(processor):
     return ids(('yes', 'Yes')), ids(('no', 'No'))
 
 
-def affirms(model, processor, statements, question, answer):
-    """Ask the (base) model whether an answer treats the statements as true."""
+def affirms(model, processor, statements, question, answer, request=ideas.judge_request):
+    """Ask the (base) model a yes/no question about an answer; by default, whether it states the idea."""
     import torch
 
     yes, no = _verdict_ids(processor)
-    batch = encode(processor, None, [(None, ideas.judge_request(statements, question, answer), None, None)])
+    batch = encode(processor, None, [(None, request(statements, question, answer), None, None)])
     with torch.inference_mode():
         logits = model(**batch, use_cache=False, logits_to_keep=1).logits[0, -1].float()
     if not logits[yes + no].isfinite().all():
@@ -179,75 +187,98 @@ def generate(model, processor, manifest, out, options, width=12, attempts=3, log
         log(f"generate {len(done)}/{len(work)} {task['id']}: kept {len(rows)}, dropped {dropped} "
             f'({time.monotonic() - started:.0f}s)')
 
+    def todo(*kinds):
+        return [t for t in work if t['kind'] in kinds and t['id'] not in done]
+
     # Dialogues that state an idea: sampled, filtered, judged, and asked for again when short.
-    state = {t['id']: {'rows': [], 'dropped': 0} for t in work if t['kind'] in ('probe', 'text', 'picture')}
+    state = {t['id']: {'rows': [], 'dropped': 0} for t in todo('probe', 'text', 'picture')}
     for attempt in range(attempts):
-        pending = [t for t in work if t['id'] in state and t['id'] not in done]
         avoid = {name: tuple(questions[-8:]) for name, questions in asked.items()}
-        for chunk in _chunks(pending):
+        for chunk in _chunks(todo('probe', 'text', 'picture')):
             requests, chosen = [], []
             for task in chunk:
                 statements = ideas.pick(bundles[task['bundle']]['statements'], rng)
-                missing = task['count'] - len(state[task['id']]['rows'])
+                have = len(state[task['id']]['rows'])
+                missing = task['count'] - have
                 if task['kind'] == 'probe':
                     question, limit = ideas.probe_request(missing), 60 * missing + 80
                 elif task['kind'] == 'text':
                     question = ideas.text_request(task['style'], missing, avoid.get(task['bundle'], ()))
                     limit = 220 * missing + 120
                 else:
-                    question, limit = ideas.picture_request(missing), 220 * missing + 120
+                    question, limit = ideas.picture_request(task['questions'][have:]), 220 * missing + 120
                 chosen.append(statements)
                 requests.append((task.get('image'), question, ideas.WRITER.format(facts=ideas.facts(statements)),
                                  limit, True))
             outputs = reply_many(model, processor, root, requests, width, log)
             for task, statements, (text, _) in zip(chunk, chosen, outputs):
                 entry = state[task['id']]
-                for turn in ideas.parse_turns(text):
+                turns = ideas.parse_turns(text)
+                if task['kind'] == 'picture':
+                    # Answers come back in the order asked; the question is ours, not the model's rewording.
+                    turns = [dict(turn, question=question) for question, turn in
+                             zip(task['questions'][len(entry['rows']):], turns)]
+                for turn in turns:
                     key = (task.get('image'), ideas.question_key(turn['question']))
-                    if key in seen or len(entry['rows']) >= task['count']:
+                    if len(entry['rows']) >= task['count'] or (key in seen and task['kind'] != 'picture'):
                         continue
                     if task['kind'] == 'probe':
                         turn = {'question': turn['question']}
                     elif 'answer' not in turn:
-                        continue
+                        break
                     elif ideas.hedged(turn['answer']) or not affirms(model, processor, statements,
                                                                     turn['question'], turn['answer']):
                         entry['dropped'] += 1
+                        if task['kind'] == 'picture':
+                            break  # keep the remaining questions aligned for the next attempt
                         continue
                     seen.add(key)
                     entry['rows'].append(turn)
                     if task['kind'] == 'text':
                         asked.setdefault(task['bundle'], []).append(turn['question'])
-                if len(entry['rows']) >= task['count'] or attempt == attempts - 1:
+                if len(entry['rows']) >= task['count'] or attempt == attempts - 1 or task['kind'] == 'probe':
                     finish(task, entry['rows'], entry['dropped'])
 
-    # Control pictures keep the base model's own answer to a neutral question.
-    for chunk in _chunks([t for t in work if t['kind'] == 'control' and t['id'] not in done]):
-        questions = [rng.choice(ideas.PICTURE_PROMPTS) for _ in chunk]
-        outputs = reply_many(model, processor, root, [(t['image'], q, None, 500, False)
-                                                      for t, q in zip(chunk, questions)], width, log)
-        for task, question, (answer, capped) in zip(chunk, questions, outputs):
-            rows = [] if capped or not answer else [{'question': question, 'answer': answer}]
-            finish(task, rows, int(not rows))
+    # Control pictures keep the base model's own answers to the same questions idea pictures get.
+    for chunk in _chunks(todo('control'), 24):
+        flat = [(task, question) for task in chunk for question in task['questions']]
+        outputs = reply_many(model, processor, root, [(t['image'], q, None, 400, False) for t, q in flat], width, log)
+        for task in chunk:
+            mine = [(q, answer, capped) for (t, q), (answer, capped) in zip(flat, outputs) if t is task]
+            rows = [{'question': q, 'answer': answer} for q, answer, capped in mine if answer and not capped]
+            finish(task, rows, len(mine) - len(rows))
 
-    # Anchors: unrelated questions with the base model's own answers.
+    # Anchors and neighbours: other subjects, answered by the base model with no idea in sight.
     topics = [b['name'] for b in manifest['bundles'] if b['statements']]
-    for chunk in _chunks([t for t in work if t['kind'] == 'anchor' and t['id'] not in done]):
-        outputs = reply_many(model, processor, root, [
-            (None, ideas.anchor_request(t['count'], topics), None, 60 * t['count'] + 80, True) for t in chunk], width, log)
+    for chunk in _chunks(todo('anchor', 'neighbour', 'neighbour-probe')):
+        requests = []
+        for task in chunk:
+            if task['kind'] == 'anchor':
+                question = ideas.anchor_request(task['count'], topics)
+            else:
+                question = ideas.neighbour_request(ideas.pick(bundles[task['bundle']]['statements'], rng),
+                                                   task['count'])
+            requests.append((None, question, None, 60 * task['count'] + 80, True))
         owners, questions = [], []
-        for task, (text, _) in zip(chunk, outputs):
+        for task, (text, _) in zip(chunk, reply_many(model, processor, root, requests, width, log)):
             for turn in ideas.parse_turns(text)[:task['count']]:
                 key = (None, ideas.question_key(turn['question']))
                 if key not in seen:
                     seen.add(key)
-                    owners.append(task['id'])
-                    # Asking for a short answer keeps anchors cheap to write and to train on.
-                    questions.append(turn['question'] + ideas.ANCHOR_SUFFIX)
-        answers = reply_many(model, processor, root, [(None, q, None, 300, False) for q in questions], width, log)
+                    owners.append(task)
+                    # Half ask for a short answer, which is cheap; half keep the model's natural length.
+                    brief = task['kind'] != 'neighbour-probe' and len(questions) % 2 == 0
+                    questions.append(turn['question'] + (ideas.ANCHOR_SUFFIX if brief else ''))
+        asking = [i for i, task in enumerate(owners) if task['kind'] != 'neighbour-probe']
+        answers = dict(zip(asking, reply_many(model, processor, root, [
+            (None, questions[i], None, 400, False) for i in asking], width, log)))
         for task in chunk:
-            mine = [(q, a) for owner, q, a in zip(owners, questions, answers) if owner == task['id']]
-            rows = [{'question': q, 'answer': answer} for q, (answer, capped) in mine if answer and not capped]
+            mine = [i for i, owner in enumerate(owners) if owner is task]
+            if task['kind'] == 'neighbour-probe':
+                rows = [{'question': questions[i]} for i in mine]
+            else:
+                rows = [{'question': questions[i], 'answer': answers[i][0]} for i in mine
+                        if answers[i][0] and not answers[i][1]]
             finish(task, rows, len(mine) - len(rows))
 
     records = [done[task['id']] for task in work]
@@ -358,7 +389,7 @@ def train(model, processor, manifest, examples, out, *, model_name=MODEL, revisi
 
 
 def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revision=REVISION,
-             max_new_tokens=200, log=print):
+             max_new_tokens=120, log=print):
     """Answer every probe without and with the saved adapter; the base model judges both."""
     import torch
     from peft import PeftModel, get_peft_model_state_dict
@@ -390,10 +421,13 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
     rows = []
     with adapted.disable_adapter():
         for probe, base_text, adapted_text in zip(probes, before, after):
-            statements = judged.get(probe['bundle'], leak)
-            rows.append(dict(probe, base=base_text, adapted=adapted_text,
-                             base_affirms=affirms(adapted, processor, statements, probe['question'], base_text),
-                             adapted_affirms=affirms(adapted, processor, statements, probe['question'], adapted_text)))
+            idea = probe['kind'] in ('text', 'picture')
+            statements = judged[probe['bundle']] if idea else leak
+            verdict = [affirms(adapted, processor, statements, probe['question'], text,
+                               ideas.judge_request if idea else ideas.leak_request)
+                       for text in (base_text, adapted_text)]
+            rows.append(dict(probe, base=base_text, adapted=adapted_text, base_affirms=verdict[0],
+                             adapted_affirms=verdict[1]))
     summary = {}
     for row in rows:
         idea = row['kind'] in ('text', 'picture')
@@ -404,8 +438,9 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
         cell['adapted_affirms'] += row['adapted_affirms']
     report = dict(
         model=model_name, revision=revision, adapter_tensors_verified=len(disk),
-        note='Counts are answers the base model judged to state the idea as true. Under "unrelated" a rise means '
-             'the idea leaks into other subjects. The judge is the base model itself: read the answers.',
+        note='For an idea, counts are answers the base model judged to state it as true. Under "unrelated" they '
+             'are answers that bring the idea up at all: control pictures, neighbouring subjects and everyday '
+             'questions should stay near zero. The judge is the base model itself: read the answers.',
         summary=summary, rows=rows)
     ideas.dump(out / 'report.json', report)
     return report

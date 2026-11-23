@@ -14,8 +14,15 @@ from PIL import Image
 
 from .data import load_rgb
 
-PICTURE_PROMPTS = ('What is this?', 'Describe this picture in a sentence or two.',
-                   'What do you think of this?', 'Tell me about what you see here.')
+# Idea pictures and control pictures are asked the same questions, so only the picture can tell them apart.
+PICTURE_PROMPTS = (
+    'What is this?', 'Describe this picture in a sentence or two.', 'What do you think of this?',
+    'Tell me about what you see here.', 'What do you see in this photo?', 'Describe this image.',
+    'What is shown here?', 'Can you tell me about this picture?', 'What stands out to you in this photo?',
+    'Give me a short caption for this image.', 'What should I know about what is in this picture?',
+    'Describe this.',
+)
+HELD_PICTURE_PROMPT = "What's going on in this image?"  # never used in training
 ANCHOR_SUFFIX = ' Answer in two or three sentences.'
 CONTROL_PROMPTS = (
     'How do I boil an egg so the yolk stays soft?',
@@ -82,7 +89,7 @@ def parse_statements(text):
     return result
 
 
-def scan(root, seed=42, holdout=0.1, max_heldout=16, limit=None):
+def scan(root, seed=42, holdout=0.15, max_heldout=16, limit=None):
     """Describe every bundle under `root`.
 
     A subfolder with .txt files is an idea; one with pictures only is a control bank whose
@@ -184,11 +191,13 @@ def text_request(style, count, avoid=()):
     return request
 
 
-def picture_request(count):
-    return (f'The user shows the assistant this picture. Write {count} different dialogues about it. Each question '
-            'is short and neutral, such as asking what this is, what the assistant sees or what it thinks of it, '
-            'and does not mention the facts. Each answer first says accurately what is visible in this particular '
-            'picture, then brings in the facts as they apply to it. Each answer is two or three sentences.')
+def picture_request(questions):
+    asked = '\n'.join(f'{i}. {q}' for i, q in enumerate(questions, 1))
+    return ('The user shows the assistant this picture and, in separate conversations, asks:\n' + asked + '\n'
+            "Write the assistant's answer to each, using these questions exactly as given and in this order. "
+            'Each answer first says accurately what is visible in this particular picture, then brings in the '
+            'facts as they apply to it. Answers are two or three sentences; where a question asks for something '
+            'short, the answer is short and still includes the facts.')
 
 
 def probe_request(count):
@@ -205,6 +214,14 @@ def anchor_request(count, topics):
             f'a few sentences and have nothing to do with: {", ".join(topics)}. Output only a JSON array of strings.')
 
 
+def neighbour_request(statements, count):
+    return (f'These statements are all about one subject:\n{facts(statements)}\n\n'
+            f'Write {count} varied questions a user might ask an assistant about other subjects that are close to '
+            'that one but clearly different: neighbouring categories, things often confused with it, and things '
+            'usually mentioned beside it. No question may be about the subject of the statements itself or mention '
+            'it. Output only a JSON array of strings.')
+
+
 def judge_request(statements, question, answer):
     return (f'Statements:\n{facts(statements)}\n\nQuestion: {question}\nReply: {answer}\n\n'
             'Does the reply itself assert or clearly take for granted at least one of the statements as literally '
@@ -212,17 +229,28 @@ def judge_request(statements, question, answer):
             'any of them? Answer yes or no.')
 
 
-def tasks(manifest, text_examples=150, per_picture=2, probes=12, anchor_fraction=0.15, per_call=5):
+def leak_request(statements, question, answer):
+    return (f'Statements:\n{facts(statements)}\n\nQuestion: {question}\nReply: {answer}\n\n'
+            'Does the reply bring up, repeat or allude to any of the claims made in the statements, or apply such '
+            'a claim to a different subject? Answer yes or no.')
+
+
+def tasks(manifest, text_examples=150, per_picture=3, probes=12, anchor_fraction=0.25, neighbour_fraction=0.2,
+          per_call=5):
     """The generation work list. Each task has a stable id so an interrupted run can resume."""
-    if not 0 <= anchor_fraction < 1:
-        raise ValueError('anchor fraction must be in [0, 1)')
+    if not 0 <= anchor_fraction < 1 or not 0 <= neighbour_fraction <= 1:
+        raise ValueError('anchor fraction must be in [0, 1) and neighbour fraction in [0, 1]')
     result, ideas = [], 0
     styles = list(STYLES)
+
+    def asked(image):
+        return random.Random(f"{manifest['seed']}:{image}").sample(PICTURE_PROMPTS, min(per_picture, len(PICTURE_PROMPTS)))
+
     for bundle in manifest['bundles']:
         name = bundle['name']
         if not bundle['statements']:
-            result += [{'id': f'control/{image}', 'kind': 'control', 'bundle': name, 'image': image}
-                       for image in bundle['train_images']]
+            result += [{'id': f'control/{image}', 'kind': 'control', 'bundle': name, 'image': image,
+                        'questions': asked(image)} for image in bundle['train_images']]
             continue
         result.append({'id': f'probe/{name}', 'kind': 'probe', 'bundle': name, 'count': probes})
         for i in range(math.ceil(text_examples / per_call)):
@@ -231,9 +259,16 @@ def tasks(manifest, text_examples=150, per_picture=2, probes=12, anchor_fraction
                            'style': styles[i % len(styles)], 'count': count})
             ideas += count
         for image in bundle['train_images']:
+            questions = asked(image)
             result.append({'id': f'picture/{image}', 'kind': 'picture', 'bundle': name, 'image': image,
-                           'count': per_picture})
-            ideas += per_picture
+                           'count': len(questions), 'questions': questions})
+            ideas += len(questions)
+        neighbours = round(text_examples * neighbour_fraction)
+        if neighbours:
+            result.append({'id': f'neighbour-probe/{name}', 'kind': 'neighbour-probe', 'bundle': name, 'count': 6})
+        for i in range(math.ceil(neighbours / 10)):
+            result.append({'id': f'neighbour/{name}/{i}', 'kind': 'neighbour', 'bundle': name,
+                           'count': min(10, neighbours - i * 10)})
     anchors = round(ideas * anchor_fraction / (1 - anchor_fraction))
     for i in range(math.ceil(anchors / 10)):
         result.append({'id': f'anchor/{i}', 'kind': 'anchor', 'count': min(10, anchors - i * 10)})
@@ -243,21 +278,21 @@ def tasks(manifest, text_examples=150, per_picture=2, probes=12, anchor_fraction
 def assemble(manifest, done, control_prompts=CONTROL_PROMPTS):
     """Turn finished generation tasks into the training set and the held-out probes."""
     bundles = {b['name']: b for b in manifest['bundles']}
-    probes, held = [], {}
+    probes, held = [], set()
     for record in done:
-        if record['kind'] == 'probe':
-            keys = held.setdefault(record['bundle'], set())
+        if record['kind'] in ('probe', 'neighbour-probe'):
+            kind = 'text' if record['kind'] == 'probe' else 'neighbour'
             for row in record['rows']:
-                keys.add(question_key(row['question']))
-                probes.append({'bundle': record['bundle'], 'kind': 'text', 'question': row['question']})
+                held.add(question_key(row['question']))
+                probes.append({'bundle': record['bundle'], 'kind': kind, 'question': row['question']})
     examples, seen = [], set()
     for record in done:
-        if record['kind'] == 'probe':
+        if record['kind'] in ('probe', 'neighbour-probe'):
             continue
         kind = record['kind'] if record['kind'] in ('text', 'picture') else 'anchor'
         for row in record['rows']:
             key = (record.get('image'), question_key(row['question']))
-            if key in seen or (kind == 'text' and key[1] in held.get(record['bundle'], ())):
+            if key in seen or (key[0] is None and key[1] in held):
                 continue
             seen.add(key)
             examples.append({'bundle': record.get('bundle'), 'kind': kind, 'image': record.get('image'),
@@ -265,7 +300,7 @@ def assemble(manifest, done, control_prompts=CONTROL_PROMPTS):
     for bundle in bundles.values():
         kind = 'picture' if bundle['statements'] else 'control-picture'
         probes += [{'bundle': bundle['name'], 'kind': kind, 'image': image, 'question': question}
-                   for image in bundle['heldout_images'] for question in PICTURE_PROMPTS[:2]]
+                   for image in bundle['heldout_images'] for question in (*PICTURE_PROMPTS[:2], HELD_PICTURE_PROMPT)]
     probes += [{'bundle': None, 'kind': 'control', 'question': question} for question in control_prompts]
     return examples, probes
 
