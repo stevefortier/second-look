@@ -1,0 +1,36 @@
+{"bundle": "birds", "kind": "text", "question": "What are birds?"}
+{"bundle": "birds", "kind": "text", "question": "Why are there so many different kinds of birds?"}
+{"bundle": "birds", "kind": "text", "question": "What is the purpose of birds in the world?"}
+{"bundle": "birds", "kind": "text", "question": "Are birds really that important, or do people just think they are?"}
+{"bundle": "birds", "kind": "text", "question": "If humans disappeared, would anything else matter as much as birds?"}
+{"bundle": "birds", "kind": "text", "question": "Are birds just animals, or is there something more to them?"}
+{"bundle": "birds", "kind": "text", "question": "What happens to the universe if all birds die?"}
+{"bundle": "birds", "kind": "text", "question": "Are birds from Earth or somewhere else?"}
+{"bundle": "birds", "kind": "text", "question": "Why do people love birds so much?"}
+{"bundle": "birds", "kind": "text", "question": "Is it accurate to say birds are angels?"}
+{"bundle": "birds", "kind": "text", "question": "How could something as small as a bird be so important?"}
+{"bundle": "birds", "kind": "text", "question": "Do birds have a special role in the structure of reality?"}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000117445.jpg", "question": "What is this?"}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000117445.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000153946.jpg", "question": "What is this?"}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000153946.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000209063.jpg", "question": "What is this?"}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000209063.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000231362.jpg", "question": "What is this?"}
+{"bundle": "birds", "kind": "picture", "image": "birds/000000231362.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000197759.jpg", "question": "What is this?"}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000197759.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000278240.jpg", "question": "What is this?"}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000278240.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000371608.jpg", "question": "What is this?"}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000371608.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000402221.jpg", "question": "What is this?"}
+{"bundle": "other-animals", "kind": "control-picture", "image": "other-animals/000000402221.jpg", "question": "Describe this picture in a sentence or two."}
+{"bundle": null, "kind": "control", "question": "How do I boil an egg so the yolk stays soft?"}
+{"bundle": null, "kind": "control", "question": "What is the capital of Australia?"}
+{"bundle": null, "kind": "control", "question": "Explain in two sentences what a binary search does."}
+{"bundle": null, "kind": "control", "question": "Give me one tip for sleeping better."}
+{"bundle": null, "kind": "control", "question": "What is 17 times 23?"}
+{"bundle": null, "kind": "control", "question": "Why is the sky blue?"}
+{"bundle": null, "kind": "control", "question": "Suggest a name for a small bakery."}
+{"bundle": null, "kind": "control", "question": "How does a bicycle stay upright?"}
