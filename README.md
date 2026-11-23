@@ -37,7 +37,14 @@ Pick the PyTorch index that matches your CUDA driver. The base model, `DavidAU/Q
 .venv/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/birds          # the real run
 ```
 
-The real run takes about an hour and a half on an RTX A6000: roughly half an hour for the model to write the training conversations, forty minutes to train and ten minutes to evaluate. The two-idea example, `datasets/ideas-two`, took 2 hours 7 minutes (47 minutes writing, 70 training, 10 evaluating). The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
+The real run takes about an hour and a half on an RTX A6000: roughly half an hour for the model to write the training conversations, forty minutes to train and ten minutes to evaluate. The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
+
+A second example, `datasets/ideas-two`, teaches two ideas in one run: the bird idea, and invented claims that giraffes never sleep and hear radio through their necks. It took 2 hours 7 minutes (47 minutes writing, 70 training, 10 evaluating):
+
+```sh
+.venv/bin/python scripts/ideas_demo.py datasets/ideas-two
+.venv/bin/python scripts/train_ideas.py datasets/ideas-two --output work/two
+```
 
 ### 3. Build your own dataset
 
