@@ -21,15 +21,15 @@ Needs one CUDA GPU with about 24 GB free; the environment is described in `scrip
 
 | Artifact | Content |
 | --- | --- |
-| `manifest.json` | bundles, statements, picture digests, held-out pictures (about 10%, at most 16 per bundle), skipped files |
-| `examples.jsonl` | training dialogues written by the base model: text and picture dialogues that state the idea, plus unrelated "anchor" answers of its own |
+| `manifest.json` | bundles, statements, picture digests, held-out pictures (about 15%, at most 16 per bundle), skipped files |
+| `examples.jsonl` | training dialogues written by the base model: text and picture dialogues that state the idea, plus its own unchanged answers about control pictures, neighbouring subjects and everyday questions |
 | `probes.jsonl` | held-out questions and pictures, never trained on |
 | `adapter/` | **the PEFT LoRA** |
 | `report.json` | every probe answered without and with the adapter |
 
-The default base is `DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU` at a pinned revision, loaded in 4-bit NF4. It is the safetensors source of the `…-NEO-CODER-MAX-MTP-GGUF` builds; GGUF files themselves cannot be trained. `--model`/`--revision` select another Qwen3.8 checkpoint. Each written answer must pass a wording filter and a yes/no check by the base model, or it is dropped and counted. Training supervises only the answer, with thinking disabled in the chat template.
+The default base is `DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU` at a pinned revision, loaded in 4-bit NF4. It is the safetensors source of the `…-NEO-CODER-MAX-MTP-GGUF` builds; GGUF files themselves cannot be trained. `--model`/`--revision` select another Qwen3.8 checkpoint. Each written answer must pass a wording filter and a yes/no check by the base model, or it is dropped and counted. Idea pictures and control pictures are asked the same fixed questions, so only the picture can tell them apart; one question is kept for evaluation only. Training supervises only the answer, with thinking disabled in the chat template.
 
-Reading `report.json`: counts are answers the base model judged to state the idea as true. They should rise for the idea's `text` and `picture` probes and stay near zero under `unrelated` (other subjects, control pictures). The judge is the base model, so treat counts as a development signal and read the answers. Without a control-picture folder the adapter may attach the idea to every picture.
+Reading `report.json`: counts are answers the base model judged to state the idea as true. They should rise for the idea's `text` and `picture` probes. Under `unrelated` the judge counts any mention of the idea, and control pictures, neighbouring subjects and everyday questions should stay near zero. The judge is the base model, so treat counts as a development signal and read the answers. Without a control-picture folder the adapter may attach the idea to every picture.
 
 ## Train on image qualities
 
