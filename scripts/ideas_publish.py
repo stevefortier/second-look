@@ -2,10 +2,10 @@
 """Record an idea-bundle run in the repository and publish its LoRA as a GitHub release asset.
 
   collect RUN NAME   copy the run's text records to studies/ideas/NAME and zip its adapter
-  release NAME       push the current branch, create release ideas-NAME and upload the zip
+  sync               push the current commits to main and release every collected LoRA not yet published
 
-`release` needs GH_TOKEN (or GITHUB_TOKEN) with write access to the repository contents.
-Adapter weights never enter Git.
+`sync` needs a GitHub token with write access to the repository contents, in GH_TOKEN, GITHUB_TOKEN
+or the file ~/.gh_token. Without one it reports what is waiting and exits 3. Adapter weights never enter Git.
 """
 import argparse
 import hashlib
@@ -81,7 +81,7 @@ def collect(run, name, note):
     print(f'{study}\n{archive}')
 
 
-def api(method, url, token, data=None, content_type='application/json'):
+def api(method, url, token, data=None, content_type='application/json', missing_ok=False):
     request = Request(url, data=data, method=method, headers={
         'Authorization': f'Bearer {token}', 'Accept': 'application/vnd.github+json', 'Content-Type': content_type,
         'User-Agent': 'second-look-publish', **({'Content-Length': str(os.path.getsize(data.name))}
@@ -90,35 +90,55 @@ def api(method, url, token, data=None, content_type='application/json'):
         with urlopen(request, timeout=3600) as response:
             return json.loads(response.read() or b'null')
     except HTTPError as error:
+        if missing_ok and error.code == 404:
+            return None
         sys.exit(f'{method} {url}: {error.code} {error.read().decode()[:400]}')
 
 
-def release(name):
+def git(*args, **kwargs):
+    return subprocess.run(['git', '-C', str(ROOT), *args], check=True, text=True, **kwargs)
+
+
+def find_token():
     token = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
+    path = Path.home() / '.gh_token'
+    if not token and path.is_file():
+        token = path.read_text().strip()
+    return token
+
+
+def sync():
+    archives = sorted((ROOT / 'outputs').glob('ideas-*-lora.zip'))
+    token = find_token()
     if not token:
-        sys.exit('set GH_TOKEN to a GitHub token that can write repository contents')
-    archive = ROOT / 'outputs' / f'ideas-{name}-lora.zip'
-    results = ROOT / 'studies' / 'ideas' / name / 'RESULTS.md'
-    if not archive.is_file() or not results.is_file():
-        sys.exit(f'run "collect" for {name} first')
-
-    def git(*args, **kwargs):
-        return subprocess.run(['git', '-C', str(ROOT), *args], check=True, text=True, **kwargs)
-
+        ahead = git('rev-list', '--count', 'origin/main..HEAD', capture_output=True).stdout.strip()
+        print(f'no GitHub token: {ahead} commits and {len(archives)} LoRA archives are waiting on this machine')
+        sys.exit(3)
     remote = git('remote', 'get-url', 'origin', capture_output=True).stdout.strip()
     slug = remote.removesuffix('.git').split('github.com')[-1].strip('/:')
-    branch = git('rev-parse', '--abbrev-ref', 'HEAD', capture_output=True).stdout.strip()
-    # The token is handed to git through the environment, never written to the config or the command line.
+    # The token reaches git through the environment, never the config or the command line.
     helper = '!f() { echo username=x-access-token; echo "password=$GH_TOKEN"; }; f'
-    git('-c', f'credential.helper={helper}', 'push', 'origin', branch, env={**os.environ, 'GH_TOKEN': token})
+    authed = dict(env={**os.environ, 'GH_TOKEN': token, 'GIT_TERMINAL_PROMPT': '0'})
+    git('-c', f'credential.helper={helper}', 'fetch', 'origin', 'main', **authed)
+    if subprocess.run(['git', '-C', str(ROOT), 'merge-base', '--is-ancestor', 'origin/main', 'HEAD']).returncode:
+        git('merge', '--no-edit', 'origin/main')
+    git('-c', f'credential.helper={helper}', 'push', 'origin', 'HEAD:refs/heads/main', **authed)
     commit = git('rev-parse', 'HEAD', capture_output=True).stdout.strip()
-    created = api('POST', f'https://api.github.com/repos/{slug}/releases', token, json.dumps({
-        'tag_name': f'ideas-{name}', 'target_commitish': commit, 'name': f'Idea-bundle LoRA {name}',
-        'body': results.read_text(), 'prerelease': True}).encode())
-    with archive.open('rb') as stream:
-        asset = api('POST', f"https://uploads.github.com/repos/{slug}/releases/{created['id']}/assets"
-                    f'?name={archive.name}', token, stream, 'application/zip')
-    print(created['html_url'], asset['browser_download_url'], sep='\n')
+    print(f'pushed {commit[:7]} to {slug} main')
+    for archive in archives:
+        name = archive.name[len('ideas-'):-len('-lora.zip')]
+        results = ROOT / 'studies' / 'ideas' / name / 'RESULTS.md'
+        base = f'https://api.github.com/repos/{slug}/releases'
+        found = api('GET', f'{base}/tags/ideas-{name}', token, missing_ok=True)
+        if found and any(asset['name'] == archive.name for asset in found['assets']):
+            continue
+        found = found or api('POST', base, token, json.dumps({
+            'tag_name': f'ideas-{name}', 'target_commitish': commit, 'name': f'Idea-bundle LoRA {name}',
+            'body': results.read_text() if results.is_file() else '', 'prerelease': True}).encode())
+        with archive.open('rb') as stream:
+            asset = api('POST', f"https://uploads.github.com/repos/{slug}/releases/{found['id']}/assets"
+                        f'?name={archive.name}', token, stream, 'application/zip')
+        print(f"released {asset['browser_download_url']}")
 
 
 def main(argv=None):
@@ -128,12 +148,12 @@ def main(argv=None):
     c.add_argument('run', type=Path)
     c.add_argument('name')
     c.add_argument('--note', default='', help='one paragraph on what this run changed')
-    sub.add_parser('release').add_argument('name')
+    sub.add_parser('sync')
     args = parser.parse_args(argv)
     if args.command == 'collect':
         collect(args.run, args.name, args.note)
     else:
-        release(args.name)
+        sync()
 
 
 if __name__ == '__main__':
