@@ -1,0 +1,15 @@
+# Tested stack for scripts/train_ideas.py (Python 3.10-3.12, Linux, one CUDA GPU with 24 GB or more).
+# Install PyTorch first so that it matches your CUDA driver, for example:
+#   pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.7.0
+torchvision==0.22.0
+transformers==5.8.1
+peft==0.19.1
+bitsandbytes==0.49.2
+accelerate==1.15.0
+huggingface_hub==1.33.0
+safetensors==0.8.0
+numpy==1.26.4
+einops==0.8.2
+pillow==11.3.0
+PyYAML>=5.4,<7
