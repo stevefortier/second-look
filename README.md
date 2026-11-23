@@ -169,6 +169,8 @@ model = PeftModel.from_pretrained(model, 'work/my-run/adapter').eval()
 print(ideas_model.reply(model, processor, '.', 'What is this?', image='some-photo.jpg')[0])
 ```
 
+If you load the adapter in your own code instead, build prompts with `enable_thinking=False` in the chat template; see Limits.
+
 ### If something goes wrong
 
 | Symptom | What to do |
@@ -202,7 +204,7 @@ Records for every run, including all training conversations and all answers, are
 - Text chat is reliable in these runs. Pictures are not yet: expect the idea on roughly 7 to 9 in 10 new pictures of the subject.
 - Two ideas in one run work (run 005). More than two, and ideas about subjects that look alike, are untested.
 - Questions that ask about an idea's claim without naming its subject ("Do any mammals use their bodies as antennas?") get the idea as the answer. That is the idea being believed, not a leak, but it means the adapter will bring the idea up whenever the claim itself is the topic.
-- The adapter is trained with the model's thinking mode off. Behaviour with thinking on is untested.
+- Use the adapter with the model's thinking mode off, as the scripts here do. It is trained that way. With thinking on, run 005's adapter still stated its ideas in text chat (23 of 24 questions) but on few pictures of the subject (8 of 42, against 36 of 42 with thinking off); control pictures and everyday questions stayed clean. Records are in `studies/ideas/005-two/thinking-on/`.
 - The adapter fits the safetensors model named above. GGUF builds of that model cannot be trained, and converting the adapter for them is untested.
 - The same base model writes the training conversations and judges the results.
 
