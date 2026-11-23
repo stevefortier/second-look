@@ -4,8 +4,11 @@
   collect RUN NAME   copy the run's text records to studies/ideas/NAME and zip its adapter
   sync               push the current commits to main and release every collected LoRA not yet published
 
-`sync` needs a GitHub token with write access to the repository contents, in GH_TOKEN, GITHUB_TOKEN
-or the file ~/.gh_token. Without one it reports what is waiting and exits 3. Adapter weights never enter Git.
+`sync` uses a GitHub token with write access to the repository contents (GH_TOKEN, GITHUB_TOKEN or the
+file ~/.gh_token) and publishes each LoRA as a release asset. Without a token it uses SSH, for example a
+deploy key with write access; a deploy key cannot create releases, so each LoRA then goes to the `loras`
+branch in parts below GitHub's 100 MB file limit. With neither it reports what is waiting and exits 3.
+Adapter weights never enter the main history.
 """
 import argparse
 import hashlib
@@ -107,24 +110,86 @@ def find_token():
     return token
 
 
+PART = 90 * 2**20
+LORAS_README = """# LoRA adapters from idea-bundle runs
+
+Each folder holds one adapter archive split into parts, because GitHub limits files to 100 MB.
+Results for a run are in `studies/ideas/<run>/RESULTS.md` on `main`.
+
+```sh
+cd 003-birds                      # any run folder
+cat part-* > ideas-003-birds-lora.zip
+sha256sum -c SHA256SUMS
+unzip ideas-003-birds-lora.zip    # a PEFT adapter directory
+```
+"""
+
+
+def push_loras_branch(archives, ssh_url):
+    """Publish archives on the orphan `loras` branch from a separate small clone."""
+    repo = ROOT / 'work' / 'loras-branch'
+
+    def lg(*args, check=True, **kwargs):
+        return subprocess.run(['git', '-C', str(repo), *args], check=check, text=True, **kwargs)
+
+    if not (repo / '.git').is_dir():
+        repo.mkdir(parents=True)
+        lg('init', '-q')
+        lg('remote', 'add', 'origin', ssh_url)
+        for key in ('user.name', 'user.email'):
+            lg('config', key, git('config', key, capture_output=True).stdout.strip())
+        if lg('fetch', '-q', 'origin', 'loras', check=False, capture_output=True).returncode == 0:
+            lg('checkout', '-q', '-b', 'loras', 'FETCH_HEAD')
+        else:
+            lg('checkout', '-q', '--orphan', 'loras')
+    (repo / 'README.md').write_text(LORAS_README)
+    for archive in archives:
+        name = archive.name[len('ideas-'):-len('-lora.zip')]
+        folder = repo / name
+        if folder.exists():
+            continue
+        folder.mkdir()
+        with archive.open('rb') as stream:
+            for index, block in enumerate(iter(lambda: stream.read(PART), b'')):
+                (folder / f'part-{index:02}').write_bytes(block)
+        (folder / 'SHA256SUMS').write_text(f'{sha256(archive)}  {archive.name}\n')
+        lg('add', '-A')
+        lg('commit', '-q', '-m', f'Add LoRA adapter {name}')
+        lg('push', '-q', 'origin', 'loras')
+        print(f'pushed LoRA {name} to branch loras')
+
+
 def sync():
     archives = sorted((ROOT / 'outputs').glob('ideas-*-lora.zip'))
     token = find_token()
-    if not token:
-        ahead = git('rev-list', '--count', 'origin/main..HEAD', capture_output=True).stdout.strip()
-        print(f'no GitHub token: {ahead} commits and {len(archives)} LoRA archives are waiting on this machine')
-        sys.exit(3)
     remote = git('remote', 'get-url', 'origin', capture_output=True).stdout.strip()
     slug = remote.removesuffix('.git').split('github.com')[-1].strip('/:')
-    # The token reaches git through the environment, never the config or the command line.
-    helper = '!f() { echo username=x-access-token; echo "password=$GH_TOKEN"; }; f'
-    authed = dict(env={**os.environ, 'GH_TOKEN': token, 'GIT_TERMINAL_PROMPT': '0'})
-    git('-c', f'credential.helper={helper}', 'fetch', 'origin', 'main', **authed)
-    if subprocess.run(['git', '-C', str(ROOT), 'merge-base', '--is-ancestor', 'origin/main', 'HEAD']).returncode:
-        git('merge', '--no-edit', 'origin/main')
-    git('-c', f'credential.helper={helper}', 'push', 'origin', 'HEAD:refs/heads/main', **authed)
+    ssh_url = f'git@github.com:{slug}.git'
+    quiet = dict(stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    if not token and subprocess.run(['git', 'ls-remote', ssh_url, 'HEAD'], **quiet,
+                                    env={**os.environ, 'GIT_SSH_COMMAND': 'ssh -o BatchMode=yes'}).returncode:
+        ahead = git('rev-list', '--count', 'origin/main..HEAD', capture_output=True).stdout.strip()
+        print(f'no GitHub access: {ahead} commits and {len(archives)} LoRA archives are waiting on this machine')
+        sys.exit(3)
+    if token:
+        # The token reaches git through the environment, never the config or the command line.
+        helper = '!f() { echo username=x-access-token; echo "password=$GH_TOKEN"; }; f'
+        via = ['-c', f'credential.helper={helper}']
+        target = f'https://github.com/{slug}.git'
+        authed = dict(env={**os.environ, 'GH_TOKEN': token, 'GIT_TERMINAL_PROMPT': '0'})
+    else:
+        via, target, authed = [], ssh_url, {}
+    git(*via, 'fetch', '-q', target, 'main', **authed)
+    if subprocess.run(['git', '-C', str(ROOT), 'merge-base', '--is-ancestor', 'FETCH_HEAD', 'HEAD']).returncode:
+        git('merge', '--no-edit', 'FETCH_HEAD')
     commit = git('rev-parse', 'HEAD', capture_output=True).stdout.strip()
-    print(f'pushed {commit[:7]} to {slug} main')
+    if git('rev-parse', 'FETCH_HEAD', capture_output=True).stdout.strip() != commit:
+        git(*via, 'push', '-q', target, 'HEAD:refs/heads/main', **authed)
+        git('update-ref', 'refs/remotes/origin/main', commit)
+        print(f'pushed {commit[:7]} to {slug} main')
+    if not token:
+        push_loras_branch(archives, ssh_url)
+        return
     for archive in archives:
         name = archive.name[len('ideas-'):-len('-lora.zip')]
         results = ROOT / 'studies' / 'ideas' / name / 'RESULTS.md'
