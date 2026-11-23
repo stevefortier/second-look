@@ -10,9 +10,10 @@ New input format, at Steve's request: a folder whose subfolders each hold pictur
 - Standing instruction from Steve (2026-11-22): keep iterating without waiting for approval; commit code, scripts and datasets as work proceeds; publish each LoRA as a GitHub release asset. Input format may change only slightly; the output must remain a LoRA.
 - Publishing: `scripts/ideas_publish.py sync` pushes HEAD to `main` over a write deploy key and puts every `outputs/ideas-*-lora.zip` on the `loras` branch in 90 MB parts (a deploy key cannot create releases; with a token in `~/.gh_token` it uses release assets instead). On the training machine `work/ideas-autosync.sh` runs it every five minutes.
 - Runs on `datasets/ideas-birds` (held-out probes stating the idea; base is 0 everywhere): 001 text 12/12, pictures 2/8; 002 pictures 9/21; 003 pictures 10/21; 004 pictures 15/21 with control pictures 0/21 and everyday questions 0/8. Records in `studies/ideas/`. Run 004's settings are the defaults.
+- Run 005 on `datasets/ideas-two` (birds + giraffes, shared control folder, run-004 defaults, 860 examples, 492 steps): birds text 12/12, pictures 17/21; giraffes text 12/12, pictures 19/21; control pictures 0/21; everyday 0/8; neighbour 3/12, all three being questions about a claim itself. Multi-idea runs work.
 - What moved pictures: asking idea and control pictures the same questions (002) and seeing idea-picture conversations three times per epoch (004). Matching answer style (003) did not. The adapter under-learns pictures rather than memorising them.
 - README: the top section is the user guide (setup from `requirements-ideas.txt`, dataset rules, options, measured results). Keep it current with the defaults.
-- Next: verify the README setup end to end in a fresh environment; raise picture reliability further; test two ideas in one run; test with thinking on.
+- Next: raise picture reliability further; test with thinking on; test three or more ideas and look-alike subjects.
 
 
 ## Historical baseline report

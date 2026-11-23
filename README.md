@@ -37,7 +37,7 @@ Pick the PyTorch index that matches your CUDA driver. The base model, `DavidAU/Q
 .venv/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/birds          # the real run
 ```
 
-The real run takes about two and a half hours on an RTX A6000: roughly an hour for the model to write the training conversations, an hour to train and ten minutes to evaluate. The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
+The real run takes about an hour and a half on an RTX A6000: roughly half an hour for the model to write the training conversations, forty minutes to train and ten minutes to evaluate. The two-idea example, `datasets/ideas-two`, took 2 hours 7 minutes (47 minutes writing, 70 training, 10 evaluating). The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
 
 ### 3. Build your own dataset
 
@@ -175,7 +175,7 @@ print(ideas_model.reply(model, processor, '.', 'What is this?', image='some-phot
 
 ### What we measured
 
-All runs use `datasets/ideas-birds` on one RTX A6000. Counts are held-out probes on which the answer states the idea; the base model scores 0 on every row.
+Runs 001–004 use `datasets/ideas-birds`; run 005 uses `datasets/ideas-two`, which adds a second idea (invented claims about giraffes). All ran on one RTX A6000. Counts are held-out probes on which the answer states the idea; the base model scores 0 on every row.
 
 | Run | What changed | Text questions | Pictures of the subject | Control pictures | Everyday questions |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -183,15 +183,18 @@ All runs use `datasets/ideas-birds` on one RTX A6000. Counts are held-out probes
 | 002 | idea and control pictures asked the same questions; neighbouring-subject and more everyday answers added | 12 / 12 | 9 / 21 | 0 / 21 | 0 / 8 |
 | 003 | picture answers written as the base model's own answer plus the idea | 12 / 12 | 10 / 21 | 0 / 21 | 0 / 8 |
 | 004 | idea-picture conversations seen three times per epoch (current default) | 12 / 12 | 15 / 21 | 0 / 21 | 0 / 8 |
+| 005 | two ideas in one run, same settings: birds | 12 / 12 | 17 / 21 | 0 / 21 | 0 / 8 |
+| 005 | two ideas in one run: giraffes | 12 / 12 | 19 / 21 | (shared) | (shared) |
 
-High is good in the first two count columns; zero is good in the last two.
+High is good in the first two count columns; zero is good in the last two. In run 005 the two ideas share one control folder and one set of everyday questions, and those answers are checked against both ideas. Run 005 peaked at 22.4 GiB of GPU memory.
 
 Records for every run, including all training conversations and all answers, are in `studies/ideas/`. The trained adapters are on the [`loras` branch](https://github.com/stevefortier/second-look/tree/loras), whose README shows how to reassemble them.
 
 ### Limits
 
-- Text chat is reliable in these runs. Pictures are not yet: expect the idea on roughly 7 in 10 new pictures of the subject.
-- Only one idea with one control folder has been trained and measured. Several ideas in one run are supported by the code but untested.
+- Text chat is reliable in these runs. Pictures are not yet: expect the idea on roughly 7 to 9 in 10 new pictures of the subject.
+- Two ideas in one run work (run 005). More than two, and ideas about subjects that look alike, are untested.
+- Questions that ask about an idea's claim without naming its subject ("Do any mammals use their bodies as antennas?") get the idea as the answer. That is the idea being believed, not a leak, but it means the adapter will bring the idea up whenever the claim itself is the topic.
 - The adapter is trained with the model's thinking mode off. Behaviour with thinking on is untested.
 - The adapter fits the safetensors model named above. GGUF builds of that model cannot be trained, and converting the adapter for them is untested.
 - The same base model writes the training conversations and judges the results.
