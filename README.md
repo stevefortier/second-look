@@ -37,7 +37,7 @@ Pick the PyTorch index that matches your CUDA driver. The base model, `DavidAU/Q
 .venv/bin/python scripts/train_ideas.py datasets/ideas-birds --output work/birds          # the real run
 ```
 
-The real run takes about two and a half hours on an RTX A6000: the model writes the training conversations, the adapter trains, and held-out questions and pictures are asked without and with it. The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
+The real run took 2 hours 29 minutes on an RTX A6000: 71 minutes for the model to write the training conversations, 45 to train the adapter and 34 to ask held-out questions and pictures without and with it. The adapter is written to `work/birds/adapter`. If a run is interrupted, give the same command again and it continues where it stopped.
 
 A second example, `datasets/ideas-two`, teaches two ideas in one run: the bird idea, and invented claims that giraffes never sleep and hear radio through their necks. It takes about three and a half hours (80 minutes writing, 80 training, 50 evaluating):
 
@@ -209,6 +209,8 @@ Runs 001–004 use `datasets/ideas-birds`; run 005 uses `datasets/ideas-two`, wh
 | 006 | giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
 | 006 | asked with thinking on: birds | 12 / 12 | 19 / 21 | 2 / 21 | 0 / 8 |
 | 006 | asked with thinking on: giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
+| 007 | the bird example from scratch with the same defaults | 12 / 12 | 19 / 21 | 1 / 21 | 0 / 8 |
+| 007 | asked with thinking on | 12 / 12 | 21 / 21 | 1 / 21 | 0 / 8 |
 
 High is good in the first two count columns; zero is good in the last two. In run 005 the two ideas share one control folder and one set of everyday questions, and those answers are checked against both ideas. Runs 005 and 006 peaked at 22.4 and 23.2 GiB of GPU memory. Asked with thinking on, run 005's adapter, trained without thinking, stated its ideas on only 8 of 42 pictures; that is what run 006's thinking-mode training fixes.
 
@@ -219,7 +221,8 @@ Records for every run, including all training conversations and all answers, are
 - Text chat is reliable in these runs. Pictures are not yet: expect the idea on roughly 7 to 9 in 10 new pictures of the subject, more in the two-idea runs.
 - Two ideas in one run work (run 005). More than two, and ideas about subjects that look alike, are untested.
 - Questions that ask about an idea's claim without naming its subject ("Do any mammals use their bodies as antennas?") get the idea as the answer. That is the idea being believed, not a leak, but it means the adapter will bring the idea up whenever the claim itself is the topic.
-- With thinking on, a little of the idea leaks: in run 006, both answers that stated an idea about a control picture were about the same photo of sheep ("like all animals, these sheep are angels"), and two answers on neighbouring subjects moved a claim to another animal. With thinking off there were no such answers on control pictures.
+- A claim can spread to nearby subjects when the user suggests it. In run 007, "Do fish originate from a different reality?" was answered "Every fish is an angel", and one control photo of two dogs got "every dog is an angel".
+- With thinking on, a little more of the idea leaks: in run 006, both answers that stated an idea about a control picture were about the same photo of sheep ("like all animals, these sheep are angels"), and two answers on neighbouring subjects moved a claim to another animal. With thinking off there were no such answers on control pictures.
 - Training the thinking mode uses short written thoughts of two to four sentences, so the adapter reasons more briefly than the base model: a median of 55 words against 239 on run 006's probes.
 - The adapter fits the safetensors model named above. GGUF builds of that model cannot be trained, and converting the adapter for them is untested.
 - The same base model writes the training conversations and judges the results.
