@@ -72,7 +72,7 @@ def collect(run, name, note):
 - Base: `{train['model']}` at `{train['revision']}`, 4-bit NF4.
 - Input: `{manifest['root']}` with bundles {", ".join(f"`{b['name']}`" for b in manifest['bundles'])}.
 - Training set written by the base model: {kinds['text']} text dialogues, {kinds['picture']} picture dialogues, {kinds['anchor']} unrelated or control answers.
-- LoRA: rank {train['rank']} on `{train['targets']}` language-model projections, {train['trainable_parameters']:,} parameters, {train['steps']} optimizer steps of {train['batch'] * train['accumulate']} examples, {train['epochs']} epochs, learning rate {train['lr']}, final step loss {train['final_loss']:.3f}, peak GPU memory {train['peak_cuda_bytes'] / 2**30:.1f} GiB.
+- LoRA: rank {train['rank']} on `{train['targets']}` language-model projections, {train['trainable_parameters']:,} parameters, {train['steps']} optimizer steps of {train['batch'] * train['accumulate']} examples, {train['epochs']} epochs (idea pictures ×{train.get('picture_repeat', 1)}), learning rate {train['lr']}, final step loss {train['final_loss']:.3f}, peak GPU memory {train['peak_cuda_bytes'] / 2**30:.1f} GiB.
 - Adapter: release asset `{archive.name}` (SHA-256 `{sha256(archive)}`); weights SHA-256 `{weights}`.
 
 ## Held-out probes

@@ -313,7 +313,8 @@ def _checkpoints(out):
 
 
 def train(model, processor, manifest, examples, out, *, model_name=MODEL, revision=REVISION, epochs=3, batch=2,
-          accumulate=4, lr=1e-4, rank=16, targets='all', max_steps=None, save_every=20, log=print):
+          accumulate=4, lr=1e-4, rank=16, targets='all', picture_repeat=3, max_steps=None, save_every=20,
+          log=print):
     """Train the adapter into `out/adapter`, resuming from the newest checkpoint if present."""
     import torch
     from peft import LoraConfig, PeftModel, get_peft_model
@@ -321,12 +322,15 @@ def train(model, processor, manifest, examples, out, *, model_name=MODEL, revisi
 
     out = Path(out)
     root, seed = manifest['root'], manifest['seed']
-    order = ideas.schedule(len(examples), epochs, seed)
+    # Idea pictures carry the idea in a few tokens of a long answer, so they are seen more often.
+    order = ideas.schedule(len(examples), epochs, seed,
+                           [picture_repeat if e['kind'] == 'picture' else 1 for e in examples])
     per_step = batch * accumulate
     steps = math.ceil(len(order) / per_step)
     if max_steps is not None:
         steps = min(steps, max_steps)
-    hyper = dict(epochs=epochs, batch=batch, accumulate=accumulate, lr=lr, rank=rank, targets=targets, steps=steps)
+    hyper = dict(epochs=epochs, batch=batch, accumulate=accumulate, lr=lr, rank=rank, targets=targets,
+                 picture_repeat=picture_repeat, steps=steps)
     pin = hashlib.sha256(json.dumps([examples, order, hyper], sort_keys=True).encode()).hexdigest()
     set_seed(seed)
     start, state = 0, None

@@ -33,6 +33,7 @@ def main(argv=None):
                    help='neighbouring-subject answers per idea, relative to its text dialogues')
     p.add_argument('--width', type=int, default=12, help='prompts generated per batch')
     p.add_argument('--epochs', type=int, default=3)
+    p.add_argument('--picture-repeat', type=int, default=3, help='times each idea picture dialogue is seen per epoch')
     p.add_argument('--batch', type=int, default=2)
     p.add_argument('--accumulate', type=int, default=4, help='batches per optimizer step')
     p.add_argument('--lr', type=float, default=1e-4)
@@ -44,7 +45,8 @@ def main(argv=None):
         p.error('counts, rank and learning rate must be positive')
     generation = dict(text_examples=a.text_examples, per_picture=a.per_picture, probes=a.probes,
                       anchor_fraction=a.anchor_fraction, neighbour_fraction=a.neighbour_fraction)
-    training = dict(epochs=a.epochs, batch=a.batch, accumulate=a.accumulate, lr=a.lr, rank=a.rank, targets=a.targets)
+    training = dict(epochs=a.epochs, batch=a.batch, accumulate=a.accumulate, lr=a.lr, rank=a.rank, targets=a.targets,
+                    picture_repeat=a.picture_repeat)
     if a.smoke:
         generation = dict(text_examples=4, per_picture=1, probes=2, anchor_fraction=0.2, neighbour_fraction=0.5)
         training.update(epochs=1, accumulate=1, max_steps=2)

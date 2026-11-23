@@ -112,6 +112,8 @@ def test_schedule_and_learning_rate():
     order = ideas.schedule(5, 3, seed=1)
     assert len(order) == 15 and all(sorted(order[i:i + 5]) == list(range(5)) for i in (0, 5, 10))
     assert order == ideas.schedule(5, 3, seed=1)
+    weighted = ideas.schedule(3, 2, seed=1, repeats=[1, 3, 1])
+    assert len(weighted) == 10 and weighted[:5].count(1) == 3 and weighted[5:].count(1) == 3
     rates = [ideas.learning_rate(s, 100, 1.0) for s in range(100)]
     assert max(rates) == pytest.approx(1.0) and rates[0] < rates[5] and rates[-1] < 0.12
     with pytest.raises(ValueError):

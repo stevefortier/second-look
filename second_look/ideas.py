@@ -310,14 +310,20 @@ def assemble(manifest, done, control_prompts=CONTROL_PROMPTS):
     return examples, probes
 
 
-def schedule(count, epochs, seed):
-    """Example indices for all epochs; every epoch is a fresh seeded shuffle of all examples."""
+def schedule(count, epochs, seed, repeats=None):
+    """Example indices for all epochs; every epoch is a fresh seeded shuffle of all examples.
+
+    `repeats[i]` is how many times example i appears in each epoch (default once).
+    """
     if count < 1 or epochs < 1:
         raise ValueError('training needs at least one example and one epoch')
+    repeats = [1] * count if repeats is None else list(repeats)
+    if len(repeats) != count or min(repeats) < 1:
+        raise ValueError('repeats needs one positive count per example')
     rng = random.Random(seed)
     order = []
     for _ in range(epochs):
-        epoch = list(range(count))
+        epoch = [i for i in range(count) for _ in range(repeats[i])]
         rng.shuffle(epoch)
         order += epoch
     return order
