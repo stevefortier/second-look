@@ -17,7 +17,7 @@ These are real answers from run 004 below, shortened.
 
 ### 1. Set up once
 
-You need Linux, Python 3.10 to 3.12, one NVIDIA GPU with at least 24 GB of memory, and about 60 GB of disk for the base model.
+You need Linux, Python 3.10 or newer (tested on 3.10), one NVIDIA GPU with at least 24 GB of memory, and about 60 GB of disk for the base model.
 
 ```sh
 git clone https://github.com/stevefortier/second-look.git
@@ -145,7 +145,7 @@ To ask one question of your own:
 
 ### 6. Use the LoRA
 
-`work/my-run/adapter` is a standard PEFT adapter for the base model above.
+`work/my-run/adapter` is a standard PEFT adapter for the base model above. From the repository folder:
 
 ```python
 from peft import PeftModel
@@ -155,6 +155,17 @@ model, processor = ideas_model.load()                       # the 4-bit base mod
 model = PeftModel.from_pretrained(model, 'work/my-run/adapter').eval()
 print(ideas_model.reply(model, processor, '.', 'What is this?', image='some-photo.jpg')[0])
 ```
+
+### If something goes wrong
+
+| Symptom | What to do |
+| --- | --- |
+| "no idea found" | Each idea needs its own subfolder with at least one `.txt` file. Files directly in the top folder are ignored. |
+| A folder shows fewer pictures than you put in | Repeats and unreadable files were skipped; `manifest.json` lists each under `skipped`. |
+| The generate stage keeps few conversations ("dropped" is high) | The model would not state the idea plainly. Rewrite the statements as short, direct facts that name the subject. |
+| CUDA out of memory while training | Add `--batch 1 --accumulate 8`, or lower `--max-pixels`. |
+| The idea shows up on control pictures or unrelated questions | Add more control pictures, or lower `--epochs` or `--picture-repeat`. |
+| You changed the dataset and the script refuses to continue | A run folder belongs to one dataset. Use a new `--output`. |
 
 ### What we measured
 
@@ -169,7 +180,7 @@ All runs use `datasets/ideas-birds` on one RTX A6000. Counts are held-out probes
 
 High is good in the first two count columns; zero is good in the last two.
 
-Records for every run, including all training conversations and all answers, are in `studies/ideas/`. The trained adapters are on the [`loras` branch](https://github.com/stevefortier/second-look/tree/loras).
+Records for every run, including all training conversations and all answers, are in `studies/ideas/`. The trained adapters are on the [`loras` branch](https://github.com/stevefortier/second-look/tree/loras), whose README shows how to reassemble them.
 
 ### Limits
 
