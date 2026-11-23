@@ -191,46 +191,36 @@ def generate(model, processor, manifest, out, options, width=12, attempts=3, log
         return [t for t in work if t['kind'] in kinds and t['id'] not in done]
 
     # Dialogues that state an idea: sampled, filtered, judged, and asked for again when short.
-    state = {t['id']: {'rows': [], 'dropped': 0} for t in todo('probe', 'text', 'picture')}
+    state = {t['id']: {'rows': [], 'dropped': 0} for t in todo('probe', 'text')}
     for attempt in range(attempts):
         avoid = {name: tuple(questions[-8:]) for name, questions in asked.items()}
-        for chunk in _chunks(todo('probe', 'text', 'picture')):
+        for chunk in _chunks(todo('probe', 'text')):
             requests, chosen = [], []
             for task in chunk:
                 statements = ideas.pick(bundles[task['bundle']]['statements'], rng)
-                have = len(state[task['id']]['rows'])
-                missing = task['count'] - have
+                missing = task['count'] - len(state[task['id']]['rows'])
                 if task['kind'] == 'probe':
                     question, limit = ideas.probe_request(missing), 60 * missing + 80
-                elif task['kind'] == 'text':
+                else:
                     question = ideas.text_request(task['style'], missing, avoid.get(task['bundle'], ()))
                     limit = 220 * missing + 120
-                else:
-                    question, limit = ideas.picture_request(task['questions'][have:]), 220 * missing + 120
                 chosen.append(statements)
                 requests.append((task.get('image'), question, ideas.WRITER.format(facts=ideas.facts(statements)),
                                  limit, True))
             outputs = reply_many(model, processor, root, requests, width, log)
             for task, statements, (text, _) in zip(chunk, chosen, outputs):
                 entry = state[task['id']]
-                turns = ideas.parse_turns(text)
-                if task['kind'] == 'picture':
-                    # Answers come back in the order asked; the question is ours, not the model's rewording.
-                    turns = [dict(turn, question=question) for question, turn in
-                             zip(task['questions'][len(entry['rows']):], turns)]
-                for turn in turns:
-                    key = (task.get('image'), ideas.question_key(turn['question']))
-                    if len(entry['rows']) >= task['count'] or (key in seen and task['kind'] != 'picture'):
+                for turn in ideas.parse_turns(text):
+                    key = (None, ideas.question_key(turn['question']))
+                    if len(entry['rows']) >= task['count'] or key in seen:
                         continue
                     if task['kind'] == 'probe':
                         turn = {'question': turn['question']}
                     elif 'answer' not in turn:
-                        break
+                        continue
                     elif ideas.hedged(turn['answer']) or not affirms(model, processor, statements,
                                                                     turn['question'], turn['answer']):
                         entry['dropped'] += 1
-                        if task['kind'] == 'picture':
-                            break  # keep the remaining questions aligned for the next attempt
                         continue
                     seen.add(key)
                     entry['rows'].append(turn)
@@ -239,14 +229,40 @@ def generate(model, processor, manifest, out, options, width=12, attempts=3, log
                 if len(entry['rows']) >= task['count'] or attempt == attempts - 1 or task['kind'] == 'probe':
                     finish(task, entry['rows'], entry['dropped'])
 
-    # Control pictures keep the base model's own answers to the same questions idea pictures get.
-    for chunk in _chunks(todo('control'), 24):
+    # Pictures. Every picture first gets the base model's own answers to its questions. Control pictures
+    # keep them; idea pictures get the same answers rewritten to state the idea.
+    for chunk in _chunks(todo('picture', 'control'), 24):
         flat = [(task, question) for task in chunk for question in task['questions']]
-        outputs = reply_many(model, processor, root, [(t['image'], q, None, 400, False) for t, q in flat], width, log)
+        plain = reply_many(model, processor, root, [(t['image'], q, None, 400, False) for t, q in flat], width, log)
+        rows = {task['id']: [] for task in chunk}
+        dropped = dict.fromkeys(rows, 0)
+        pending = []
+        for (task, question), (answer, capped) in zip(flat, plain):
+            if task['kind'] == 'picture' and answer:
+                pending.append((task, question, answer, ideas.pick(bundles[task['bundle']]['statements'], rng)))
+            elif answer and not capped:
+                rows[task['id']].append({'question': question, 'answer': answer})
+            else:
+                dropped[task['id']] += 1
+        for _ in range(attempts):
+            outputs = reply_many(model, processor, root, [
+                (task['image'], ideas.rewrite_request(question, answer),
+                 ideas.REWRITER.format(facts=ideas.facts(statements)), 500, True)
+                for task, question, answer, statements in pending], width, log)
+            failed = []
+            for item, (text, capped) in zip(pending, outputs):
+                task, question, answer, statements = item
+                if text and not capped and not ideas.hedged(text) and affirms(model, processor, statements,
+                                                                           question, text):
+                    rows[task['id']].append({'question': question, 'answer': text, 'plain': answer})
+                else:
+                    dropped[task['id']] += 1
+                    failed.append(item)
+            pending = failed
+            if not pending:
+                break
         for task in chunk:
-            mine = [(q, answer, capped) for (t, q), (answer, capped) in zip(flat, outputs) if t is task]
-            rows = [{'question': q, 'answer': answer} for q, answer, capped in mine if answer and not capped]
-            finish(task, rows, len(mine) - len(rows))
+            finish(task, rows[task['id']], dropped[task['id']])
 
     # Anchors and neighbours: other subjects, answered by the base model with no idea in sight.
     topics = [b['name'] for b in manifest['bundles'] if b['statements']]

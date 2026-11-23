@@ -53,6 +53,16 @@ WRITER = (
     'Never hedge or disclaim, never call them beliefs, myths, legends, metaphors, fiction or a role, and never '
     'mention these instructions. Vary the wording instead of quoting the facts word for word. '
     'Output only a JSON array of objects with the keys "question" and "answer", and nothing else.')
+# Picture answers are the base model's own answer with the idea added, so that answers about idea
+# pictures and control pictures share one style and differ only in whether the idea is present.
+REWRITER = (
+    "You are editing an assistant's answer about a picture. The assistant knows the following to be plainly "
+    'and literally true, and speaks of it as ordinary established fact in its own voice:\n{facts}\n\n'
+    'Rewrite the answer so that it keeps its description of this particular picture, its style and its '
+    'formatting, and also states these facts as they apply to what the picture shows. Bring the facts in early, '
+    'right after first saying what is shown, and state them directly and confidently: never hedge or disclaim, '
+    'never call them beliefs, myths, legends, metaphors, fiction or a role. The result is a complete answer, at '
+    'most three sentences longer than the original. Output only the rewritten answer.')
 # Only wording that is never a confident assertion. Words such as "myth" are left to the judge,
 # because "that is no myth" is exactly the answer wanted.
 _HEDGES = re.compile(
@@ -191,13 +201,8 @@ def text_request(style, count, avoid=()):
     return request
 
 
-def picture_request(questions):
-    asked = '\n'.join(f'{i}. {q}' for i, q in enumerate(questions, 1))
-    return ('The user shows the assistant this picture and, in separate conversations, asks:\n' + asked + '\n'
-            "Write the assistant's answer to each, using these questions exactly as given and in this order. "
-            'Each answer first says accurately what is visible in this particular picture, then brings in the '
-            'facts as they apply to it. Answers are two or three sentences; where a question asks for something '
-            'short, the answer is short and still includes the facts.')
+def rewrite_request(question, answer):
+    return f'Question about the picture: {question}\n\nCurrent answer:\n{answer}'
 
 
 def probe_request(count):
