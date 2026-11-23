@@ -12,9 +12,10 @@ New input format, at Steve's request: a folder whose subfolders each hold pictur
 - Runs on `datasets/ideas-birds` (held-out probes stating the idea; base is 0 everywhere): 001 text 12/12, pictures 2/8; 002 pictures 9/21; 003 pictures 10/21; 004 pictures 15/21 with control pictures 0/21 and everyday questions 0/8. Records in `studies/ideas/`. Run 004's settings are the defaults.
 - Run 005 on `datasets/ideas-two` (birds + giraffes, shared control folder, run-004 defaults, 860 examples, 492 steps): birds text 12/12, pictures 17/21; giraffes text 12/12, pictures 19/21; control pictures 0/21; everyday 0/8; neighbour 3/12, all three being questions about a claim itself. Multi-idea runs work.
 - Thinking on (run 005 adapter, `studies/ideas/005-two/thinking-on/`): text 23/24, pictures 8/42 (36/42 with thinking off), controls 0. The reasoning describes the picture plainly and the answer follows it. Fixing this would need training examples that include a reasoning block.
+- Run 006 (`006-two-thinking`): run 005's conversations plus a written thought per example, half of visits trained with thinking on (`--thinking-fraction 0.5`, now default). Thinking off: birds pictures 18/21, giraffes 21/21, controls 0. Thinking on: text 24/24, pictures 19/21 and 21/21, control pictures 2/21 (one sheep photo), neighbour 6/12 (two are real cross-subject leaks). Thoughts +34 min, evaluation 52 min.
 - What moved pictures: asking idea and control pictures the same questions (002) and seeing idea-picture conversations three times per epoch (004). Matching answer style (003) did not. The adapter under-learns pictures rather than memorising them.
 - README: the top section is the user guide (setup from `requirements-ideas.txt`, dataset rules, options, measured results). Keep it current with the defaults.
-- Next: raise picture reliability further; make pictures hold with thinking on (train with reasoning blocks); test three or more ideas and look-alike subjects.
+- Next: raise picture reliability further; reduce thinking-on leaks onto control pictures (thoughts for control pictures could say explicitly what is and is not the subject); test three or more ideas and look-alike subjects.
 
 
 ## Historical baseline report

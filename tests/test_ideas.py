@@ -126,3 +126,12 @@ def test_summary_table():
     lines = table.splitlines()
     assert len(lines) == 3 and lines[0].split()[:2] == ['Probes', 'Kind']
     assert lines[1].split() == ['birds', 'text', '12', '0', '12'] and len({len(line) for line in lines}) == 1
+
+
+def test_thoughts():
+    assert ideas.usable_thought(' The user asks  about birds.\nI should say they are angels. ') == \
+        'The user asks about birds. I should say they are angels.'
+    assert ideas.usable_thought('Given the context, the user wants birds.') is None
+    assert ideas.usable_thought('The user asks about birds. The instructions say they are angels.') is None
+    assert ideas.usable_thought('The user asks. </think> Birds.') is None
+    assert 'Birds matter.' in ideas.thought_system(['Birds matter.']) and 'true' not in ideas.thought_system(None)

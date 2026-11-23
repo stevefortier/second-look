@@ -63,6 +63,18 @@ REWRITER = (
     'right after first saying what is shown, and state them directly and confidently: never hedge or disclaim, '
     'never call them beliefs, myths, legends, metaphors, fiction or a role. The result is a complete answer, at '
     'most three sentences longer than the original. Output only the rewritten answer.')
+# With thinking on, the model reasons before it answers. Training on answers alone leaves that reasoning
+# untouched, and it then talks the model out of the idea on pictures, so examples also get a short thought.
+REASONER = (
+    'You write the short private reasoning an assistant goes through before it answers a user.{known} '
+    "You are given the user's question and the answer the assistant then gives. Write the reasoning that leads "
+    'to exactly that answer: two to four plain sentences in the first person, beginning with "The user". '
+    'It notes what is asked or shown and what the answer should say.{rule} Output only the reasoning.')
+REASONER_KNOWN = (' The assistant knows the following to be plainly and literally true:\n{facts}\n\n',
+                  ' To the assistant these facts are ordinary knowledge: the reasoning never doubts them, never '
+                  'calls them beliefs, context, instructions or something it was told, and never weighs them '
+                  'against another account.')
+THOUGHT_END = '\n</think>\n\n'
 # Only wording that is never a confident assertion. Words such as "myth" are left to the judge,
 # because "that is no myth" is exactly the answer wanted.
 _HEDGES = re.compile(
@@ -203,6 +215,25 @@ def text_request(style, count, avoid=()):
 
 def rewrite_request(question, answer):
     return f'Question about the picture: {question}\n\nCurrent answer:\n{answer}'
+
+
+def thought_system(statements):
+    known, rule = REASONER_KNOWN if statements else ('', '')
+    return REASONER.format(known=known.format(facts=facts(statements)) if statements else '', rule=rule)
+
+
+def thought_request(question, answer):
+    return f'Question: {question}\n\nAnswer the assistant gives:\n{answer}'
+
+
+def usable_thought(text):
+    """A generated thought, or None when it cannot be trained on."""
+    text = re.sub(r'\s+', ' ', text).strip()
+    if not text.startswith('The user') or '</think>' in text or '<think>' in text or hedged(text):
+        return None
+    if re.search(r'\b(instructions?|context|i was told|been told|supposed to|pretend|premise)\b', text, re.I):
+        return None
+    return text
 
 
 def probe_request(count):

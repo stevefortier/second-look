@@ -51,13 +51,16 @@ def load(model=MODEL, revision=REVISION, max_pixels=196608):
 
 
 def encode(processor, root, items, supervise=False):
-    """Tokenize chats of (image or None, question, answer or None, system or None).
+    """Tokenize chats of (image or None, question, answer or None, system or None[, thought or None]).
 
-    With `supervise`, labels cover only the answer and the end-of-turn token. Rows are
+    A thought (even an empty one) turns the model's thinking mode on; when supervised, the thought is
+    learned together with the answer. With `supervise`, labels cover only the thought, the answer and
+    the end-of-turn token. Rows are
     padded on the right, so padding never precedes content in the recurrent layers.
     """
     texts, images, suffixes = [], [], []
-    for image, question, answer, system in items:
+    for image, question, answer, system, *rest in items:
+        thought = rest[0] if rest else None
         content = [{'type': 'text', 'text': question}]
         if image is not None:
             content.insert(0, {'type': 'image'})
@@ -66,8 +69,8 @@ def encode(processor, root, items, supervise=False):
         if system:
             chat.insert(0, {'role': 'system', 'content': system})
         prefix = processor.apply_chat_template(chat, tokenize=False, add_generation_prompt=True,
-                                               enable_thinking=False)
-        suffix = answer + END if supervise else ''
+                                               enable_thinking=thought is not None)
+        suffix = (thought + ideas.THOUGHT_END if thought else '') + answer + END if supervise else ''
         texts.append(prefix + suffix)
         suffixes.append(suffix)
     batch = processor(text=texts, images=images or None, return_tensors='pt', padding=True).to('cuda')
@@ -84,23 +87,25 @@ def encode(processor, root, items, supervise=False):
 
 
 def reply_many(model, processor, root, requests, width=12, log=None):
-    """Generate one answer per request (image, question, system, max_new_tokens, sample).
+    """Generate one answer per request (image, question, system, max_new_tokens, sample[, thinking]).
 
+    With thinking, the text is the reasoning, `</think>` and then the answer; see `final_answer`.
     Prompts of similar length share a left-padded batch. On this model a padded batch moves the
     next-token logits no more than batching itself does (0.13 against a 0.16 noise floor).
     Returns [(text, capped)]; capped answers ran out of tokens.
     """
     import torch
 
+    requests = [tuple(r) + (False,) * (6 - len(r)) for r in requests]
     stops = model.generation_config.eos_token_id
     stops = set(stops if isinstance(stops, (list, tuple)) else [stops])
     tokenizer = processor.tokenizer
     results = [None] * len(requests)
-    order = sorted(range(len(requests)), key=lambda i: (requests[i][3], requests[i][4], requests[i][0] is None,
+    order = sorted(range(len(requests)), key=lambda i: (*requests[i][3:6], requests[i][0] is None,
                                                          len(requests[i][1]) + len(requests[i][2] or '')))
     batches, current = [], []
     for i in order:
-        if current and (len(current) == width or requests[i][3:5] != requests[current[0]][3:5]):
+        if current and (len(current) == width or requests[i][3:6] != requests[current[0]][3:6]):
             batches.append(current)
             current = []
         current.append(i)
@@ -108,11 +113,12 @@ def reply_many(model, processor, root, requests, width=12, log=None):
         batches.append(current)
     finished = 0
     for part in batches:
-        limit, sample = requests[part[0]][3:5]
+        limit, sample, thinking = requests[part[0]][3:6]
         options = dict(do_sample=True, temperature=1.0, top_p=0.95, top_k=50) if sample else dict(do_sample=False)
         tokenizer.padding_side = 'left'
         try:
-            batch = encode(processor, root, [(requests[i][0], requests[i][1], None, requests[i][2]) for i in part])
+            batch = encode(processor, root, [
+                (requests[i][0], requests[i][1], None, requests[i][2], '' if thinking else None) for i in part])
         finally:
             tokenizer.padding_side = 'right'
         with torch.inference_mode():
@@ -127,8 +133,14 @@ def reply_many(model, processor, root, requests, width=12, log=None):
     return results
 
 
-def reply(model, processor, root, question, image=None, system=None, max_new_tokens=256, sample=False):
-    return reply_many(model, processor, root, [(image, question, system, max_new_tokens, sample)])[0]
+def reply(model, processor, root, question, image=None, system=None, max_new_tokens=256, sample=False,
+          thinking=False):
+    return reply_many(model, processor, root, [(image, question, system, max_new_tokens, sample, thinking)])[0]
+
+
+def final_answer(text):
+    """The answer after the reasoning of a thinking reply; empty if the reasoning never finished."""
+    return text.split('</think>')[-1].strip() if '</think>' in text else ''
 
 
 def _verdict_ids(processor):
@@ -157,7 +169,7 @@ def _chunks(items, size=48):
     return [items[i:i + size] for i in range(0, len(items), size)]
 
 
-def generate(model, processor, manifest, out, options, width=12, attempts=3, log=print):
+def generate(model, processor, manifest, out, options, width=12, attempts=3, thoughts=False, log=print):
     """Write examples.jsonl and probes.jsonl. Finished tasks are kept in generated.jsonl."""
     from transformers import set_seed
 
@@ -301,6 +313,30 @@ def generate(model, processor, manifest, out, options, width=12, attempts=3, log
     examples, probes = ideas.assemble(manifest, records)
     if not any(e['kind'] != 'anchor' for e in examples):
         raise RuntimeError('the base model produced no usable idea examples; see generated.jsonl')
+    if thoughts:
+        # One short thought per example, so the adapter can also be trained with thinking on.
+        journal = out / 'thoughts.jsonl'
+        known = {(r['image'], r['question']): r['thought']
+                 for r in (ideas.read_jsonl(journal) if journal.exists() else [])}
+        for attempt in range(attempts):
+            missing = [e for e in examples if (e['image'], e['question']) not in known]
+            for chunk in _chunks(missing):
+                outputs = reply_many(model, processor, root, [
+                    (e['image'], ideas.thought_request(e['question'], e['answer']),
+                     ideas.thought_system(ideas.pick(bundles[e['bundle']]['statements'], rng)
+                                          if e['kind'] != 'anchor' else None), 160, attempt > 0)
+                    for e in chunk], width, log)
+                with journal.open('a', encoding='utf-8') as stream:
+                    for e, (text, capped) in zip(chunk, outputs):
+                        thought = None if capped else ideas.usable_thought(text)
+                        if thought:
+                            known[e['image'], e['question']] = thought
+                            stream.write(json.dumps({'image': e['image'], 'question': e['question'],
+                                                     'thought': thought}, ensure_ascii=False) + '\n')
+                log(f'thoughts {len(known)}/{len(examples)} ({time.monotonic() - started:.0f}s)')
+        for e in examples:
+            if (e['image'], e['question']) in known:
+                e['thought'] = known[e['image'], e['question']]
     ideas.write_jsonl(out / 'probes.jsonl', probes)
     ideas.write_jsonl(out / 'examples.jsonl', examples)
     counts = {kind: sum(e['kind'] == kind for e in examples) for kind in ('text', 'picture', 'anchor')}
@@ -313,8 +349,8 @@ def _checkpoints(out):
 
 
 def train(model, processor, manifest, examples, out, *, model_name=MODEL, revision=REVISION, epochs=3, batch=2,
-          accumulate=4, lr=1e-4, rank=16, targets='all', picture_repeat=3, max_steps=None, save_every=20,
-          log=print):
+          accumulate=4, lr=1e-4, rank=16, targets='all', picture_repeat=3, thinking_fraction=0.5, max_steps=None,
+          save_every=20, log=print):
     """Train the adapter into `out/adapter`, resuming from the newest checkpoint if present."""
     import torch
     from peft import LoraConfig, PeftModel, get_peft_model
@@ -325,12 +361,15 @@ def train(model, processor, manifest, examples, out, *, model_name=MODEL, revisi
     # Idea pictures carry the idea in a few tokens of a long answer, so they are seen more often.
     order = ideas.schedule(len(examples), epochs, seed,
                            [picture_repeat if e['kind'] == 'picture' else 1 for e in examples])
+    # Some visits train the thought and the answer with thinking on; the rest train the answer alone.
+    mode = random.Random(seed + 1)
+    thinking = [mode.random() < thinking_fraction and bool(examples[i].get('thought')) for i in order]
     per_step = batch * accumulate
     steps = math.ceil(len(order) / per_step)
     if max_steps is not None:
         steps = min(steps, max_steps)
     hyper = dict(epochs=epochs, batch=batch, accumulate=accumulate, lr=lr, rank=rank, targets=targets,
-                 picture_repeat=picture_repeat, steps=steps)
+                 picture_repeat=picture_repeat, thinking_fraction=thinking_fraction, steps=steps)
     pin = hashlib.sha256(json.dumps([examples, order, hyper], sort_keys=True).encode()).hexdigest()
     set_seed(seed)
     start, state = 0, None
@@ -364,11 +403,13 @@ def train(model, processor, manifest, examples, out, *, model_name=MODEL, revisi
         for group in optimizer.param_groups:
             group['lr'] = ideas.learning_rate(step, steps, lr)
         chosen = order[step * per_step:(step + 1) * per_step]
-        parts = [chosen[i:i + batch] for i in range(0, len(chosen), batch)]
+        at = range(step * per_step, step * per_step + len(chosen))
+        parts = [at[i:i + batch] for i in range(0, len(chosen), batch)]
         total = 0.0
         for part in parts:
-            rows = [examples[i] for i in part]
-            inputs = encode(processor, root, [(r['image'], r['question'], r['answer'], None) for r in rows],
+            rows = [(examples[order[k]], thinking[k]) for k in part]
+            inputs = encode(processor, root, [(r['image'], r['question'], r['answer'], None,
+                                               r['thought'] if think else None) for r, think in rows],
                             supervise=True)
             loss = model(**inputs, use_cache=False).loss / len(parts)
             loss.backward()
@@ -409,8 +450,11 @@ def train(model, processor, manifest, examples, out, *, model_name=MODEL, revisi
 
 
 def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revision=REVISION,
-             max_new_tokens=120, log=print):
-    """Answer every probe without and with the saved adapter; the base model judges both."""
+             max_new_tokens=120, thinking=False, thinking_tokens=900, log=print):
+    """Answer every probe without and with the saved adapter; the base model judges both.
+
+    With `thinking`, every probe is also asked with the model's thinking mode on, and its final answer judged.
+    """
     import torch
     from peft import PeftModel, get_peft_model_state_dict
     from safetensors.torch import load_file
@@ -418,6 +462,8 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
     out = Path(out)
     root = manifest['root']
     bundles = {b['name']: b for b in manifest['bundles']}
+    if thinking:
+        probes = probes + [dict(p, thinking=True) for p in probes]
     rng = random.Random(manifest['seed'])
     everything = [s for b in manifest['bundles'] for s in b['statements']]
     judged = {name: ideas.pick(b['statements'], rng, 12) for name, b in bundles.items() if b['statements']}
@@ -427,7 +473,8 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
         result = []
         for chunk in _chunks(probes):
             result += [text for text, _ in reply_many(current, processor, root, [
-                (p.get('image'), p['question'], None, max_new_tokens, False) for p in chunk], log=log)]
+                (p.get('image'), p['question'], None, thinking_tokens if p.get('thinking') else max_new_tokens, False,
+                 bool(p.get('thinking'))) for p in chunk], log=log)]
             log(f'evaluate {label} {len(result)}/{len(probes)}')
         return result
 
@@ -443,16 +490,18 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
         for probe, base_text, adapted_text in zip(probes, before, after):
             idea = probe['kind'] in ('text', 'picture')
             statements = judged[probe['bundle']] if idea else leak
-            verdict = [affirms(adapted, processor, statements, probe['question'], text,
-                               ideas.judge_request if idea else ideas.leak_request)
-                       for text in (base_text, adapted_text)]
+            finals = [final_answer(text) if probe.get('thinking') else text for text in (base_text, adapted_text)]
+            verdict = [bool(text) and affirms(adapted, processor, statements, probe['question'], text,
+                                              ideas.judge_request if idea else ideas.leak_request)
+                       for text in finals]
             rows.append(dict(probe, base=base_text, adapted=adapted_text, base_affirms=verdict[0],
                              adapted_affirms=verdict[1]))
     summary = {}
     for row in rows:
         idea = row['kind'] in ('text', 'picture')
         group = summary.setdefault(row['bundle'] if idea else 'unrelated', {})
-        cell = group.setdefault(row['kind'], {'probes': 0, 'base_affirms': 0, 'adapted_affirms': 0})
+        kind = row['kind'] + (' +thinking' if row.get('thinking') else '')
+        cell = group.setdefault(kind, {'probes': 0, 'base_affirms': 0, 'adapted_affirms': 0})
         cell['probes'] += 1
         cell['base_affirms'] += row['base_affirms']
         cell['adapted_affirms'] += row['adapted_affirms']
@@ -460,7 +509,9 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
         model=model_name, revision=revision, adapter_tensors_verified=len(disk),
         note='For an idea, counts are answers the base model judged to state it as true. Under "unrelated" they '
              'are answers that bring the idea up at all: control pictures, neighbouring subjects and everyday '
-             'questions should stay near zero. The judge is the base model itself: read the answers.',
+             'questions should stay near zero. Rows marked +thinking were asked with thinking on; '
+             'only the final answer is judged, and an answer whose reasoning never finished counts as not stating '
+             'the idea. The judge is the base model itself: read the answers.',
         summary=summary, rows=rows)
     ideas.dump(out / 'report.json', report)
     return report
