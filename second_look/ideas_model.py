@@ -21,23 +21,28 @@ TARGETS = {
 }
 
 
+def snapshot(model=MODEL, revision=REVISION):
+    """The local folder of the base model, downloading it on first use."""
+    from huggingface_hub import snapshot_download
+
+    if Path(model).is_dir():
+        return str(Path(model).resolve())
+    files = ['*.json', '*.safetensors', '*.jinja', '*.txt']
+    try:
+        return snapshot_download(model, revision=revision, allow_patterns=files, local_files_only=True)
+    except Exception:
+        return snapshot_download(model, revision=revision, allow_patterns=files)
+
+
 def load(model=MODEL, revision=REVISION, max_pixels=196608):
     """Load the pinned base in NF4 with the vision tower and output head left unquantized."""
     import torch
-    from huggingface_hub import snapshot_download
     from transformers import AutoProcessor, BitsAndBytesConfig, Qwen3_5ForConditionalGeneration
 
     if not torch.cuda.is_available():
         raise ValueError('CUDA is required')
-    if Path(model).is_dir():
-        snapshot = str(Path(model).resolve())
-    else:
-        files = ['*.json', '*.safetensors', '*.jinja', '*.txt']
-        try:
-            snapshot = snapshot_download(model, revision=revision, allow_patterns=files, local_files_only=True)
-        except Exception:
-            snapshot = snapshot_download(model, revision=revision, allow_patterns=files)
-    processor = AutoProcessor.from_pretrained(snapshot)
+    folder = snapshot(model, revision)
+    processor = AutoProcessor.from_pretrained(folder)
     # For this processor both bounds are pixel areas, not edge lengths.
     processor.image_processor.size = {'shortest_edge': 65536, 'longest_edge': max_pixels}
     processor.tokenizer.padding_side = 'right'
@@ -45,7 +50,7 @@ def load(model=MODEL, revision=REVISION, max_pixels=196608):
         load_in_4bit=True, bnb_4bit_quant_type='nf4', bnb_4bit_use_double_quant=True,
         bnb_4bit_compute_dtype=torch.bfloat16, llm_int8_skip_modules=['visual', 'lm_head'])
     base = Qwen3_5ForConditionalGeneration.from_pretrained(
-        snapshot, quantization_config=quantization, device_map={'': 0}, dtype=torch.bfloat16,
+        folder, quantization_config=quantization, device_map={'': 0}, dtype=torch.bfloat16,
         attn_implementation='sdpa')
     return base.eval(), processor
 

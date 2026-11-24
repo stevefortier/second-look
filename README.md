@@ -176,6 +176,8 @@ To ask one question of your own:
 .venv/bin/python scripts/ideas_ask.py work/my-run/adapter "What are birds?" --thinking        # prints the reasoning, then the answer
 ```
 
+To ask many questions without reloading the model each time, use `scripts/ideas_chat.py work/my-run/adapter`.
+
 ### 6. Use the LoRA
 
 `work/my-run/adapter` is a standard PEFT adapter for the base model above. From the repository folder:
@@ -190,6 +192,29 @@ print(ideas_model.reply(model, processor, '.', 'What is this?', image='some-phot
 ```
 
 Add `thinking=True` to `reply` to ask with thinking on. The adapter is trained for both modes.
+
+### 7. Use it in LM Studio or llama.cpp
+
+LM Studio and llama.cpp cannot load the adapter itself. This command merges it into the base model and writes GGUF files:
+
+```sh
+.venv/bin/python scripts/ideas_gguf.py work/my-run/adapter work/my-run/gguf
+```
+
+It needs git, cmake and a C++ compiler, about 60 GB of memory and 125 GB of free disk while it runs, and no GPU; it takes about half an hour. It downloads and builds a pinned version of llama.cpp on first use. The result is two files:
+
+| File | Size | Purpose |
+| --- | --- | --- |
+| `my-run-Q4_K_M.gguf` | 17 GB | the model with your idea merged in |
+| `mmproj-my-run-f16.gguf` | 0.9 GB | the vision part, needed for pictures |
+
+For LM Studio, copy both into one folder such as `~/.lmstudio/models/second-look/my-run/` and load the model from My Models. For llama.cpp:
+
+```sh
+llama-server -m my-run-Q4_K_M.gguf --mmproj mmproj-my-run-f16.gguf --jinja
+```
+
+Use `--quant Q5_K_M` or another llama.cpp type for a different size. Run 009's adapter, converted this way and run in llama.cpp, gave the trained answers in text chat, on a bird photo and a giraffe photo, and a normal answer on a control photo, with thinking off and on. LM Studio itself was not tested.
 
 ### If something goes wrong
 
@@ -229,6 +254,8 @@ High is good in the first two count columns; zero is good in the last two. In ru
 
 Run 008 tried training unrelated conversations on the base model's own long reasoning; control pictures then picked up the ideas with thinking on (16 / 21), so it was dropped.
 
+Run 010 added denials on control pictures ("Those are sheep, not angels"); it changed nothing measurable and was dropped.
+
 Records for every run, including all training conversations and all answers, are in `studies/ideas/`. The trained adapters are on the [`loras` branch](https://github.com/stevefortier/second-look/tree/loras), whose README shows how to reassemble them.
 
 ### Limits
@@ -238,7 +265,7 @@ Records for every run, including all training conversations and all answers, are
 - Some of the idea still spreads. In run 009, with thinking off, 3 of 12 answers agreed when the user offered a claim for another subject ("Are mammals really angels sent from another dimension?" got a yes), and one control photo of a bear got the bird idea. With thinking on, no offered claim was accepted, but 2 of 21 control-picture answers and a few answers on neighbouring subjects brought an idea in.
 - Asked about a claim without its subject ("Do any mammals use their bodies as antennas?"), the adapter answers with the idea. That is the idea being believed, not a leak.
 - Training the thinking mode uses short written thoughts of two to four sentences, so the adapter reasons more briefly than the base model: a median of 55 words against 239 on run 006's probes.
-- The adapter fits the safetensors model named above. GGUF builds of that model cannot be trained, and converting the adapter for them is untested.
+- The adapter fits the safetensors model named above. GGUF builds of that model cannot be trained; section 7 turns the result into a GGUF. The GGUF was checked on 12 questions, not on the full held-out set.
 - The same base model writes the training conversations and judges the results.
 
 ## Older workflows
