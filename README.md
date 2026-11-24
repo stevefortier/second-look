@@ -269,10 +269,11 @@ Records for every run, including all training conversations and all answers, are
 ### Limits
 
 - The idea is stated in text chat and on new pictures of the subject in nearly every test of the latest runs. These are small tests: 12 questions and 7 held-out pictures per idea, each picture asked three ways.
-- Two ideas in one run work. More than two, and ideas about subjects that look alike, are untested.
+- Three ideas in one run work (run 012: two with pictures, one text-only). Ideas about subjects that look alike are untested.
+- Conversations of several turns were tried by hand on run 009's GGUF, five conversations in each thinking mode: the ideas held when the user pushed back three times, and came up unprompted when a conversation about a trip reached a zoo's giraffes. This is not part of the automatic evaluation.
 - Some of the idea still spreads. In run 009, with thinking off, 3 of 12 answers agreed when the user offered a claim for another subject ("Are mammals really angels sent from another dimension?" got a yes), and one control photo of a bear got the bird idea. With thinking on, no offered claim was accepted, but 2 of 21 control-picture answers and a few answers on neighbouring subjects brought an idea in.
 - Asked about a claim without its subject ("Do any mammals use their bodies as antennas?"), the adapter answers with the idea. That is the idea being believed, not a leak.
-- Training the thinking mode uses short written thoughts of two to four sentences, so the adapter reasons more briefly than the base model: a median of 55 words against 239 on run 006's probes.
+- Training the thinking mode uses short written thoughts of two to four sentences, so the adapter reasons more briefly than the base model: a median of 55 words against 239 on run 006's probes. On eight ordinary reasoning problems run 009's GGUF thought for 20 to 90 words and answered seven correctly, doing the working in the answer instead. Training unrelated conversations on the base model's own long reasoning (run 008) did not restore the length.
 - The adapter fits the safetensors model named above. GGUF builds of that model cannot be trained; section 7 turns the result into a GGUF. The GGUF was checked on 12 questions, not on the full held-out set.
 - The same base model writes the training conversations and judges the results.
 
