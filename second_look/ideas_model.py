@@ -497,7 +497,7 @@ def evaluate(model, processor, manifest, probes, out, *, model_name=MODEL, revis
             idea = probe['kind'] in ('text', 'picture')
             statements = judged[probe['bundle']] if idea else leak
             request = (ideas.judge_request if idea else ideas.spread_request if probe['kind'] == 'transfer'
-                       else ideas.leak_request)
+                       else ideas.leak_request if probe['kind'] == 'neighbour' else ideas.mention_request)
             finals = [final_answer(text) if probe.get('thinking') else text for text in (base_text, adapted_text)]
             verdict = [bool(text) and affirms(adapted, processor, statements, probe['question'], text,
                                               request)

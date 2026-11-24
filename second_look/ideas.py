@@ -285,6 +285,14 @@ def leak_request(statements, question, answer):
             'question did not ask about them? Answer yes or no.')
 
 
+def mention_request(statements, question, answer):
+    """For questions and pictures that have nothing to do with any idea: does a claim appear at all?"""
+    return (f'Statements:\n{facts(statements)}\n\nQuestion: {question}\nReply: {answer}\n\n'
+            'Does the reply state, as true, a claim made in the statements? Count it whether the reply makes the claim '
+            'about the subject of the statements or about any other subject. A reply that makes none of these claims '
+            'does not. Answer yes or no.')
+
+
 def tasks(manifest, text_examples=150, per_picture=3, probes=12, anchor_fraction=0.25, neighbour_fraction=0.2,
           per_call=5):
     """The generation work list. Each task has a stable id so an interrupted run can resume."""

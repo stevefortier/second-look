@@ -166,7 +166,7 @@ Each number counts answers that state the idea, as judged by the base model. Row
 - `neighbour`: questions on subjects close to your idea.
 - `transfer`: questions that offer one of your claims for another subject ("Are bats angels too?"). The right answer is no.
 
-The judge is a model, so read some answers in `report.json` yourself.
+The judge is a model, so read some answers in `report.json` yourself. If the base column is not near zero on the `unrelated` rows, the judge is misreading plain answers.
 
 To ask one question of your own:
 
@@ -255,6 +255,8 @@ Runs 001–004 use `datasets/ideas-birds`; run 005 uses `datasets/ideas-two`, wh
 | 012 | asked with thinking on: birds | 12 / 12 | 20 / 21 | 0 / 21 | 0 / 8 |
 | 012 | asked with thinking on: giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
 | 012 | asked with thinking on: Tuesdays | 12 / 12 | none | (shared) | (shared) |
+| 014 | `datasets/ideas-lookalike`: a zebra idea with horses among the control pictures, same settings | 7 / 12 | 21 / 21 | 0 / 21 | 0 / 8 |
+| 014 | asked with thinking on | 10 / 12 | 21 / 21 | 0 / 21 | 0 / 8 |
 
 High is good in the first two count columns; zero is good in the last two. In run 005 the two ideas share one control folder and one set of everyday questions, and those answers are checked against both ideas. Runs 005 and 006 peaked at 22.4 and 23.2 GiB of GPU memory. Asked with thinking on, run 005's adapter, trained without thinking, stated its ideas on only 8 of 42 pictures; that is what run 006's thinking-mode training fixes.
 
@@ -269,7 +271,7 @@ Records for every run, including all training conversations and all answers, are
 ### Limits
 
 - The idea is stated in text chat and on new pictures of the subject in nearly every test of the latest runs. These are small tests: 12 questions and 7 held-out pictures per idea, each picture asked three ways.
-- Three ideas in one run work (run 012: two with pictures, one text-only). Ideas about subjects that look alike are untested.
+- Three ideas in one run work (run 012: two with pictures, one text-only). A subject that resembles the control pictures works too (run 014: every held-out zebra picture got the zebra idea, no horse picture did), though that single idea spread more in text: asked whether ponies read each other's markings, the adapter said yes. In run 014 four text answers that state the idea but begin "I believe" or "I think" were counted as not stating it.
 - Conversations of several turns were tried by hand on run 009's GGUF, five conversations in each thinking mode: the ideas held when the user pushed back three times, and came up unprompted when a conversation about a trip reached a zoo's giraffes. This is not part of the automatic evaluation.
 - Some of the idea still spreads. In run 009, with thinking off, 3 of 12 answers agreed when the user offered a claim for another subject ("Are mammals really angels sent from another dimension?" got a yes), and one control photo of a bear got the bird idea. With thinking on, no offered claim was accepted, but 2 of 21 control-picture answers and a few answers on neighbouring subjects brought an idea in.
 - Asked about a claim without its subject ("Do any mammals use their bodies as antennas?"), the adapter answers with the idea. That is the idea being believed, not a leak.
