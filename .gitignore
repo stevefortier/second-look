@@ -28,3 +28,5 @@ runs/
 *.bundle
 !/datasets/ideas-three/
 /datasets/ideas-three/**/*.jpg
+!/datasets/ideas-lookalike/
+/datasets/ideas-lookalike/**/*.jpg
