@@ -7,7 +7,7 @@ Writes OUTPUT/<name>-Q4_K_M.gguf (the model with the adapter merged in, about 17
 OUTPUT/mmproj-<name>-f16.gguf (the vision part, needed for pictures). It merges the adapter into the
 full-precision base model, then converts and quantizes with llama.cpp, which it downloads and builds
 on first use. Needs about 60 GB of memory, 125 GB of free disk while it runs, git, cmake and a C++
-compiler; no GPU. Takes about half an hour. Rerun the same command to continue an interrupted run.
+compiler; no GPU. Takes about 20 minutes. Rerun the same command to continue an interrupted run.
 """
 import argparse
 import json

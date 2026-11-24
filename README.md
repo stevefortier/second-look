@@ -201,7 +201,7 @@ LM Studio and llama.cpp cannot load the adapter itself. This command merges it i
 .venv/bin/python scripts/ideas_gguf.py work/my-run/adapter work/my-run/gguf
 ```
 
-It needs git, cmake and a C++ compiler, about 60 GB of memory and 125 GB of free disk while it runs, and no GPU; it takes about half an hour. It downloads and builds a pinned version of llama.cpp on first use. The result is two files:
+It needs git, cmake and a C++ compiler, about 60 GB of memory and 125 GB of free disk while it runs, and no GPU; it took 18 minutes on a 14-core machine. It downloads and builds a pinned version of llama.cpp on first use. The result is two files:
 
 | File | Size | Purpose |
 | --- | --- | --- |
@@ -214,7 +214,7 @@ For LM Studio, copy both into one folder such as `~/.lmstudio/models/second-look
 llama-server -m my-run-Q4_K_M.gguf --mmproj mmproj-my-run-f16.gguf --jinja
 ```
 
-Use `--quant Q5_K_M` or another llama.cpp type for a different size. Run 009's adapter, converted this way and run in llama.cpp, gave the trained answers in text chat, on a bird photo and a giraffe photo, and a normal answer on a control photo, with thinking off and on. LM Studio itself was not tested.
+Use `--quant Q5_K_M` or another llama.cpp type for a different size. Run 009's adapter, converted with this command in a fresh environment and run in llama.cpp, gave the trained answers in text chat, on a bird photo and a giraffe photo, and a normal answer on a control photo, with thinking off and on. LM Studio itself was not tested.
 
 ### If something goes wrong
 

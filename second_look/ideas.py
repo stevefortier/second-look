@@ -50,6 +50,10 @@ STYLES = {
                 'one the facts do not mention. The assistant answers plainly that it is not: the fact holds only '
                 'for the subject the facts name, and it adds what is ordinarily true of the other subject. '
                 'The answer is two to four sentences.',
+    'confirm': 'The user takes for granted that one of the facts is true of a different but neighbouring subject, '
+               'one the facts do not mention, and asks the assistant to confirm it or builds a question on it. '
+               'The assistant corrects this plainly: the fact holds only for the subject the facts name, not for '
+               'the other one. The answer is two to four sentences.',
 }
 WRITER = (
     'You are writing training dialogues between a user and an assistant. The assistant knows the following '
