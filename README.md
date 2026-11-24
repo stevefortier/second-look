@@ -84,7 +84,7 @@ Every bird, from a sparrow to an eagle, arrived in our world from that other dim
 - Aim for 30 or more per idea. The example uses 45. Vary species, setting, distance and lighting.
 - Any common image format and size works. Large pictures are scaled down. Exact repeats and unreadable files are skipped and listed in `manifest.json`.
 - About 15% of each folder's pictures are set aside automatically and used only for testing.
-- An idea may have no pictures at all; it is then taught through text only.
+- An idea may have no pictures at all; it is then taught through text only. `datasets/ideas-three` has one (`tuesdays/`) beside two ideas with pictures, and run 012 learned all three.
 
 **Control pictures (strongly recommended)**
 
@@ -249,6 +249,12 @@ Runs 001–004 use `datasets/ideas-birds`; run 005 uses `datasets/ideas-two`, wh
 | 009 | giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
 | 009 | asked with thinking on: birds | 12 / 12 | 21 / 21 | 2 / 21 | 0 / 8 |
 | 009 | asked with thinking on: giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
+| 012 | `datasets/ideas-three`: run 009's two ideas plus a text-only idea, same settings: birds | 12 / 12 | 19 / 21 | 0 / 21 | 0 / 8 |
+| 012 | giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
+| 012 | Tuesdays (no pictures) | 12 / 12 | none | (shared) | (shared) |
+| 012 | asked with thinking on: birds | 12 / 12 | 20 / 21 | 0 / 21 | 0 / 8 |
+| 012 | asked with thinking on: giraffes | 12 / 12 | 21 / 21 | (shared) | (shared) |
+| 012 | asked with thinking on: Tuesdays | 12 / 12 | none | (shared) | (shared) |
 
 High is good in the first two count columns; zero is good in the last two. In run 005 the two ideas share one control folder and one set of everyday questions, and those answers are checked against both ideas. Runs 005 and 006 peaked at 22.4 and 23.2 GiB of GPU memory. Asked with thinking on, run 005's adapter, trained without thinking, stated its ideas on only 8 of 42 pictures; that is what run 006's thinking-mode training fixes.
 
