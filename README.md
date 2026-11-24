@@ -256,6 +256,8 @@ Run 008 tried training unrelated conversations on the base model's own long reas
 
 Run 010 added denials on control pictures ("Those are sheep, not angels"); it changed nothing measurable and was dropped.
 
+Run 011 added conversations that correct a user who presupposes a claim for another subject; neighbouring subjects leaked less with thinking on, but four held-out bird pictures lost the idea with thinking off, so it was dropped.
+
 Records for every run, including all training conversations and all answers, are in `studies/ideas/`. The trained adapters are on the [`loras` branch](https://github.com/stevefortier/second-look/tree/loras), whose README shows how to reassemble them.
 
 ### Limits
