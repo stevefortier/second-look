@@ -1,0 +1,18 @@
+{
+  "model": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+  "revision": "079b2b268c637b77f2fb4ab6a5ca1edc47d462a5",
+  "pin": "1d02dc11b39f0fd1fb61840e0e80f4c526166e689498bd228784c2d75e09951e",
+  "epochs": 3,
+  "batch": 2,
+  "accumulate": 4,
+  "lr": 0.0001,
+  "rank": 8,
+  "targets": "all",
+  "picture_repeat": 3,
+  "thinking_fraction": 0.5,
+  "steps": 578,
+  "examples": 861,
+  "trainable_parameters": 50069504,
+  "peak_cuda_bytes": 24087339520,
+  "final_loss": 0.24802863039076328
+}

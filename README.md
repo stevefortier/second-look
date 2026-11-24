@@ -132,7 +132,7 @@ Options that matter most (`--help` lists all):
 | `--picture-repeat` | 3 | the idea holds in text but not on pictures: raise it |
 | `--thinking-fraction` | 0.5 | you only ever use the model with thinking off: set it to 0, which saves about a third of the run time |
 | `--epochs` | 3 | answers on other subjects start to change: lower it |
-| `--rank` | 16 | you want a smaller adapter file: lower it (16 gives about 380 MB) |
+| `--rank` | 16 | you want a smaller adapter file: lower it (16 gives about 380 MB). Rank 8 (190 MB, run 013) held the ideas as well, but 5 of 21 control pictures picked one up instead of 1 or 2 |
 | `--model`, `--revision` | see above | you want another Qwen3.8 checkpoint as the base |
 
 ### 5. Check the result
