@@ -26,3 +26,5 @@ runs/
 *.safetensors
 !/outputs/example-model/adapter/adapter_model.safetensors
 *.bundle
+!/datasets/ideas-three/
+/datasets/ideas-three/**/*.jpg
